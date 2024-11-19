@@ -7,7 +7,7 @@ const secondary_color = ConfigDB.color.secondary_color;
 const initialState = {
   layout: "compact-wrapper",
   openCus: false,
-  sidebarIconType: "fill",
+  sidebarIconType: "stroke",
   colorBackground1: default_color,
   colorBackground2: secondary_color,
   mix_background_layout: "",

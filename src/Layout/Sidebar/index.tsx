@@ -14,10 +14,11 @@ import { Routes } from "@/Utils/Routes";
 const SideBar = () => {
   const { toggleSidebar, pinedMenu ,margin} = useAppSelector((state) => state.layout);
   const wrapper = ConfigDB.settings.layout_class;
+  const icon = ConfigDB.settings.sidebar.iconType;
 
   const dispatch = useAppDispatch();
   return (
-    <div className={`sidebar-wrapper ${toggleSidebar ? "close_icon" : ""}`} data-layout="fill-svg">
+    <div className={`sidebar-wrapper ${toggleSidebar ? "close_icon" : ""}`} data-layout={`${icon}-svg`}>
       <div>
         <LogoWrapper />
         <nav className="sidebar-main">
