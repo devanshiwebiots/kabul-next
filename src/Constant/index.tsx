@@ -1,6 +1,5 @@
 export const ImagePath = "/assets/images";
 export const Href = "#javascript";
-export const SvgPath = "/assets/svg";
 
 //Authentication
 export const CreateAccount: string = "Create Account ";
@@ -18,6 +17,3 @@ export const TwitterIcon: string = " twitter ";
 export const FacebookIcon: string = " facebook ";
 export const EnterYourEmailAndPasswordToLogin:string="Enter your email & password to login"
 
-//layout
-export const Pinned: string = "Pinned";
-export const Back: string = "Back";
