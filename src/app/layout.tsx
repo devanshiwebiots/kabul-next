@@ -4,6 +4,7 @@ import authoption from "./api/auth/[...nextauth]/authOption";
 import "../../src/index.scss";
 import { Poppins, Roboto } from "next/font/google";
 import { Toaster } from "react-hot-toast";
+import MainProvider from "./MainProvider";
 
 const poppins = Poppins({
     weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -34,7 +35,7 @@ const RootLayout = async ({ children }: Readonly<{ children: React.ReactNode }>)
             </head>
             <body suppressHydrationWarning={true} className={`${roboto.variable} ${poppins.variable} `}>
                 <SessionWrapper session={session}>
-                    {children}
+                    <MainProvider>{children}</MainProvider>
                     <Toaster />
                 </SessionWrapper>
             </body>

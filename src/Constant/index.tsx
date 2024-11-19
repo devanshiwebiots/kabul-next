@@ -17,3 +17,7 @@ export const TwitterIcon: string = " twitter ";
 export const FacebookIcon: string = " facebook ";
 export const EnterYourEmailAndPasswordToLogin:string="Enter your email & password to login"
 
+//layout
+export const Pinned: string = "Pinned";
+export const Back: string = "Back";
+
