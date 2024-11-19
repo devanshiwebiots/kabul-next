@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast";
 import { setToggleSidebar } from "@/Redux/Reducer/Layout/LayoutSlice";
 import { setLayout } from "@/Redux/Reducer/Layout/ThemeCustomizerSlice";
 import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
+import Header from "@/Layout/Header";
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   const { layout } = useAppSelector((state) => state.themeCustomizer);
@@ -39,6 +40,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <>
       <div className={`page-wrapper ${layout}`} id='pageWrapper'>
+      <Header />
         <div className='page-body-wrapper'>
           <SideBar />
           <div className='page-body'>
