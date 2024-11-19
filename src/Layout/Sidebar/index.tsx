@@ -9,6 +9,7 @@ import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import Image from "next/image";
 import { scrollToLeft, scrollToRight } from "@/Redux/Reducer/Layout/LayoutSlice";
 import ConfigDB from "@/Config/ThemeConfig";
+import { Routes } from "@/Utils/Routes";
 
 const SideBar = () => {
   const { toggleSidebar, pinedMenu ,margin} = useAppSelector((state) => state.layout);
@@ -25,7 +26,7 @@ const SideBar = () => {
             <ul className="sidebar-links simple-list custom-scrollbar" id="simple-bar">
               <SimpleBar style={{ width: "68px", height: "350px" }}>
                 <li className="back-btn">
-                  <Link href={`/dashboard/default`}>
+                  <Link href={Routes.Dashboard.DefaultDashboard}>
                     <Image className="img-fluid" src={`${ImagePath}/logo/logo-icon.png`} width={32} height={32} alt="" />
                   </Link>
                   <div className="mobile-back text-end ">

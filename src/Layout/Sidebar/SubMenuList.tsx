@@ -57,7 +57,7 @@ const SubMenulist: React.FC<MenuListType> = ({ menu, setActiveMenu, activeMenu, 
             ""
           )}
           <Link
-            className={`submenu-title ${level === 0 ? "sidebar-link sidebar-title" : ""}  ${(item.menu ? item.menu.map((innerItem) => ActiveNavLinkUrl(innerItem.url)).includes(true) : ActiveNavLinkUrl(item.url)) || activeMenu[level] === item.title ? "active" : ""}`}
+            className={`submenu-title ${level === 0 ? "sidebar-link sidebar-title" : ""} ${(item.menu ? item.menu.map((innerItem) => ActiveNavLinkUrl(innerItem.url)).includes(true) : ActiveNavLinkUrl(item.url)) || activeMenu[level] === item.title ? "active" : ""}`}
             href={item.url ? `${item.url}` : ""}
             onClick={() => {
               const temp = activeMenu;

@@ -1,5 +1,6 @@
 export const ImagePath = "/assets/images";
 export const Href = "#javascript";
+export const SvgPath = "/assets/svg";
 
 //Authentication
 export const CreateAccount: string = "Create Account ";
