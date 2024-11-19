@@ -1,0 +1,38 @@
+{
+  "name": "ts-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.3.0",
+    "bootstrap": "^5.3.3",
+    "formik": "^2.4.6",
+    "lodash": "^4.17.21",
+    "next": "15.0.3",
+    "next-auth": "^4.24.10",
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-feather": "^2.0.10",
+    "react-hot-toast": "^2.4.1",
+    "react-i18next": "^15.1.1",
+    "react-redux": "^9.1.2",
+    "reactstrap": "^9.2.3",
+    "sass": "^1.81.0",
+    "simplebar-react": "^3.2.6",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3",
+    "typescript": "^5"
+  }
+}
