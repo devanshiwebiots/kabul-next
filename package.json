@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
+    "accept-language": "^3.0.20",
     "bootstrap": "^5.3.3",
     "formik": "^2.4.6",
     "i18next": "^23.16.6",

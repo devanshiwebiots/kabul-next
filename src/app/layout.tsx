@@ -5,7 +5,7 @@ import "../../src/index.scss";
 import { Poppins, Roboto } from "next/font/google";
 import { Toaster } from "react-hot-toast";
 import I18nProvider from "./i18n/i18n-context";
-import { detectLanguage } from "./i18n/server";
+import detectLanguage from "./i18n/server";
 
 const poppins = Poppins({
     weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
