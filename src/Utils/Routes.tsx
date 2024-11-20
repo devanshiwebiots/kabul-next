@@ -2,8 +2,8 @@ export const Routes = {
     Login: "/auth/login",
   
     Dashboard: {
-      DefaultDashboard: "/dashboard/default-dashboard",
-      ECommerceDashboard: "/dashboard/e-commerce-dashboard",
+      DefaultDashboard: "/dashboard/default",
+      ECommerceDashboard: "/dashboard/e-commerce",
     },
   
     Widgets: {
