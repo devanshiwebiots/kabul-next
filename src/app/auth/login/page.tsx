@@ -1,5 +1,5 @@
 "use client";
-import UserForm from "@/Components/Auth/UserForm";
+import SignInForm from "@/Components/Auth/SignInForm";
 import { Routes } from "@/Utils/Routes";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
@@ -22,7 +22,7 @@ const UserLogin = () => {
       <Row className="m-0">
         <Col xs={12} className="p-0">
           <div className="login-card login-dark">
-            <UserForm />
+            <SignInForm />
           </div>
         </Col>
       </Row>

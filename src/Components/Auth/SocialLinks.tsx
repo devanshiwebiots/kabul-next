@@ -2,7 +2,7 @@ import { Facebook, Linkedin, Twitter } from "react-feather";
 import Link from "next/link";
 import { FacebookIcon, LinkedInIcon, TwitterIcon } from "@/Constant";
 
-const UserSocialApp = () => {
+const SocialLinks = () => {
   return (
     <div className="social mt-4">
       <div className="btn-showcase">
@@ -20,5 +20,5 @@ const UserSocialApp = () => {
   );
 };
 
-export default UserSocialApp;
+export default SocialLinks;
 

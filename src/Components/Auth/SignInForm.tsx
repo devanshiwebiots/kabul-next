@@ -9,10 +9,10 @@ import { toast } from "react-hot-toast";
 import { Button, Form, FormGroup, Input, Label } from "reactstrap";
 import imageOne from "../../../public/assets/images/logo/logo-1.png"
 import imageTwo from "../../../public/assets/images/logo/logo.png"
-import UserSocialApp from "./UserSocialApp";
+import SocialLinks from "./SocialLinks";
 import { Routes } from "@/Utils/Routes";
 
-const UserForm = () => {
+const SignInForm = () => {
   const [show, setShow] = useState(false);
   const [email, setEmail] = useState("Test123@gmail.com");
   const [password, setPassword] = useState("Test@123");
@@ -71,7 +71,7 @@ const UserForm = () => {
             </div>
           </FormGroup>
           <h6 className="text-muted mt-4 or">{OrSignInWith}</h6>
-          <UserSocialApp />
+          <SocialLinks />
           <p className="mt-4 mb-0 text-center">{DontHaveAccount}
             <Link className="ms-2" href={Href}>{CreateAccount}</Link>
           </p>
@@ -81,4 +81,4 @@ const UserForm = () => {
   );
 };
 
-export default UserForm;
+export default SignInForm;
