@@ -2,7 +2,7 @@ export const fallbackLng = "en";
 export const languages = ["en", "ae", "fr", "es", "du", "pt", "cn"];
 export const defaultNS = "translation";
 
-export function getOptions(ns = defaultNS) {
+const getOptions = (ns = defaultNS) => {
   return {
     supportedLngs: languages,
     fallbackLng,
@@ -11,3 +11,5 @@ export function getOptions(ns = defaultNS) {
     ns,
   };
 }
+
+export default getOptions;
