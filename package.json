@@ -11,6 +11,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.3.0",
     "accept-language": "^3.0.20",
+    "apexcharts": "^4.0.0",
     "bootstrap": "^5.3.3",
     "formik": "^2.4.6",
     "i18next": "^23.16.6",
@@ -20,6 +21,7 @@
     "next": "15.0.3",
     "next-auth": "^4.24.10",
     "react": "19.0.0-rc-66855b96-20241106",
+    "react-apexcharts": "^1.5.0",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-feather": "^2.0.10",
     "react-hot-toast": "^2.4.1",

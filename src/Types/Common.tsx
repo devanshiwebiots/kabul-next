@@ -14,3 +14,15 @@ export interface I18nProviderProps {
     children: React.ReactNode;
     language: string;
   }
+
+  export interface SvgType {
+    iconId: string;
+    className?: string;
+    style?: {
+        height: string;
+        width: string;
+        fill: string;
+        marginRight: string;
+    };
+    onClick?: VoidFunction;
+}
