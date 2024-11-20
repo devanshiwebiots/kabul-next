@@ -63,7 +63,7 @@ const Language = () => {
                     </div>
                 </div>
                 <div className={`more_lang ${open ? "active" : ""}`}>
-                    {LanguageData.map((data, index) => (
+                    {LanguageData?.map((data, index) => (
                         <div className="lang selected" key={index} onClick={() => changeLanguage(data)}>
                             <i className={`flag-icon fi flag-icon-${data.languageIconClassName}`}></i>
                             <span className="lang-txt ms-1">

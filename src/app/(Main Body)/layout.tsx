@@ -7,6 +7,7 @@ import { setToggleSidebar } from "@/Redux/Reducer/Layout/LayoutSlice";
 import { setLayout } from "@/Redux/Reducer/Layout/ThemeCustomizerSlice";
 import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import Header from "@/Layout/Header";
+import Footer from "@/Layout/Footer";
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   const { layout } = useAppSelector((state) => state.themeCustomizer);
@@ -37,16 +38,17 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
       compactSidebar();
     });
   }, [layout]);
-  
+
   return (
     <>
       <div className={`page-wrapper ${layout}`} id='pageWrapper'>
-      <Header />
+        <Header />
         <div className='page-body-wrapper'>
           <SideBar />
           <div className='page-body'>
             {children}
-            </div>
+          </div>
+          <Footer />
         </div>
       </div>
       <Toaster />

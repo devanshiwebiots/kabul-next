@@ -47,7 +47,7 @@ export interface MenuItem {
     setSearchedWord: (key: string) => void;
   }
   export interface BookmarkedDataType {
-    icon: string;
+    icon: any;
     url: string;
     title: string;
     color?: string

@@ -16,7 +16,7 @@ const NotificationBox = () => {
         <h4 className="f-18 mb-0 dropdown-title">{Notifications}</h4>
         <div className="notification-card">
           <ul>
-            {NotificationsData.map((item, index) => (
+            {NotificationsData?.map((item, index) => (
               <li className={`b-l-${item.color} bg-light-${item.color} border-4 my-2`} key={index}>
                 <p className={`font-${item.color}`}>
                   {item.text} <span className={`font-${item.color}`}>{item.time}</span>

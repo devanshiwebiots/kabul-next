@@ -1,9 +1,8 @@
-import { Row, Col, Button } from "reactstrap";
-import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
-import { useRouter } from "next/navigation";
-import SVG from "@/CommonComponents/SVG";
 import { AddNewBookmark, Bookmark, Href } from "@/Constant";
+import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import { setFlip } from "@/Redux/Reducer/Layout/LayoutSlice";
+import { useRouter } from "next/navigation";
+import { Button, Col, Row } from "reactstrap";
 
 const BookmarkListData = () => {
   const { bookmarkedData } = useAppSelector((state) => state.headerBookMark)
@@ -19,7 +18,9 @@ const BookmarkListData = () => {
             {bookmarkedData.map((item, index) => (
               <Col xs={4} className="text-center mb-2" key={index}>
                 <div className="bookmark-content" onClick={() => router.push(`${item.url}`)}>
-                  <div className='bookmark-icon'><SVG className='stroke-icon' iconId={`stroke-${item.icon}`} /></div>
+                  <div className='bookmark-icon'>
+                    {item.icon}
+                    </div>
                   <span>{item.title}</span>
                 </div>
               </Col>

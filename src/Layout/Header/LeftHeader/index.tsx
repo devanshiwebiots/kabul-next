@@ -1,9 +1,9 @@
+import SVG from "@/CommonComponents/SVG";
 import { useEffect, useState } from "react";
-import { Col, FormGroup, Input } from "reactstrap";
+import { Col, Input } from "reactstrap";
 import { MenuList } from "../../../Data/Layout/SidebarMenuList";
 import { MenuItem, SearchSuggestionItem } from "../../../Types/Layout";
 import SearchList from "./SearchList";
-import SVG from "@/CommonComponents/SVG";
 
 const LeftHeader = () => {
   const [arr, setArr] = useState<SearchSuggestionItem[]>([]);
@@ -35,17 +35,17 @@ const LeftHeader = () => {
       <div className="left-menu-header">
         <ul className="header-left">
           <li>
-            <FormGroup className="w-100">
+            <div className="w-100">
               <div className="Typeahead Typeahead--twitterUsers">
                 <div className="u-posRelative d-flex">
                   <SVG className="search-bg svg-color me-2" iconId="fill-search" />
-                  <Input className="demo-input Typeahead-input form-control-plaintext w-100 p-0" type="text" placeholder="Type to Search .." onChange={(e) => handleSearch(e)} />
+                  <Input className="demo-input Typeahead-input form-control-plaintext w-100 p-0" type="text" placeholder="Search Kabul.." onChange={(e) => handleSearch(e)} />
                 </div>
                 <div className={`Typeahead-menu custom-scrollbar ${searchedWord.length ? "is-open" : ""}`}>
                   <SearchList searchedArray={searchedArray} setSearchedWord={setSearchedWord} />
                 </div>
               </div>
-            </FormGroup>
+            </div>
           </li>
         </ul>
       </div>

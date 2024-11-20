@@ -21,7 +21,6 @@ export const EnterYourEmailAndPasswordToLogin:string="Enter your email & passwor
 //layout
 export const Pinned: string = "Pinned";
 export const Back: string = "Back";
-export const EasyQuick: string = "Easy Quick";
 export const Notifications: string = "Notifications";
 export const CheckAll: string = "Check All";
 export const Bookmark: string = "Bookmark";
