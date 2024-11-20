@@ -3,6 +3,7 @@ import { useAppDispatch } from "@/Redux/Hooks";
 import { setResponsiveSearch } from "@/Redux/Reducer/Layout/LayoutSlice";
 import { SearchSuggestionListType } from "../../../Types/Layout";
 import SVG from "@/CommonComponents/SVG";
+import { EmptySearch } from "@/Constant";
 
 const SearchList: React.FC<SearchSuggestionListType> = ({ searchedArray, setSearchedWord }) => {
   const dispatch = useAppDispatch();
@@ -25,7 +26,7 @@ const SearchList: React.FC<SearchSuggestionListType> = ({ searchedArray, setSear
           </Link>
         </div>
       ))}
-     {!searchedArray?.length && <p>Your search turned up 0 results.</p>}
+     {!searchedArray?.length && <p>{EmptySearch}</p>}
     </>
   );
 };

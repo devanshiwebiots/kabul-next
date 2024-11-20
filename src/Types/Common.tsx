@@ -20,7 +20,6 @@ export interface InitOptions {
         caches: string[];
     };
 }
-
 export interface I18nProviderProps {
     children: React.ReactNode;
     language: string;

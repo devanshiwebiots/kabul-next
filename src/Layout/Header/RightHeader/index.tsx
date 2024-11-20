@@ -6,7 +6,7 @@ import MessageBox from "./MessageBox";
 import NotificationBox from "./NotificationBox";
 import RightSearch from "./RightSearch";
 import DarkMode from "./DarkMode";
-// import Language from "./Language";
+import Language from "./Language";
 import ProfileHeader from "./ProfileHeader";
 
 const RightHeader = () => {
@@ -14,7 +14,7 @@ const RightHeader = () => {
     <Col lg="7" md="6" className="nav-right col-auto box-col-6 pull-right right-header p-0 ms-auto">
       <ul className="nav-menus">
         <RightSearch />
-        {/* <Language /> */}
+        <Language />
         <MaximizeScreen />
         <NotificationBox />
         <Bookmark />

@@ -37,6 +37,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
       compactSidebar();
     });
   }, [layout]);
+  
   return (
     <>
       <div className={`page-wrapper ${layout}`} id='pageWrapper'>

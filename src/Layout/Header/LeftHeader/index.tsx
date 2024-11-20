@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Col, Input } from "reactstrap";
+import { Col, FormGroup, Input } from "reactstrap";
 import { MenuList } from "../../../Data/Layout/SidebarMenuList";
 import { MenuItem, SearchSuggestionItem } from "../../../Types/Layout";
 import SearchList from "./SearchList";
@@ -35,7 +35,7 @@ const LeftHeader = () => {
       <div className="left-menu-header">
         <ul className="header-left">
           <li>
-            <div className="form-group w-100">
+            <FormGroup className="w-100">
               <div className="Typeahead Typeahead--twitterUsers">
                 <div className="u-posRelative d-flex">
                   <SVG className="search-bg svg-color me-2" iconId="fill-search" />
@@ -45,7 +45,7 @@ const LeftHeader = () => {
                   <SearchList searchedArray={searchedArray} setSearchedWord={setSearchedWord} />
                 </div>
               </div>
-            </div>
+            </FormGroup>
           </li>
         </ul>
       </div>

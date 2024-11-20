@@ -27,6 +27,7 @@ export const CheckAll: string = "Check All";
 export const Bookmark: string = "Bookmark";
 export const AddNewBookmark: string = "Add New Bookmark";
 export const EmptyResult: string = "Opps!! There are no result found.";
+export const EmptySearch: string = "Your search turned up 0 results.";
 export const Cart: string = "Cart";
 export const ViewCart: string = "View Cart";
 export const Checkout: string = "Checkout";

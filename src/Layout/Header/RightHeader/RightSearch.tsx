@@ -3,9 +3,9 @@ import { MenuList } from "../../../Data/Layout/SidebarMenuList";
 import { useAppDispatch ,useAppSelector} from "@/Redux/Hooks";
 import { MenuItem, SearchSuggestionItem } from "@/Types/Layout";
 import { ChangeEvent, useEffect, useState } from "react";
-import { Input } from "reactstrap";
+import { FormGroup, Input } from "reactstrap";
 import { setResponsiveSearch } from "@/Redux/Reducer/Layout/LayoutSlice";
-// import { getLinkItemsArray } from "@/Redux/Reducer/Layout/HeaderBookmarkSlice";
+import { getLinkItemsArray } from "@/Redux/Reducer/Layout/HeaderBookmarkSlice";
 import SearchList from "../LeftHeader/SearchList";
 
 const RightSearch = () => {
@@ -34,7 +34,7 @@ const RightSearch = () => {
       });
     });
     setArr(suggesionArray);
-    // dispatch(getLinkItemsArray(suggesionArray));
+    dispatch(getLinkItemsArray(suggesionArray));
   }, [dispatch]);
 
   const handleSearch = (e: ChangeEvent<HTMLInputElement>) => {
@@ -50,12 +50,12 @@ const RightSearch = () => {
       <div className="serchbox" onClick={() => dispatch(setResponsiveSearch())}>
         <SVG iconId="search" />
       </div>
-      <div className={`form-group search-form ${responsiveSearch ? "open" : ""}`}>
+      <FormGroup className={`search-form ${responsiveSearch ? "open" : ""}`}>
         <Input type="text" placeholder="Search here..." value={searchedWord} onChange={(e) => handleSearch(e)} />
         <div className={`Typeahead-menu custom-scrollbar ${searchedWord.length ? "is-open" : ""}`}>
           <SearchList searchedArray={searchedArray} setSearchedWord={setSearchedWord} />
         </div>
-      </div>
+      </FormGroup>
     </li>
   );
 };

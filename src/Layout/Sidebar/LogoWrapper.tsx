@@ -13,7 +13,7 @@ const LogoWrapper = () => {
   return (
     <>
       <div className="logo-wrapper">
-        <Link href={`/dashboard/default`}>
+        <Link href={Routes.Dashboard.DefaultDashboard}>
           <Image className="img-fluid" src={`${ImagePath}/logo/logo.png`} width={114} height={38} alt="" />
         </Link>
         <div className="toggle-sidebar" onClick={() => dispatch(setToggleSidebar(!toggleSidebar))}>

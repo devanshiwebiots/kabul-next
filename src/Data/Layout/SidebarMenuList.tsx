@@ -7,7 +7,7 @@ export const MenuList: MenuItem[] | undefined = [
     Items: [
       {
         id: 1,
-        title: "Dashboard",
+        title: "Dashboards",
         icon: "home",
         type: "sub",
         active: false,
@@ -84,7 +84,7 @@ export const MenuList: MenuItem[] | undefined = [
       { id: 6, title: "Letter Box", url: Routes.LetterBox, icon: "email", type: "link" },
       {
         id: 7,
-        title: "Chats",
+        title: "Chat",
         icon: "chat",
         type: "sub",
         active: false,

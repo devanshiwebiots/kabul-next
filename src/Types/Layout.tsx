@@ -54,8 +54,13 @@ export interface MenuItem {
     id?: number;
     bookmarked?: boolean;
 }
-
 export interface BookmarkSliceType {
     linkItemsArray: BookmarkedDataType[] | [];
     bookmarkedData: BookmarkedDataType[];
+}
+export interface LanguageDataType {
+  languageParameter: string,
+  languageName: string,
+  languageIconClassName: string,
+  subTitle?: string
 }

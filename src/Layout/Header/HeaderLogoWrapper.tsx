@@ -21,7 +21,7 @@ const HeaderLogoWrapper = () => {
                 </Link>
             </div>
             <div className="toggle-sidebar" onClick={() => dispatch(setToggleSidebar(!toggleSidebar))}>
-                <SVG className="sidebar-toggle" iconId='toggle-icon'  />
+                <SVG className="sidebar-toggle" iconId='fill-animation'  />
             </div>
         </Col>
     )
