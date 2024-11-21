@@ -48,7 +48,6 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
           <SideBar />
           <div className='page-body'>
             <BreadCrumbs />
-
             {children}
           </div>
           <Footer />
@@ -58,4 +57,5 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
     </>
   );
 };
+
 export default RootLayout;

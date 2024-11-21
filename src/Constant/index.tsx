@@ -36,8 +36,20 @@ export const Message: string = "Message";
 export const LogOutText: string = "Log Out";
 export const Admin: string = "Admin";
 
+//Dashboard-Default
+export const WeeklyRevenueGrowth: string = "Weekly Revenue growth";
+export const ClearInvoice: string = "Clear invoicing";
+export const EventDetail: string = "Event Details";
+export const SellingConnection: string = "Selling Connections";
+export const Info: string = "Information";
+export const TodayDuties: string = "The Duties Of Today";
+export const UpgradeFresh: string = "Fresh & Upgrade";
+export const SaleTrend: string = "Sales Trend";
 
 
 
 
 
+
+
+ 

@@ -96,3 +96,313 @@ export const RevenueGrowthChart: ApexOptions = {
         show: false,
     },
 };
+
+export const SellingConnectionsChart: ApexOptions = {
+    series: [
+        {
+            name: "Successfully Sold",
+            type: "area",
+            data: [45, 30, 28, 35, 25, 30, 40],
+        },
+        {
+            name: "Product Viewer",
+            type: "area",
+            data: [30, 42, 37, 25, 34, 38, 27],
+        },
+    ],
+    chart: {
+        height: 340,
+        type: "line",
+        stacked: false,
+        toolbar: {
+            show: false,
+        },
+        dropShadow: {
+            enabled: true,
+            top: 2,
+            left: 0,
+            blur: 4,
+            color: "#000",
+            opacity: 0.08,
+        },
+    },
+    stroke: {
+        width: [2, 2, 2],
+        curve: "straight",
+    },
+    grid: {
+        show: true,
+        borderColor: "var(--chart-border)",
+        strokeDashArray: 0,
+        position: "back",
+        xaxis: {
+            lines: {
+                show: false,
+            },
+        },
+        yaxis: {
+            lines: {
+                show: true,
+            },
+        },
+    },
+    colors: [primary, secondary],
+    fill: {
+        type: "gradient",
+        gradient: {
+            shade: "light",
+            type: "vertical",
+            opacityFrom: 0.4,
+            opacityTo: 0,
+            stops: [0, 100],
+        },
+    },
+    labels: [
+        "Sun",
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+    ],
+    markers: {
+        size: 5
+    },
+    xaxis: {
+        type: "category",
+        tickAmount: 4,
+        tickPlacement: "between",
+        tooltip: {
+            enabled: false,
+        },
+        axisTicks: {
+            show: false,
+        },
+        labels: {
+            style: {
+                fontFamily: 'Outfit, sans-serif',
+                fontWeight: 500,
+                colors: '#8D8D8D',
+            },
+        },
+    },
+    legend: {
+        show: true,
+    },
+    yaxis: {
+        tickAmount: 4,
+        min: 10,
+        max: 60,
+        show: true,
+        // min: 0,
+        labels: {
+            formatter: function (val) {
+                return "$" + val + "k" + "";
+            },
+            style: {
+                fontFamily: 'Outfit, sans-serif',
+                fontWeight: 500,
+                colors: '#3D434A',
+            },
+        },
+    },
+    tooltip: {
+        shared: false,
+        intersect: false,
+    },
+    // xaxis: {
+    //     axisTicks: {
+    //         show: false,
+    //     },
+    //     axisBorder: {
+    //         show: false,
+    //     },
+    // },
+    responsive: [
+        {
+            breakpoint: 1451,
+            options: {
+                chart: {
+                    height: 360,
+                }
+            }
+        },
+        {
+            breakpoint: 1200,
+            options: {
+                chart: {
+                    height: 300,
+                }
+            }
+        },
+    ]
+};
+
+export const SalesTrendChart: ApexOptions = {
+    series: [{
+        name: 'TEAM A',
+        type: 'area',
+        data: [20, 50, 60, 180, 90, 340, 120, 250, 190, 100, 180, 380, 190, 220, 100, 90, 140, 70, 130, 90, 100, 50, 0]
+    }, {
+        name: 'TEAM B',
+        type: 'line',
+        data: [20, 70, 30, 100, 120, 220, 250, 100, 200, 300, 330, 270, 300, 200, 180, 220, 130, 300, 220, 180, 40, 70, 0]
+    }],
+    chart: {
+        height: 292,
+        type: 'line',
+        toolbar: {
+            show: false,
+        },
+        dropShadow: {
+            enabled: true,
+            top: 4,
+            left: 1,
+            blur: 8,
+            opacity: 0.1,
+            color: "#678f44"
+        },
+    
+    },
+    stroke: {
+        curve: 'smooth',
+        width: [3, 3],
+        dashArray: [0, 4]
+    
+    },
+    grid: {
+        show: true,
+        borderColor: 'rgba(106, 113, 133, 0.30)',
+        strokeDashArray: 3,
+    },
+    fill: {
+        type: 'solid',
+        opacity: [0, 1],
+    },
+    
+    labels: ['Jan', '', 'Feb', '', 'Mar', '', 'Apr', '', 'May', '', 'Jun', '', 'Jul', '', 'Aug', '', 'Sep', '', 'Oct', '', 'Nov', '', 'Dec'],
+    markers: {
+        size: [3, 0],
+        colors: ['#3D434A'],
+        strokeWidth: [0, 0],
+    },
+    tooltip: {
+        shared: true,
+        intersect: false,
+        y: {
+            formatter: function (y) {
+                if (typeof y !== "undefined") {
+                    return y.toFixed(0) + " points";
+                }
+                return y;
+            }
+        }
+    },
+    annotations: {
+        xaxis: [{
+            x: 550,
+            strokeDashArray: 5,
+            borderWidth: 3,
+            borderColor: '#7a4bc369',
+        },
+        ],
+        points: [{
+            x: 550,
+            y: 330,
+            marker: {
+                size: 8,
+                fillColor: primary,
+                strokeColor: "#ffffff",
+                strokeWidth: 4,
+                // radius: 5,
+            },
+            label: {
+                borderWidth: 1,
+                offsetY: 0,
+                text: '32.10k',
+                style: {
+                    fontSize: '14px',
+                    fontWeight: '600',
+                    fontFamily: 'Outfit, sans-serif',
+                }
+            }
+        }],
+    },
+    legend: {
+        show: false,
+    },
+    colors: [primary, '#8D8D8D'],
+    xaxis: {
+        labels: {
+            style: {
+                fontFamily: 'Outfit, sans-serif',
+                fontWeight: 500,
+                colors: '#8D8D8D',
+            },
+        },
+        axisBorder: {
+            show: false
+        },
+    },
+    yaxis: {
+        labels: {
+            formatter: function (value) {
+                return value + "k";
+            },
+            style: {
+                fontFamily: 'Outfit, sans-serif',
+                fontWeight: 500,
+                colors: '#3D434A',
+            },
+        },
+    },
+    responsive: [
+        {
+          breakpoint: 1727,
+          options: {
+            chart: {
+              height: 350,
+            }
+          }
+        },
+        {
+          breakpoint: 1650,
+          options: {
+            chart: {
+              height: 380,
+            }
+          }
+        },
+        {
+          breakpoint: 1200,
+          options: {
+            chart: {
+              height: 300,
+            }
+          }
+        },
+        {
+          breakpoint: 1131,
+          options: {
+            chart: {
+              height: 340,
+            }
+          }
+        },
+        {
+            breakpoint: 576,
+            options: {
+                series: [{
+                    name: 'TEAM A',
+                    type: 'area',
+                    data: [0, 50, 60, 180, 90, 340, 120, 250, 190, 100, 180, 380, 190, 220, 100, 90, 140]
+                }, {
+                    name: 'TEAM B',
+                    type: 'line',
+                    data: [0, 70, 30, 100, 120, 220, 250, 100, 200, 300, 330, 270, 300, 200, 180, 220, 130]
+                }],
+            }
+        },
+    ]
+    };
