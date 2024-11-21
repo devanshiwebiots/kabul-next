@@ -139,7 +139,7 @@ export const FreshUpgradeData = [
         dotClass: "secondary",
         title: "You enjoyed James' items",
         description: "If you have it, you can make things appear good.",
-        iconClass: "fa fa-circle circle-dot-secondary",
+        iconClass: "secondary",
     },
     {
         dotClass: "primary",
@@ -150,7 +150,7 @@ export const FreshUpgradeData = [
         dotClass: "secondary",
         title: "Jihan Doe just liked your goods",
         description: "Design and style should work toward making you look good and feel good without a lot of effort.",
-        iconClass: "fa fa-circle circle-dot-primary",
+        iconClass: "primary",
     },
 ];
 

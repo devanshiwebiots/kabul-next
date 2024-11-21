@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { Home } from "react-feather";
 import { Breadcrumb, BreadcrumbItem, Col, Container, Row } from "reactstrap";
 
-export const BreadCrumbs = () => {
+const BreadCrumbs = () => {
   const pathname = usePathname();
   const symbolRegex = /[!@#\$%\^&\*\(\)_\+\{\}\[\]:;"'<>,.?/\\|`~\-=]/g;
   const [firstPart, secondPart, thirdPart] = pathname
@@ -38,3 +38,5 @@ export const BreadCrumbs = () => {
     </Container>
   );
 };
+
+export default BreadCrumbs;
