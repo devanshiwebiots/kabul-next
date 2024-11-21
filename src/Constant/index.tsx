@@ -1,5 +1,6 @@
 export const ImagePath = "/assets/images";
 export const Href = "#javascript";
+export const SvgPath = "/assets/svg";
 
 //Authentication
 export const CreateAccount: string = "Create Account ";
@@ -16,4 +17,27 @@ export const LinkedInIcon: string = " LinkedIn ";
 export const TwitterIcon: string = " twitter ";
 export const FacebookIcon: string = " facebook ";
 export const EnterYourEmailAndPasswordToLogin:string="Enter your email & password to login"
+
+//layout
+export const Pinned: string = "Pinned";
+export const Back: string = "Back";
+export const Notifications: string = "Notifications";
+export const CheckAll: string = "Check All";
+export const Bookmark: string = "Bookmark";
+export const AddNewBookmark: string = "Add New Bookmark";
+export const EmptyResult: string = "Opps!! There are no result found.";
+export const EmptySearch: string = "Your search turned up 0 results.";
+export const Cart: string = "Cart";
+export const ViewCart: string = "View Cart";
+export const Checkout: string = "Checkout";
+export const EmptyCart: string = "Oops! Your cart empty!!!";
+export const OrderTotal: string = "Order Total :";
+export const Message: string = "Message";
+export const LogOutText: string = "Log Out";
+export const Admin: string = "Admin";
+
+
+
+
+
 
