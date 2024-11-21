@@ -1,21 +1,4 @@
-export interface InitOptions {
-    supportedLngs: string[];
-    fallbackLng: string;
-    lng: string;
-    fallbackNS: string;
-    defaultNS: string;
-    ns: string;
-    detection: {
-      caches: string[];
-    };
-  }
-  
-export interface I18nProviderProps {
-    children: React.ReactNode;
-    language: string;
-  }
-
-  export interface SvgType {
+export interface SvgType {
     iconId: string;
     className?: string;
     style?: {
@@ -25,4 +8,19 @@ export interface I18nProviderProps {
         marginRight: string;
     };
     onClick?: VoidFunction;
+}
+export interface InitOptions {
+    supportedLngs: string[];
+    fallbackLng: string;
+    lng: string;
+    fallbackNS: string;
+    defaultNS: string;
+    ns: string;
+    detection: {
+        caches: string[];
+    };
+}
+export interface I18nProviderProps {
+    children: React.ReactNode;
+    language: string;
 }
