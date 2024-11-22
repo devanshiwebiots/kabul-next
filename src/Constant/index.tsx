@@ -43,8 +43,29 @@ export const EventDetail: string = "Event Details";
 export const SellingConnection: string = "Selling Connections";
 export const Info: string = "Information";
 export const TodayDuties: string = "The Duties Of Today";
-export const UpgradeFresh: string = "Fresh & Upgrade";
 export const SaleTrend: string = "Sales Trend";
+export const UpgradeFresh: string = "Fresh & Upgrade";
+
+//Dashboard-Ecommerce
+export const TotalSells: string = "Total Sells";
+export const OrdersValue: string = "Orders Value";
+export const DailyOrders: string = "Daily Orders";
+export const DailyRevenue: string = "Daily Revenue";
+export const Revenue: string = "Total Revenue";
+export const TotalOrders: string = "Total Order";
+export const TotalAppointments: string = "Total Appointment";
+export const Country: string = "User By Country";
+export const Rating: string = "Over All Rating";
+export const ProjectDelivery: string = "Project Deliveries";
+export const Audit: string = "Audit Log";
+
+
+
+
+
+
+
+
 
 
 
