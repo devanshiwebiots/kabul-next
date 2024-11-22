@@ -59,6 +59,12 @@ export const Rating: string = "Over All Rating";
 export const ProjectDelivery: string = "Project Deliveries";
 export const Audit: string = "Audit Log";
 
+//Widgets-General
+export const CategoriesBySales: string = "Categories By Sales";
+export const ProjectCreate: string = "Project Created";
+export const BudgetHeader: string = "Budget";
+
+
 
 
 
