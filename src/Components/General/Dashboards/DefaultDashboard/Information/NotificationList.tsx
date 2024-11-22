@@ -4,6 +4,7 @@ import { Routes } from '@/Utils/Routes';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
+import { Button } from 'reactstrap';
 
 const NotificationList: React.FC<NotificationListProps> = ({ image, name, action, detail, time, active, status, buttons, last }) => {
   return (
@@ -18,8 +19,8 @@ const NotificationList: React.FC<NotificationListProps> = ({ image, name, action
         </Link>
         {buttons && (
           <>
-            <button className="btn btn-secondary mt-1 mb-1">Decline</button>
-            <button className="btn btn-primary mt-1 mb-1">Accept</button>
+            <Button className="mt-1 mb-1">Decline</Button>
+            <Button className="mt-1 mb-1" color="primary">Accept</Button>
           </>
         )}
       </div>
