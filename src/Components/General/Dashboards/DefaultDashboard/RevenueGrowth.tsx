@@ -25,7 +25,7 @@ const RevenueGrowth = () => {
                                         <span>{item.percentage}% goal reached</span>
                                     </div>
                                 </div>
-                                <Progress className="progress" value={70} color={item.color} />
+                                <Progress value={70} color={item.color} />
                             </li>
                         ))}
                     </ul>
