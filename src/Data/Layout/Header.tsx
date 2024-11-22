@@ -1,11 +1,12 @@
 import { Routes } from "@/Utils/Routes";
-import { FileText, Mail, Settings, User,Server } from "react-feather";
+import { FileText, Mail, Settings, User } from "react-feather";
 
-export const BookMarkData = [
-    { icon: <FileText/>, title: "Forms", url: Routes.FormsControls.FormValidation },
-    { icon: <User/>, title: "Profile", url: Routes.Users.UserProfile },
-    { icon: <Server/>, title: "Tables", url: Routes.ReactstrapTable.BasicTable },
+  export const BookMarkData = [
+    { icon: "form", title: "Forms", url: Routes.FormsControls.FormValidation },
+    { icon: "user", title: "Profile", url: Routes.Users.UserProfile },
+    { icon: "table", title: "Tables", url: Routes.ReactstrapTable.BasicTable },
   ];
+  
 
   export const NotificationsData = [
     { color: "primary", text: "Delivery processing", time: "10 min." },

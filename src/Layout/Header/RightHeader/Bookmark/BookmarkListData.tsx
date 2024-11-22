@@ -1,3 +1,4 @@
+import SVG from "@/CommonComponents/SVG";
 import { AddNewBookmark, Bookmark, Href } from "@/Constant";
 import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import { setFlip } from "@/Redux/Reducer/Layout/LayoutSlice";
@@ -19,7 +20,7 @@ const BookmarkListData = () => {
               <Col xs={4} className="text-center mb-2" key={index}>
                 <div className="bookmark-content" onClick={() => router.push(`${item.url}`)}>
                   <div className='bookmark-icon'>
-                    {item.icon}
+                    <SVG iconId={`stroke-${item.icon}`}/>
                     </div>
                   <span>{item.title}</span>
                 </div>
