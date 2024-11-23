@@ -63,6 +63,14 @@ export const Audit: string = "Audit Log";
 export const CategoriesBySales: string = "Categories By Sales";
 export const ProjectCreate: string = "Project Created";
 export const BudgetHeader: string = "Budget";
+export const Order: string = "Order Overview";
+export const MonthlySale: string = "Monthly Sale";
+export const Invoices: string = "Invoices";
+export const ActiveTasks: string = "Active Task";
+
+
+
+
 
 
 

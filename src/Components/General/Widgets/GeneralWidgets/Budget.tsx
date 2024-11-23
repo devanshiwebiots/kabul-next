@@ -38,7 +38,9 @@ const Budget = () => {
                     ))}
                 </CardBody>
                 <CardBody className="p-0">
-                    <ReactApexChart options={BudgetChart} series={BudgetChart.series} type="area" height={120} />
+                    <div className='budget-chart'>
+                        <ReactApexChart options={BudgetChart} series={BudgetChart.series} type="area" height={120} />
+                    </div>
                 </CardBody>
             </Card>
         </Col>
