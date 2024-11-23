@@ -1,4 +1,4 @@
-import { TotalEarningChart, TotalExpenseChart } from "./Charts";
+import { TotalEarningChart, TotalExpenseChart, TotalProductChart, TotalProjectChart, TotalSalesChart } from "./Charts";
 
 export const MarketingData = [
     {
@@ -71,7 +71,7 @@ export const OrderOverviewData = [
     { value: 20, label: 'Cash On Delivery', progress: 30, color: 'success' },
 ];
 
-export  const TotalIncomeData = [
+export const TotalIncomeData = [
     {
         title: 'Total Earning',
         value: '20.790',
@@ -157,7 +157,7 @@ export const Settings = {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows:false
+    arrows: false
 };
 
 export const WeeklySalesData = [
@@ -174,5 +174,29 @@ export const WeeklySalesData = [
         percentage: '+3.10%',
         iconId: 'money',
         colorClass: 'secondary',
+    },
+];
+
+export const TotalChangeData = [
+    {
+        title: "Total Sale",
+        value: "$3654.00",
+        chartType: "area" as "area",
+        chartOptions: TotalSalesChart,
+        chartHeight: 200,
+    },
+    {
+        title: "Total Project",
+        value: "12569",
+        chartType: "bar" as "bar",
+        chartOptions: TotalProjectChart,
+        chartHeight: 215,
+    },
+    {
+        title: "Total Product",
+        value: "93M",
+        chartType: "area" as "area",
+        chartOptions: TotalProductChart,
+        chartHeight: 200,
     },
 ];
