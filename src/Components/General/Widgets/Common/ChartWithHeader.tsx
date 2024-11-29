@@ -1,19 +1,10 @@
 import CommonCardHeader from '@/CommonComponents/CommonCardHeader'
+import { ChartWithHeaderProps } from '@/Types/Widgets'
 import React from 'react'
 import ReactApexChart from 'react-apexcharts'
 import { Card, CardBody, Col } from 'reactstrap'
 
-interface ChartComponentProps {
-    index?: number;
-    colSize: Partial<Record<string, number>>;
-    additionalClasses?: string;
-    title: string;
-    chart: ApexCharts.ApexOptions
-    type: 'line' | 'area' | 'bar' | 'radar' | 'bubble' | 'donut';
-    height: number;
-}
-
-const ChartComponent: React.FC<ChartComponentProps> = ({ index, colSize, additionalClasses = '', title, chart, type, height }) => {
+const ChartWithHeader: React.FC<ChartWithHeaderProps> = ({ index, colSize, additionalClasses = '', title, chart, type, height }) => {
     return (
         <Col key={index} {...colSize} className={additionalClasses}>
             <Card>
@@ -28,4 +19,4 @@ const ChartComponent: React.FC<ChartComponentProps> = ({ index, colSize, additio
     )
 }
 
-export default ChartComponent
+export default ChartWithHeader
