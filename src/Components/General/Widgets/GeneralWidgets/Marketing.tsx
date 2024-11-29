@@ -1,7 +1,7 @@
 import CommonDropdown from '@/CommonComponents/CommonDropdown'
 import SVG from '@/CommonComponents/SVG'
 import { ImagePath } from '@/Constant'
-import { MarketingData } from '@/Data/Widgets/General'
+import { MarketingData } from '@/Data/Widgets'
 import Image from 'next/image'
 import React from 'react'
 import { Card, CardBody, Col, Progress } from 'reactstrap'

@@ -1,6 +1,4 @@
-import { TotalProductChart, TotalProjectChart, TotalSalesChart } from '@/Data/Widgets/Charts'
-import { TotalChangeData } from '@/Data/Widgets/General'
-import React from 'react'
+import { TotalChangeData } from '@/Data/Widgets'
 import ReactApexChart from 'react-apexcharts'
 import { Card, Col, Row } from 'reactstrap'
 

@@ -1,13 +1,13 @@
 "use client"
-import React from 'react'
-import { Container, Row } from 'reactstrap'
+import { Container } from 'reactstrap'
+import OtherCharts from './OtherCharts'
 import TotalChange from './TotalChange'
-
 
 const ChartWidgetsContainer = () => {
   return (
     <Container fluid >
-        <TotalChange/>
+      <TotalChange />
+      <OtherCharts />
     </Container>
   )
 }

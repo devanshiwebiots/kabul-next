@@ -7,7 +7,7 @@ import { BudgetChart } from '@/Data/Widgets/Charts'
 import Link from 'next/link'
 import { Routes } from '@/Utils/Routes'
 import SVG from '@/CommonComponents/SVG'
-import { BudgetData } from '@/Data/Widgets/General'
+import { BudgetData } from '@/Data/Widgets'
 
 const Budget = () => {
     return (

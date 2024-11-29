@@ -1,4 +1,4 @@
-import { TotalIncomeData } from '@/Data/Widgets/General'
+import { TotalIncomeData } from '@/Data/Widgets'
 import ReactApexChart from 'react-apexcharts'
 import { Card, CardBody, Col, Row } from 'reactstrap'
 

@@ -1,7 +1,7 @@
 import SVG from '@/CommonComponents/SVG';
 import { Card, CardBody, Col, Row } from 'reactstrap';
 import ProductSlider from './ProductSlider';
-import { WeeklySalesData } from '@/Data/Widgets/General';
+import { WeeklySalesData } from '@/Data/Widgets';
 
 const WeeklySales = () => {
 

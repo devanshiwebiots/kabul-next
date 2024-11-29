@@ -68,6 +68,21 @@ export const MonthlySale: string = "Monthly Sale";
 export const Invoices: string = "Invoices";
 export const ActiveTasks: string = "Active Task";
 
+//Widgets-Chart
+export const SaleOverview: string = "Sales Overview";
+export const MonthHistory: string = "Monthly History";
+export const LiveProducts: string = "Live Products";
+export const TurnOver: string = "Turn Over";
+export const CryptocurrencyPrices: string = "Cryptocurrency Prices";
+export const CryptoAnnotations: string = "Crypto Annotations";
+export const StockMarket: string = "Stock Market";
+export const Finance: string = "Finance";
+export const OrderStatus: string = "Order Status";
+export const MonthlySales: string = "Monthly Sales";
+export const Uses: string = "Uses";
+
+
+
 
 
 

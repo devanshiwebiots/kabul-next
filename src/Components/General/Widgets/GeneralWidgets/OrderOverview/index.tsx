@@ -1,6 +1,6 @@
 import DashboardCommonHeader from '@/Components/General/Dashboards/Common/DashboardCommonHeader'
 import { Order } from '@/Constant'
-import { OrderOverviewData } from '@/Data/Widgets/General'
+import { OrderOverviewData } from '@/Data/Widgets'
 import { Card, CardBody, Col, Progress, Row } from 'reactstrap'
 import MonthlyGrowth from './MonthlyGrowth'
 

@@ -4,7 +4,7 @@ import { Card, CardBody, CardHeader, Col, Row } from 'reactstrap'
 import ReactApexChart from 'react-apexcharts'
 import { CategoriesEarnedChart, CategoriesSalesChart } from '@/Data/Widgets/Charts'
 import { CategoriesBySales } from '@/Constant'
-import { CategoriesSalesData } from '@/Data/Widgets/General'
+import { CategoriesSalesData } from '@/Data/Widgets'
 
 const CategoriesSales = () => {
     return (

@@ -1,6 +1,6 @@
 import RatioImage from '@/CommonComponents/RatioImage'
 import { ImagePath } from '@/Constant'
-import { ProductSliderData, Settings } from '@/Data/Widgets/General'
+import { ProductSliderData, Settings } from '@/Data/Widgets'
 import React from 'react'
 import Slider from 'react-slick'
 import { Card, CardBody, Col } from 'reactstrap'

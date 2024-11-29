@@ -1,4 +1,5 @@
-import { TotalEarningChart, TotalExpenseChart, TotalProductChart, TotalProjectChart, TotalSalesChart } from "./Charts";
+import { CryptoAnnotations, CryptocurrencyPrices, Finance, LiveProducts, MonthlySales, OrderStatus, StockMarket, TurnOver, Uses } from "@/Constant";
+import { CryptoAnnotationsChart, CryptocurrencyPricesChart, FinanceChart, LiveProductsChart, MonthlySalesChart, OrderStatusChart, StockMarketChart, TotalEarningChart, TotalExpenseChart, TotalProductChart, TotalProjectChart, TotalSalesChart, TurnOverChart, UsesChart } from "./Charts";
 
 export const MarketingData = [
     {
@@ -198,5 +199,83 @@ export const TotalChangeData = [
         chartType: "area" as "area",
         chartOptions: TotalProductChart,
         chartHeight: 200,
+    },
+];
+
+export const SmallWidgetsData = [
+    {
+        title: LiveProducts,
+        chart: LiveProductsChart,
+        type: "area" as "area",
+        height: 320,
+        colSize: { xl: 7, lg: 12 },
+        additionalClasses: 'xl-50'
+    },
+    {
+        title: TurnOver,
+        chart: TurnOverChart,
+        type: "area" as "area",
+        height: 317,
+        colSize: { xl: 5, lg: 12 },
+        additionalClasses: 'xl-50'
+    },
+    {
+        title: CryptocurrencyPrices,
+        chart: CryptocurrencyPricesChart,
+        type: "area" as "area",
+        height: 400,
+        colSize: { xl: 6, lg: 12 },
+        additionalClasses: 'xl-50'
+    },
+    {
+        title: CryptoAnnotations,
+        chart: CryptoAnnotationsChart,
+        type: "line" as "line",
+        height: 400,
+        colSize: { xl: 6, lg: 12 },
+        additionalClasses: 'xl-50'
+    },
+];
+
+export const OtherChartsData = [
+    {
+        title: StockMarket,
+        chart: StockMarketChart,
+        type: 'line' as 'line',
+        height: 450,
+        colSize: { sm: 12 },
+        additionalClasses: 'box-col-12 donut-chart-widget',
+    },
+    {
+        title: Finance,
+        chart: FinanceChart,
+        type: 'line' as 'line',
+        height: 350,
+        colSize: { xl: 5, lg: 12 },
+        additionalClasses: 'box-col-5',
+    },
+    {
+        title: OrderStatus,
+        chart: OrderStatusChart,
+        type: 'line' as 'line',
+        height: 350,
+        colSize: { xl: 7, lg: 12 },
+        additionalClasses: 'box-col-7',
+    },
+    {
+        title: MonthlySales,
+        chart: MonthlySalesChart,
+        type: 'radar' as 'radar',
+        height: 300,
+        colSize: { xl: 5, lg: 12 },
+        additionalClasses: 'xl-50 box-col-5 small-chart-widget chart-widgets-small',
+    },
+    {
+        title: Uses,
+        chart: UsesChart,
+        type: 'bubble' as 'bubble',
+        height: 300,
+        colSize: { xl: 7, lg: 12 },
+        additionalClasses: 'xl-50 box-col-7 small-chart-widget',
     },
 ];

@@ -5,7 +5,7 @@ import { ActiveTasks, Href } from '@/Constant'
 import Link from 'next/link'
 import { Routes } from '@/Utils/Routes'
 import SVG from '@/CommonComponents/SVG'
-import { ActiveTasksData } from '@/Data/Widgets/General'
+import { ActiveTasksData } from '@/Data/Widgets'
 
 const ActiveTask = () => {
 
