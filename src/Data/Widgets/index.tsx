@@ -202,7 +202,7 @@ export const TotalChangeData = [
     },
 ];
 
-export const SmallWidgetsData = [
+export const OtherChartsData = [
     {
         title: LiveProducts,
         chart: LiveProductsChart,
@@ -235,9 +235,6 @@ export const SmallWidgetsData = [
         colSize: { xl: 6, lg: 12 },
         additionalClasses: 'xl-50'
     },
-];
-
-export const OtherChartsData = [
     {
         title: StockMarket,
         chart: StockMarketChart,
@@ -279,3 +276,4 @@ export const OtherChartsData = [
         additionalClasses: 'xl-50 box-col-7 small-chart-widget',
     },
 ];
+
