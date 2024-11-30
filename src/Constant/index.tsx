@@ -59,9 +59,21 @@ export const Rating: string = "Over All Rating";
 export const ProjectDelivery: string = "Project Deliveries";
 export const Audit: string = "Audit Log";
 
-
-
-
+//File Manager
+export const FileFilter: string = "File filter";
+export const Storage: string = "Storage";
+export const StorageData: string = "25 GB of 100 GB used";
+export const FREE: string = "FREE";
+export const PlanSpace: string = "100 GB Space";
+export const Selected: string = "Selected";
+export const TrialVersion: string = "Trial Version";
+export const PricingPlan: string = "Pricing Plan";
+export const AddNew: string = "Add New";
+export const UploadFile: string = "Upload";
+export const Search: string = "Search...";
+export const Files: string = "Files";
+export const QuickAccessTitle: string = "Quick Access";
+export const Folders: string = "Folders";
 
 
 
