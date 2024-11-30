@@ -81,6 +81,41 @@ export const OrderStatus: string = "Order Status";
 export const MonthlySales: string = "Monthly Sales";
 export const Uses: string = "Uses";
 
+//Project
+export const All: string = "All";
+export const Doing: string = "Doing";
+export const Done: string = "Done";
+export const CreateNewProject: string = "Create New Project";
+export const Issues: string = "Issues";
+export const Resolved: string = "Resolved";
+export const Comment: string = "Comment";
+export const ProjectTitle: string = "Project Title";
+export const ProjectTitlePlaceholder: string = "Project name *";
+export const ClientName: string = "Client name";
+export const ClientNamePlaceholder: string = "Name client or company name";
+export const ProjectRate: string = "Project Rate";
+export const ProjectRatePlaceholder: string = "Enter project Rate";
+export const ProjectType: string = "Project Type";
+export const Hourly: string = "Hourly";
+export const FixPrice: string = "Fix price";
+export const Low: string = "Low";
+export const Medium: string = "Medium";
+export const High: string = "High";
+export const Urgent: string = "Urgent";
+export const Priority: string = "Priority";
+export const PriorityPlaceholder: string = "Select Status";
+export const ProjectSize: string = "Project Size";
+export const ProjectSizePlaceholder: string = "Select Issues";
+export const Small: string = "Small";
+export const Big: string = "Big";
+export const StartingDate: string = "Starting date";
+export const EndingDate: string = "Ending date";
+export const EnterSomeDetails: string = "Enter some Details";
+export const UploadProjectFiles: string = "Upload project file";
+export const Add: string = "Add";
+export const Cancel: string = "Cancel";
+
+
 
 
 
