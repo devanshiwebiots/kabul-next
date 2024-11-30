@@ -4,6 +4,7 @@ import ThemeCustomizerSlice from "./Reducer/Layout/ThemeCustomizerSlice";
 import HeaderBookmarkSlice from "./Reducer/Layout/HeaderBookmarkSlice";
 import CartSlice from "./Reducer/CartSlice";
 import FileManagerSlice from "./Reducer/FileManagerSlice";
+import AddProductSlice from "./Reducer/AddProductSlice";
 
 const Store = configureStore({
   reducer:{
@@ -12,6 +13,7 @@ const Store = configureStore({
     headerBookMark: HeaderBookmarkSlice,
     cartData: CartSlice,
     fileManager: FileManagerSlice,    
+    addProduct: AddProductSlice,
   }
 });
 
