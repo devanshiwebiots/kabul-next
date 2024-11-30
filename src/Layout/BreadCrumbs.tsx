@@ -3,7 +3,6 @@ import SVG from "@/CommonComponents/SVG";
 import { Routes } from "@/Utils/Routes";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home } from "react-feather";
 import { Breadcrumb, BreadcrumbItem, Col, Container, Row } from "reactstrap";
 
 const BreadCrumbs = () => {
@@ -25,7 +24,7 @@ const BreadCrumbs = () => {
             <Breadcrumb className='justify-content-sm-start align-items-center mb-0'>
               <BreadcrumbItem>
                 <Link href={Routes.Dashboard.DefaultDashboard}>
-                 <Home/>
+                  <SVG iconId="stroke-home" />
                 </Link>
               </BreadcrumbItem>
               <BreadcrumbItem className="f-w-400 text-capitalize">{firstPart}</BreadcrumbItem>
