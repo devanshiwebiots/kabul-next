@@ -3,7 +3,7 @@ import { Routes } from "@/Utils/Routes";
 import Link from "next/link";
 import { Button, Col, Row } from "reactstrap";
 
-const ProjectButtons = () => {
+const ActionButtons = () => {
   return (
     <Row>
       <Col>
@@ -16,4 +16,4 @@ const ProjectButtons = () => {
   );
 };
 
-export default ProjectButtons;
+export default ActionButtons;

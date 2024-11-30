@@ -10,7 +10,7 @@ import Details from "./Details";
 import ProjectDates from "./ProjectDates";
 import Description from "./Description";
 import UploadProjectFile from "./UploadProjectFile";
-import ProjectButtons from "./ProjectButtons";
+import ActionButtons from "./ActionButtons";
 
 const CreateNewProjectForm = () => {
   const router = useRouter();
@@ -45,7 +45,7 @@ const CreateNewProjectForm = () => {
           <ProjectDates />
           <Description/>
           <UploadProjectFile />
-          <ProjectButtons />
+          <ActionButtons />
         </Form>
       )}
     </Formik>
