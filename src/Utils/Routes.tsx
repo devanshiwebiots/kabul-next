@@ -13,7 +13,7 @@ export const Routes = {
   
     Project: {
       ProjectList: "/project/project-list",
-      CreateNew: "/project/create-new",
+      CreateNew: "/project/project-create",
     },
   
     ECommerce: {
