@@ -59,13 +59,39 @@ export const Rating: string = "Over All Rating";
 export const ProjectDelivery: string = "Project Deliveries";
 export const Audit: string = "Audit Log";
 
+//File Manager
+export const Search: string = "Search...";
 
+//Ecommerce-Product
+export const Filters: string = "Filters";
+export const Brand: string = "Brand";
+export const Colors: string = "Colors";
+export const Categorys: string = "Category";
+export const NewProducts: string = "New Products";
+export const Price: string = "Price";
+export const STEP: number = 10;
+export const MIN: number = 10;
+export const MAX: number = 1250;
+export const AddToCartButton: string = "Add to Cart";
+export const ViewDetails: string = "View Details";
+export const ProductDetails: string = "Product Details";
+export const Quantity: string = "Quantity";
+export const Featured: string = "Featured";
+export const LowestPrices: string = "Lowest Prices";
+export const HighestPrices: string = "Highest Prices";
+export const ProductShown: string = "Showing Products 1 - 24 Of 200 Results";
 
+//Ecommerce-Cart
+export const Apply: string = "Apply";
+export const TotalPrice: string = "Total Price";
+export const ContinueShopping: string = "continue shopping";
+export const CheckOut: string = " check out";
+export const CartEmpty: string = "Cart Empty";
+export const ExploreShortlistItems: string = "Explore Short list Items";
 
-
-
-
-
+//Ecommerce-Product List
+export const SearchTableButton: string = "Search";
+export const AddProduct: string = "Add Product";
 
 
 
