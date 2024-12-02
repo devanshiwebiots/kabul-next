@@ -88,7 +88,6 @@ export const CategoriesEarnedChart: ApexOptions = {
     chart: {
         type: 'area',
         height: 200,
-        // offsetY: -20,
         zoom: {
             enabled: false
         },
@@ -99,7 +98,6 @@ export const CategoriesEarnedChart: ApexOptions = {
             enabled: true,
             top: 5,
             left: 0,
-            //   bottom: 3,
             blur: 2,
             color: primary,
             opacity: 0.2,
@@ -169,15 +167,6 @@ export const ProjectCreatedChart: ApexOptions = {
         }
     },
     colors: ['#bebebe', primary],
-    // dropShadow: {
-    //     enabled: true,
-    //     top: 5,
-    //     left: 6,
-    //     bottom: 5,
-    //     blur: 2,
-    //     color: primary,
-    //     opacity: 0.5,
-    // },
     fill: {
         type: "gradient",
         gradient: {
@@ -254,7 +243,6 @@ export const BudgetChart: ApexOptions = {
             enabled: true,
             top: 5,
             left: 0,
-            // bottom: 3,
             blur: 2,
             color: primary,
             opacity: 0.2,
@@ -621,7 +609,6 @@ export const TotalExpenseChart: ApexOptions = {
             enabled: true,
             top: 5,
             left: 0,
-            // bottom: 3,
             blur: 2,
             color: primary,
             opacity: 0.2,
@@ -741,7 +728,6 @@ export const OfflineOrdersChart: ApexOptions = {
             enabled: true,
             top: 5,
             left: 0,
-            //   bottom: 3,
             blur: 2,
             color: secondary,
             opacity: 0.2,
@@ -820,7 +806,6 @@ export const TotalSalesChart: ApexOptions = {
             enabled: true,
             top: 5,
             left: 0,
-            //   bottom: 3,
             blur: 2,
             color: primary,
             opacity: 0.2,
@@ -905,45 +890,6 @@ export const TotalProjectChart: ApexOptions = {
             },
         }
     },
-    // responsive: [
-    //   {
-    //     breakpoint: 1700,
-    //     options: {
-    //       chart: {
-    //         height: 86,
-    //       },
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 1699,
-    //     options: {
-    //       chart: {
-    //         height: 95,
-    //       },
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 1460,
-    //     options: {
-    //       grid: {
-    //         padding: {
-    //           top: 0,
-    //           right: 0,
-    //           bottom: 0,
-    //           left: 5,
-    //         },
-    //       },
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 376,
-    //     options: {
-    //       chart: {
-    //         height: 50,
-    //       },
-    //     },
-    //   },
-    // ],
 };
 
 export const TotalProductChart: ApexOptions = {
@@ -965,7 +911,6 @@ export const TotalProductChart: ApexOptions = {
             enabled: true,
             top: 5,
             left: 0,
-            // bottom: 3,
             blur: 2,
             color: secondary,
             opacity: 0.2,
@@ -1172,7 +1117,6 @@ export const MonthlyHistoryChart: ApexOptions = {
         bar: {
             horizontal: false,
             columnWidth: "30%",
-            // endingShape: "rounded",
         },
     },
     dataLabels: {
@@ -1976,42 +1920,6 @@ export const FinanceChart: ApexOptions = {
     chart: {
         height: 350,
         type: "line",
-        // animations: {
-        //   enabled: true,
-        //   easing: "linear",
-        //   dynamicAnimation: {
-        //     speed: 1000,
-        //   },
-        // },
-
-        // events: {
-        //   animationEnd: function (chartCtx) {
-        //     const newData = chartCtx.w.config.series[0].data.slice();
-        //     newData.shift();
-        //     window.setTimeout(function () {
-        //       chartCtx.updateOptions(
-        //         {
-        //           series: [
-        //             {
-        //               data: newData,
-        //             },
-        //           ],
-        //           xaxis: {
-        //             min: chartCtx.minX,
-        //             max: chartCtx.maxX,
-        //           },
-        //           subtitle: {
-        //             text:
-        //               parseInt(getRangeRandom({ min: 1, max: 20 })).toString() +
-        //               "%",
-        //           },
-        //         },
-        //         false,
-        //         false
-        //       );
-        //     }, 300);
-        //   },
-        // },
         toolbar: {
             show: false,
         },
@@ -2122,7 +2030,6 @@ export const OrderStatusChart: ApexOptions = {
         stacked: true,
         animations: {
             enabled: true,
-            // easing: "linear",
             dynamicAnimation: {
                 speed: 1000,
             },
@@ -2144,9 +2051,6 @@ export const OrderStatusChart: ApexOptions = {
                                     data: newData2,
                                 },
                             ],
-                            // subtitle: {
-                            //     text: parseInt(getRandom() * Math.random()).toString(),
-                            // },
                         },
                         false,
                         false

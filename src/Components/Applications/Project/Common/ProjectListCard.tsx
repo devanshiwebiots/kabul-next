@@ -17,12 +17,12 @@ const ProjectListCard: React.FC<CommonProjectInterface> = ({ item }) => {
         </div>
         <p>{item.description}</p>
         <Row className="details">
-          <div className="col-6"><span>{Issues} </span></div>
-          <div className={`col-6 font-${item.badge === 'Done' ? 'success' : 'primary'}`}>{item.issue} </div>
-          <div className="col-6"> <span>{Resolved}</span></div>
-          <div className={`col-6 font-${item.badge === 'Done' ? 'success' : 'primary'}`}>{item.resolved}</div>
-          <div className="col-6"> <span>{Comment}</span></div>
-          <div className={`col-6 font-${item.badge === 'Done' ? 'success' : 'primary'}`}>{item.comment}</div>
+          <Col xs={6}><span>{Issues} </span></Col>
+          <Col xs={6} className={`font-${item.badge === 'Done' ? 'success' : 'primary'}`}>{item.issue} </Col>
+          <Col xs={6}> <span>{Resolved}</span></Col>
+          <Col xs={6} className={`font-${item.badge === 'Done' ? 'success' : 'primary'}`}>{item.resolved}</Col>
+          <Col xs={6}> <span>{Comment}</span></Col>
+          <Col xs={6} className={`font-${item.badge === 'Done' ? 'success' : 'primary'}`}>{item.comment}</Col>
         </Row>
         <div className="customers">
           <ul>

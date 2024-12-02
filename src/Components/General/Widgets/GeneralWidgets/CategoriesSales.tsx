@@ -16,10 +16,10 @@ const CategoriesSales = () => {
                         <CommonDropdown />
                     </div>
                     <Row className="mt-2">
-                        <div className="col-6 p-0">
+                        <Col xs={6} className="p-0">
                             <ReactApexChart options={CategoriesSalesChart} series={CategoriesSalesChart.series} type="donut" height={200} />
-                        </div>
-                        <div className="col-6 categories-sales">
+                        </Col>
+                        <Col xs={6} className="categories-sales">
                             {CategoriesSalesData?.map((item, index) => (
                                 <div key={index} className="d-flex gap-2">
                                     <div className="flex-shrink-0"><span className={`bg-${item.color}`}></span></div>
@@ -27,7 +27,7 @@ const CategoriesSales = () => {
                                     <h5>${item.value}</h5>
                                 </div>
                             ))}
-                        </div>
+                        </Col>
                     </Row>
                 </CardHeader>
                 <CardBody className="p-0">

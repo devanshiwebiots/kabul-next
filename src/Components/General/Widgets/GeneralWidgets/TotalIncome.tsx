@@ -8,7 +8,7 @@ const TotalIncome = () => {
         <Col lg={4}>
             <Row>
                 {TotalIncomeData?.map((item, index) => (
-                    <Col lg={12} sm={6} className="col-12 box-col-12" key={index}>
+                    <Col lg={12} sm={6} xs={12} className="box-col-12" key={index}>
                         <Card className="total-earning">
                             <CardBody className={index === 1 ? 'pb-0' : ''}>
                                 <Row>
