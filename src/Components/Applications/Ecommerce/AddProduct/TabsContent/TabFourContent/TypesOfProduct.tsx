@@ -16,8 +16,8 @@ const TypesOfProduct = () => {
       <ul className="radio-wrapper">
         {TypesOfProductData?.map((data, i) => (
           <li key={i}>
-            <Input id={data.id} type="radio" name="radio5" defaultValue="option5" />
-            <Label className="form-check-label" for={data.id}   ><span>{data.title}</span></Label>
+            <Input id={`radio-icon${data.id}`} type="radio" name="radio5" defaultValue="option5" />
+            <Label className="form-check-label" for={data.id}><span>{data.title}</span></Label>
           </li>
         ))}
       </ul>

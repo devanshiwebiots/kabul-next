@@ -2,7 +2,7 @@ import SimpleMdeReact from "react-simplemde-editor";
 import { Col } from "reactstrap";
 
 const FormEditors = () => {
-  const mdeEditorText = `Enter your messages...`;
+  const mdeEditorText = "Enter your messages...";
   
   return (
     <Col xs={12}>

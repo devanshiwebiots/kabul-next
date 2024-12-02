@@ -25,7 +25,7 @@ const ProductGallery = () => {
         {files?.map((file: ExtFile) => (
           <FileMosaic key={file.id} {...file} onDelete={removeFile} info={true} />
         ))}
-        {files.length === 0 && (
+        {files?.length === 0 && (
           <div className="dz-message needsclick">
             <SVG iconId="file-upload1" />
             <h5>{DragFilesHere}</h5>

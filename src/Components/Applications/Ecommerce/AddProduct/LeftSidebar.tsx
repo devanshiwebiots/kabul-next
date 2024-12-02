@@ -13,7 +13,7 @@ const LeftSidebar = () => {
       <Nav pills className='sidebar-left-icons border-0' tabs>
         {AddProductNav?.map((data, i) => (
           <NavItem key={i}>
-            <NavLink className='border-0' active={navId === data.id ? true : false} onClick={() => dispatch(setNavId(data.id))}>
+            <NavLink className='border-0' active={navId === (i+1) ? true : false} onClick={() => dispatch(setNavId(i+1))}>
               <div className='nav-rounded'>
                 <div className='product-icons'>
                   <SVG className='stroke-icon' iconId={data.icon} />

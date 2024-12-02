@@ -4,9 +4,9 @@ import { SetStateAction, useState } from "react";
 import { PublishDateTime } from "@/Constant";
 
 const SelectFive = () => {
-    const [startDate, setStartDate] = useState<Date | null>(new Date());
+  const [startDate, setStartDate] = useState<Date | null>(new Date());
 
-    const handleChange = (date: SetStateAction<Date | null>) => setStartDate(date);
+  const handleChange = (date: SetStateAction<Date | null>) => setStartDate(date);
 
   return (
     <Col sm={6}>

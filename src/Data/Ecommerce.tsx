@@ -1,30 +1,25 @@
 export const AddProductNav = [
     {
-      id: 1,
       icon: "product-detail",
       title: "Add Product Details",
       detail: "Add Product name & details",
     },
     {
-      id: 2,
       icon: "product-gallery",
       title: "Product gallery",
       detail: "thumbnail & Add Product Gallery",
     },
     {
-      id: 3,
       icon: "product-category",
       title: "Product Categories",
       detail: "Add Product category, Status and Tags",
     },
     {
-      id: 4,
       icon: "pricing",
       title: "Selling prices",
       detail: "Add Product basic price & Discount",
     },
     {
-      id: 5,
       icon: "advance",
       title: "Advance",
       detail: "Add Meta details & Inventory details",
@@ -35,24 +30,23 @@ export const AddProductNav = [
 
   export const TypesOfProductData = [
     {
-      id: "radio-icon",
       check: true,
       title: "Fixed Price",
     },
     {
-      id: "radio-icon4",
+      id: "4",
       title: "BOGO(Buy one, Get one)",
     },
     {
-      id: "radio-icon5",
+      id: "5",
       title: "Seasonal or holiday discount",
     },
     {
-      id: "radio-icon6",
+      id: "6",
       title: "Percentage-based discount(%)",
     },
     {
-      id: "radio-icon7",
+      id: "7",
       title: "Volume or bulk discount",
     },
   ];
