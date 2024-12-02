@@ -1,6 +1,6 @@
 import { TotalChangeData } from '@/Data/Widgets'
 import ReactApexChart from 'react-apexcharts'
-import { Card, Col, Row } from 'reactstrap'
+import { Card, CardBody, Col, Row } from 'reactstrap'
 
 const TotalChange = () => {
     return (
@@ -8,8 +8,8 @@ const TotalChange = () => {
             {TotalChangeData?.map((data, index) => (
                 <Col lg={4} md={12} className="box-col-4" key={index}>
                     <Card className="o-hidden">
-                        <div className="chart-widget-top">
-                            <Row className="card-body pb-0 m-0">
+                        <CardBody className="chart-widget-top">
+                            <Row className="pb-0 m-0">
                                 <Col xl={9} lg={8} xs={9} className="p-0">
                                     <h4 className="mb-2">{data.title}</h4>
                                     <h4>{data.value}</h4><span>Compare to last month</span>
@@ -19,7 +19,7 @@ const TotalChange = () => {
                                 </Col>
                             </Row>
                             <ReactApexChart options={data.chartOptions} series={data.chartOptions.series} type={data.chartType} height={data.chartHeight} />
-                        </div>
+                        </CardBody>
                     </Card>
                 </Col>
             ))}
