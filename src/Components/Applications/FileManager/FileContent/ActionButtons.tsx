@@ -22,7 +22,7 @@ const ActionButtons = () => {
           <Input id="upfile" type="file" multiple onChange={(e) => onFileChange(e)} />
         </div>
       </Form>
-      <Button color="secondary" className="ms-2" onClick={() => dispatch(onFileUpload(selectedFile))}><Upload />{UploadFile}</Button>
+      <Button className="ms-2" onClick={() => dispatch(onFileUpload(selectedFile))}><Upload />{UploadFile}</Button>
     </div>
   );
 };
