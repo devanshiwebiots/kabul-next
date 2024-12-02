@@ -1,3 +1,4 @@
+"use client"
 import { NoSsrProps } from "@/Types/Common";
 import dynamic from "next/dynamic";
 import React, { Fragment } from "react";
