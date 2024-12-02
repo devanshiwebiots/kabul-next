@@ -7,6 +7,7 @@ import { Toaster } from "react-hot-toast";
 import MainProvider from "./MainProvider";
 import I18nProvider from "./i18n/i18n-context";
 import detectLanguage from "./i18n/server";
+import NoSsr from "@/Utils/NoSsr";
 
 const poppins = Poppins({
     weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -38,10 +39,12 @@ const RootLayout = async ({ children }: Readonly<{ children: React.ReactNode }>)
                     <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin='' />
                 </head>
                 <body suppressHydrationWarning={true} className={`${roboto.variable} ${poppins.variable} `}>
-                    <SessionWrapper session={session}>
-                        <MainProvider>{children}</MainProvider>
-                        <Toaster />
-                    </SessionWrapper>
+                    <NoSsr>
+                        <SessionWrapper session={session}>
+                            <MainProvider>{children}</MainProvider>
+                            <Toaster />
+                        </SessionWrapper>
+                    </NoSsr>
                 </body>
             </html>
         </I18nProvider>

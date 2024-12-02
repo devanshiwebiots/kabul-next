@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export interface SvgType {
     iconId: string;
     className?: string;
@@ -46,3 +48,7 @@ export interface RatioComponent {
   alt: string;
   style?:{ height : number }
 }
+export interface NoSsrProps {
+  children: ReactNode;
+ }
+ 
