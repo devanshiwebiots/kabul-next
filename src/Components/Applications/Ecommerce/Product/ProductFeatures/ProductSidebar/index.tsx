@@ -5,6 +5,7 @@ import FilterHeader from "./FilterHeader";
 import Category from "./Category";
 import PriceRange from "./PriceRange";
 import SearchBox from "./SearchBox";
+import RatioImage from "@/CommonComponents/RatioImage";
 
 const ProductSidebar = () => {
   const { isFilter } = useAppSelector((state) => state.filterData);
@@ -21,7 +22,7 @@ const ProductSidebar = () => {
                   <Category />
                   <PriceRange />
                   <div className="product-filter text-center">
-                    <img className="img-fluid banner-product" src={`${ImagePath}/ecommerce/banner.jpg`} alt="" />
+                    <RatioImage className="img-fluid banner-product" src={`${ImagePath}/ecommerce/banner.jpg`} alt="" />
                   </div>
                 </CardBody>
               </div>

@@ -32,40 +32,40 @@ export const FilterProductData = [
 
   export const ProductSliderOne = [
     {
-      image: "01.jpg",
+      image: "01",
       title: "Woman T-shirt",
-      text: "$100.00",
+      text: "100.00",
       rowClass: "mb-4",
     },
     {
-      image: "02.jpg",
+      image: "02",
       title: "Dream Beauty Fashion",
-      text: "$150.00",
+      text: "150.00",
     },
     {
-      image: "03.jpg",
+      image: "03",
       title: "VOXATI",
-      text: "$200.00",
+      text: "200.00",
     },
   ];
   
   export const ProductSliderTwo = [
     {
-      image: "01.jpg",
+      image: "01",
       title: "Fancy Shirt",
-      text: "$100.00",
+      text: "100.00",
       rowClass: "mb-4",
     },
     {
-      image: "02.jpg",
+      image: "02",
       title: "Fancy Shirt",
-      text: "$100.00",
+      text: "100.00",
       rowClass: "mb-4",
     },
     {
-      image: "03.jpg",
+      image: "03",
       title: "Fancy Shirt",
-      text: "$100.00",
+      text: "100.00",
     },
   ];
   
@@ -346,7 +346,7 @@ export const ProductListTableData = [
     rating: 4,
   },
   {
-    image: "product_list/product-categories/chair.png",
+    image: "product_list/product-categories/1.png",
     name: "Wood Chair",
     sku: "456DF78DFQ",
     category: "Furniture",
@@ -377,7 +377,7 @@ const ProductListTableStatus: React.FC<ProductListTableProduct> = ({ name }) => 
 };
 
 const ProductListTableRating: React.FC<ProductListTableProduct> = ({ rate }) => {
-  return <Rating initialValue={rate} size={17} fillColor='#D77748' />;
+  return <Rating initialValue={rate} size={17} fillColor='#da9817' />;
 };
 
 const ProductListTableAction = () => {
