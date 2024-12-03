@@ -1,10 +1,10 @@
 import FileManagerContainer from '@/Components/Applications/FileManager'
 
-const EcommerceDashboard = () => {
+const FileManager = () => {
     return (
         <FileManagerContainer />
     )
 }
 
-export default EcommerceDashboard
+export default FileManager
 
