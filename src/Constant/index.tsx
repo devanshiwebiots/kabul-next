@@ -115,8 +115,60 @@ export const UploadProjectFiles: string = "Upload project file";
 export const Add: string = "Add";
 export const Cancel: string = "Cancel";
 
+//File Manager
+export const FileFilter: string = "File filter";
+export const Storage: string = "Storage";
+export const StorageData: string = "25 GB of 100 GB used";
+export const FREE: string = "FREE";
+export const PlanSpace: string = "100 GB Space";
+export const Selected: string = "Selected";
+export const TrialVersion: string = "Trial Version";
+export const PricingPlan: string = "Pricing Plan";
+export const AddNew: string = "Add New";
+export const UploadFile: string = "Upload";
+export const Search: string = "Search...";
+export const Files: string = "Files";
+export const QuickAccessTitle: string = "Quick Access";
+export const Folders: string = "Folders";
+
+//Ecommerce-Add Product
+export const ProductForm: string = "Product Form"
+export const ProductTitle: string ="Product Title"
+export const Previous: string = " Previous";
+export const DragFilesHere: string= "Drag files here"
+export const AddCategory: string = "Add Category";
+export const AddTag: string = "Add Tag"
+export const CreateNewCategoryHeading: string= "Create New Category"
+export const CategoryName: string= "Category Name"
+export const PublishStatus : string=" Publish Status"
+export const PublishDateTime: string = "Publish Date & Time"
+export const InitialCost: string= "Initial cost"
+export const SellingPrice: string= "Selling price"
+export const ChooseYourCurrency: string= "Choose your currency"
+export  const ProductStocks : string= "Product stocks"
+export const TypesOfProductDiscount : string= "Types of product discount"
+export const AllowBackOrders: string= "Allow Backorders"
+export const LowStock: string= "Low Stock"
+export const PreOrder: string = "Pre-Order"
+export const RestockDate : string= "Restock Date"
+export const SKU: string= "SKU"
+export const StockAvailability: string= "Stock Availability"
+export const StockQuantity: string= "Stock Quantity"
+export const AdditionalTagTitle: string = "Additional Tag Title"
+export const SpecificTags: string= "Specific Tags"
+export const AdditionalDescription: string= "Additional Description"
+export const MdeEditorText: string = "Enter your messages...";
+export const City: string = "City";
+export const WeightKg : string= "Weight (kg)"
+export const Dimensions: string= "Dimensions"
+export const ShippingClass: string= "Shipping Class"
+export const Length: string= "Length[l]"
+export const Width: string= "Width[w]"
+export const Height: string= "Height[h]"
+export const ZipCode: string = "Zip Code";
+
 //Ecommerce-Product Page
-export const ProductTitle: string = "Women Pink shirt.";
+export const ProductDetailsTitle: string = "Women Pink shirt.";
 export const ProductDetail: string = "Rock Paper Scissors Various Dots Half Sleeves Girl’s Regular Fit T-Shirt I 100% Cotton T Shirt with Half Sleeve Round Neck I Regular Wear Solid Kids Tees and Black Sleeve.";
 export const PixelStrap: string = "Pixelstrap";
 export const Availability: string = "Availability";
@@ -148,7 +200,6 @@ export const CVVNumber: string = "CVV Number";
 export const ExpirationDate: string = "Expiration Date";
 export const Submit: string = "Submit";
 export const Address: string = "Address";
-export const City: string = "City";
 export const Cod: string = "COD";
 export const EnterMobileNumber: string = "Enter mobile number";
 export const LastName: string = "Last Name";
@@ -201,6 +252,8 @@ export const Shipping= "Shipping"
 export const CashOnDelivery= "Cash On Delivery"
 export const CheckPayments= "Check Payments"
 export const Paypal: string = "Paypal";
+
+
 
 
 

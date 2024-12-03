@@ -55,8 +55,7 @@ export interface CartType {
     variants: VariantsInterface[];
     ribbonClassName?: string;
     rating: number;
-  }
-  
+  }  
   export interface ProductSliceProp {
     filterToggle: boolean;
     productItem: ProductItemInterface[];
@@ -106,3 +105,8 @@ export interface CheckoutFormType {
   pincode: string;
   check: boolean;
 }
+  export interface AddProductSliceType {
+    navId: number;
+    tabId: number;
+    formValue: any;
+  }
