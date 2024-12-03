@@ -39,7 +39,7 @@ const OrdersList: React.FC<OrderListProps> = ({ title, btnColor, btnText }) => {
                                         <div className='avaiabilty'>
                                             <div className='text-success'>In stock</div>
                                         </div>
-                                        <Badge tag='a' color="" className={`txt-${btnColor} badge-light-${btnColor}`} href={Href}>
+                                        <Badge color="" className={`txt-${btnColor} badge-light-${btnColor}`} >
                                             {btnText}
                                         </Badge>
                                         <X className='close' onClick={() => deleteHandler(item.id)} />

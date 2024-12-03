@@ -1,5 +1,5 @@
 import { Card, CardBody, Col } from "reactstrap";
-import { ProductDetail, ProductTitle } from "@/Constant";
+import { ProductDetail, ProductDetailsTitle } from "@/Constant";
 import { useAppSelector } from "@/Redux/Hooks";
 import ProductColor from "./ProductColor";
 import ProductTable from "./ProductTable";
@@ -16,7 +16,7 @@ const ProductDetails = () => {
       <Card>
         <CardBody>
           <div className="product-page-details">
-            <h3 className="f-w-600">{ProductTitle}</h3>
+            <h3 className="f-w-600">{ProductDetailsTitle}</h3>
           </div>
           <div className="product-price">
             {symbol}26.00<del>{symbol}350.00</del>
