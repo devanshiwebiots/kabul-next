@@ -5,6 +5,7 @@ import HeaderBookmarkSlice from "./Reducer/Layout/HeaderBookmarkSlice";
 import CartSlice from "./Reducer/CartSlice";
 import FileManagerSlice from "./Reducer/FileManagerSlice";
 import AddProductSlice from "./Reducer/AddProductSlice";
+import ProjectSlice from "./Reducer/ProjectSlice";
 
 const Store = configureStore({
   reducer:{
@@ -14,6 +15,7 @@ const Store = configureStore({
     cartData: CartSlice,
     fileManager: FileManagerSlice,    
     addProduct: AddProductSlice,
+    project: ProjectSlice,
   }
 });
 

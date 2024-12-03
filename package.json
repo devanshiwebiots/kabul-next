@@ -14,6 +14,7 @@
     "@react-jvectormap/world": "^1.1.2",
     "@reduxjs/toolkit": "^2.3.0",
     "@types/js-cookie": "^3.0.6",
+    "@types/react-slick": "^0.23.13",
     "accept-language": "^3.0.20",
     "apexcharts": "^4.0.0",
     "bootstrap": "^5.3.3",
@@ -28,7 +29,7 @@
     "next": "15.0.3",
     "next-auth": "^4.24.10",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-apexcharts": "^1.5.0",
+    "react-apexcharts": "^1.6.0",
     "react-bootstrap-typeahead": "^6.3.4",
     "react-datepicker": "^7.5.0",
     "react-dom": "19.0.0-rc-66855b96-20241106",
@@ -37,9 +38,11 @@
     "react-i18next": "^15.1.1",
     "react-redux": "^9.1.2",
     "react-simplemde-editor": "^5.2.0",
+    "react-slick": "^0.30.2",
     "reactstrap": "^9.2.3",
     "sass": "^1.81.0",
     "simplebar-react": "^3.2.6",
+    "slick-carousel": "^1.8.1",
     "yup": "^1.4.0"
   },
   "devDependencies": {

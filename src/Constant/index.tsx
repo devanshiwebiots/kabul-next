@@ -59,6 +59,62 @@ export const Rating: string = "Over All Rating";
 export const ProjectDelivery: string = "Project Deliveries";
 export const Audit: string = "Audit Log";
 
+//Widgets-General
+export const CategoriesBySales: string = "Categories By Sales";
+export const ProjectCreate: string = "Project Created";
+export const BudgetHeader: string = "Budget";
+export const Order: string = "Order Overview";
+export const MonthlySale: string = "Monthly Sale";
+export const Invoices: string = "Invoices";
+export const ActiveTasks: string = "Active Task";
+
+//Widgets-Chart
+export const SaleOverview: string = "Sales Overview";
+export const MonthHistory: string = "Monthly History";
+export const LiveProducts: string = "Live Products";
+export const TurnOver: string = "Turn Over";
+export const CryptocurrencyPrices: string = "Cryptocurrency Prices";
+export const CryptoAnnotations: string = "Crypto Annotations";
+export const StockMarket: string = "Stock Market";
+export const Finance: string = "Finance";
+export const OrderStatus: string = "Order Status";
+export const MonthlySales: string = "Monthly Sales";
+export const Uses: string = "Uses";
+
+//Project
+export const All: string = "All";
+export const Doing: string = "Doing";
+export const Done: string = "Done";
+export const CreateNewProject: string = "Create New Project";
+export const Issues: string = "Issues";
+export const Resolved: string = "Resolved";
+export const Comment: string = "Comment";
+export const ProjectTitle: string = "Project Title";
+export const ProjectTitlePlaceholder: string = "Project name *";
+export const ClientName: string = "Client name";
+export const ClientNamePlaceholder: string = "Name client or company name";
+export const ProjectRate: string = "Project Rate";
+export const ProjectRatePlaceholder: string = "Enter project Rate";
+export const ProjectType: string = "Project Type";
+export const Hourly: string = "Hourly";
+export const FixPrice: string = "Fix price";
+export const Low: string = "Low";
+export const Medium: string = "Medium";
+export const High: string = "High";
+export const Urgent: string = "Urgent";
+export const Priority: string = "Priority";
+export const PriorityPlaceholder: string = "Select Status";
+export const ProjectSize: string = "Project Size";
+export const ProjectSizePlaceholder: string = "Select Issues";
+export const Small: string = "Small";
+export const Big: string = "Big";
+export const StartingDate: string = "Starting date";
+export const EndingDate: string = "Ending date";
+export const EnterSomeDetails: string = "Enter some Details";
+export const UploadProjectFiles: string = "Upload project file";
+export const Add: string = "Add";
+export const Cancel: string = "Cancel";
+
 //File Manager
 export const FileFilter: string = "File filter";
 export const Storage: string = "Storage";
@@ -74,10 +130,6 @@ export const Search: string = "Search...";
 export const Files: string = "Files";
 export const QuickAccessTitle: string = "Quick Access";
 export const Folders: string = "Folders";
-
-//Project
-export const Add: string = "Add";
-export const Cancel: string = "Cancel";
 
 //Ecommerce
 export const ProductForm: string = "Product Form"
@@ -114,6 +166,25 @@ export const Length: string= "Length[l]"
 export const Width: string= "Width[w]"
 export const Height: string= "Height[h]"
 export const ZipCode: string = "Zip Code";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
