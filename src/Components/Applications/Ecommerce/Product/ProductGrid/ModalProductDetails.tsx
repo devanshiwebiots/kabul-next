@@ -9,14 +9,14 @@ const ModalProductDetails: React.FC<ModalProductDetailsProp> = ({ singleProduct 
   const { symbol } = useAppSelector((state) => state.product)
   return (
     <>
-      <h4>{singleProduct.category}</h4>
+      <h4>{singleProduct?.category}</h4>
       <div className="product-price fs-4 mb-3">
-        {symbol}{singleProduct.price}
-        <del className="f-w-700 fs-5 ms-1">{symbol}{singleProduct.discountPrice}</del>
+        {symbol}{singleProduct?.price}
+        <del className="f-w-700 fs-5 ms-1">{symbol}{singleProduct?.discountPrice}</del>
       </div>
       <div className="product-view product-modal-line">
         <h4 className="f-w-600">{ProductDetails}</h4>
-        <p className="mb-0">{singleProduct.description}</p>
+        <p className="mb-0">{singleProduct?.description}</p>
       </div>
       <div className="product-size mt-3 mb-2">
         <ul className="d-flex">

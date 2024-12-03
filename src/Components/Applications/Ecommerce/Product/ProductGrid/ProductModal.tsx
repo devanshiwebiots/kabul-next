@@ -12,7 +12,7 @@ const ProductModal: React.FC<ProductModalInterfaceType> = ({ value, setOpenModal
   const [open, setOpen] = useState(value);
   const { productItem } = useAppSelector((state) => state.product);
   const [quantity, setQuantity] = useState<number>(1);
-  const [singleProduct, setSingleProduct] = useState<ProductItemInterface | undefined | [] | any>([]);
+  const [singleProduct, setSingleProduct] = useState<ProductItemInterface>();
 
   useEffect(() => {
     productItem.forEach((product: ProductItemInterface) => {
@@ -31,13 +31,13 @@ const ProductModal: React.FC<ProductModalInterfaceType> = ({ value, setOpenModal
         <Button close onClick={onCloseModal}></Button>
         <Row className="product-box">
           <Col lg={6} className="product-img">
-            <RatioImage className="img-fluid" src={`${ImagePath}/ecommerce/${singleProduct.image}`} alt="image" />
+            <RatioImage className="img-fluid" src={`${ImagePath}/ecommerce/${singleProduct?.image}`} alt="image" />
           </Col>
           <Col lg={6} className="product-details text-start p-1">
-            <ModalProductDetails singleProduct={singleProduct} />
+            {singleProduct && <ModalProductDetails singleProduct={singleProduct} />}
             <div className="product-qnty">
               <ModalQuantity quantity={quantity} setQuantity={setQuantity} />
-              <ModalButtons singleProduct={singleProduct} quantity={quantity} />
+              {singleProduct && <ModalButtons singleProduct={singleProduct} quantity={quantity} />}
             </div>
           </Col>
         </Row>

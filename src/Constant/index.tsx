@@ -115,6 +115,22 @@ export const UploadProjectFiles: string = "Upload project file";
 export const Add: string = "Add";
 export const Cancel: string = "Cancel";
 
+//File Manager
+export const FileFilter: string = "File filter";
+export const Storage: string = "Storage";
+export const StorageData: string = "25 GB of 100 GB used";
+export const FREE: string = "FREE";
+export const PlanSpace: string = "100 GB Space";
+export const Selected: string = "Selected";
+export const TrialVersion: string = "Trial Version";
+export const PricingPlan: string = "Pricing Plan";
+export const AddNew: string = "Add New";
+export const UploadFile: string = "Upload";
+export const Search: string = "Search...";
+export const Files: string = "Files";
+export const QuickAccessTitle: string = "Quick Access";
+export const Folders: string = "Folders";
+
 //Ecommerce-Add Product
 export const ProductForm: string = "Product Form"
 export const ProductTitle: string ="Product Title"
@@ -181,20 +197,8 @@ export const ExploreShortlistItems: string = "Explore Short list Items";
 //Ecommerce-Product List
 export const SearchTableButton: string = "Search";
 export const AddProduct: string = "Add Product";
-export const FileFilter: string = "File filter";
-export const Storage: string = "Storage";
-export const StorageData: string = "25 GB of 100 GB used";
-export const FREE: string = "FREE";
-export const PlanSpace: string = "100 GB Space";
-export const Selected: string = "Selected";
-export const TrialVersion: string = "Trial Version";
-export const PricingPlan: string = "Pricing Plan";
-export const AddNew: string = "Add New";
-export const UploadFile: string = "Upload";
-export const Search: string = "Search...";
-export const Files: string = "Files";
-export const QuickAccessTitle: string = "Quick Access";
-export const Folders: string = "Folders";
+
+
 
 
 
