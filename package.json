@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dropzone-ui/react": "^7.0.4",
     "@react-jvectormap/core": "^1.0.4",
     "@react-jvectormap/world": "^1.1.2",
     "@reduxjs/toolkit": "^2.3.0",
@@ -27,7 +28,8 @@
     "next": "15.0.3",
     "next-auth": "^4.24.10",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-apexcharts": "^1.5.0",
+    "react-apexcharts": "^1.6.0",
+    "react-datepicker": "^7.5.0",
     "react-data-table-component": "^7.6.2",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-feather": "^2.0.10",

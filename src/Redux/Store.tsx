@@ -5,6 +5,7 @@ import HeaderBookmarkSlice from "./Reducer/Layout/HeaderBookmarkSlice";
 import CartSlice from "./Reducer/CartSlice";
 import ProductSlice from "./Reducer/ProductSlice";
 import FilterSlice from "./Reducer/FilterSlice";
+import ProjectSlice from "./Reducer/ProjectSlice";
 
 const Store = configureStore({
   reducer:{
@@ -14,6 +15,7 @@ const Store = configureStore({
     cartData: CartSlice,
     product: ProductSlice,
     filterData: FilterSlice,
+    project: ProjectSlice,
   }
 });
 
