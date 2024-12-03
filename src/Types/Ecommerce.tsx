@@ -53,10 +53,14 @@ export interface CartType {
     variants: VariantsInterface[];
     ribbonClassName?: string;
     rating: number;
-  }
-  
+  }  
   export interface ProductSliceProp {
     filterToggle: boolean;
     productItem: ProductItemInterface[];
     symbol: string;
+  }
+  export interface AddProductSliceType {
+    navId: number;
+    tabId: number;
+    formValue: any;
   }
