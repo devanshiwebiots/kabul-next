@@ -1,7 +1,5 @@
-import { Href } from "@/Constant";
 import { useAppDispatch } from "@/Redux/Hooks";
 import { setColView, setListView } from "@/Redux/Reducer/FilterSlice";
-import Link from "next/link";
 import { Grid, List } from "react-feather";
 
 const GridAndListView = () => {
@@ -17,14 +15,14 @@ const GridAndListView = () => {
   return (
     <>
       <div className="square-product-setting d-inline-block">
-        <Link className="icon-grid grid-layout-view" href={Href} onClick={gridLayout}>
+        <div className="icon-grid grid-layout-view" onClick={gridLayout}>
           <Grid />
-        </Link>
+        </div>
       </div>
       <div className="square-product-setting d-inline-block">
-        <Link className="icon-grid m-0 list-layout-view" href={Href} onClick={listLayout}>
+        <div className="icon-grid m-0 list-layout-view" onClick={listLayout}>
           <List />
-        </Link>
+        </div>
       </div>
     </>
   );

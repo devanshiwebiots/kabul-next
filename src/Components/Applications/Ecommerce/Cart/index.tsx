@@ -2,7 +2,7 @@
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { Cart } from "@/Constant";
 import { Card, CardBody, Col, Container } from "reactstrap";
-import CartData from "./CartData";
+import TableData from "./TableData";
 
 const CartContainer = () => {
   return (
@@ -11,7 +11,7 @@ const CartContainer = () => {
         <Card>
           <CommonCardHeader title={Cart} />
           <CardBody>
-            <CartData />
+            <TableData />
           </CardBody>
         </Card>
       </Col>

@@ -3,15 +3,14 @@ import { decrementData, incrementData } from "@/Redux/Reducer/CartSlice";
 import { CartQuantityButtonProp, CartType } from "@/Types/Ecommerce";
 import { Button, Input, InputGroup } from "reactstrap";
 
-export const CartQuantityButton: React.FC<CartQuantityButtonProp> = ({ item }) => {
+const QuantityButton: React.FC<CartQuantityButtonProp> = ({ item }) => {
   const dispatch = useAppDispatch();
-
   const incrementQty = (product: CartType, quantity: number) => dispatch(incrementData({ item: product, quantity: quantity }));
   const decrementQuantity = (id: number) => dispatch(decrementData(id));
 
   return (
     <td>
-      <fieldset className="qty-box w-50 border-0">
+      <fieldset className="qty-box">
         <InputGroup className="d-flex flex-nowrap">
           <Button color="primary" className="btn-square bootstrap-touchspin-down" onClick={() => decrementQuantity(item.id)}>
             <i className="fa fa-minus"></i>
@@ -25,3 +24,5 @@ export const CartQuantityButton: React.FC<CartQuantityButtonProp> = ({ item }) =
     </td>
   );
 };
+
+export default QuantityButton;

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { getallCardTotal } from '@/Utils/EcommerceService';
 import { Routes } from '@/Utils/Routes';
 
-const CartAction = () => {
+const Actions = () => {
   const { cart } = useAppSelector((state) => state.cartData);
   const { symbol } = useAppSelector((state) => state.product);
 
@@ -34,4 +34,4 @@ const CartAction = () => {
   );
 };
 
-export default CartAction;
+export default Actions;

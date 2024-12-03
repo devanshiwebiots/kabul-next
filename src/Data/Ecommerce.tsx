@@ -8,67 +8,67 @@ import { Rating } from "react-simple-star-rating";
 import { Badge } from "reactstrap";
 
 export const FilterProductData = [
-    {
-      id: 2,
-      colClass: "col-xl-6 col-sm-6",
-      filterData: ["1", "2"],
-    },
-    {
-      id: 3,
-      colClass: "col-xl-4 col-sm-4",
-      filterData: ["3", "4", "5"],
-    },
-    {
-      id: 4,
-      colClass: "col-xl-3 col-sm-3",
-      filterData: ["6", "7", "8", "9"],
-    },
-    {
-      id: 6,
-      colClass: "col-xl-2 col-md-4 col-sm-5",
-      filterData: ["10", "11", "12", "13", "14", "15"],
-    },
-  ];
+  {
+    id: 2,
+    colClass: "col-xl-6 col-sm-6",
+    filterData: ["1", "2"],
+  },
+  {
+    id: 3,
+    colClass: "col-xl-4 col-sm-4",
+    filterData: ["3", "4", "5"],
+  },
+  {
+    id: 4,
+    colClass: "col-xl-3 col-sm-3",
+    filterData: ["6", "7", "8", "9"],
+  },
+  {
+    id: 6,
+    colClass: "col-xl-2 col-md-4 col-sm-5",
+    filterData: ["10", "11", "12", "13", "14", "15"],
+  },
+];
 
-  export const ProductSliderOne = [
-    {
-      image: "01",
-      title: "Woman T-shirt",
-      text: "100.00",
-      rowClass: "mb-4",
-    },
-    {
-      image: "02",
-      title: "Dream Beauty Fashion",
-      text: "150.00",
-    },
-    {
-      image: "03",
-      title: "VOXATI",
-      text: "200.00",
-    },
-  ];
-  
-  export const ProductSliderTwo = [
-    {
-      image: "01",
-      title: "Fancy Shirt",
-      text: "100.00",
-      rowClass: "mb-4",
-    },
-    {
-      image: "02",
-      title: "Fancy Shirt",
-      text: "100.00",
-      rowClass: "mb-4",
-    },
-    {
-      image: "03",
-      title: "Fancy Shirt",
-      text: "100.00",
-    },
-  ];
-  
+export const ProductSliderOne = [
+  {
+    image: "01",
+    title: "Woman T-shirt",
+    text: "100.00",
+    rowClass: "mb-4",
+  },
+  {
+    image: "02",
+    title: "Dream Beauty Fashion",
+    text: "150.00",
+  },
+  {
+    image: "03",
+    title: "VOXATI",
+    text: "200.00",
+  },
+];
+
+export const ProductSliderTwo = [
+  {
+    image: "01",
+    title: "Fancy Shirt",
+    text: "100.00",
+    rowClass: "mb-4",
+  },
+  {
+    image: "02",
+    title: "Fancy Shirt",
+    text: "100.00",
+    rowClass: "mb-4",
+  },
+  {
+    image: "03",
+    title: "Fancy Shirt",
+    text: "100.00",
+  },
+];
+
 export const CartTableHeader = ["Product", "Product Name", "Price", "Quantity", "Action", "Total"];
 
 export const FiltersData = [
@@ -93,6 +93,12 @@ export const FiltersData = [
     options: ["56000.00", "19000.00", "10000.00", "15000.00", "99000.00"],
   },
 ];
+
+export const Settings = {
+  slidesToShow: 1,
+  arrows: true,
+  dots: false,
+};
 
 export const ProductListTableData = [
   {
@@ -361,7 +367,7 @@ const ProductListTableProductName: React.FC<ProductListTableProduct> = ({ images
   return (
     <div className='product-names my-2'>
       <div className='light-product-box bg-img-cover'>
-        <RatioImage className='img-fluid' src={`${ImagePath}/${images}`} alt='laptop' />
+        <RatioImage className='img-fluid' src={`${ImagePath}/${images}`} alt='product' />
       </div>
       <p>{name}</p>
     </div>

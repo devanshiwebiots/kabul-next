@@ -3,7 +3,7 @@ import { CartEmpty, ExploreShortlistItems } from "@/Constant";
 
 const EmptyCart = () => {
   return (
-      <section className="cart-section section-b-space p-5">
+      <div className="cart-section section-b-space p-5">
         <Container fluid>
           <Row>
             <Col sm={12}>
@@ -18,7 +18,7 @@ const EmptyCart = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </div>
   );
 };
 

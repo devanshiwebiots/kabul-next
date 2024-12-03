@@ -1,6 +1,6 @@
 import { CartTableHeader } from "@/Data/Ecommerce";
 
-const CartTableHead = () => {
+const TableHead = () => {
   return (
     <thead>
       <tr>
@@ -12,4 +12,4 @@ const CartTableHead = () => {
   );
 };
 
-export default CartTableHead;
+export default TableHead;
