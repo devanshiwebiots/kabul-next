@@ -17,7 +17,7 @@ const TypesOfProduct = () => {
         {TypesOfProductData?.map((data, i) => (
           <li key={i}>
             <Input id={`radio-icon${data.id}`} type="radio" name="radio5" defaultValue="option5" />
-            <Label className="form-check-label" for={data.id}><span>{data.title}</span></Label>
+            <Label check for={data.id}><span>{data.title}</span></Label>
           </li>
         ))}
       </ul>

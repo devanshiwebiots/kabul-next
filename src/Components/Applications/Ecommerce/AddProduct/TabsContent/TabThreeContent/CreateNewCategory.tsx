@@ -11,7 +11,7 @@ const CreateNewCategory = () => {
   return (
     <Col xs={12}>
       <div className="category-buton">
-        <Button color="transparent" tag="a" className="bg-light-primary font-primary" href={Href} onClick={toggle}>
+        <Button color="transparent"  className="bg-light-primary font-primary"  onClick={toggle}>
           <i className="me-2 fa fa-plus"> </i>{CreateNewCategoryHeading}
         </Button>
       </div>
