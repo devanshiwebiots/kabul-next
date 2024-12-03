@@ -131,7 +131,7 @@ export const Files: string = "Files";
 export const QuickAccessTitle: string = "Quick Access";
 export const Folders: string = "Folders";
 
-//Ecommerce
+//Ecommerce-Add Product
 export const ProductForm: string = "Product Form"
 export const ProductTitle: string ="Product Title"
 export const Previous: string = " Previous";
@@ -145,7 +145,7 @@ export const PublishDateTime: string = "Publish Date & Time"
 export const InitialCost: string= "Initial cost"
 export const SellingPrice: string= "Selling price"
 export const ChooseYourCurrency: string= "Choose your currency"
-export  const ProductStocks : string= "Product stocks"
+export const ProductStocks : string= "Product stocks"
 export const TypesOfProductDiscount : string= "Types of product discount"
 export const AllowBackOrders: string= "Allow Backorders"
 export const LowStock: string= "Low Stock"
@@ -166,6 +166,40 @@ export const Length: string= "Length[l]"
 export const Width: string= "Width[w]"
 export const Height: string= "Height[h]"
 export const ZipCode: string = "Zip Code";
+
+//Ecommerce-Product
+export const Filters: string = "Filters";
+export const Brand: string = "Brand";
+export const Colors: string = "Colors";
+export const Categorys: string = "Category";
+export const NewProducts: string = "New Products";
+export const Price: string = "Price";
+export const STEP: number = 10;
+export const MIN: number = 10;
+export const MAX: number = 1250;
+export const AddToCartButton: string = "Add to Cart";
+export const ViewDetails: string = "View Details";
+export const ProductDetails: string = "Product Details";
+export const Quantity: string = "Quantity";
+export const Featured: string = "Featured";
+export const LowestPrices: string = "Lowest Prices";
+export const HighestPrices: string = "Highest Prices";
+export const ProductShown: string = "Showing Products 1 - 24 Of 200 Results";
+
+//Ecommerce-Cart
+export const Apply: string = "Apply";
+export const TotalPrice: string = "Total Price";
+export const ContinueShopping: string = "continue shopping";
+export const CheckOut: string = " check out";
+export const CartEmpty: string = "Cart Empty";
+export const ExploreShortlistItems: string = "Explore Short list Items";
+
+//Ecommerce-Product List
+export const SearchTableButton: string = "Search";
+export const AddProduct: string = "Add Product";
+
+
+
 
 
 
