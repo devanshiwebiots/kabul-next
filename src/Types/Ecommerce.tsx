@@ -61,7 +61,6 @@ export interface CartType {
     productItem: ProductItemInterface[];
     symbol: string;
   }
-
   interface VariantsInterface {
     color: string;
     images: string;
@@ -144,4 +143,9 @@ export interface CartType {
     images?: string;
     name?: string;
     rate?: number;
+  }
+  export interface AddProductSliceType {
+    navId: number;
+    tabId: number;
+    formValue: any;
   }
