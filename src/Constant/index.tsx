@@ -145,7 +145,7 @@ export const PublishDateTime: string = "Publish Date & Time"
 export const InitialCost: string= "Initial cost"
 export const SellingPrice: string= "Selling price"
 export const ChooseYourCurrency: string= "Choose your currency"
-export  const ProductStocks : string= "Product stocks"
+export const ProductStocks : string= "Product stocks"
 export const TypesOfProductDiscount : string= "Types of product discount"
 export const AllowBackOrders: string= "Allow Backorders"
 export const LowStock: string= "Low Stock"
@@ -167,6 +167,37 @@ export const Width: string= "Width[w]"
 export const Height: string= "Height[h]"
 export const ZipCode: string = "Zip Code";
 
+//Ecommerce-Product
+export const Filters: string = "Filters";
+export const Brand: string = "Brand";
+export const Colors: string = "Colors";
+export const Categorys: string = "Category";
+export const NewProducts: string = "New Products";
+export const Price: string = "Price";
+export const STEP: number = 10;
+export const MIN: number = 10;
+export const MAX: number = 1250;
+export const AddToCartButton: string = "Add to Cart";
+export const ViewDetails: string = "View Details";
+export const ProductDetails: string = "Product Details";
+export const Quantity: string = "Quantity";
+export const Featured: string = "Featured";
+export const LowestPrices: string = "Lowest Prices";
+export const HighestPrices: string = "Highest Prices";
+export const ProductShown: string = "Showing Products 1 - 24 Of 200 Results";
+
+//Ecommerce-Cart
+export const Apply: string = "Apply";
+export const TotalPrice: string = "Total Price";
+export const ContinueShopping: string = "continue shopping";
+export const CheckOut: string = " check out";
+export const CartEmpty: string = "Cart Empty";
+export const ExploreShortlistItems: string = "Explore Short list Items";
+
+//Ecommerce-Product List
+export const SearchTableButton: string = "Search";
+export const AddProduct: string = "Add Product";
+
 //Ecommerce-Product Page
 export const ProductDetailsTitle: string = "Women Pink shirt.";
 export const ProductDetail: string = "Rock Paper Scissors Various Dots Half Sleeves Girl’s Regular Fit T-Shirt I 100% Cotton T Shirt with Half Sleeve Round Neck I Regular Wear Solid Kids Tees and Black Sleeve.";
@@ -177,7 +208,6 @@ export const Seller: string = "Seller";
 export const ABC: string = "ABC";
 export const Fabric: string = "Fabric";
 export const Cotton: string = "Cotton";
-export const Brand: string = "Brand";
 export const ShareIt: string = "share it";
 export const RateNow: string = "Rate Now";
 export const AddToCart: string = "Add To Cart";
@@ -218,7 +248,6 @@ export const Processing: string = "Processing";
 export const CancelledOrder: string = "Cancelled Orders";
 export const Cancelled: string = "Cancelled";
 export const OrdersHistory: string = "Orders History";
-export const SearchTableButton: string = "Search";
 export const Shipped: string = "Shipped";
 export const ShippedOrder: string = "Shipped Orders";
 
@@ -252,6 +281,10 @@ export const Shipping= "Shipping"
 export const CashOnDelivery= "Cash On Delivery"
 export const CheckPayments= "Check Payments"
 export const Paypal: string = "Paypal";
+
+
+
+
 
 
 

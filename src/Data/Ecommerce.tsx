@@ -347,6 +347,48 @@ export const WhishListProduct = [
     image: "5",
   },
 ];
+export const ProductListTableDataColumn = [
+  {
+    name: "Product Name",
+    cell: (row: ProductListTableDataColumnType) => <ProductListTableProductName images={row.image} name={row.name} />,
+    sortable: true,
+    grow: 2,
+  },
+  {
+    name: "SKU",
+    selector: (row: ProductListTableDataColumnType) => `${row.sku}`,
+    sortable: true,
+  },
+  {
+    name: "Category",
+    selector: (row: ProductListTableDataColumnType) => `${row.category}`,
+    sortable: true,
+  },
+  {
+    name: "Price",
+    selector: (row: ProductListTableDataColumnType) => `${row.price}`,
+    sortable: true,
+  },
+  {
+    name: "Qty",
+    selector: (row: ProductListTableDataColumnType) => `${row.quantity}`,
+    sortable: true,
+  },
+  {
+    name: "Status",
+    cell: (row: ProductListTableDataColumnType) => <ProductListTableStatus name={row.status} />,
+  },
+  {
+    name: "Rating",
+    cell: (row: ProductListTableDataColumnType) => <ProductListTableRating rate={row.rating} />,
+  },
+  {
+    name: "Action",
+    cell: () => <ProductListTableAction />,
+  },
+];
+
+export const ProductSizeArray: string[] = ["M", "L", "Xl"];
 export const AddProductNav = [
     {
       icon: "product-detail",
