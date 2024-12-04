@@ -64,3 +64,7 @@ export interface CartType {
     tabId: number;
     formValue: any;
   }
+
+  export interface InvoicePrintType {
+    handlePrint?: VoidFunction;
+  }

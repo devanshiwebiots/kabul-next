@@ -131,7 +131,7 @@ export const Files: string = "Files";
 export const QuickAccessTitle: string = "Quick Access";
 export const Folders: string = "Folders";
 
-//Ecommerce
+//Ecommerce-Add Product
 export const ProductForm: string = "Product Form"
 export const ProductTitle: string ="Product Title"
 export const Previous: string = " Previous";
@@ -167,13 +167,51 @@ export const Width: string= "Width[w]"
 export const Height: string= "Height[h]"
 export const ZipCode: string = "Zip Code";
 
+//Ecommerce-Pricing
+export const BecomeMembers: string = "Become Member";
+export const SignUp: string = "Sign Up";
+export const SimplePricingCards: string = "Simple Pricing Card";
+export const Purchase: string = "Purchase";
 
-
-
-
-
-
-
+//Ecommerce-Invoices
+export const PrintInvoice: string = "Print Invoice";
+export const AmountDus: string = "Amount Dus (USD)";
+export const BilledTo: string = "Billed To";
+export const InvoiceDate: string = "Invoice Date";
+export const InvoiceNumber: string = "Invoice Number";
+export const BerlinMatchettVandelayGroupLTD: string = "Berlin Matchett Vandelay Group LTD";
+export const UnitedStateTitleText: string = "2118 Thornridge Cir. Syracuse, Connecticut 35624, United State";
+export const AuthorizedSign: string = "Authorized Sign";
+export const Subtotal: string = "Subtotal";
+export const Description: string = "Description";
+export const Rate: string = "Rate";
+export const Qty: string = "Qty";
+export const LineTotal: string = "Line Total";
+export const Download: string = "Download";
+export const ContactNo= "Contact No"
+export const Email: string = "Email";
+export const Website: string = "Website";
+export const Date: string = "Date";
+export const InvoiceNo: string = "Invoice No.";
+export const PaymentStatus: string = "Payment Status";
+export const TotalAmount: string = "Total Amount";
+export const BillingAddress: string = "BILLING ADDRESS";
+export const ShippingAddress: string = "SHIPPING ADDRESS";
+export const Phone: string = "Phone";
+export const Vat: string = "Vat";
+export const ShippingRate: string = "ShippingRate";
+export const BankTransfer: string = "BANK TRANSFER";
+export const BankAccount: string = "Bank Account";
+export const TotalAmounts: string = "TOTAL AMOUNT";
+export const AllTaxesIncluded: string = "All Taxes included";
+export const Code: string = "Code";
+export const ClientDetails: string = "CLIENT DETAILS";
+export const Invoice: string = "Invoice";
+export const InvoiceTo: string = "Invoice to";
+export const Tax: string = "Tax";
+export const Discount: string = "Discount";
+export const TotalDue: string = "Total Due";
+export const PaymentTeams: string = "Payment Teams";
 
 
 
