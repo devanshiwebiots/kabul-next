@@ -6,7 +6,7 @@ const InvoiceTableBody = () => {
       {InvoiceFourData.map((data, i) => (
         <tr key={i}>
           <td style={{ padding: 30 }}>
-            <h4 style={{ fontWeight: 600, margin: "4px 0px", fontSize: 16, color: "var(--theme-default)" }}>{data.title}</h4>
+            <h4 style={{ fontWeight: 600, margin: "4px 0px", fontSize: 16, color: "#000248" }}>{data.title}</h4>
             <span style={{ opacity: "0.8", fontSize: 16 }}>{data.detail}</span>
           </td>
           <td style={{ width: "12%", textAlign: "center" }}>

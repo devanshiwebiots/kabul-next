@@ -1,10 +1,9 @@
 "use client";
-import { Card, CardBody, Container, Table } from "reactstrap";
-import InvoiceFourHeader from "./InvoiceFourHeader";
+import ActionButtons from "../Common/ActionButtons";
 import InvoiceFourDetail from "./InvoiceFourDetail";
+import InvoiceFourHeader from "./InvoiceFourHeader";
 import InvoiceFourTable from "./InvoiceFourTable";
 import InvoiceTotal from "./InvoiceTotal";
-import ActionButtons from "../Common/ActionButtons";
 
 const InvoiceFourContainer = () => {
   return (
@@ -20,7 +19,7 @@ const InvoiceFourContainer = () => {
           <InvoiceFourTable />
         </tr>
         <tr>
-          <td style={{ height: "3px", width: "100%", padding: "0", background: "linear-gradient(90deg, #2A5699 20.61%, rgba(111, 90, 153, 0) 103.6%)", display: "block", marginTop: 6 }}></td>
+          <td style={{ height: "3px", width: "100%", padding: "0", background: "linear-gradient(90deg, #678f44 20.61%, rgba(111, 90, 153, 0) 103.6%)", display: "block", marginTop: 6 }}></td>
         </tr>
         <tr>
           <InvoiceTotal />

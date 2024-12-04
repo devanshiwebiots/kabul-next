@@ -15,10 +15,7 @@ const InvoiceOneContainer = () => {
 
   return (
     <div ref={contentRef}>
-      {/* <Container>
-          <Card className="invoice-1">
-            <CardBody> */}
-      <Table className="table-wrapper" borderless>
+      <table className="table-wrapper">
         <tbody>
           <tr><Invoice1Header /></tr>
           <tr><BackImage /></tr>
@@ -28,10 +25,7 @@ const InvoiceOneContainer = () => {
         <tbody>
           <Sign handlePrint={handlePrint} />
         </tbody>
-      </Table>
-      {/* </CardBody>
-          </Card>
-        </Container> */}
+      </table>
     </div>
   );
 };

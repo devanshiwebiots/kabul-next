@@ -6,7 +6,7 @@ import { InvoiceTableHeader } from "@/Data/Ecommerce";
 const InvoiceFourTable = () => {
   return (
     <td>
-      <Table className="table-responsive" style={{ width: "100%", borderSpacing: 0 }}>
+      <table style={{ width: "100%", borderSpacing: 0 }}>
         <thead>
           <tr style={{ background: "var(--theme-default)" }}>
             {InvoiceTableHeader?.map((data, i) => (
@@ -19,7 +19,7 @@ const InvoiceFourTable = () => {
         <tbody>
           <InvoiceTableBody />
         </tbody>
-      </Table>
+      </table>
     </td>
   );
 };

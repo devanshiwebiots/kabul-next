@@ -1,18 +1,14 @@
 'use client';
-import { Card, CardBody, Container, Table } from "reactstrap";
-import Invoice2Header from "./Invoice2Header";
-import Invoice2Details from "./Invoice2Details";
+import ActionButtons from "../Common/ActionButtons";
 import Invoice2Billing from "./Invoice2Billing";
 import Invoice2Content from "./Invoice2Content";
+import Invoice2Details from "./Invoice2Details";
+import Invoice2Header from "./Invoice2Header";
 import Invoice2Total from "./Invoice2Total";
-import ActionButtons from "../Common/ActionButtons";
 
 const InvoiceTwoContainer = () => {
   return (
-    // <Container className="invoice-2">
-    //   <Card>
-    //     <CardBody>
-    <Table style={{ width: "1070px", margin: "0 auto" }} className="table-wrapper table-responsive theme-scrollbar" borderless>
+    <table style={{ width: "1070px", margin: "0 auto" }} >
       <tbody>
         <tr><Invoice2Header /></tr>
         <tr><Invoice2Details /></tr>
@@ -28,11 +24,7 @@ const InvoiceTwoContainer = () => {
           <td><ActionButtons /></td>
         </tr>
       </tbody>
-    </Table>
-    //     </CardBody>
-    //   </Card>
-    // </Container>
-
+    </table>
   );
 };
 
