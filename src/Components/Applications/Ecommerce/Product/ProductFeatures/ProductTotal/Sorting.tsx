@@ -14,7 +14,7 @@ const Sorting = () => {
     <Col md={6} className="text-sm-end">
       <span className="f-w-600 m-r-5">{ProductShown}</span>
       <div className="select2-drpdwn-product select-options d-inline-block" onChange={filterSort}>
-        <Input type="select" className="form-control btn-square shadow-none" name="select">
+        <Input type="select" className="btn-square shadow-none" name="select">
           <option value="Featured">{Featured}</option>
           <option value="LowestPrices">{LowestPrices}</option>
           <option value="HighestPrices">{HighestPrices}</option>
