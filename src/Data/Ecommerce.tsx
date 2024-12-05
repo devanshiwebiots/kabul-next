@@ -1,5 +1,5 @@
 import RatioImage from "@/CommonComponents/RatioImage";
-import { CancelledOrder, Href, ImagePath, NewOrder, ShippedOrder } from "@/Constant";
+import { AddToCart, AddToWishList, BuyNow, CancelledOrder, Href, ImagePath, NewOrder, ShippedOrder } from "@/Constant";
 import { OrderHistoryImageType, OrderHistoryTableColumns, ProductListTableDataColumnType, ProductListTableProduct } from "@/Types/Ecommerce";
 import Image from "next/image";
 import Link from "next/link";
@@ -839,3 +839,23 @@ export const TypesOfProductData = [
 ];
 
 export const ProductFiveNavData = ["Inventory", "Additional Options", "Shipping"];
+
+export const ProductDetailsButton = [
+  {
+    label: AddToCart,
+    href: Routes.ECommerce.Cart,
+    color: "primary",
+    icon: "shopping-basket",
+  },
+  {
+    label: BuyNow,
+    href: Routes.ECommerce.Checkout,
+    color: "success",
+    icon: "shopping-cart",
+  },
+  {
+    label: AddToWishList,
+    href: Routes.ECommerce.Wishlist,
+    icon: "heart",
+  },
+];

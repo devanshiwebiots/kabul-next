@@ -25,7 +25,7 @@ export const WishlistData = () => {
                   <div className="text-success">In stock</div>
                 </div>
                 <div>
-                  <Badge color="" className="txt-primary badge-light-primary">
+                  <Badge color="light-primary" className="txt-primary">
                     {MoveToCart}
                   </Badge>
                 </div>
