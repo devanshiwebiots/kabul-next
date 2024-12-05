@@ -1,4 +1,3 @@
-import { Table } from "reactstrap";
 import { ClientDetails, Phone, ShippingAddress } from "@/Constant";
 
 const Invoice3ClientDetails = () => {

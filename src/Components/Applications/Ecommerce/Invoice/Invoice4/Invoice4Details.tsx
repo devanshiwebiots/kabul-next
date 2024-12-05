@@ -1,7 +1,6 @@
 import { InvoiceFourDetails } from "@/Data/Ecommerce";
-import { Table } from "reactstrap";
 
-const InvoiceFourDetail = () => {
+const Invoice4Details = () => {
   return (
     <td>
       <table style={{ width: "100%", borderSpacing: 4, marginBottom: 20 }}>
@@ -21,4 +20,4 @@ const InvoiceFourDetail = () => {
   );
 };
 
-export default InvoiceFourDetail;
+export default Invoice4Details;

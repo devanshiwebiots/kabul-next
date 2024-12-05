@@ -1,10 +1,9 @@
-import { Table } from "reactstrap";
 import { BillingAddress, Phone, ShippingAddress } from "@/Constant";
 
 const Invoice2Billing = () => {
   return (
     <td>
-      <Table className="table-responsive" style={{ width: "100%" }} borderless>
+      <table style={{ width: "100%" }}>
         <tbody>
           <tr style={{ padding: "28px 0", display: "block" }}>
             <td style={{ width: "70%", minWidth: 304 }}>
@@ -23,7 +22,7 @@ const Invoice2Billing = () => {
               <span style={{ opacity: "0.8", fontSize: 16, fontWeight: 500 }} >
                 {ShippingAddress}
               </span>
-              <h4 style={{ fontWeight: 400, margin: "12px 0 6px 0", fontSize: 18}} >
+              <h4 style={{ fontWeight: 400, margin: "12px 0 6px 0", fontSize: 18 }} >
                 Cameron Williamson
               </h4>
               <span style={{ width: "95%", display: "block", lineHeight: "1.5", opacity: "0.8", fontSize: 16, fontWeight: 400 }}>
@@ -35,7 +34,7 @@ const Invoice2Billing = () => {
             </td>
           </tr>
         </tbody>
-      </Table>
+      </table>
     </td>
   );
 };

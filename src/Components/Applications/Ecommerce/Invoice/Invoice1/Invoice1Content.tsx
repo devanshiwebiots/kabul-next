@@ -1,14 +1,13 @@
 import { AmountDus, BilledTo, InvoiceDate, InvoiceNumber, BerlinMatchettVandelayGroupLTD, UnitedStateTitleText } from "@/Constant";
 import { useAppSelector } from "@/Redux/Hooks";
 import { getallCardTotal } from "@/Utils/EcommerceService";
-import { Table } from "reactstrap";
 
 const Invoice1Content = () => {
   const { cart, tax } = useAppSelector((state) => state.cartData);
 
   return (
     <td>
-      <Table className="bill-content w-100" borderless>
+      <table className="bill-content" style={{ width: "100%" }}>
         <tbody>
           <tr>
             <td style={{ width: "36%" }}>
@@ -25,7 +24,7 @@ const Invoice1Content = () => {
             </td>
             <td style={{ textAlign: "right" }}>
               <span style={{ opacity: "0.8" }}>{AmountDus}</span>
-              <h2>$ {getallCardTotal(cart)+ getallCardTotal(cart)*tax/100}</h2>
+              <h2>$ {getallCardTotal(cart) + getallCardTotal(cart) * tax / 100}</h2>
             </td>
           </tr>
           <tr>
@@ -34,7 +33,7 @@ const Invoice1Content = () => {
             </td>
           </tr>
         </tbody>
-      </Table>
+      </table>
     </td>
   );
 };

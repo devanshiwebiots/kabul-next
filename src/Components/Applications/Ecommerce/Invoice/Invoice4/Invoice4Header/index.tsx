@@ -1,7 +1,7 @@
 import { Email, Invoice, InvoiceTo, Phone, Website } from "@/Constant";
-import InvoiceRightLogo from "./InvoiceRightLogo";
+import Invoice4RightLogo from "./Invoice4RightLogo";
 
-const InvoiceFourHeader = () => {
+const Invoice4Header = () => {
   return (
     <td>
       <table style={{ width: "100%" }} >
@@ -22,7 +22,7 @@ const InvoiceFourHeader = () => {
                 </li>
               </ul>
             </td>
-            <InvoiceRightLogo />
+            <Invoice4RightLogo />
           </tr>
         </tbody>
       </table>
@@ -30,4 +30,4 @@ const InvoiceFourHeader = () => {
   );
 };
 
-export default InvoiceFourHeader;
+export default Invoice4Header;

@@ -16,7 +16,7 @@ const Invoice3Header = () => {
             <td style={{ textAlign: "end", padding: "30px 30px 30px 0" }}>
               <span style={{ display: "block", lineHeight: "1.5", fontSize: 16, color: "#fff", fontWeight: 700 }}>{Invoice}</span>
               <span style={{ display: "block", lineHeight: "1.5", fontSize: 16, color: "#fff", fontWeight: 500 }}>Receipt #1923195</span>
-              <span style={{ display: "block", lineHeight: "1.5", fontSize: 16, color: "#fff", fontWeight: 500 }}>May 02, 2023
+              <span style={{ display: "block", lineHeight: "1.5", fontSize: 16, color: "#fff", fontWeight: 500 }}>May 02, 2024
               </span>
             </td>
           </tr>

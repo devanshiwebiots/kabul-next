@@ -1,9 +1,8 @@
-import { Table } from "reactstrap";
 import { Description } from "@/Constant";
-import InvoiceTableBody from "./InvoiceTableBody";
+import Invoice4Body from "./Invoice4Body";
 import { InvoiceTableHeader } from "@/Data/Ecommerce";
 
-const InvoiceFourTable = () => {
+const Invoice4Table = () => {
   return (
     <td>
       <table style={{ width: "100%", borderSpacing: 0 }}>
@@ -17,11 +16,11 @@ const InvoiceFourTable = () => {
           </tr>
         </thead>
         <tbody>
-          <InvoiceTableBody />
+          <Invoice4Body />
         </tbody>
       </table>
     </td>
   );
 };
 
-export default InvoiceFourTable;
+export default Invoice4Table;

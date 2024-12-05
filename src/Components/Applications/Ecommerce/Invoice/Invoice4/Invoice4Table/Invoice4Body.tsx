@@ -1,6 +1,6 @@
 import { InvoiceFourData } from "@/Data/Ecommerce";
 
-const InvoiceTableBody = () => {
+const Invoice4Body = () => {
   return (
     <>
       {InvoiceFourData.map((data, i) => (
@@ -16,7 +16,7 @@ const InvoiceTableBody = () => {
             <span style={{ opacity: "0.8" }}>{data.quantity}</span>
           </td>
           <td style={{ width: "12%", textAlign: "center" }}>
-            <span style={{ color: "var(--theme-default)", fontWeight: 600, opacity: "0.9" }}>${data.total}.00</span>
+            <span style={{ color: "#000248", fontWeight: 600, opacity: "0.9" }}>${data.total}.00</span>
           </td>
         </tr>
       ))}
@@ -24,4 +24,4 @@ const InvoiceTableBody = () => {
   );
 };
 
-export default InvoiceTableBody;
+export default Invoice4Body;

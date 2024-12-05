@@ -9,8 +9,8 @@ const Invoice3Body = () => {
             <span style={{ width: 3, height: 37, backgroundColor: `#${data.color}` }} />
             <ul style={{ padding: 0, margin: 0, listStyle: "none" }}>
               <li>
-                <h4 style={{ fontWeight: 600, margin: "4px 0px", fontSize: 18, color: "#000248" }}>{data.title}</h4>
-                <span style={{ opacity: "0.8", fontSize: 16 }}>{data.detail}</span>
+                <h4 style={{ fontWeight: 600, margin: "4px 0px", fontSize: 18, color: "#000248" }}>{data.title} Admin template</h4>
+                <span style={{ opacity: "0.8", fontSize: 16 }}>Regular License</span>
               </li>
             </ul>
           </td>

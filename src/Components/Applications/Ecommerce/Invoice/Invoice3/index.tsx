@@ -17,7 +17,7 @@ const InvoiceThreeContainer = () => {
           </td>
         </tr>
         <tr><Invoice3Table /></tr>
-        <tr><Invoice3BankTransfer /></tr>
+        <tr style={{ display: "flex", justifyContent: "space-between", margin: "28px 0", alignItems: "center" }}><Invoice3BankTransfer /></tr>
         <tr>
           <td>
             <span style={{ display: "block", background: "rgba(82, 82, 108, 0.3)", height: 1, width: "100%", marginBottom: 30 }} />

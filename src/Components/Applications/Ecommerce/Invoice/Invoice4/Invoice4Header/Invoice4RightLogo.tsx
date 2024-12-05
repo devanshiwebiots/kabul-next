@@ -1,7 +1,7 @@
 import { Email, ImagePath, Phone, Website } from "@/Constant";
 import Image from "next/image";
 
-const InvoiceRightLogo = () => {
+const Invoice4RightLogo = () => {
   return (
     <td>
       <Image height={38} width={114} className="img-fluid for-light" src={`${ImagePath}/logo/logo-1.png`} alt="logo" style={{ marginBottom: 14 }} />
@@ -16,4 +16,4 @@ const InvoiceRightLogo = () => {
   );
 };
 
-export default InvoiceRightLogo;
+export default Invoice4RightLogo;
