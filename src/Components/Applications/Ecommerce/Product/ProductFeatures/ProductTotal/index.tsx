@@ -5,7 +5,7 @@ import Sorting from "./Sorting";
 import GridAndListView from "./GridAndListView";
 import GridOptions from "./GridOptions";
 import { useAppDispatch } from "@/Redux/Hooks";
-import { setIsFilter } from "@/Redux/Reducer/FilterSlice";
+import { setIsFilter, setSideBarOn } from "@/Redux/Reducer/FilterSlice";
 
 const ProductTotal = () => {
   const dispatch = useAppDispatch();
@@ -16,8 +16,8 @@ const ProductTotal = () => {
         <GridAndListView />
         <span className="d-none-productlist filter-toggle">
           {Filters}
-          <span className="ms-2" >
-            <ChevronDown className="toggle-data" onClick={() => dispatch(setIsFilter())} />
+          <span className="ms-2" onClick={() => {dispatch(setIsFilter(),dispatch(setSideBarOn()))}} >
+            <ChevronDown className="toggle-data" />
           </span>
         </span>
         <GridOptions />
