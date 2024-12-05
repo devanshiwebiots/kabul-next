@@ -45,7 +45,7 @@ const FileManagerSlice = createSlice({
           modifyFolder: "1 Day ago",
         });
         state.myFile = myFiles;
-        toast.success("File Upload Successfully !");
+        toast.success("File Uploaded Successfully !");
       } else {
         toast.error("Please Select at least one file !");
       }
