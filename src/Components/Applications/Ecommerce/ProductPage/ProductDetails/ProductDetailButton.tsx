@@ -1,23 +1,23 @@
 import { AddToCart, AddToWishList, BuyNow } from "@/Constant";
 import { Routes } from "@/Utils/Routes";
-import Link from "next/link";
+import { Button } from "reactstrap";
 
 const ProductDetailButton = () => {
 
   return (
     <div className="m-t-15 btn-showcase">
-      <Link className="btn btn-primary" href={Routes.ECommerce.Cart}>
+      <Button tag="a" color="primary" href={Routes.ECommerce.Cart}>
         <i className="fa fa-shopping-basket me-1"></i>
         {AddToCart}
-      </Link>
-      <Link className="btn btn-success" href={Routes.ECommerce.Checkout}>
+      </Button>
+      <Button tag="a" color="success" href={Routes.ECommerce.Checkout}>
         <i className="fa fa-shopping-cart me-1"></i>
         {BuyNow}
-      </Link>
-      <Link className="btn btn-secondary" href={Routes.ECommerce.Wishlist}>
+      </Button>
+      <Button tag="a" href={Routes.ECommerce.Wishlist}>
         <i className="fa fa-heart me-1"></i>
         {AddToWishList}
-      </Link>
+      </Button>
     </div>
   );
 };
