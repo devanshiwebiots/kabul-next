@@ -1,5 +1,5 @@
 import { Card, CardBody, Col } from "reactstrap";
-import { ProductDetail, ProductDetailsTitle } from "@/Constant";
+import { ProductDetailsTitle } from "@/Constant";
 import { useAppSelector } from "@/Redux/Hooks";
 import ProductColor from "./ProductColor";
 import ProductTable from "./ProductTable";
@@ -22,7 +22,7 @@ const ProductDetails = () => {
             {symbol}26.00<del>{symbol}350.00</del>
           </div>
           <ProductColor />
-          <p>{ProductDetail}</p>
+          <p>Rock Paper Scissors Various Dots Half Sleeves Girl’s Regular Fit T-Shirt I 100% Cotton T Shirt with Half Sleeve Round Neck I Regular Wear Solid Kids Tees and Black Sleeve.</p>
           <hr />
           <ProductTable />
           <ProductSocial />

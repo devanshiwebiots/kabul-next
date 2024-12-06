@@ -200,7 +200,6 @@ export const AddProduct: string = "Add Product";
 
 //Ecommerce-Product Page
 export const ProductDetailsTitle: string = "Women Pink shirt.";
-export const ProductDetail: string = "Rock Paper Scissors Various Dots Half Sleeves Girl’s Regular Fit T-Shirt I 100% Cotton T Shirt with Half Sleeve Round Neck I Regular Wear Solid Kids Tees and Black Sleeve.";
 export const PixelStrap: string = "Pixelstrap";
 export const Availability: string = "Availability";
 export const InStock: string = "In stock";
@@ -213,10 +212,6 @@ export const RateNow: string = "Rate Now";
 export const AddToCart: string = "Add To Cart";
 export const BuyNow: string = "Buy Now";
 export const AddToWishList: string = "Add To WishList";
-export const Description1: string = 'Refresh your wardrobe with this chic top. With an eye-catching square neck, this top also features pretty puff sleeves. Stunning pink colour Classic solid pattern Square neck Elasticated puff sleeves Belt included, Polyester fabric, machine wash.."';
-export const Description2: string = "Tee Stores is an Indian contemporary clothing brand. The product pages display a fine quality fabric with colorful description. We offer many vivid designs, art, styles that combine heritage with modernity, simplicity, playfulness and street style.";
-export const Description3: string = "Lorate Solid Men's Fashion Full Sleeves Latest Jacket for Men With Button Closure Long Sleeve Casual Torn Lycra Denim Jacket.";
-export const Description4: string = "Rock Paper Scissors Various Dots Half Sleeves Girl’s Regular Fit T-Shirt I 100% Cotton T Shirt with Half Sleeve Round Neck I Regular Wear Solid Kids Tees and Black Sleeve.";
 
 //Ecommerce-Payment Details
 export const CardNumber: string = "Card number";
