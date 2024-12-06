@@ -8,6 +8,8 @@ import FilterSlice from "./Reducer/FilterSlice";
 import FileManagerSlice from "./Reducer/FileManagerSlice";
 import AddProductSlice from "./Reducer/AddProductSlice";
 import ProjectSlice from "./Reducer/ProjectSlice";
+import LetterBoxSlice from "./Reducer/LetterBoxSlice";
+
 
 const Store = configureStore({
   reducer:{
@@ -20,6 +22,7 @@ const Store = configureStore({
     fileManager: FileManagerSlice,    
     addProduct: AddProductSlice,
     project: ProjectSlice,
+    letterBox:LetterBoxSlice,
   }
 });
 

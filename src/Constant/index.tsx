@@ -198,6 +198,19 @@ export const ExploreShortlistItems: string = "Explore Short list Items";
 export const SearchTableButton: string = "Search";
 export const AddProduct: string = "Add Product";
 
+//Letter-Box
+export const EmailFilter= "email filter"
+export const ComposeEmail =" Compose Email"
+export const Inbox: string = "Inbox";
+export const AddLabelHeading = "Add Label"
+export const ComposeMessage= "Compose Message"
+export const SaveAsDraft=  "Save as draft"
+export const FromHeading = "From"
+export const Send: string = "Send";
+export const Email: string = "Email";
+export const LabelName= "Label Name"
+export const LabelColor= "Label Color"
+export const InterviewMail= "Interview Mail"
 
 
 
