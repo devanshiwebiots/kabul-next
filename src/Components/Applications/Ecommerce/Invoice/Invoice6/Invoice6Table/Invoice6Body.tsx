@@ -11,7 +11,7 @@ const Invoice6Body = () => {
             <p className="m-0">{data.detail}</p>
           </td>
           <td><p className="itemtext">{data.hours}</p></td>
-          <td><p className="itemtext">${data.price}</p></td>
+          <td><p className="itemtext">$75</p></td>
           <td><p className="itemtext">${data.total}.00</p></td>
         </tr>
       ))}

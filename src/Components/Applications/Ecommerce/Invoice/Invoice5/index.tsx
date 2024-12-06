@@ -2,7 +2,7 @@
 import Invoice5Header from "./Invoice5Header";
 import Invoice5Number from "./Invoice5Number";
 import Invoice5Table from "./Invoice5Table";
-import Sign from "./Sign";
+import Invoice5Sign from "./Invoice5Sign";
 
 const InvoiceFiveContainer = () => {
   return (
@@ -13,7 +13,7 @@ const InvoiceFiveContainer = () => {
         </tr>
         <tr><Invoice5Number /></tr>
         <tr><Invoice5Table /></tr>
-        <Sign />
+        <Invoice5Sign />
       </tbody>
     </table>
   );

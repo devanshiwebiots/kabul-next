@@ -11,7 +11,7 @@ const ContactEdit: React.FC<DropClassTypes> = ({ dropClass }) => {
     <div className={`contact-edit ${dropClass}`}>
       <Dropdown isOpen={dropdownOpen} toggle={toggle} color="">
         <DropdownToggle color="">
-          <SVG className="border-0" iconId="menubar" />
+          <SVG className="stroke-primary" iconId="menubar" />
         </DropdownToggle>
         <DropdownMenu end>
           <DropdownItem>View details</DropdownItem>

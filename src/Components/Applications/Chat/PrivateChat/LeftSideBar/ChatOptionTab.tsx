@@ -9,7 +9,7 @@ export const ChatOptionTab = () => {
 
   return (
     <div className="advance-options">
-      <Nav tabs className="border-tab" id="chat-options-tab">
+      <Nav className="border-tab" id="chat-options-tab">
         <NavItem><NavLink className={`${activeTab === "1" ? "active" : ""}`} onClick={() => setActiveTab("1")} id="chats-tab">{Chats}</NavLink></NavItem>
         <NavItem><NavLink className={`${activeTab === "2" ? "active" : ""}`} onClick={() => setActiveTab("2")} id="contacts-tab">{Contacts}</NavLink></NavItem>
       </Nav>
