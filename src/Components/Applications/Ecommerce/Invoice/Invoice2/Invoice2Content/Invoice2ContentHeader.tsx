@@ -1,6 +1,6 @@
 import { InvoiceHeaderData } from "@/Data/Ecommerce";
 
-const Invoice2Header = () => {
+const Invoice2ContentHeader = () => {
   return (
     <>
       {InvoiceHeaderData?.map((data, i) => (
@@ -12,4 +12,4 @@ const Invoice2Header = () => {
   );
 };
 
-export default Invoice2Header;
+export default Invoice2ContentHeader;

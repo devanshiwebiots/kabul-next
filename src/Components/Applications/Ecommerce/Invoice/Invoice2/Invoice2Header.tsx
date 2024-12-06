@@ -16,10 +16,10 @@ const Invoice2Header = () => {
             </td>
             <td style={{ opacity: "0.8", textAlign: "end" }}>
               <span style={{ display: "block", lineHeight: "1.5", fontSize: 16, fontWeight: 500 }}>
-                {Email} : Moscow@themesforest.com
+                {Email} : Kabul@themesforest.com
               </span>
               <span style={{ display: "block", lineHeight: "1.5", fontSize: 16, fontWeight: 500 }}>
-                {Website}: www.Moscowthemes.com
+                {Website}: www.Kabulthemes.com
               </span>
               <span style={{ display: "block", lineHeight: "1.5", fontSize: 16, fontWeight: 500 }} >
                 {ContactNo} : (316) 555-0116

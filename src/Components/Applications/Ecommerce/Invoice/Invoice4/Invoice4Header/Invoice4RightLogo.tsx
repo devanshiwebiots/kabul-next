@@ -10,8 +10,8 @@ const Invoice4RightLogo = () => {
         2118 Thornridge Cir. Syracuse, Connecticut 35624, United State
       </span>
       <span style={{ display: "block", lineHeight: "1.5", fontSize: 18, fontWeight: 400, opacity: "0.8" }}>{Phone} : (239) 555-0108</span>
-      <span style={{ display: "block", lineHeight: "1.5", fontSize: 18, fontWeight: 400, opacity: "0.8" }}>{Email} : Moscow@themesforest.com</span>
-      <span style={{ display: "block", lineHeight: "1.5", fontSize: 18, fontWeight: 400, opacity: "0.8"}}>{Website}: www.Moscowthemes.com</span>
+      <span style={{ display: "block", lineHeight: "1.5", fontSize: 18, fontWeight: 400, opacity: "0.8" }}>{Email} : Kabul@themesforest.com</span>
+      <span style={{ display: "block", lineHeight: "1.5", fontSize: 18, fontWeight: 400, opacity: "0.8"}}>{Website}: www.Kabulthemes.com</span>
     </td>
   );
 };

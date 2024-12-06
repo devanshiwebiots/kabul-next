@@ -1,4 +1,4 @@
-import { AmountDus, BilledTo, InvoiceDate, InvoiceNumber, BerlinMatchettVandelayGroupLTD, UnitedStateTitleText } from "@/Constant";
+import { AmountDus, BilledTo, InvoiceDate, InvoiceNumber, KabulMatchettVandelayGroupLTD, UnitedStateTitleText } from "@/Constant";
 import { useAppSelector } from "@/Redux/Hooks";
 import { getallCardTotal } from "@/Utils/EcommerceService";
 
@@ -12,7 +12,7 @@ const Invoice1Content = () => {
           <tr>
             <td style={{ width: "36%" }}>
               <span style={{ opacity: "0.8" }}>{BilledTo}</span>
-              <h6 style={{ width: "46%" }}>{BerlinMatchettVandelayGroupLTD}</h6>
+              <h6 style={{ width: "46%" }}>{KabulMatchettVandelayGroupLTD}</h6>
             </td>
             <td style={{ width: "21%" }}>
               <span style={{ opacity: "0.8" }}>{InvoiceDate}</span>

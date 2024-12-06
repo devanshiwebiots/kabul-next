@@ -3,7 +3,7 @@ import Invoice4Details from "./Invoice4Details";
 import Invoice4Header from "./Invoice4Header";
 import Invoice4Table from "./Invoice4Table";
 import Invoice4Total from "./Invoice4Total";
-import Sign from "./Sign";
+import Invoice4Sign from "./Invoice4Sign";
 
 const InvoiceFourContainer = () => {
   return (
@@ -17,7 +17,7 @@ const InvoiceFourContainer = () => {
         </tr>
         <tr><Invoice4Total />
         </tr>
-        <Sign />
+        <Invoice4Sign />
       </tbody>
     </table>
   );

@@ -2,7 +2,7 @@ import { ImagePath } from "@/Constant"
 import Image from "next/image"
 import ActionButtons from "../Common/ActionButtons"
 
-const Sign = () => {
+const Invoice4Sign = () => {
     return (
         <tr style={{ width: "100%", display: "flex", justifyContent: "space-between" }}>
             <td>
@@ -17,4 +17,4 @@ const Sign = () => {
     )
 }
 
-export default Sign
+export default Invoice4Sign
