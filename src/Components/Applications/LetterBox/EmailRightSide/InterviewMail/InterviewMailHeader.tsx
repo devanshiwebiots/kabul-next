@@ -26,7 +26,7 @@ const InterviewMailHeader = () => {
         {MailHeader?.map((data, i) => (
           <Fragment key={i}>
             <div className={`light-square bg-light-${data.color}`} id={`light-${data.icon}`} onClick={() => toggle(i)}>
-              <SVG iconId={data.icon} className={data.className ? data.className : ""} />
+              <SVG iconId={data.icon} className={`${data.className ? data.className : ""} stroke-${data.color}`} />
             </div>
             <Tooltip placement="top" isOpen={openTooltip === i} target={`light-${data.icon}`} defaultValue='0' toggle={() => toggle(i)}>{data.tooltip}</Tooltip>
           </Fragment>
@@ -38,4 +38,4 @@ const InterviewMailHeader = () => {
 
 export default InterviewMailHeader;
 
- 
+

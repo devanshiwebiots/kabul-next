@@ -515,7 +515,6 @@ export const MailHeader = [
     icon: "sms",
     tooltip: "Archive",
     color:"primary",
-    className:"stroke-primary"
   },
   {
     icon: "bookmark",
@@ -527,19 +526,16 @@ export const MailHeader = [
     icon: "spam",
     tooltip: "Spam",
     color:"info",
-    className:"stroke-info"
   },
   {
     icon: "mail-trash",
     tooltip: "Trash",
-    className: "stroke-danger",
     color:"danger"
   },
   {
     icon: "setting",
     tooltip: "Settings",
     color:"primary",
-    className:"stroke-primary"
   },
 ];
 
