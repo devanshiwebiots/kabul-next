@@ -198,7 +198,22 @@ export const ExploreShortlistItems: string = "Explore Short list Items";
 export const SearchTableButton: string = "Search";
 export const AddProduct: string = "Add Product";
 
-
+//Users
+export const Bio: string = "Bio";
+export const MyProfiles: string = "My Profile";
+export const Save: string = "Save";
+export const EditProfile: string = "Edit Profile";
+export const UpdateProfile: string = "UpdateProfile";
+export const Company: string = "Company";
+export const AboutMe: string = "About me";
+export const Address: string = "Address";
+export const Email: string = "Email";
+export const FirstName: string = "First Name";
+export const LastName: string = "Last Name";
+export const PostalCode: string = "Postal Code";
+export const Username: string = "Username";
+export const AddProjectAndUpload: string = "Add project And Upload";
+export const Designer: string = "DESIGNER";
 
 
 
