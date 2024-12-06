@@ -129,3 +129,93 @@ export const AddProjectAndUpload = [
     price: "15,987",
   },
 ];
+
+export const SocialUserCardData = [
+  {
+    avatar: "user/11.png",
+    name: "Brooklyn Simmons",
+    email: "@brookly.simmons",
+    totalPost: "1,908",
+    follower: "34.0k",
+    following: "897",
+  },
+  {
+    avatar: "avtar/3.jpg",
+    name: "Mark Jecno",
+    email: "@mark.jeco",
+    totalPost: "875",
+    follower: "12.0k",
+    following: "1400",
+  },
+  {
+    avatar: "avtar/11.jpg",
+    name: "Dev John",
+    email: "@john.dev",
+    totalPost: "1,274",
+    follower: "15.0k",
+    following: "1874",
+  },
+  {
+    avatar: "avtar/16.jpg",
+    name: "Johan Deo",
+    email: "@deo.johan",
+    totalPost: "500",
+    follower: "8.0k",
+    following: "570",
+  },
+  {
+    avatar: "user/7.jpg",
+    name: "Douglas Reichel",
+    email: "@reichel.douglas",
+    totalPost: "460",
+    follower: "2k",
+    following: "350",
+  },
+  {
+    avatar: "avtar/4.jpg",
+    name: "Lisa lillian",
+    email: "@lisa.lillian",
+    totalPost: "547",
+    follower: "3.5k",
+    following: "822",
+  },
+  {
+    avatar: "user/1.jpg",
+    name: "Olivia rose",
+    email: "@rose.olivia",
+    totalPost: "868",
+    follower: "1k",
+    following: "742",
+  },
+  {
+    avatar: "user/2.png",
+    name: "Sarah Karen",
+    email: "@karen.sarah",
+    totalPost: "972",
+    follower: "2.5k",
+    following: "864",
+  },
+];
+
+export const UserSocialDataList = [
+  {
+    link: "https://www.facebook.com/",
+    iconClassName: "fa-facebook",
+  },
+  {
+    link: "https://www.google.com/",
+    iconClassName: "fa-google-plus",
+  },
+  {
+    link: "https://www.twitter.com/",
+    iconClassName: "fa-twitter",
+  },
+  {
+    link: "https://www.instagram.com/",
+    iconClassName: "fa-instagram",
+  },
+  {
+    link: "https://dashboard.rss.com/auth/sign-in/",
+    iconClassName: "fa-rss",
+  },
+];
