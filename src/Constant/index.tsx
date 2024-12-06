@@ -16,7 +16,7 @@ export const SignInToAccount: string = "Sign in to account";
 export const LinkedInIcon: string = " LinkedIn ";
 export const TwitterIcon: string = " twitter ";
 export const FacebookIcon: string = " facebook ";
-export const EnterYourEmailAndPasswordToLogin:string="Enter your email & password to login"
+export const EnterYourEmailAndPasswordToLogin: string = "Enter your email & password to login"
 
 //layout
 export const Pinned: string = "Pinned";
@@ -133,38 +133,38 @@ export const Folders: string = "Folders";
 
 //Ecommerce-Add Product
 export const ProductForm: string = "Product Form"
-export const ProductTitle: string ="Product Title"
+export const ProductTitle: string = "Product Title"
 export const Previous: string = " Previous";
-export const DragFilesHere: string= "Drag files here"
+export const DragFilesHere: string = "Drag files here"
 export const AddCategory: string = "Add Category";
 export const AddTag: string = "Add Tag"
-export const CreateNewCategoryHeading: string= "Create New Category"
-export const CategoryName: string= "Category Name"
-export const PublishStatus : string=" Publish Status"
+export const CreateNewCategoryHeading: string = "Create New Category"
+export const CategoryName: string = "Category Name"
+export const PublishStatus: string = " Publish Status"
 export const PublishDateTime: string = "Publish Date & Time"
-export const InitialCost: string= "Initial cost"
-export const SellingPrice: string= "Selling price"
-export const ChooseYourCurrency: string= "Choose your currency"
-export const ProductStocks : string= "Product stocks"
-export const TypesOfProductDiscount : string= "Types of product discount"
-export const AllowBackOrders: string= "Allow Backorders"
-export const LowStock: string= "Low Stock"
+export const InitialCost: string = "Initial cost"
+export const SellingPrice: string = "Selling price"
+export const ChooseYourCurrency: string = "Choose your currency"
+export const ProductStocks: string = "Product stocks"
+export const TypesOfProductDiscount: string = "Types of product discount"
+export const AllowBackOrders: string = "Allow Backorders"
+export const LowStock: string = "Low Stock"
 export const PreOrder: string = "Pre-Order"
-export const RestockDate : string= "Restock Date"
-export const SKU: string= "SKU"
-export const StockAvailability: string= "Stock Availability"
-export const StockQuantity: string= "Stock Quantity"
+export const RestockDate: string = "Restock Date"
+export const SKU: string = "SKU"
+export const StockAvailability: string = "Stock Availability"
+export const StockQuantity: string = "Stock Quantity"
 export const AdditionalTagTitle: string = "Additional Tag Title"
-export const SpecificTags: string= "Specific Tags"
-export const AdditionalDescription: string= "Additional Description"
+export const SpecificTags: string = "Specific Tags"
+export const AdditionalDescription: string = "Additional Description"
 export const MdeEditorText: string = "Enter your messages...";
 export const City: string = "City";
-export const WeightKg : string= "Weight (kg)"
-export const Dimensions: string= "Dimensions"
-export const ShippingClass: string= "Shipping Class"
-export const Length: string= "Length[l]"
-export const Width: string= "Width[w]"
-export const Height: string= "Height[h]"
+export const WeightKg: string = "Weight (kg)"
+export const Dimensions: string = "Dimensions"
+export const ShippingClass: string = "Shipping Class"
+export const Length: string = "Length[l]"
+export const Width: string = "Width[w]"
+export const Height: string = "Height[h]"
 export const ZipCode: string = "Zip Code";
 
 //Ecommerce-Product
@@ -198,6 +198,85 @@ export const ExploreShortlistItems: string = "Explore Short list Items";
 export const SearchTableButton: string = "Search";
 export const AddProduct: string = "Add Product";
 
+//Ecommerce-Product Page
+export const ProductDetailsTitle: string = "Women Pink shirt.";
+export const PixelStrap: string = "Pixelstrap";
+export const Availability: string = "Availability";
+export const InStock: string = "In stock";
+export const Seller: string = "Seller";
+export const ABC: string = "ABC";
+export const Fabric: string = "Fabric";
+export const Cotton: string = "Cotton";
+export const ShareIt: string = "share it";
+export const RateNow: string = "Rate Now";
+export const AddToCart: string = "Add To Cart";
+export const BuyNow: string = "Buy Now";
+export const AddToWishList: string = "Add To WishList";
+
+//Ecommerce-Payment Details
+export const CardNumber: string = "Card number";
+export const NameOnCard: string = "Name on card";
+export const CreditCards: string = "Credit Card";
+export const FirstName: string = "First Name";
+export const DebitCards: string = "Debit Card";
+export const FullNameHere: string = "Full name here";
+export const CVC: string = "CVC";
+export const CVVNumber: string = "CVV Number";
+export const ExpirationDate: string = "Expiration Date";
+export const Submit: string = "Submit";
+export const Address: string = "Address";
+export const Cod: string = "COD";
+export const EnterMobileNumber: string = "Enter mobile number";
+export const LastName: string = "Last Name";
+export const Pincode: string = "Pincode";
+export const State: string = "State";
+export const Emi: string = "EMI";
+export const AcHolderName: string = "AC Holder name";
+export const AccountNumber: string = "Account number";
+export const IcfcCode: string = "ICFC code";
+export const OtherDetails: string = "Other Details";
+export const NetBankings: string = "Net Banking";
+
+//Ecommerce-Order History
+export const NewOrder: string = "New Orders";
+export const Processing: string = "Processing";
+export const CancelledOrder: string = "Cancelled Orders";
+export const Cancelled: string = "Cancelled";
+export const OrdersHistory: string = "Orders History";
+export const Shipped: string = "Shipped";
+export const ShippedOrder: string = "Shipped Orders";
+
+//Ecommerce-Wishlist
+export const Wishlist: string = "Wishlist";
+export const MoveToCart: string = "Move To Cart";
+
+//Ecommerce-Checkout
+export const BillingDetails: string = "Billing Details";
+export const FirstNameRequired: string = "First name is required";
+export const LastNameRequired: string = "Last name is required";
+export const PhoneRequired: string = "Please enter number for phone";
+export const EmailRequired: string = "Please enter proper email address";
+export const AddressRequired: string = "Please right your address";
+export const CityRequired: string = "select one city";
+export const StateRequired: string = "select one state";
+export const PincodeRequired: string = "Required integer";
+export const CheckoutRequired: string = "Need to mark";
+export const CheckMeOut: string = "Check me out";
+export const Phone: string = "Phone";
+export const TownCity: string = "Town/City"
+export const PlaceOrder: string = "Place Order"
+export const StateCountry: string = "State/Country"
+export const PostalCode: string = "Postal Code";
+export const Products: string = "Product"
+export const Total: string = "Total"
+export const Subtotal: string = "Subtotal";
+export const Option1: string = "Option 1";
+export const Option2: string = "Option 2";
+export const Shipping: string = "Shipping"
+export const CashOnDelivery: string = "Cash On Delivery"
+export const CheckPayments: string = "Check Payments"
+export const Paypal: string = "Paypal";
+
 //Ecommerce-Invoices
 export const PrintInvoice: string = "Print Invoice";
 export const AmountDus: string = "Amount Dus (USD)";
@@ -207,7 +286,6 @@ export const InvoiceNumber: string = "Invoice Number";
 export const KabulMatchettVandelayGroupLTD: string = "Kabul Matchett Vandelay Group LTD";
 export const UnitedStateTitleText: string = "2118 Thornridge Cir. Syracuse, Connecticut 35624, United State";
 export const AuthorizedSign: string = "Authorized Sign";
-export const Subtotal: string = "Subtotal";
 export const Description: string = "Description";
 export const Rate: string = "Rate";
 export const Qty: string = "Qty";
@@ -222,7 +300,6 @@ export const PaymentStatus: string = "Payment Status";
 export const TotalAmount: string = "Total Amount";
 export const BillingAddress: string = "BILLING ADDRESS";
 export const ShippingAddress: string = "SHIPPING ADDRESS";
-export const Phone: string = "Phone";
 export const Vat: string = "Vat";
 export const ShippingRate: string = "ShippingRate";
 export const BankTransfer: string = "BANK TRANSFER";
@@ -243,7 +320,6 @@ export const No: string = "No.";
 export const UnitePrice: string = "Unite Price";
 export const VATTax: string = "VAT / Tax 15%";
 export const Kabul: string = "Kabul";
-export const Total= "Total"
 export const ProjectDescription: string = " Project Description";
 
 //Chat
@@ -274,8 +350,3 @@ export const TypeMessageHere: string = "Type Message here..";
 
 
 
-
-
-
-
- 
