@@ -13,25 +13,25 @@ const Invoice2Data = () => {
           </span>
           <ul style={{ padding: 0, margin: 0, listStyle: "none" }}>
             <li>
-              <h4 style={{ fontWeight: 400, margin: "4px 0px", fontSize: 16 }}>{data.title}</h4>
+              <h4 style={{ fontWeight: 400, margin: "4px 0px", fontSize: 18 }}>{data.title}</h4>
               <span style={{ opacity: "0.8", fontSize: 14 }}>#XDG-6437</span>
             </li>
           </ul>
         </td>
         <td style={{ padding: "18px 15px" }}>
-          <span>{data.quantity}</span>
+          <span style={{fontSize:18}}>{data.quantity}</span>
         </td>
         <td style={{ padding: "18px 15px", width: "12%" }}>
-          <span>${data.price}</span>
+          <span style={{fontSize:18}}>${data.price}</span>
         </td>
         <td style={{ padding: "18px 15px", width: "12%" }}>
-          <span>{data.unit}</span>
+          <span style={{fontSize:18}}>Hour(s)</span>
         </td>
         <td style={{ padding: "18px 15px", width: "10%" }}>
-          <span>0</span>
+          <span style={{fontSize:18}}>0</span>
         </td>
         <td style={{ padding: "18px 15px" }}>
-          <span>${data.total}</span>
+          <span style={{fontSize:18}}>${data.total}</span>
         </td>
       </tr>
     ))}

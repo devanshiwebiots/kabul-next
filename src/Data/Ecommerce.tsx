@@ -536,7 +536,7 @@ export const SimplePricingData = [
   },
 ];
 
-export const InvoiceHeaderData = ["Product", "Quantity", "Price", "Unit", "Vat %", "Total"];
+export const InvoiceHeaderData = ["Products", "Quantity", "Price", "Unit", "Vat %", "Total"];
 
 export const InvoiceTwoDataList = [
   {
@@ -544,7 +544,6 @@ export const InvoiceTwoDataList = [
     title: "Apple Desktop",
     quantity: "2",
     price: "100",
-    unit: "Hour(s)",
     total: "200",
   },
   {
@@ -552,7 +551,6 @@ export const InvoiceTwoDataList = [
     title: "Smart Watch",
     quantity: "1",
     price: "200",
-    unit: "Hour(s)",
     total: "200",
   },
   {
@@ -560,7 +558,6 @@ export const InvoiceTwoDataList = [
     title: "Apple iphone 13 Pro",
     quantity: "1",
     price: "10,000",
-    unit: "Hour(s)",
     total: "10,000",
   },
   {
@@ -568,7 +565,6 @@ export const InvoiceTwoDataList = [
     title: "Wireless Headphone",
     quantity: "2",
     price: "8,000",
-    unit: "Hour(s)",
     total: "16,000",
   },
 ];
@@ -630,28 +626,24 @@ export const InvoiceFourDetails = [
 export const InvoiceFourData = [
   {
     title: "Proposal & Brochure Design",
-    detail: "Regular License",
     price: "300",
     quantity: "1",
     total: "300",
   },
   {
     title: "Web design and development",
-    detail: "Regular License",
     price: "400",
     quantity: "2",
     total: "800",
   },
   {
     title: "Logo & Brand  design",
-    detail: "Regular License",
     price: "240",
     quantity: "2",
     total: "480",
   },
   {
     title: "Stationary Design",
-    detail: "Regular License",
     price: "100",
     quantity: "1",
     total: "100",

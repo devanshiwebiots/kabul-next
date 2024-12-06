@@ -9,7 +9,7 @@ const Invoice3Table = () => {
           <tr style={{ background: "var(--theme-default)" }}>
             {InvoiceThreeHeader?.map((data, i) => (
               <th style={{ padding: "18px 15px", textAlign: i === 0 ? "left" : "center", borderInline: i === 3 ? "" : "3px solid #fff" }} key={i}>
-                <span style={{ color: "#fff", fontSize: 16, fontWeight: 600 }}>{data}</span>
+                <span style={{ color: "#fff", fontSize: 18, fontWeight: 600 }}>{data}</span>
               </th>
             ))}
           </tr>

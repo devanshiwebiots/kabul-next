@@ -20,7 +20,7 @@ const Invoice4SubTotal = () => {
       </li>
       <li style={{ display: "flex", alignItems: "center" }}>
         <span style={{ display: "block", width: 95 }}>{TotalDue}</span>
-        <span style={{ display: "block",color: "#000248", opacity: "0.9", fontWeight: 600, padding: "12px 25px", borderRadius: 5, background: "rgba(122, 112, 186 , 0.1)", fontSize: 16}} >$6120.00</span>
+        <span style={{ display: "block",color: "#000248", opacity: "0.9", fontWeight: 600, padding: "12px 25px", borderRadius: 5, background: "rgba(122, 112, 186 , 0.1)", fontSize: 18}} >$6120.00</span>
       </li>
     </ul>
   );
