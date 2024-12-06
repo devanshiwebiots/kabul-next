@@ -9,7 +9,7 @@ export const ChatTabPane = () => {
       <div className="common-space">
         <p>{RecentChats}</p>
         <div className="header-top">
-          <Button tag="a" color="" className="badge-light-primary f-w-500" href={Href}>
+          <Button tag="a" color="light-primary" className="badge-light-primary f-w-500" href={Href}>
             <i className="fa fa-plus" />
           </Button>
         </div>

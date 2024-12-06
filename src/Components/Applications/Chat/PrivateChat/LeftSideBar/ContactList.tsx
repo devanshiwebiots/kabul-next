@@ -19,11 +19,11 @@ export const ContactList: React.FC<{ data: Contact[] }> = ({ data }) => {
   return (
     <div className="contact-wrapper">
       {data?.length > 0 ? (
-        sortedKeys.map((letter) => (
+        sortedKeys?.map((letter) => (
           <Fragment key={letter}>
             <p>{letter}</p>
             <ul className="border-0">
-              {groupedContacts[letter].map((contact, index) => (
+              {groupedContacts[letter]?.map((contact, index) => (
                 <li className="common-space" key={`${letter}-${index}`}>
                   <div className="chat-time">
                     {contact.image && (

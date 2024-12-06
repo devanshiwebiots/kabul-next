@@ -21,8 +21,6 @@ const RightChatBody = () => {
       if (allMembers.length > 0) {
         dispatch(setChats(chat));
         dispatch(setSelectedUser(oneSelect));
-      }
-      if (allMembers.length > 0) {
         return allMembers.find((x: AllMemberType) => x.id === selectedUser);
       }
     }
