@@ -1,15 +1,16 @@
 import dayGridPlugin from "@fullcalendar/daygrid";
-import interactionPlugin, { Draggable } from "@fullcalendar/interaction";
 import timeGridPlugin from "@fullcalendar/timegrid";
-import { Fragment, useEffect, useState } from "react";
+import listPlugin from "@fullcalendar/list";
+import FullCalendar from "@fullcalendar/react";
+import interactionPlugin, { Draggable } from "@fullcalendar/interaction";
+import { calendarEventClick } from "./CalendarFunction";
+import { useEffect, useState } from "react";
 import { Col } from "reactstrap";
 import CalendarEvents from "./CalendarEvents";
-import { calenderEventClick } from "./CalenderFunction";
-import  FullCalendar from "@fullcalendar/react";
-import { CalenderInitialData } from "@/Data/Calender";
+import { CalendarInitialData } from "@/Data/Calendar";
 
 const DragCalendar = () => {
-  const state = useState(CalenderInitialData)[0];
+  const state = useState(CalendarInitialData)[0];
   useEffect(() => {
     let draggableEl = document.getElementById("external-events") as HTMLElement;
     new Draggable(draggableEl, {
@@ -25,31 +26,30 @@ const DragCalendar = () => {
     });
   }, []);
 
-  
-
   return (
-    <Fragment>
+    <>
       <CalendarEvents />
-      <Col xxl="9" className="box-col-12">
+      <Col xxl={9} className="box-col-12">
         <div className="demo-app-calendar" id="mycalendartest">
           <FullCalendar
             initialView="dayGridMonth"
             headerToolbar={{
               left: "prev,next today",
               center: "title",
-              right: "dayGridMonth,timeGridWeek,timeGridDay",
+              right: "dayGridMonth,timeGridWeek,timeGridDay,listWeek",
             }}
             rerenderDelay={10}
             eventDurationEditable={false}
             editable={true}
             droppable={true}
-            plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
+            plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin,listPlugin]}
             events={state.calendarEvents}
-            eventClick={calenderEventClick}            
+            eventClick={calendarEventClick}
           />
         </div>
       </Col>
-    </Fragment>
+    </>
   );
 };
+
 export default DragCalendar;

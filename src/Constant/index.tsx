@@ -293,6 +293,10 @@ export const Followers: string = "Followers";
 export const Following: string = "Following";
 export const Posts: string = "Posts";
 
+//Calendar
+export const DraggableEvents: string = "Draggable Events";
+export const RemoveAfterDrop: string = "remove after drop";
+export const CalendarFilter: string = "calendar filter";
 
 
 

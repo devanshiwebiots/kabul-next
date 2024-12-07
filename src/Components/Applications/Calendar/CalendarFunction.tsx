@@ -1,7 +1,7 @@
 import { EventClickArg } from "@fullcalendar/core";
 import Swal from "sweetalert2";
 
-export const calenderEventClick = (eventClick: EventClickArg) => {
+export const calendarEventClick = (eventClick: EventClickArg) => {
   Swal.fire({
     title: eventClick.event.title,
     html: `
