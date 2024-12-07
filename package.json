@@ -31,10 +31,9 @@
     "next-auth": "^4.24.10",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-apexcharts": "^1.6.0",
-    "react-data-table-component": "^7.6.2",
     "react-bootstrap-typeahead": "^6.3.4",
-    "react-datepicker": "^7.5.0",
     "react-data-table-component": "^7.6.2",
+    "react-datepicker": "^7.5.0",
     "react-dom": "19.0.0-rc-66855b96-20241106",
     "react-feather": "^2.0.10",
     "react-hook-form": "^7.53.2",
@@ -50,6 +49,7 @@
     "simplebar-react": "^3.2.6",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.13",
+    "sweetalert2": "^11.14.5",
     "yup": "^1.4.0"
   },
   "devDependencies": {
