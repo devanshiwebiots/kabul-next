@@ -38,7 +38,7 @@ const ChatUserProfile = () => {
                 <div>
                   <p>{item.time} </p>
                   {item.badge && (
-                    <Badge color='transparent' className='bg-success text-white'>15</Badge>
+                    <Badge color='success'>15</Badge>
                   )}
                 </div>
               </li>
