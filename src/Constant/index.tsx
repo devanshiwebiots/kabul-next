@@ -277,6 +277,12 @@ export const CashOnDelivery: string = "Cash On Delivery"
 export const CheckPayments: string = "Check Payments"
 export const Paypal: string = "Paypal";
 
+//Ecommerce-Pricing
+export const BecomeMembers: string = "Become Member";
+export const SignUp: string = "Sign Up";
+export const SimplePricingCards: string = "Simple Pricing Card";
+export const Purchase: string = "Purchase";
+
 //Ecommerce-Invoices
 export const PrintInvoice: string = "Print Invoice";
 export const AmountDus: string = "Amount Dus (USD)";
@@ -301,7 +307,7 @@ export const TotalAmount: string = "Total Amount";
 export const BillingAddress: string = "BILLING ADDRESS";
 export const ShippingAddress: string = "SHIPPING ADDRESS";
 export const Vat: string = "Vat";
-export const ShippingRate: string = "ShippingRate";
+export const ShippingRate: string = "Shipping Rate";
 export const BankTransfer: string = "BANK TRANSFER";
 export const BankAccount: string = "Bank Account";
 export const TotalAmounts: string = "TOTAL AMOUNT";
