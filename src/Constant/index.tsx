@@ -336,23 +336,28 @@ export const RecentChats: string = "Recent chats";
 export const NameAndPhoneNumber = "Name and phone number";
 export const TypeMessageHere: string = "Type Message here..";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Task
+export const TaskFilter: string = "Task filter";
+export const AddTask: string = "Add Task";
+export const NewTask: string = "New Task";
+export const TaskTitle: string = "Task Title";
+export const SubTask: string = "Sub task";
+export const TodayTasks: string = "Today Tasks";
+export const DelayedTasks: string = "Delayed Tasks";
+export const UpcomingTasks: string = "Upcoming Tasks";
+export const ThisWeekTask: string = "This Week Task";
+export const ThisMonthTasks: string = "This Month Task";
+export const AssignedToMe: string = "Assigned To Me";
+export const MyTasks: string = "My Tasks";
+export const Newsletter: string = "Newsletter";
+export const Holidays: string = "Holidays";
+export const Notification: string = "Notification";
+export const Business: string = "Business";
+export const RemindOn: string = "Remind on";
+export const Mail: string = "Mail";
+export const Save: string = "Save";
+export const Print: string = "Print";
+export const TagColor: string = "Tag color";
+export const CreateTags: string = "Create Tag";
+export const TagName: string = "Tag Name";
+export const Documentation: string = "Documentation";
