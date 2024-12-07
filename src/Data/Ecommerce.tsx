@@ -1016,3 +1016,32 @@ export const InvoiceFourData = [
   },
 ];
 
+export const InvoiceSixTable = ["Item Description", "Hours", "Rate", "SubTotal"];
+
+export const InvoiceSixData = [
+  {
+    title: "Red Shirt",
+    detail: "Wild West - Red Cotton Blend Regular Fit Men's Formal Shirt.",
+    hours: "5",
+    total: "375",
+  },
+  {
+    title: "Brown Dress",
+    detail: "Aask - Brown Polyester Blend Women's Fit & Flare Dress.",
+    hours: "3",
+    total: "225",
+  },
+  {
+    title: "Flower Dress",
+    detail: "Skyblue Flower Printed Sleevless Strappy Dress.",
+    hours: "10",
+    total: "750",
+  },
+  {
+    title: "Red Skirt",
+    detail: "R L F - Red Cotton Blend Women's A-Line Skirt.",
+    hours: "10",
+    total: "750",
+  },
+];
+
