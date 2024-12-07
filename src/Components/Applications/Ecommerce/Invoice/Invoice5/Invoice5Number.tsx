@@ -1,9 +1,10 @@
 import { AccountNo, Date, DueAmount, InvoiceNo } from "@/Constant";
+import { Table } from "reactstrap";
 
 const Invoice5Number = () => {
   return (
     <td>
-      <table style={{ width: "100%", borderSpacing: 4, marginBottom: 20 }} >
+      <Table style={{ width: "100%", borderSpacing: 4, marginBottom: 20 }} >
         <tbody>
           <tr>
             <td style={{ background: "#F5F6F9", padding: "15px 25px" }} >
@@ -24,7 +25,7 @@ const Invoice5Number = () => {
             </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

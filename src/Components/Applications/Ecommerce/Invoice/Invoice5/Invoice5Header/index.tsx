@@ -3,10 +3,11 @@ import Invoice5Details from "./Invoice5Details";
 import Invoice5RightSide from "./Invoice5RightSide";
 import Image from "next/image";
 import Invoice5Address from "./Invoice5Address";
+import { Table } from "reactstrap";
 
 const Invoice5Header = () => {
   return (
-    <table style={{ width: "100%" }}>
+    <Table borderless style={{ width: "100%" }}>
       <tbody>
         <tr style={{ padding: "28px 0 5px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <td>
@@ -20,7 +21,7 @@ const Invoice5Header = () => {
           <Invoice5Details />
         </tr>
       </tbody>
-    </table>
+    </Table>
   );
 };
 
