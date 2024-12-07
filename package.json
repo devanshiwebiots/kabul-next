@@ -53,6 +53,7 @@
     "react-simple-star-rating": "^5.1.7",
     "react-simplemde-editor": "^5.2.0",
     "react-slick": "^0.30.2",
+    "react-to-print": "^3.0.2",
     "reactstrap": "^9.2.3",
     "sass": "^1.81.0",
     "simplebar-react": "^3.2.6",
