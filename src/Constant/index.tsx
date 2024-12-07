@@ -320,6 +320,21 @@ export const Tax: string = "Tax";
 export const Discount: string = "Discount";
 export const TotalDue: string = "Total Due";
 export const PaymentTeams: string = "Payment Teams";
+export const AccountNo: string = "Account No";
+export const DueAmount: string = "Due Amount";
+export const No: string = "No.";
+export const UnitePrice: string = "Unite Price";
+export const VATTax: string = "VAT / Tax 15%";
+export const Kabul: string = "Kabul";
+export const ProjectDescription: string = " Project Description";
+
+//Chat
+export const SearchHere: string = "Search here..";
+export const Chats: string = "Chats";
+export const Contacts: string = "Contacts";
+export const RecentChats: string = "Recent chats";
+export const NameAndPhoneNumber = "Name and phone number";
+export const TypeMessageHere: string = "Type Message here..";
 
 //Bookmark
 export const Business: string = "Business";

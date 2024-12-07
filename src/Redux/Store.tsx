@@ -10,6 +10,7 @@ import AddProductSlice from "./Reducer/AddProductSlice";
 import ProjectSlice from "./Reducer/ProjectSlice";
 import BookmarkTabSlice from "./Reducer/BookmarkTabSlice";
 import ContactSlice from "./Reducer/ContactSlice";
+import ChatSlice from "./Reducer/ChatSlice";
 
 const Store = configureStore({
   reducer:{
@@ -24,6 +25,7 @@ const Store = configureStore({
     project: ProjectSlice,
     bookmarkTab: BookmarkTabSlice,
     contact: ContactSlice,
+    chat: ChatSlice,
   }
 });
 
