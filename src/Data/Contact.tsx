@@ -31,7 +31,6 @@ export const SideBarData = [
 
 export const OrganizationData = [
   {
-    id: "1",
     activeTab: "1",
     image: "2.png",
     name: "Mark Jecno",
@@ -39,7 +38,6 @@ export const OrganizationData = [
     gender: "Male",
   },
   {
-    id: "2",
     activeTab: "2",
     image: "3.jpg",
     name: "Jason Borne",
@@ -47,7 +45,6 @@ export const OrganizationData = [
     gender: "Male",
   },
   {
-    id: "3",
     activeTab: "3",
     image: "4.jpg",
     name: "Sarah Loren",
@@ -55,7 +52,6 @@ export const OrganizationData = [
     gender: "Female",
   },
   {
-    id: "4",
     activeTab: "4",
     image: "10.jpg",
     name: "Andew Jon",

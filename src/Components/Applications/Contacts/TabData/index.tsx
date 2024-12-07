@@ -2,12 +2,12 @@ import { TabContent, TabPane } from "reactstrap";
 import { Business, Favorites, FollowUp, Holidays, Ideas, Important } from "@/Constant";
 import { ContactNavProps } from "@/Types/Contact";
 import { useAppSelector } from "@/Redux/Hooks";
-import PersonalTab from "./TabData/PersonalTab";
-import OrganizationTab from "./TabData/OrganizationTab";
-import HistoryClass from "./TabData/History";
-import NoDataFoundClass from "./TabData/common/NoDataFound";
+import PersonalTab from "./PersonalTab";
+import OrganizationTab from "./OrganizationTab";
+import HistoryClass from "./History";
+import NoDataFoundClass from "./Common/NoDataFound";
 
-const TabComponent: React.FunctionComponent<ContactNavProps> = ({ activeTab }): React.ReactElement => {
+const TabData: React.FunctionComponent<ContactNavProps> = ({ activeTab }): React.ReactElement => {
   const {users} = useAppSelector((state)=>state.contact)
 
   return (
@@ -47,4 +47,4 @@ const TabComponent: React.FunctionComponent<ContactNavProps> = ({ activeTab }): 
   );
 };
 
-export default TabComponent;
+export default TabData;

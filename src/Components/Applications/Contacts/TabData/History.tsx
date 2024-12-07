@@ -1,6 +1,7 @@
 import { ContactCreated, ContactHistory, Href } from "@/Constant";
 import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import { setHistory } from "@/Redux/Reducer/ContactSlice";
+import Link from "next/link";
 
 const HistoryClass = () => {
   const { history } = useAppSelector((state)=>state.contact)
@@ -11,9 +12,9 @@ const HistoryClass = () => {
       <div className="modal-header p-l-20 p-r-20">
         <h3 className="modal-title w-100">{ContactHistory}
           <span className="pull-right">
-            <a className="closehistory" href={Href} onClick={()=>dispatch(setHistory())}>
+            <Link className="closehistory" href={Href} onClick={()=>dispatch(setHistory())}>
               <i className="icofont icofont-close"></i>
-            </a>
+            </Link>
           </span>
         </h3>
       </div>

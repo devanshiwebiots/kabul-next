@@ -2,8 +2,8 @@ import  {  useCallback, useState } from 'react';
 import { Row, Col, Card, CardBody, TabContent } from 'reactstrap';
 import { Organization } from '@/Constant';
 import CommonCardHeader from '@/CommonComponents/CommonCardHeader';
-import NavOrg from './OrganicTab/NavOrg';
-import TabOrg from './OrganicTab/TabOrg';
+import NavOrg from './NavOrg';
+import TabOrg from './TabOrg';
 
 const OrganizationTab = () => {
   const [orgActiveTab, setOrgActiveTab] = useState('1');
@@ -17,7 +17,7 @@ const OrganizationTab = () => {
         <CardBody className="p-0">
           <Row className="list-persons">
             <NavOrg callback={callback} />
-            <Col xl="8" md="7" className='xl-50'>
+            <Col xl={8} md={7} className='xl-50'>
               <TabContent activeTab={orgActiveTab}>
                 <TabOrg />
               </TabContent>

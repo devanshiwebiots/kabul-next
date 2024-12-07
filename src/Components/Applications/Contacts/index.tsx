@@ -4,7 +4,7 @@ import { fetchContactApiData } from "@/Redux/Reducer/ContactSlice";
 import { useCallback, useEffect, useState } from "react";
 import { Col, Container, Row } from "reactstrap";
 import ContactSideBar from "./ContactSideBar";
-import TabComponent from "./TabComponent";
+import TabData from "./TabData";
 
 const ContactsContainer = () => {
   const [activeTab, setActiveTab] = useState("1");
@@ -22,11 +22,11 @@ const ContactsContainer = () => {
     <Container fluid>
       <div className="email-wrap bookmark-wrap">           
         <Row>
-          <Col xl="3" className="box-col-4e">
+          <Col xl={3} className="box-col-4e">
             <ContactSideBar callback={callback} />
           </Col>
-          <Col xl="9" md="12" className="box-col-12">
-            <TabComponent activeTab={activeTab} />
+          <Col xl={9} md={12} className="box-col-12">
+            <TabData activeTab={activeTab} />
           </Col>
         </Row>
       </div>

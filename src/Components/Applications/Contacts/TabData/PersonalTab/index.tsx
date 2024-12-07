@@ -26,7 +26,7 @@ const PersonalTab :React.FC<PersonalTabPropsType> = ({ users }) => {
       <CardBody className="p-0">
         <Row className="list-persons" id="addcon">
           <ListNewContact users={users} userCallback={userCallback} />
-          <Col xl="8" md="7" className="xl-50">
+          <Col xl={8} md={7} className="xl-50">
             {editing ? (
               <UpdateUser editData={editData} userEditCallback={userEditCallback}/>
             ) : (

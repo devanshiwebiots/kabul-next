@@ -14,8 +14,8 @@ const PrintPreview = React.forwardRef(({selectedUser}:PrintPreviewPropsType, ref
       </div >
     </div>
     <div className="email-general">
-      <h3>{General}</h3>
-      <p>{EmailAddress}:<span className="font-primary" id="mailadd">{selectedUser.surname}{'@gmail.com'}</span></p>
+      <h6>{General}</h6>
+      <p>{EmailAddress}:<span className="font-primary" id="mailadd">{selectedUser.surname}@gmail.com</span></p>
     </div>
   </div>
   )

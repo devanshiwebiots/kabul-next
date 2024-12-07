@@ -75,7 +75,13 @@ export interface PrintModalPropsTypes {
   selectedUser: UserCallbackUser;
   toggleCallback: (result: boolean) => void;
 }
-
 export interface PrintPreviewPropsType {
   selectedUser: UserCallbackUser;
+}
+export interface SearchNotFoundClassType {
+  word: string;
+}
+export interface UpdateUserPropsType {
+  editData: UserCallbackUser;
+  userEditCallback: (edit: boolean, usersData: UserCallbackUser) => void;
 }

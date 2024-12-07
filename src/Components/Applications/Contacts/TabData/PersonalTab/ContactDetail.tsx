@@ -7,6 +7,7 @@ import SearchNotFoundClass from "./SearchNotFoundClass";
 import { deletedUser, setHistory, setTempId } from "@/Redux/Reducer/ContactSlice";
 import PrintModal from "./PrintModal";
 import Link from "next/link";
+import Image from "next/image";
 
 const ContactDetailsClass :React.FC<ContactDetailsPropsType> = ({ selectedUser, userEditCallback ,setSelectedUser}) => {
   const [printModal, setPrintModal] = useState(false);
@@ -29,7 +30,7 @@ const ContactDetailsClass :React.FC<ContactDetailsPropsType> = ({ selectedUser, 
       icon: "warning",
       showCancelButton: true,
       confirmButtonText: "Ok",
-      cancelButtonText: "cancel",
+      cancelButtonText: "Cancel",
       reverseButtons: true,
     }).then((result) => {
       if (result.value) {
@@ -48,7 +49,7 @@ const ContactDetailsClass :React.FC<ContactDetailsPropsType> = ({ selectedUser, 
       {selectedUser ? (
         <div className="profile-mail">
           <div className="d-flex">
-            <img className="img-100 img-fluid m-r-20 rounded-circle update_img_0" src={`${selectedUser.avatar}`} alt="" />
+            <Image height={100} width={100} priority className="img-fluid m-r-20 rounded-circle update_img_0" src={`${selectedUser.avatar}`} alt="" />
             <div className="flex-grow-1 mt-0">
               <h5><span className="first_name_0">{selectedUser.name}</span> <span className="last_name_0">{selectedUser.surname}</span></h5>
               <p className="email_add_0">{selectedUser.name}{"@gmail.com"}</p>
