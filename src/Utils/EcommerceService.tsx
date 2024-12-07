@@ -1,5 +1,11 @@
 import { CartType, FilterInterface, ProductItemInterface } from "@/Types/Ecommerce";
 
+export const getCartTotal = (cartItems: CartType) => {
+  let items = 0;
+  items = cartItems.total * cartItems.price;
+  return items;
+};
+
 export const getallCardTotal = (cartItems: CartType[]) => {
   let total = 0;
   let items = 0;
@@ -9,12 +15,6 @@ export const getallCardTotal = (cartItems: CartType[]) => {
     total = total + items;
   }
   return total;
-};
-
-export const getCartTotal = (cartItems: CartType) => {
-  let items = 0;
-  items = cartItems.total * cartItems.price;
-  return items;
 };
 
 export const getBrands = (products: ProductItemInterface[]) => {
