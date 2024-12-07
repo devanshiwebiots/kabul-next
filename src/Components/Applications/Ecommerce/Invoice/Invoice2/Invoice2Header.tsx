@@ -1,10 +1,11 @@
 import { ContactNo, Email, ImagePath, Website } from "@/Constant";
 import Image from "next/image";
+import { Table } from "reactstrap";
 
 const Invoice2Header = () => {
   return (
     <td>
-      <table style={{ width: "100%" }} >
+      <Table borderless style={{ width: "100%" }} >
         <tbody>
           <tr>
             <td style={{ minWidth: 347, width: "30%" }}>
@@ -27,7 +28,7 @@ const Invoice2Header = () => {
             </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

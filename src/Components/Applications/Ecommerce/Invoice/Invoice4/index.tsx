@@ -4,10 +4,11 @@ import Invoice4Header from "./Invoice4Header";
 import Invoice4Table from "./Invoice4Table";
 import Invoice4Total from "./Invoice4Total";
 import Invoice4Sign from "./Invoice4Sign";
+import { Table } from "reactstrap";
 
 const InvoiceFourContainer = () => {
   return (
-    <table style={{ width: "1110px", margin: "0 auto" }}>
+    <Table style={{ width: "1110px", margin: "0 auto" }}>
       <tbody>
         <tr><Invoice4Header /></tr>
         <tr><Invoice4Details /></tr>
@@ -19,7 +20,7 @@ const InvoiceFourContainer = () => {
         </tr>
         <Invoice4Sign />
       </tbody>
-    </table>
+    </Table>
   );
 };
 

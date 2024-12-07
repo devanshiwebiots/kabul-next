@@ -17,12 +17,6 @@ export const getallCardTotal = (cartItems: CartType[]) => {
   return total;
 };
 
-export const getCartTotal = (cartItems: CartType) => {
-  let items = 0;
-  items = cartItems.total * cartItems.price;
-  return items;
-};
-
 export const getBrands = (products: ProductItemInterface[]) => {
   let uniqueBrands: string[] = [];
   products.forEach((product) => {

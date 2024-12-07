@@ -1,12 +1,12 @@
 "use client";
-import React, { useRef } from "react";
-import { Card, CardBody, Container, Table } from "reactstrap";
-import Invoice1Header from "./Invoice1Header";
+import { useRef } from "react";
+import { useReactToPrint } from "react-to-print";
+import { Table } from "reactstrap";
 import BackImage from "./BackImage";
 import Invoice1Content from "./Invoice1Content";
+import Invoice1Header from "./Invoice1Header";
 import Invoice1Order from "./Invoice1Order";
 import Sign from "./Sign";
-import { useReactToPrint } from "react-to-print";
 
 const InvoiceOneContainer = () => {
 
@@ -15,7 +15,7 @@ const InvoiceOneContainer = () => {
 
   return (
     <div ref={contentRef}>
-      <table className="table-wrapper">
+      <Table borderless className="table-wrapper">
         <tbody>
           <tr><Invoice1Header /></tr>
           <tr><BackImage /></tr>
@@ -25,7 +25,7 @@ const InvoiceOneContainer = () => {
         <tbody>
           <Sign handlePrint={handlePrint} />
         </tbody>
-      </table>
+      </Table>
     </div>
   );
 };

@@ -1,9 +1,10 @@
 import { InvoiceFourDetails } from "@/Data/Ecommerce";
+import { Table } from "reactstrap";
 
 const Invoice4Details = () => {
   return (
     <td>
-      <table style={{ width: "100%", borderSpacing: 4, marginBottom: 20 }}>
+      <Table style={{ width: "100%", borderSpacing: 4, marginBottom: 20 }}>
         <tbody>
           <tr>
             {InvoiceFourDetails?.map((data, i) => (
@@ -15,7 +16,7 @@ const Invoice4Details = () => {
           </tr>
            
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

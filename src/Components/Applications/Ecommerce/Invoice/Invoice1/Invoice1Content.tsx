@@ -1,13 +1,14 @@
 import { AmountDus, BilledTo, InvoiceDate, InvoiceNumber, KabulMatchettVandelayGroupLTD, UnitedStateTitleText } from "@/Constant";
 import { useAppSelector } from "@/Redux/Hooks";
 import { getallCardTotal } from "@/Utils/EcommerceService";
+import { Table } from "reactstrap";
 
 const Invoice1Content = () => {
   const { cart, tax } = useAppSelector((state) => state.cartData);
 
   return (
     <td>
-      <table className="bill-content" style={{ width: "100%" }}>
+      <Table borderless className="bill-content" style={{ width: "100%" }}>
         <tbody>
           <tr>
             <td style={{ width: "36%" }}>
@@ -33,7 +34,7 @@ const Invoice1Content = () => {
             </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

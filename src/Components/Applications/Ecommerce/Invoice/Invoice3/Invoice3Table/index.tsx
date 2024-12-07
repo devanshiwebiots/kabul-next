@@ -1,10 +1,11 @@
+import { Table } from "reactstrap";
 import Invoice3Body from "./Invoice3Body";
 import { InvoiceThreeHeader } from "@/Data/Ecommerce";
 
 const Invoice3Table = () => {
   return (
     <td>
-      <table style={{ width: "100%", borderSpacing: 0 }} >
+      <Table style={{ width: "100%", borderSpacing: 0 }} >
         <thead>
           <tr style={{ background: "var(--theme-default)" }}>
             {InvoiceThreeHeader?.map((data, i) => (
@@ -17,7 +18,7 @@ const Invoice3Table = () => {
         <tbody>
           <Invoice3Body />
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

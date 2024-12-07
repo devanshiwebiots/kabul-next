@@ -1,9 +1,10 @@
 import { BillingAddress, Phone, ShippingAddress } from "@/Constant";
+import { Table } from "reactstrap";
 
 const Invoice2Billing = () => {
   return (
     <td>
-      <table style={{ width: "100%" }}>
+      <Table style={{ width: "100%" }}>
         <tbody>
           <tr style={{ padding: "28px 0", display: "block" }}>
             <td style={{ width: "70%", minWidth: 304 }}>
@@ -34,7 +35,7 @@ const Invoice2Billing = () => {
             </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

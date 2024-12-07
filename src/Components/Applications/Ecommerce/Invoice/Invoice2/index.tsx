@@ -1,4 +1,5 @@
 'use client';
+import { Table } from "reactstrap";
 import ActionButtons from "../Common/ActionButtons";
 import Invoice2Billing from "./Invoice2Billing";
 import Invoice2Content from "./Invoice2Content";
@@ -8,7 +9,7 @@ import Invoice2Total from "./Invoice2Total";
 
 const InvoiceTwoContainer = () => {
   return (
-    <table style={{ width: "1070px", margin: "0 auto" }} >
+    <Table borderless style={{ width: "1070px", margin: "0 auto" }} >
       <tbody>
         <tr><Invoice2Header /></tr>
         <tr><Invoice2Details /></tr>
@@ -24,7 +25,7 @@ const InvoiceTwoContainer = () => {
           <td><ActionButtons /></td>
         </tr>
       </tbody>
-    </table>
+    </Table>
   );
 };
 

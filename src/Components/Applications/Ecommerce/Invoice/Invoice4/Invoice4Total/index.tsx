@@ -1,10 +1,11 @@
 import { PaymentTeams } from "@/Constant";
 import Invoice4SubTotal from "./Invoice4SubTotal";
+import { Table } from "reactstrap";
 
 const Invoice4Total = () => {
   return (
     <td>
-      <table style={{ width: "100%" }}>
+      <Table style={{ width: "100%" }}>
         <tbody>
           <tr style={{ display: "flex", justifyContent: "space-between", margin: "16px 0 24px 0", alignItems: "flex-end" }}>
             <td style={{ display: "flex", gap: 10 }}>
@@ -16,7 +17,7 @@ const Invoice4Total = () => {
             </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

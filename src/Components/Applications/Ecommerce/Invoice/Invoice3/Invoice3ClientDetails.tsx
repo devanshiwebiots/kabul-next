@@ -1,9 +1,10 @@
 import { ClientDetails, Phone, ShippingAddress } from "@/Constant";
+import { Table } from "reactstrap";
 
 const Invoice3ClientDetails = () => {
   return (
     <td>
-      <table style={{ width: "100%", borderSpacing: 0 }}>
+      <Table style={{ width: "100%", borderSpacing: 0 }}>
         <tbody>
           <tr style={{ padding: "28px 0", display: "flex", justifyContent: "space-between" }} >
             <td>
@@ -24,7 +25,7 @@ const Invoice3ClientDetails = () => {
             </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

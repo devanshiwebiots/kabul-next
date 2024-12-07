@@ -1,11 +1,12 @@
 import { Description, Subtotal } from "@/Constant";
 import Invoice4Body from "./Invoice4Body";
 import { InvoiceTableHeader } from "@/Data/Ecommerce";
+import { Table } from "reactstrap";
 
 const Invoice4Table = () => {
   return (
     <td>
-      <table style={{ width: "100%", borderSpacing: 0 }}>
+      <Table style={{ width: "100%", borderSpacing: 0 }}>
         <thead>
           <tr style={{ background: "var(--theme-default)" }}>
             {InvoiceTableHeader?.map((data, i) => (
@@ -18,7 +19,7 @@ const Invoice4Table = () => {
         <tbody>
           <Invoice4Body />
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

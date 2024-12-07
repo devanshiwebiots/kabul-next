@@ -1,4 +1,5 @@
 'use client'
+import { Table } from "reactstrap";
 import ActionButtons from "../Common/ActionButtons";
 import Invoice3BankTransfer from "./Invoice3BankTransfer";
 import Invoice3ClientDetails from "./Invoice3ClientDetails";
@@ -7,7 +8,7 @@ import Invoice3Table from "./Invoice3Table";
 
 const InvoiceThreeContainer = () => {
   return (
-    <table style={{ width: "1075px", margin: "0 auto" }}>
+    <Table borderless style={{ width: "1075px", margin: "0 auto" }}>
       <tbody>
         <tr><Invoice3Header /></tr>
         <tr><Invoice3ClientDetails /></tr>
@@ -27,7 +28,7 @@ const InvoiceThreeContainer = () => {
           <td><ActionButtons /></td>
         </tr>
       </tbody>
-    </table>
+    </Table>
   );
 };
 

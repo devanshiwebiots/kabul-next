@@ -1,9 +1,10 @@
 import { ShippingRate, Subtotal, TotalAmount, Vat } from "@/Constant";
+import { Table } from "reactstrap";
 
 const Invoice2Total = () => {
   return (
     <td>
-      <table style={{ float: "right" }}>
+      <Table borderless style={{ float: "right" }}>
         <tfoot>
           <tr>
             <td style={{ padding: "5px 24px 5px 0", paddingTop: 15 }}>
@@ -42,7 +43,7 @@ const Invoice2Total = () => {
             </td>
           </tr>
         </tfoot>
-      </table>
+      </Table>
     </td>
   );
 };

@@ -1,10 +1,11 @@
 import { ImagePath, Invoice } from "@/Constant";
 import Image from "next/image";
+import { Table } from "reactstrap";
 
 const Invoice3Header = () => {
   return (
     <td>
-      <table style={{ width: "100%", backgroundImage: `url(${ImagePath}/email-template/invoice-3/bg-0.png)`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat", borderRadius: 10 }} >
+      <Table style={{ width: "100%", backgroundImage: `url(${ImagePath}/email-template/invoice-3/bg-0.png)`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat", borderRadius: 10 }} >
         <tbody>
           <tr>
             <td style={{ color: "#52526C", padding: "30px 0 30px 30px" }}>
@@ -21,7 +22,7 @@ const Invoice3Header = () => {
             </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

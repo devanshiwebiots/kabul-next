@@ -1,10 +1,11 @@
 import { ImagePath } from "@/Constant";
 import Image from "next/image";
+import { Table } from "reactstrap";
 
 const Invoice1Header = () => {
   return (
     <td>
-      <table className="logo-wrappper" style={{width:"100%"}}>
+      <Table className="logo-wrappper" style={{width:"100%"}}>
         <tbody>
           <tr>
             <td>
@@ -17,7 +18,7 @@ const Invoice1Header = () => {
             </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

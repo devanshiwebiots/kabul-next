@@ -1,10 +1,11 @@
 import { Email, Invoice, InvoiceTo, Phone, Website } from "@/Constant";
 import Invoice4RightLogo from "./Invoice4RightLogo";
+import { Table } from "reactstrap";
 
 const Invoice4Header = () => {
   return (
     <td>
-      <table style={{ width: "100%" }} >
+      <Table style={{ width: "100%" }} >
         <tbody>
           <tr style={{ padding: "28px 0 5px", display: "flex", justifyContent: "space-between" }} >
             <td>
@@ -25,7 +26,7 @@ const Invoice4Header = () => {
             <Invoice4RightLogo />
           </tr>
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };

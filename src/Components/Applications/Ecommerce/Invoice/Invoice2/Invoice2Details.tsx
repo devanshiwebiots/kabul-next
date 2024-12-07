@@ -1,9 +1,10 @@
 import { Date, InvoiceNo, PaymentStatus, TotalAmount } from "@/Constant";
+import { Table } from "reactstrap";
 
 const Invoice2Details = () => {
   return (
     <td>
-      <table style={{ width: "100%" }}>
+      <Table style={{ width: "100%" }}>
         <tbody>
           <tr style={{ display: "flex", justifyContent: "space-between", borderTop: "1px solid rgba(82, 82, 108, 0.3)", borderBottom: "1px solid rgba(82, 82, 108, 0.3)", padding: "25px 0" }}>
             <td style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap", minWidth: 136 }}>
@@ -32,7 +33,7 @@ const Invoice2Details = () => {
             </td>
           </tr>
         </tbody>
-      </table>
+      </Table>
     </td>
   );
 };
