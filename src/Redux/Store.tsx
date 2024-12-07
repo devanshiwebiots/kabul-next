@@ -9,7 +9,7 @@ import FileManagerSlice from "./Reducer/FileManagerSlice";
 import AddProductSlice from "./Reducer/AddProductSlice";
 import ProjectSlice from "./Reducer/ProjectSlice";
 import LetterBoxSlice from "./Reducer/LetterBoxSlice";
-
+import ChatSlice from "./Reducer/ChatSlice";
 
 const Store = configureStore({
   reducer:{
@@ -23,6 +23,7 @@ const Store = configureStore({
     addProduct: AddProductSlice,
     project: ProjectSlice,
     letterBox:LetterBoxSlice,
+    chat: ChatSlice,
   }
 });
 
