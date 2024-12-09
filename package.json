@@ -39,6 +39,7 @@
     "react-data-table-component": "^7.6.2",
     "react-datepicker": "^7.5.0",
     "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-download-link": "^2.3.0",
     "react-feather": "^2.0.10",
     "react-hook-form": "^7.53.2",
     "react-hot-toast": "^2.4.1",
