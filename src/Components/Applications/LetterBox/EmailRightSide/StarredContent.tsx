@@ -12,8 +12,8 @@ const StarredContent = () => {
     <TabPane tabId='3'>
       <div className='mail-body-wrapper'>
         <ul>
-          {starBadges.length > 0 ? (
-            inboxEmail.map((data, i) => (
+          {starBadges?.length > 0 ? (
+            inboxEmail?.map((data, i) => (
               <Fragment key={i}>
                 {data.star && (
                   <li className='inbox-data'>
@@ -23,11 +23,10 @@ const StarredContent = () => {
               </Fragment>
             ))
           ) : (
-            <Col sm='12'>
+            <Col sm={12}>
               <div>
                 <div className='search-not-found text-center p-5'>
-                  <img className='img-100 mb-4' src={`${ImagePath}/other-images/sad4.gif`} alt='' />
-                  <p>{`Sorry, Not Found Any Email`}</p>
+                  <p>Sorry, Not Found Any Email</p>
                 </div>
               </div>
             </Col>

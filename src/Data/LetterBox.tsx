@@ -221,17 +221,17 @@ export const InboxEmailData = [
     {
       title: "Important",
       icon: "mail",
-      id: "pills-important-tab",
+      id: "important",
     },
     {
       title: "Social",
       icon: "goal",
-      id: "pills-social-tab",
+      id: "social",
     },
     {
       title: "Promotion",
       icon: "tread",
-      id: "pills-promotion-tab",
+      id: "promotion",
     },
   ];
 
