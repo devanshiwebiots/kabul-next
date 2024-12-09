@@ -6,19 +6,19 @@ import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import { NavClassType } from "@/Types/Task";
 import { setTaskFilter } from "@/Redux/Reducer/TaskSlice";
 import HeaderProfile from "./HeaderProfile";
-import NewTaskClass from "./NewTask";
-import { TaskViewData } from "./TaskViewData";
+import NewTask from "./NewTask";
+import TaskViewData from "./TaskViewData";
 import CreateTag from "./CreateTag";
-import { TaskTagData } from "./TaskTagData";
- 
-const NavClass :React.FC<NavClassType> = ({ activeToggle }) => {
+import TaskTagData from "./TaskTagData";
+
+const NavClass: React.FC<NavClassType> = ({ activeToggle }) => {
   const [tagModal, setTagModal] = useState(false);
-  const { taskFilter} = useAppSelector((state) => state.task);
+  const { taskFilter } = useAppSelector((state) => state.task);
   const dispatch = useAppDispatch();
-  const tagCallback = useCallback((modal:boolean) => {setTagModal(modal)}, []);
+  const tagCallback = useCallback((modal: boolean) => { setTagModal(modal) }, []);
 
   return (
-    <Col xl="3" className="box-col-4e">
+    <Col xl={3} className="box-col-4e">
       <div className="md-sidebar">
         <Button tag="a" color="primary" className="md-sidebar-toggle" href={Href} onClick={() => dispatch(setTaskFilter())}>{TaskFilter}</Button>
         <div className={`md-sidebar-aside job-left-aside custom-scrollbar ${taskFilter ? "open" : ""}`}>
@@ -28,16 +28,16 @@ const NavClass :React.FC<NavClassType> = ({ activeToggle }) => {
                 <div className="email-app-sidebar left-bookmark task-sidebar">
                   <HeaderProfile />
                   <Nav className="main-menu">
-                    <NavItem><NewTaskClass /></NavItem>
+                    <NavItem><NewTask /></NavItem>
                     <NavItem><span className="main-title">Views</span></NavItem>
                     <TaskViewData activeToggle={activeToggle} />
                     <NavItem><hr /></NavItem>
                     <NavItem>
                       <span className="f-w-700 main-title">Tags
-                        <span className="pull-right" onClick={() => {setTagModal(true)}}><PlusCircle /></span>
+                        <span className="pull-right" onClick={() => { setTagModal(true) }}><PlusCircle /></span>
                       </span>
                     </NavItem>
-                    <CreateTag tagCallback={tagCallback} tagModal={tagModal} setTagModal={setTagModal}/>
+                    <CreateTag tagCallback={tagCallback} tagModal={tagModal} setTagModal={setTagModal} />
                     <TaskTagData activeToggle={activeToggle} />
                   </Nav>
                 </div>

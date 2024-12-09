@@ -23,20 +23,21 @@ const CreateTag :React.FC<CreateTagProp> = ({ tagCallback, tagModal,setTagModal 
       <ModalBody>
         <Form className="form-bookmark needs-validation" onSubmit={handleSubmit(AddTag)}>
           <Row>
-            <Col md="12" className="mb-3 mt-0">
+            <Col md={12} className="mb-3 mt-0">
               <Label check>{TagName}</Label>
               <input className={`form-control ${validation && `${errors.name ? "is-invalid" : "is-valid"}`}`} type="text" {...register("name", { required: true })} />
             </Col>
-            <Col md="12" className="mt-0">
+            <Col md={12} className="mt-0">
               <Label check>{TagColor}</Label>
-              <input className={`form-color d-block  ${validation && `${errors.color ? "is-invalid" : "is-valid"}`}`} type="color" {...register("color", { required: true })} defaultValue="#2A5699" />
+              <input className={`form-color d-block  ${validation && `${errors.color ? "is-invalid" : "is-valid"}`}`} type="color" {...register("color", { required: true })} defaultValue="#678f44" />
             </Col>
           </Row>
-          <Button color="secondary" className="me-1" type="submit" onClick={()=>setValidation(true)}>{Save}</Button>
+          <Button className="me-1" type="submit" onClick={()=>setValidation(true)}>{Save}</Button>
           <Button color="primary" onClick={tagToggle}>{Cancel}</Button>
         </Form>
       </ModalBody>
     </Modal>
   );
 };
+
 export default CreateTag;

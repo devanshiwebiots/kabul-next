@@ -1,14 +1,13 @@
-/* eslint-disable react/display-name */
-import {  Link2, MoreHorizontal, Trash, Trash2 } from "react-feather";
-import { CardBody, Table } from "reactstrap";
-import SweetAlert from "sweetalert2";
 import { Href } from "@/Constant";
 import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
-import React, { LegacyRef } from "react";
 import { removeTask } from "@/Redux/Reducer/TaskSlice";
 import Link from "next/link";
+import React, { LegacyRef } from "react";
+import { Link as Links, MoreHorizontal, Trash2 } from "react-feather";
+import { CardBody, Table } from "reactstrap";
+import SweetAlert from "sweetalert2";
 
-const CreatedByMe = React.forwardRef((props, ref : LegacyRef<HTMLDivElement> | undefined) => {
+const CreatedByMe = React.forwardRef((props, ref: LegacyRef<HTMLDivElement> | undefined) => {
   const { allTask } = useAppSelector((state) => state.task);
   const dispatch = useAppDispatch();
 
@@ -19,7 +18,7 @@ const CreatedByMe = React.forwardRef((props, ref : LegacyRef<HTMLDivElement> | u
       icon: "warning",
       showCancelButton: true,
       confirmButtonText: "Ok",
-      cancelButtonText: "cancel",
+      cancelButtonText: "Cancel",
       reverseButtons: true,
     }).then((result) => {
       if (result.value) {
@@ -35,22 +34,22 @@ const CreatedByMe = React.forwardRef((props, ref : LegacyRef<HTMLDivElement> | u
     <div ref={ref}>
       <CardBody className="p-0" >
         <div className="taskadd">
-          <div className="table-responsive theme-scrollbar table-borderless">
-            <Table borderless>
+          <div className="table-responsive custom-scrollbar">
+            <Table>
               <thead>
                 <tr></tr>
               </thead>
               <tbody>
-                {allTask && allTask.length ? (
-                  allTask.map((data, index) => (
+                {allTask?.length ? (
+                  allTask?.map((data, index) => (
                     <tr key={index}>
                       <td>
                         <h6 className="task_title_0 f-w-600">{data.title}</h6>
                         <p className="project_name_0">{data.collection}</p>
                       </td>
                       <td><p className="task_desc_0">{data.description}</p></td>
-                     <td>
-                        <Link className="me-2" href={Href}><Link2 /></Link>
+                      <td>
+                        <Link className="me-2" href={Href}><Links /></Link>
                         <Link href={Href}><MoreHorizontal /></Link>
                       </td>
                       <td>

@@ -32,7 +32,7 @@ const AssignedToMeClass :React.FC<EmptyTaskClassProp> = ({ title }) => {
   return (
     <Card className="mb-0">
       <CardHeader className="d-flex">
-        <h5 className="mb-0 f-w-600">{title}</h5>
+        <h4 className="mb-0">{title}</h4>
         <Link href={Href}><Printer className="me-2"/>{Print}</Link>
       </CardHeader>
       <CardBody className="p-0">
@@ -40,8 +40,8 @@ const AssignedToMeClass :React.FC<EmptyTaskClassProp> = ({ title }) => {
           <div className="table-responsive">
             <Table>
               <tbody>
-                {myTask && myTask.length ? (
-                  myTask.map((data, index) => {
+                {myTask?.length ? (
+                  myTask?.map((data, index) => {
                     return (
                       <tr key={index}>
                         <td>
@@ -74,4 +74,5 @@ const AssignedToMeClass :React.FC<EmptyTaskClassProp> = ({ title }) => {
     </Card>
   );
 };
+
 export default AssignedToMeClass;

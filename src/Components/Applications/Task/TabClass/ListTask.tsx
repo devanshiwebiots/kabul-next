@@ -11,11 +11,16 @@ const ListOfTask = () => {
   const contentRef = useRef<HTMLDivElement>(null);
   const handlePrint = useReactToPrint({ contentRef });
 
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    handlePrint();
+  };
+
   return (
     <Card className="mb-0">
       <CardHeader className="d-flex pb-0">
         <h4 className="mb-0">{Documentation}</h4>
-        {/* <Link href={Href} onClick={handlePrint}><Printer className="me-2" />{Print}</Link> */}
+        <Link href={Href} onClick={handleLinkClick}><Printer className="me-2" />{Print}</Link>
       </CardHeader>
       <CreatedByMe ref={contentRef} />
     </Card>
@@ -23,3 +28,4 @@ const ListOfTask = () => {
 };
 
 export default ListOfTask;
+

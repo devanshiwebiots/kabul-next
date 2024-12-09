@@ -6,7 +6,7 @@ import { NavClassType } from "@/Types/Task";
 import Link from "next/link";
 import { NavItem } from "reactstrap";
 
-export const TaskViewData :React.FC<NavClassType>= ({ activeToggle }) => {
+const TaskViewData: React.FC<NavClassType> = ({ activeToggle }) => {
   const { activeTab } = useAppSelector((state) => state.task);
   const dispatch = useAppDispatch();
   const tabHandler = (tab: string) => {
@@ -16,8 +16,8 @@ export const TaskViewData :React.FC<NavClassType>= ({ activeToggle }) => {
 
   return (
     <>
-      {TaskData.map((item) => (
-        <NavItem key={item.id}>
+      {TaskData?.map((item, index) => (
+        <NavItem key={index}>
           <Link href={Href} className={activeTab === item.activeTab ? "active" : ""} onClick={() => tabHandler(item.activeTab)}>
             <span className="title">{item.title}</span>
           </Link>
@@ -26,3 +26,5 @@ export const TaskViewData :React.FC<NavClassType>= ({ activeToggle }) => {
     </>
   );
 };
+
+export default TaskViewData;

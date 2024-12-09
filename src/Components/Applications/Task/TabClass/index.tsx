@@ -9,7 +9,7 @@ const TabClass = () => {
   const { activeTab } = useAppSelector((state) => state.task);
 
   return (
-    <Col xl='9' md='12' className='box-col-12'>
+    <Col xl={9} md={12} className='box-col-12'>
       <div className='email-right-aside bookmark-tabcontent'>
         <Card className='email-body radius-left'>
           <div className='ps-0'>

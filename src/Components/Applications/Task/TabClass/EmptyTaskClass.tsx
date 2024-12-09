@@ -8,7 +8,7 @@ const EmptyTaskClass: React.FC<EmptyTaskClassProp> = ({ title }) => {
   return (
     <Card className='mb-0'>
       <CardHeader className='d-flex'>
-        <h5 className='mb-0'>{title}</h5>
+        <h4 className='mb-0'>{title}</h4>
         <Link href={Href}>
           <Printer className='me-2' />
           {Print}
@@ -17,19 +17,12 @@ const EmptyTaskClass: React.FC<EmptyTaskClassProp> = ({ title }) => {
       <CardBody>
         <div className='details-bookmark text-center'>
           <div className='no-favourite'>
-            <span>No Task Due Today</span>
+            <span>No task due today.</span>
           </div>
-          <Col sm='12'>
-            <div>
-              <div className='search-not-found text-center p-5'>
-                <img className='img-100 mb-4' src={`${ImagePath}/other-images/sad.png`} alt='' />
-                <p>{`Sorry, Not Found Any Task`}</p>
-              </div>
-            </div>
-          </Col>
         </div>
       </CardBody>
     </Card>
   );
 };
+
 export default EmptyTaskClass;

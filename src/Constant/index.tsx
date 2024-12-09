@@ -339,10 +339,10 @@ export const TypeMessageHere: string = "Type Message here..";
 //Task
 export const TaskFilter: string = "Task filter";
 export const AddTask: string = "Add Task";
-export const NewTask: string = "New Task";
+export const NewTasks: string = "New Task";
 export const TaskTitle: string = "Task Title";
 export const SubTask: string = "Sub task";
-export const TodayTasks: string = "Today Tasks";
+export const TodayTasks: string = "Today's Tasks";
 export const DelayedTasks: string = "Delayed Tasks";
 export const UpcomingTasks: string = "Upcoming Tasks";
 export const ThisWeekTask: string = "This Week Task";
