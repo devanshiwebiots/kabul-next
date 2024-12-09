@@ -371,3 +371,10 @@ export const Completed: string = "Completed";
 export const Pending: string = "Pending";
 export const InProcess: string = "In Process";
 export const ToDoPlaceholder: string = "Enter new task here. . .";
+
+//Search Result
+export const AllAbout: string = `About 6,000 results (0.60 seconds)`;
+export const SearchPixelStrap: string = `Search result for "Pixelstrap"`;
+export const MyPortfolioTitle: string = "My Portfolio";
+export const Next: string = " Next";
+export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
