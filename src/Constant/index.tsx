@@ -361,3 +361,13 @@ export const TagColor: string = "Tag color";
 export const CreateTags: string = "Create Tag";
 export const TagName: string = "Tag Name";
 export const Documentation: string = "Documentation";
+
+//ToDo
+export const ToDoFilter: string = "To Do filter";
+export const ToDoList: string = "To Do List";
+export const AllTask: string = "All Task";
+export const TrashBin: string = "Trash";
+export const Completed: string = "Completed";
+export const Pending: string = "Pending";
+export const InProcess: string = "In Process";
+export const ToDoPlaceholder: string = "Enter new task here. . .";
