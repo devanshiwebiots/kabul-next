@@ -336,18 +336,59 @@ export const RecentChats: string = "Recent chats";
 export const NameAndPhoneNumber = "Name and phone number";
 export const TypeMessageHere: string = "Type Message here..";
 
-
-
-
-
-
-
-
-
-
-
-
-
+//Input Groups
+export const BasicInputGroupBasic: string = "Basic";
+export const YourVanityUrl: string = "Your vanity URL";
+export const RecipientPlaceholder: string = "Recipient's username";
+export const ServerPlaceholder: string = "Server";
+export const Wrapping: string = "Wrapping";
+export const FlexNowrapCodeText: string = ".flex-nowrap";
+export const WithTextarea: string = "With textarea";
+export const UsernamePlaceholder: string = "Username";
+export const ButtonBasicInputSubmit: string = "Submit";
+export const ButtonBasicInputCancel: string = "Cancel";
+export const BasicInputGroup: string = "Basic input groups";
+export const ToggleDropdown: string = "Toggle Dropdown";
+export const ButtonsWithDropdown: string = "Buttons with dropdowns";
+export const ButtonsWithDropdownTitle: string = "Dropdown";
+export const CustomForm: string = "Custom forms ";
+export const CustomFormSubmit: string = "Submit";
+export const OptionsFormGroup: string = "Options";
+export const PixelstrapThemeTitle: string = "Select Your Favorite Pixelstrap theme";
+export const FavoriteColorsTitle: string = "Select Your Favorite Colors";
+export const FavoriteChocolatesTitle: string = "Select Your Favorite Chocolates";
+export const FavoriteThemeTitle: string = "Select Your Favorite Theme";
+export const VariationOfAddon: string = "Variation of addons";
+export const LeftAddon: string = "Left Addon";
+export const RightAddon: string = "Right Addon";
+export const JointAddon: string = "Joint Addon";
+export const LeftAddonPlaceholder: string = "Email";
+export const RightAddonPlaceholder: string = "Recipient's username";
+export const LeftAndRightAddon: string = "Left & Right Addon";
+export const SolidStyle: string = "Solid style";
+export const FlatStyle: string = "Flat style";
+export const RaiseStyle: string = "Raise style";
+export const LeftAndRight: string = "Left & Right Addon";
+export const VariationOfAddonsSubmit: string = "Submit";
+export const VariationOfAddonsCancel: string = "Cancel";
+export const ButtonAddon: string = "Button addons";
+export const SubmitButtonAddon: string = "Submit";
+export const SubmitButtonAddonPlaceHolder: string = "Recipient's username";
+export const AddonPlaceHolder: string = "Recipient's username";
+export const CheckboxesAndRadio: string = "Checkboxes and radios";
+export const CustomFileInputs: string = "Custom file input";
+export const CustomFileInputsUpload: string = "Upload";
+export const CustomFileInputsVerify: string = "Verify";
+export const CustomFileInputsSubmit: string = "Submit"
+export const Sizings: string = "Sizing";
+export const SmallInput: string = "Small";
+export const DefaultInput: string = "Default";
+export const LargeInput: string = "Large";
+export const MultipleInput: string = "Multiple inputs";
+export const FirstAndLastName: string = "First and last name";
+export const SegmentedButton: string = "Segmented buttons";
+export const SegmentedButtonInfo: string = "Info";
+export const SegmentedButtonSecondary: string = "Secondary";
 
 
 
