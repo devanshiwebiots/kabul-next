@@ -1,11 +1,12 @@
-import { CardNumber, CardNumberPlaceholder, Currency, CurrencyPlaceholder, Delimiter, DelimiterPlaceholder, PhoneNumber, PhoneNumberPlaceholder, Prefix, PrefixPlaceholder, Tailprefix, TailprefixPlaceholder } from "@/Constant";
+import { CardNumber, CardNumberPlaceholder, Currency, CurrencyPlaceholder, Delimiter, DelimiterPlaceholder, PhoneNumberPlaceholder, Prefix, PrefixPlaceholder, Tailprefix, TailprefixPlaceholder } from "@/Constant";
 import { CleaveInputType } from "@/Types/Forms";
 import Cleave from "cleave.js";
 import { NumeralThousandsGroupStyleType } from "cleave.js/options";
 import React, { useEffect, useRef } from "react";
 import { Col, Form, Input, Label, Row } from "reactstrap";
+import PhoneInput from "react-phone-input-2";
 
-const CleaveInput :React.FC<CleaveInputType> = ({ className, options, placeholder }) => {
+const CleaveInput: React.FC<CleaveInputType> = ({ className, options, placeholder }) => {
   const inputRef = useRef<HTMLInputElement | null>(null);
 
   useEffect(() => {
@@ -18,6 +19,7 @@ const CleaveInput :React.FC<CleaveInputType> = ({ className, options, placeholde
 };
 
 const DefaultInputMaskForm = () => {
+
   const currencyOptions = {
     numeral: true,
     numeralThousandsGroupStyle: "thousand" as NumeralThousandsGroupStyleType,
@@ -27,6 +29,13 @@ const DefaultInputMaskForm = () => {
     prefix: "PREFIX",
     delimiter: "-",
     blocks: [6, 4, 4, 4],
+    uppercase: true,
+  };
+
+  const tailprefixOptions = {
+    tailPrefix: true,
+    delimiter: ",",
+    blocks: [2,3,3,3],
     uppercase: true,
   };
 
@@ -56,8 +65,7 @@ const DefaultInputMaskForm = () => {
           <CleaveInput className="form-control" options={delimiterOptions} placeholder={DelimiterPlaceholder} />
         </Col>
         <Col xxl={4} sm={6}>
-          <Label>{PhoneNumber}</Label>
-          <input className="form-control" id="cleave-phone-number" type="text" placeholder={PhoneNumberPlaceholder} />
+          <PhoneInput country={"us"} placeholder={PhoneNumberPlaceholder} inputClass="form-control" />
         </Col>
         <Col xxl={4} sm={6}>
           <Label>{CardNumber}</Label>
@@ -65,7 +73,7 @@ const DefaultInputMaskForm = () => {
         </Col>
         <Col xxl={4} sm={6}>
           <Label>{Tailprefix}</Label>
-          <input className="form-control" id="tailprefix" type="text" placeholder={TailprefixPlaceholder} />
+          <CleaveInput className="form-control" options={tailprefixOptions} placeholder={TailprefixPlaceholder} />
         </Col>
       </Row>
     </Form>

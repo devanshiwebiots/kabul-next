@@ -1,6 +1,6 @@
+import { CleaveOptions } from "cleave.js/options";
 import { FormikErrors } from "formik";
 import { InputType } from "reactstrap/types/lib/Input";
-
 export interface TooltipValidationProp {
   firstname: string;
   lastname: string;
@@ -88,50 +88,6 @@ export interface CommonFileInputProp {
 }
 
 export type NumeralThousandsGroupStyleType = "lakh" | "thousand" | "wan" | "none";
-
-export interface CleaveOptions {
-  numeral?: boolean | undefined;
-  numeralDecimalMark?: string | undefined;
-  numeralDecimalScale?: number | undefined;
-  numeralIntegerScale?: number | undefined;
-  numeralPositiveOnly?: boolean | undefined;
-  numeralThousandsGroupStyle?: NumeralThousandsGroupStyleType | undefined;
-  stripLeadingZeroes?: boolean | undefined;
-  tailPrefix?: boolean | undefined;
-
-  //Extra Options
-  blocks?: readonly number[] | undefined;
-  copyDelimiter?: boolean | undefined;
-  delimiter?: string | undefined;
-  delimiters?: readonly string[] | undefined;
-  delimiterLazyShow?: boolean | undefined;
-  initValue?: any;
-  lowercase?: boolean | undefined;
-  numericOnly?: boolean | undefined;
-  prefix?: string | undefined;
-  noImmediatePrefix?: boolean | undefined;
-  rawValueTrimPrefix?: boolean | undefined;
-  uppercase?: boolean | undefined;
-  onValueChanged?(event: any): void;
-}
-
-// // Extra Options
-// export interface CleaveOptions {
-//   blocks?: readonly number[] | undefined;
-//   copyDelimiter?: boolean | undefined;
-//   delimiter?: string | undefined;
-//   delimiters?: readonly string[] | undefined;
-//   delimiterLazyShow?: boolean | undefined;
-//   initValue?: any;
-//   lowercase?: boolean | undefined;
-//   numericOnly?: boolean | undefined;
-//   prefix?: string | undefined;
-//   noImmediatePrefix?: boolean | undefined;
-//   rawValueTrimPrefix?: boolean | undefined;
-//   uppercase?: boolean | undefined;
-//   onValueChanged?(event: any): void;
-// }
-
 export interface CleaveInputType {
   className: string;
   options: CleaveOptions;
