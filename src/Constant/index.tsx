@@ -336,6 +336,26 @@ export const RecentChats: string = "Recent chats";
 export const NameAndPhoneNumber = "Name and phone number";
 export const TypeMessageHere: string = "Type Message here..";
 
+//Users
+export const Bio: string = "Bio";
+export const MyProfiles: string = "My Profile";
+export const Save: string = "Save";
+export const EditProfile: string = "Edit Profile";
+export const UpdateProfile: string = "Update Profile";
+export const Company: string = "Company";
+export const AboutMe: string = "About me";
+export const Username: string = "Username";
+export const AddProjectAndUpload: string = "Add project And Upload";
+export const Designer: string = "DESIGNER";
+export const Followers: string = "Followers";
+export const Following: string = "Following";
+export const Posts: string = "Posts";
+
+//Calendar
+export const DraggableEvents: string = "Draggable Events";
+export const RemoveAfterDrop: string = "remove after drop";
+export const CalendarFilter: string = "calendar filter";
+
 
 
 
