@@ -1,4 +1,4 @@
-import { Button, Col, Form, Input, Modal, ModalBody, Row } from 'reactstrap';
+import { Button, Col, Form, Input, Modal, ModalBody, ModalHeader, Row } from 'reactstrap';
 import { AddCategory, Cancel, Save } from '@/Constant';
 import { useAppDispatch, useAppSelector } from '@/Redux/Hooks';
 import { setCategoryModal } from '@/Redux/Reducer/ContactSlice';
@@ -12,10 +12,7 @@ const CategoryCreate = () => {
     <>
       <Button color='transparent' className='btn-category' onClick={categoryToggle}  ><span className="title"> + {AddCategory}</span></Button>
       <Modal isOpen={categoryModal} toggle={categoryToggle}>
-        <div className='modal-header'>
-          <h4 className='modal-title'>{AddCategory}</h4>
-          <Button close color='transparent' onClick={categoryToggle}></Button>
-        </div>
+        <ModalHeader className='modal-title' toggle={categoryToggle}>{AddCategory}</ModalHeader>
         <ModalBody>
           <Form className="form-bookmark">
             <Row className='g-2'>

@@ -2,7 +2,7 @@ import { Cancel, Collection, Description, Group, MyBookmarks, Save, Title, WebUr
 import { EditBookmarkModalFormType } from "@/Types/Bookmark";
 import { Button, Col, Form, FormGroup, Input, Label, Row } from "reactstrap";
 
-export const EditBookmarkModalForm: React.FC<EditBookmarkModalFormType> = ({ register, errors, editToggle, handleSubmit, updateBookMarkData }) => {
+const EditBookmarkModalForm: React.FC<EditBookmarkModalFormType> = ({ register, errors, editToggle, handleSubmit, updateBookMarkData }) => {
   return (
     <Form className="form-bookmark needs-validation" onSubmit={handleSubmit(updateBookMarkData)}>
       <Row className="g-2">
@@ -50,3 +50,5 @@ export const EditBookmarkModalForm: React.FC<EditBookmarkModalFormType> = ({ reg
     </Form>
   );
 };
+
+export default EditBookmarkModalForm;

@@ -1,5 +1,5 @@
 import { SubmitHandler, useForm } from "react-hook-form";
-import { Button, Col, Form, FormGroup, Input, Label, Modal, ModalBody, Row } from "reactstrap";
+import { Button, Col, Form, FormGroup, Input, Label, Modal, ModalBody, ModalHeader, Row } from "reactstrap";
 import { AddBookmark, Cancel, Collection, Description, Group, Save, Title, WebUrl } from "@/Constant";
 import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import { AddNewBookMarkInterFace } from "@/Types/Bookmark";
@@ -20,10 +20,7 @@ const BookmarkModal = () => {
 
   return (
     <Modal fade isOpen={addModal} toggle={addToggle} size="lg" className="modal-bookmark">
-      <div className="modal-header">
-        <h5 className="modal-title">{AddBookmark}</h5>
-        <Button close color="transparent" onClick={addToggle}></Button>
-      </div>
+      <ModalHeader className="modal-title" toggle={addToggle}>{AddBookmark}</ModalHeader>
       <ModalBody>
         <Form className="form-bookmark needs-validation" onSubmit={handleSubmit(onSubmit)}>
           <Row>

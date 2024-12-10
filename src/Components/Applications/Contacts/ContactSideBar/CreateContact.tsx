@@ -4,7 +4,7 @@ import { createUser, setContactValidation, setModal } from "@/Redux/Reducer/Cont
 import { ContactUsersType } from "@/Types/Contact";
 import { Users } from "react-feather";
 import { SubmitHandler, useForm } from "react-hook-form";
-import { Button, Col, Form, FormGroup, Input, Label, Modal, ModalBody, Row } from "reactstrap";
+import { Button, Col, Form, FormGroup, Input, Label, Modal, ModalBody, ModalHeader, Row } from "reactstrap";
 
 const CreateContact = () => {
   const { modal, contactValidation } = useAppSelector((state) => state.contact);
@@ -25,10 +25,7 @@ const CreateContact = () => {
     <>
       <Button color="primary" block className="badge-primary w-100 btn-mail" onClick={toggle}><Users className="me-2" />{NewContacts}</Button>
       <Modal className="modal-bookmark" isOpen={modal} toggle={toggle} size="lg">
-        <div className="modal-header">
-          <h4 className="modal-title">{AddContacts}</h4>
-          <Button close color="transparent" onClick={toggle}></Button>
-        </div>
+        <ModalHeader className="modal-title" toggle={toggle}>{AddContacts}</ModalHeader>
         <ModalBody>
           <Form className="form-bookmark needs-validation" onSubmit={handleSubmit(AddContact)}>
             <Row className="g-2">

@@ -2,7 +2,7 @@ import { Cancel, Print, PrintViews } from "@/Constant";
 import { PrintModalPropsTypes } from "@/Types/Contact";
 import { useRef } from "react";
 import { useReactToPrint } from "react-to-print";
-import { Button, Modal, ModalBody } from "reactstrap";
+import { Button, Modal, ModalBody, ModalHeader } from "reactstrap";
 import PrintPreview from "./PrintPreview";
 
 const PrintModal: React.FC<PrintModalPropsTypes> = ({ printModal, selectedUser, toggleCallback }) => {
@@ -21,10 +21,7 @@ const PrintModal: React.FC<PrintModalPropsTypes> = ({ printModal, selectedUser, 
 
   return (
     <Modal className="modal-bookmark" isOpen={printModal} toggle={printModalToggle}>
-      <div className="modal-header">
-        <h3 className="modal-title">{PrintViews}</h3>
-        <Button close color="transparent" onClick={printModalToggle}></Button>
-      </div>
+      <ModalHeader className="modal-title" toggle={printModalToggle}>{PrintViews}</ModalHeader>
       <ModalBody className="list-persons">
         <PrintPreview selectedUser={selectedUser} ref={contentRef} />
         <Button className="me-1" onClick={printModalToggle}>{Print}</Button>

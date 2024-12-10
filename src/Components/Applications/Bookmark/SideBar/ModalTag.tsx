@@ -23,7 +23,7 @@ const ModalTag = () => {
             <Col md={12}>
               <FormGroup>
                 <Label check>{TagColor}</Label>
-                <input type="color" className="d-block form-color" defaultValue="#678f44" />
+                <Input type="color" className="d-block form-color" defaultValue="#678f44" />
               </FormGroup>
             </Col>
           </Row>

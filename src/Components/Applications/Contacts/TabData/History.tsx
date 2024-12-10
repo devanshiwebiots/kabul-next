@@ -2,6 +2,7 @@ import { ContactCreated, ContactHistory, Href } from "@/Constant";
 import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import { setHistory } from "@/Redux/Reducer/ContactSlice";
 import Link from "next/link";
+import { ModalHeader } from "reactstrap";
 
 const HistoryClass = () => {
   const { history } = useAppSelector((state)=>state.contact)
@@ -9,15 +10,7 @@ const HistoryClass = () => {
 
   return (
     <div id="right-history" className={history ? "show":""}>
-      <div className="modal-header p-l-20 p-r-20">
-        <h3 className="modal-title w-100">{ContactHistory}
-          <span className="pull-right">
-            <Link className="closehistory" href={Href} onClick={()=>dispatch(setHistory())}>
-              <i className="icofont icofont-close"></i>
-            </Link>
-          </span>
-        </h3>
-      </div>
+      <ModalHeader className="modal-title" toggle={()=>dispatch(setHistory())}>{ContactHistory}</ModalHeader>
       <div className="history-details">
         <div className="text-center d-flex justify-content-evenly">
           <i className="icofont icofont-ui-edit"></i>

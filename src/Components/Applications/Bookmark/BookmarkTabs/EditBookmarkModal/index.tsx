@@ -5,12 +5,12 @@ import { useEffect } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { Modal, ModalBody, ModalHeader } from "reactstrap";
 import { setEditModal, updateBookMark } from "@/Redux/Reducer/BookmarkTabSlice";
-import { EditBookmarkModalForm } from "./EditBookmarkModalForm";
+import EditBookmarkModalForm from "./EditBookmarkModalForm";
 
 const EditBookmarkModal = () => {
   const { editRow, editModal } = useAppSelector((state) => state.bookmarkTab);
   const dispatch = useAppDispatch();
-  const {register,handleSubmit,formState: { errors },setValue} = useForm<AddNewBookMarkInterFace>();
+  const { register, handleSubmit, formState: { errors }, setValue } = useForm<AddNewBookMarkInterFace>();
 
   useEffect(() => {
     if (editRow) {
@@ -37,9 +37,10 @@ const EditBookmarkModal = () => {
     <Modal isOpen={editModal} toggle={editToggle} size="lg">
       <ModalHeader toggle={editToggle}>{EditBookmark}</ModalHeader>
       <ModalBody>
-        <EditBookmarkModalForm errors={errors} register={register} handleSubmit={handleSubmit} editToggle={editToggle} updateBookMarkData={updateBookMarkData}/>
+        <EditBookmarkModalForm errors={errors} register={register} handleSubmit={handleSubmit} editToggle={editToggle} updateBookMarkData={updateBookMarkData} />
       </ModalBody>
     </Modal>
   );
 };
+
 export default EditBookmarkModal;
