@@ -390,8 +390,19 @@ export const SegmentedButton: string = "Segmented buttons";
 export const SegmentedButtonInfo: string = "Info";
 export const SegmentedButtonSecondary: string = "Secondary";
 
-
-
+//Mega Options
+export const DefaultStyleMegaOptions: string = "Default style";
+export const InlineStyles: string = "Inline style";
+export const VerticalStyles: string = "Vertical style";
+export const HorizontalStyles: string = "Horizontal style";
+export const WithoutBordersStyles: string = "Without borders style";
+export const SolidBorderStyles: string = "Solid border style";
+export const OfferStyleBorders: string = "Offer style border";
+export const VariationCheckboxs: string = "Variation checkbox";
+export const ChooseActivities: string = "Which of the following activities do you enjoy doing in your free time?";
+export const UpgradeTitle: string = "It's time to";
+export const UpgradeSpanText: string = "upgrade";
+export const VariationRadios: string = "Variation radio";
 
 
 
