@@ -1,5 +1,4 @@
 import { Href, ImagePath } from "@/Constant";
-import { ProfileData3 } from "@/Data/Users";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { Card, Col, Row } from "reactstrap";
@@ -31,7 +30,7 @@ const ForthData = () => {
               <UserFooter listClass='mt-4 like-comment-sm-mb' />
             </Col>
             <Col xl={6}>
-              <p>{ProfileData3}</p>
+              <p>Dressing is a way of life. My customers are successful working women. I want people to be afraid of the women I dress. Age is something only in your head or a stereotype. Age means nothing when you are passionate about something. There has to be a balance between your mental satisfaction and the financial needs of your company.Success isn't about the end result, it's about what you learn along the way. Confidence. If you have it, you can make anything look good. Grunge is a hippied romantic version of punk. I'm an accomplice to helping women get what they want. Clothes can transform your mood and confidence. I think it's an old fashioned notion that fashion needs to be exclusive to be fashionable.</p>
             </Col>
           </Row>
         </div>

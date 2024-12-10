@@ -1,6 +1,5 @@
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { Bio, MyProfiles, Save } from "@/Constant";
-import { BioText } from "@/Data/Users";
 import { Button, Card, CardBody, Col, Form, FormGroup, Input } from "reactstrap";
 import UserFormGroup from "../Common/UserFormGroup";
 import UserFormHead from "./UserFormHead";
@@ -15,7 +14,7 @@ const MyProfile = () => {
             <UserFormHead />
             <FormGroup>
               <h6 className='form-label'>{Bio}</h6>
-              <Input type='textarea' rows={3} defaultValue={BioText} />
+              <Input type='textarea' rows={3} defaultValue="On the other hand, we denounce with righteous indignation" />
             </FormGroup>
             <UserFormGroup type='email' title='Email Address' placeholder='your-email@domain.com' />
             <UserFormGroup type='password' title='Password' defaultValue='Password' />
