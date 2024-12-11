@@ -1,9 +1,9 @@
 "use client";
 import { useCallback, useState } from "react";
 import { Search } from "react-feather";
-import { Card, CardBody, CardHeader, Col, Container, Form, Input, InputGroup, InputGroupText, Row } from "reactstrap";
-import SearchTabs from "./SearchTabs";
+import { Button, Card, CardBody, CardHeader, Col, Container, Form, Input, InputGroup, Row } from "reactstrap";
 import SearchTabContent from "./SearchTabContent";
+import SearchTabs from "./SearchTabs";
 
 const SearchResultContainer = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -20,7 +20,7 @@ const SearchResultContainer = () => {
               <Form className="theme-form">
                 <InputGroup className=" m-0 flex-nowrap">
                   <Input className="form-control-plaintext" type="search" placeholder="Search...." />
-                  <InputGroupText className="btn btn-primary"><Search /></InputGroupText>
+                  <Button color="primary"><Search /></Button>
                 </InputGroup>
               </Form>
             </CardHeader>

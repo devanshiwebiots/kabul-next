@@ -61,5 +61,3 @@ export const NavData = [
     disable: 'true'
   },
 ];
-
-export const description: string = "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy." 

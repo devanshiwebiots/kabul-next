@@ -1,4 +1,4 @@
-import { Col, Pagination, PaginationItem, PaginationLink } from "reactstrap";
+import { Col, Nav, Pagination, PaginationItem, PaginationLink } from "reactstrap";
 import { Href, Next, Previous } from "@/Constant";
 import { PagesSortProp } from "@/Types/SearchResult";
 
@@ -6,7 +6,7 @@ const PagesSort :React.FC<PagesSortProp> = ({pageClass}) => {
   return (
     <Col xs={12} className="m-t-30">
       <div>
-        <nav className={`d-flex justify-content-${pageClass}`}>
+        <Nav className={`d-flex justify-content-${pageClass}`}>
           <Pagination className="pagination-primary">
             <PaginationItem disabled><PaginationLink href={Href}>{Previous}</PaginationLink></PaginationItem>
             <PaginationItem><PaginationLink href={Href}>1</PaginationLink></PaginationItem>
@@ -14,7 +14,7 @@ const PagesSort :React.FC<PagesSortProp> = ({pageClass}) => {
             <PaginationItem><PaginationLink href={Href}>3</PaginationLink></PaginationItem>
             <PaginationItem><PaginationLink href={Href}>{Next}</PaginationLink></PaginationItem>
           </Pagination>
-        </nav>
+        </Nav>
       </div>
     </Col>
   );
