@@ -9,19 +9,23 @@ import FileManagerSlice from "./Reducer/FileManagerSlice";
 import AddProductSlice from "./Reducer/AddProductSlice";
 import ProjectSlice from "./Reducer/ProjectSlice";
 import ChatSlice from "./Reducer/ChatSlice";
+import FormWizardTwoSlice from "./Reducer/FormLayout/FormWizardTwoSlice";
+import TwoFactorSlice from "./Reducer/FormLayout/TwoFactorSlice";
 
 const Store = configureStore({
-  reducer:{
+  reducer: {
     layout: LayoutSlice,
     themeCustomizer: ThemeCustomizerSlice,
     headerBookMark: HeaderBookmarkSlice,
     cartData: CartSlice,
     product: ProductSlice,
     filterData: FilterSlice,
-    fileManager: FileManagerSlice,    
+    fileManager: FileManagerSlice,
     addProduct: AddProductSlice,
     project: ProjectSlice,
     chat: ChatSlice,
+    formWizardTwo: FormWizardTwoSlice,
+    twoFactor: TwoFactorSlice,
   }
 });
 
