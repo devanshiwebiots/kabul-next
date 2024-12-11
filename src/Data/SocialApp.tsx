@@ -351,8 +351,7 @@ export const SocialUserData = [
 
 export const SocialUserCardData = [
   {
-    avatar: "other-images/profile.png",
-   
+    avatar: "other-images/profile.png",   
     name: "Brooklyn Simmons",
     email: "@brookly.simmons",
     totalPost: "1,908",
@@ -360,8 +359,7 @@ export const SocialUserCardData = [
     following: "897",
   },
   {
-    avatar: "avtar/3.jpg",
-   
+    avatar: "avtar/3.jpg",   
     name: "Mark Jecno",
     email: "@mark.jeco",
     totalPost: "875",
@@ -369,8 +367,7 @@ export const SocialUserCardData = [
     following: "1400",
   },
   {
-    avatar: "avtar/11.jpg",
-   
+    avatar: "avtar/11.jpg",   
     name: "Dev John",
     email: "@john.dev",
     totalPost: "1,274",
@@ -378,8 +375,7 @@ export const SocialUserCardData = [
     following: "1874",
   },
   {
-    avatar: "avtar/16.jpg",
-   
+    avatar: "avtar/16.jpg",   
     name: "Johan Deo",
     email: "@deo.johan",
     totalPost: "500",
@@ -387,8 +383,7 @@ export const SocialUserCardData = [
     following: "570",
   },
   {
-    avatar: "user/7.jpg",
-   
+    avatar: "user/7.jpg",   
     name: "Douglas Reichel",
     email: "@reichel.douglas",
     totalPost: "460",
@@ -396,8 +391,7 @@ export const SocialUserCardData = [
     following: "350",
   },
   {
-    avatar: "avtar/4.jpg",
-   
+    avatar: "avtar/4.jpg",   
     name: "Lisa lillian",
     email: "@lisa.lillian",
     totalPost: "547",
@@ -405,8 +399,7 @@ export const SocialUserCardData = [
     following: "822",
   },
   {
-    avatar: "user/1.jpg",
-   
+    avatar: "user/1.jpg",   
     name: "Olivia rose",
     email: "@rose.olivia",
     totalPost: "868",
@@ -414,8 +407,7 @@ export const SocialUserCardData = [
     following: "742",
   },
   {
-    avatar: "user/2.png",
-   
+    avatar: "user/2.png",   
     name: "Sarah Karen",
     email: "@karen.sarah",
     totalPost: "972",
