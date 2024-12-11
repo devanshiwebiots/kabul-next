@@ -9,6 +9,9 @@ import FileManagerSlice from "./Reducer/FileManagerSlice";
 import AddProductSlice from "./Reducer/AddProductSlice";
 import ProjectSlice from "./Reducer/ProjectSlice";
 import ChatSlice from "./Reducer/ChatSlice";
+import NumberingWizardSlice from "./Reducer/FormLayout/NumberingWizardSlice";
+import StudentWizardSlice from "./Reducer/FormLayout/StudentWizardSlice";
+import VerticalWizardSlice from "./Reducer/FormLayout/VerticalWizardSlice";
 
 const Store = configureStore({
   reducer:{
@@ -22,6 +25,9 @@ const Store = configureStore({
     addProduct: AddProductSlice,
     project: ProjectSlice,
     chat: ChatSlice,
+    numberingWizard: NumberingWizardSlice,
+    studentWizard: StudentWizardSlice,
+    verticalWizard: VerticalWizardSlice,
   }
 });
 

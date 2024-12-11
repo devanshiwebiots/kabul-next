@@ -336,23 +336,65 @@ export const RecentChats: string = "Recent chats";
 export const NameAndPhoneNumber = "Name and phone number";
 export const TypeMessageHere: string = "Type Message here..";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Form Wizard 1
+export const NumberingWizardHeading: string = "Numbering wizard";
+export const ConfirmPassword: string = "Confirm Password";
+export const AgreeToTermsAndConditions: string = "Agree to terms and conditions";
+export const KabulMail: string = "Kabul@example.com";
+export const EnterYourName: string = "Enter your name";
+export const EnterPassword: string = "Enter password";
+export const EnterConfirmPassword: string = "Enter confirm password";
+export const PlaceHolderName: string = "Placeholder Name";
+export const Expiration: string = "Expiration(MM/YY)";
+export const UploadDocumentation: string = "Upload Documentation";
+export const AboveInformationCorrect: string = "All the above information is correct";
+export const PlaceholderName: string = "Placeholder name";
+export const ExpiryPlaceholder: string = "xx/xx";
+export const AadharPlaceholder: string = "xxxx xxxx xxxx xxxx";
+export const LinkedInPlaceholder: string = "https://linkedIn.com/Kabul";
+export const GitHubPlaceholder: string = "https://github.com/Kabul";
+export const TwitterPlaceholder: string = "https://twitter.com/Kabul";
+export const LinkedIn: string = "LinkedIn";
+export const Github: string = "Git hub";
+export const SelectState: string = "Select State";
+export const GiveFeedback: string = "Give Feedback";
+export const Product: string = "Product";
+export const CurrentCartHeading: string = "Current Cart";
+export const BillingInformation: string = "Billing Information ";
+export const FillFollowingInformation: string = "Fill up the following information ";
+export const ProceedToNext: string = "Proceed to next";
+export const RememberMeForNextTime: string = "Remember me for next time";
+export const OtherNotes: string = "Other notes";
+export const EnterYourQueries: string = "Enter your queries...";
+export const ContactNumber: string = "Contact Number";
+export const EnterFirstName: string = "Enter first name";
+export const EnterLastName: string = "Enter last name";
+export const EnterNumber: string = "Enter number";
+export const CashOnDeliveryHeading: string = "Cash On Delivery";
+export const CardHolder: string = "Card Holder";
+export const CardHolderPlaceholder: string = "Enter card holder name";
+export const CardNumberPlaceholder: string = "xxxx xxxx xxxx xxxx";
+export const PaymentInformation: string = "Payment Information";
+export const CreditCard: string = "Credit Card";
+export const ShippingFormHeading: string = "Shipping form";
+export const ProceedNext: string = "Proceed to Next";
+export const ShippingInformation: string = "Shipping Information";
+export const SavedAddress: string = "Saved Address";
+export const ShippingMethod: string = "Shipping Method"
+export const OrderConfirmed: string = "Thank you! Your order is confirmed.";
+export const OrderID: string = "Order ID";
+export const StudentValidationFormHeading: string = "Student validation form";
+export const Next: string = " Next";
+export const Name = "Name";
+export const AddProfile: string = "Add Profile";
+export const PortfolioURL: string = " Portfolio URL";
+export const SocialLinks: string = " Social Links ";
+export const Twitter: string = " Twitter";
+export const AllTheAboveInformationIsCorrect: string = "All the above information is correct";
+export const VerticalValidationWizardHeading: string = "Vertical validation wizard";
+export const SelectPaymentMethod: string = "Select your payment method";
+export const AgreeConditions: string = "Agree to terms and conditions";
+export const Finish: string = "Finish";
+export const NetBanking: string = " NET BANKING";
+export const SelectYourBank: string = " SELECT YOUR BANK";
+export const Congratulations: string = "Congratulations ";
