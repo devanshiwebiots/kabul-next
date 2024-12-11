@@ -1,3 +1,5 @@
+import { toast } from "react-hot-toast";
+
 export const BasicInputGroupData = [
   {
     text: "lace one add-on or button on either side of an input. You may also place one on both sides of an input. Remember to place ",
@@ -598,3 +600,5 @@ export const UpgradeVariationData = [
     check: true,
   },
 ];
+
+export const notify = () => toast.success("Content Copied") 

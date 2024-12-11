@@ -404,7 +404,19 @@ export const UpgradeTitle: string = "It's time to";
 export const UpgradeSpanText: string = "upgrade";
 export const VariationRadios: string = "Variation radio";
 
-
-
+//Clipboard
+export const Copy: string = "Copy";
+export const Cut: string = "Cut";
+export const ClipboardOnParagraphs: string = "Clipboard On Paragraph";
+export const CopyFromParagraph: string = "Copy From Paragraph";
+export const ClipboardOnTextareas: string = "Clipboard On Textarea";
+export const CutCopyFromTextarea: string = "Cut/copy from textarea";
+export const ClipboardTextInput: string = "Clipboard On Text Input";
+export const Cutandcopytext: string = "Cut/copy from text input";
+export const CutandcopytextPlaceholder: string = "type some text to copy / cut";
+export const CopyPortionFromParagraphs: string = "Copy Portion From Paragraph";
+export const ClipBoardCopy: string = "Copy Portion From Paragraph";
+export const HighlightText: string = "Web design is the process of creating websites ";
+export const CopyHighLightedText: string = " Copy highlighted text";
 
 
