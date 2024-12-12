@@ -12,6 +12,8 @@ import BookmarkTabSlice from "./Reducer/BookmarkTabSlice";
 import ContactSlice from "./Reducer/ContactSlice";
 import LetterBoxSlice from "./Reducer/LetterBoxSlice";
 import ChatSlice from "./Reducer/ChatSlice";
+import TaskSlice from "./Reducer/TaskSlice";
+import ToDoSlice from "./Reducer/ToDoSlice";
 
 const Store = configureStore({
   reducer:{
@@ -28,6 +30,8 @@ const Store = configureStore({
     contact: ContactSlice,
     letterBox:LetterBoxSlice,
     chat: ChatSlice,
+    task: TaskSlice,
+    todo: ToDoSlice,
   }
 });
 

@@ -415,6 +415,41 @@ export const ContactCreated: string = "Contact Created";
 export const Personal: string = "Personal";
 export const PrintViews: string = "Print preview";
 
+//Task
+export const TaskFilter: string = "Task filter";
+export const AddTask: string = "Add Task";
+export const NewTasks: string = "New Task";
+export const TaskTitle: string = "Task Title";
+export const SubTask: string = "Sub task";
+export const TodayTasks: string = "Today's Tasks";
+export const DelayedTasks: string = "Delayed Tasks";
+export const UpcomingTasks: string = "Upcoming Tasks";
+export const ThisWeekTask: string = "This Week Task";
+export const ThisMonthTasks: string = "This Month Task";
+export const AssignedToMe: string = "Assigned To Me";
+export const MyTasks: string = "My Tasks";
+export const RemindOn: string = "Remind on";
+export const Mail: string = "Mail";
+export const CreateTags: string = "Create Tag";
+export const Documentation: string = "Documentation";
+
+//ToDo
+export const ToDoFilter: string = "To Do filter";
+export const ToDoList: string = "To Do List";
+export const AllTask: string = "All Task";
+export const TrashBin: string = "Trash";
+export const Completed: string = "Completed";
+export const Pending: string = "Pending";
+export const InProcess: string = "In Process";
+export const ToDoPlaceholder: string = "Enter new task here. . .";
+
+//Search Result
+export const AllAbout: string = `About 6,000 results (0.60 seconds)`;
+export const SearchPixelStrap: string = `Search result for "Pixelstrap"`;
+export const MyPortfolioTitle: string = "My Portfolio";
+export const Next: string = " Next";
+export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
+
 
 
 
