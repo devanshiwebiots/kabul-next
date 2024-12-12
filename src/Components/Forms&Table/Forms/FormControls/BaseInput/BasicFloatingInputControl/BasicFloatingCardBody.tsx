@@ -11,15 +11,15 @@ const BasicFloatingCardBody = () => {
         <Col>
           <FloatingInputField inputType="email" label={FloatingValidInput} placeholder={InputWithValuePlaceholder} defaultValue={InputWithValuePlaceholderValue} floatingLabel={InputWithValue} />
           <FloatingInputField inputType="email" label={InvalidInput} placeholder={InvalidInputPlaceholder} defaultValue={InvalidInputPlaceholderValue} floatingLabel={InvalidInput} invalid />
-          <FloatingInputField inputType="textarea" label={FloatingComments} placeholder={''} floatingLabel={CommentsPlaceholder} />
+          <FloatingInputField inputType="textarea" label={FloatingComments} placeholder='' floatingLabel={CommentsPlaceholder} />
           <FloatingInputField inputType="email" label={FloatingEmail} floatingLabel={FloatingEmailLabel} />
           <FloatingInputField inputType="password" label={FloatingPassword} floatingLabel={FloatingPassword} />
-          <FloatingInputField inputType="textarea" label={FloatingComment} placeholder={''} floatingLabel={FloatingCommentLabel} height="100px" />
+          <FloatingInputField inputType="textarea" label={FloatingComment} placeholder='' floatingLabel={FloatingCommentLabel} height="100px" />
           <Row className="mb-1">
             <Col sm={3}><Label check>{FloatingOpenLabel}</Label></Col>
             <Col sm={9}>
               <FormGroup floating>
-                <Input type="select">{FloatingSelectType.map((item, index) => (<option key={index}>{item}</option>))}</Input>
+                <Input type="select">{FloatingSelectType?.map((item, index) => (<option key={index}>{item}</option>))}</Input>
                 <Label check>{FloatOpenFloatingLabel}</Label>
               </FormGroup>
             </Col>
@@ -38,7 +38,7 @@ const BasicFloatingCardBody = () => {
                 </Col>
                 <Col xxl={6}>
                   <FormGroup floating>
-                    <Input type="select">{FloatingSelectTypeList.map(({ text }, index) => (<option key={index}>{text}</option>))}</Input>
+                    <Input type="select">{FloatingSelectTypeList?.map(({ text }, index) => (<option key={index}>{text}</option>))}</Input>
                     <Label check>{FloatOpenFloatingLabel}</Label>
                   </FormGroup>
                 </Col>

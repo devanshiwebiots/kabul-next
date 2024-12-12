@@ -1,4 +1,4 @@
-import { CardBody, Col, Input, Label, Row } from "reactstrap";
+import { CardBody, Col, FormGroup, Input, Label, Row } from "reactstrap";
 import { DefaultFileInputExamples, EdgeComments, EdgeDefaultInput, EdgeDefaultInputPlaceholder, EdgeEmailAddress, EdgeEmailAddressPlaceholder, EdgeFemale, EdgeMale, EdgePassword, EdgePasswordPlaceholder, SelectYourFavoritePixelstrapTheme } from "@/Constant";
 import EdgeInputField from "./Common/EdgeInputField";
 import SelectInput from "../Common/SelectInput";
@@ -14,7 +14,7 @@ const EdgesInputCardBody = () => {
       <EdgeInputField inputType="text" label={EdgeDefaultInput} placeholder={EdgeDefaultInputPlaceholder} />
       <Row>
         <Col>
-          <div className="mb-3 d-flex gap-3 checkbox-checked">
+          <FormGroup className="d-flex gap-3 checkbox-checked">
             <div className="form-check">
               <Input id="flexRadioDefault1" type="radio" name="flexRadioDefault" />
               <Label className=" mb-0" htmlFor="flexRadioDefault1" check>{EdgeMale}</Label>
@@ -23,7 +23,7 @@ const EdgesInputCardBody = () => {
               <Input id="flexRadioDefault2" type="radio" name="flexRadioDefault" defaultChecked />
               <Label className="mb-0" htmlFor="flexRadioDefault2" check>{EdgeFemale}</Label>
             </div>
-          </div>
+          </FormGroup>
         </Col>
       </Row>
       <EdgeInputField inputType="textarea" label={EdgeComments} rows={3} />

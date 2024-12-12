@@ -58,7 +58,7 @@ export const TooltipValidationStateList = ["U.K", "India", "Thailand", "Newyork"
 
 export const ValidationFormStateList = ["Choose...", "U.K", "India", "Thailand", "Newyork"];
 
-export const ValidationStateList = ["Cuba", "Tivo", "Wingo"];
+export const ValidationStateList = ["Kabul", "Tivo", "Wingo"];
 
 export const ValidationRadioList = [
     {
@@ -73,7 +73,7 @@ export const ValidationRadioList = [
 ];
 
 export const FormValidationSchema = Yup.object().shape({
-    firstname: Yup.string().required("Please enter your valid"),
+    firstname: Yup.string().required("Please enter your valid name"),
     password: Yup.string().required("Please enter your valid password"),
     state: Yup.string().required("Please select a valid state."),
     city: Yup.string().required("Please provide a valid city."),
@@ -149,7 +149,7 @@ export const BasicHtmlInputControlData = [
     },
 ];
 
-export const EdgeDataList = ["Tivo", "Cuba", "Roxo", "Oslo", "Voxo", "Sheltos", "Petkart", "Zeta"];
+export const EdgeDataList = ["Tivo", "Kabul", "Roxo", "Oslo", "Voxo", "Sheltos", "Petkart", "Zeta"];
 
 export const EdgeInputStyleData = [
     {
@@ -196,7 +196,7 @@ export const RaisedInputStyleData = [
     },
 ];
 
-export const RaisedDataList = ["Tivo", "Roxo", "Wingo", "Cuba", "Koho"];
+export const RaisedDataList = ["Tivo", "Roxo", "Wingo", "Kabul", "Koho"];
 
 export const RaisedColorDataList = ["Red", "Yellow", "Orange", "White", "Black", "Gray", "Brown", "Purple", "White"];
 

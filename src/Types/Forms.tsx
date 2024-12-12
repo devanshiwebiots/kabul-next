@@ -89,7 +89,7 @@ export interface CommonFileInputProp {
 
 export type NumeralThousandsGroupStyleType = "lakh" | "thousand" | "wan" | "none";
 export interface CleaveInputType {
-  className: string;
+  className?: string;
   options: CleaveOptions;
   placeholder: string;
 }

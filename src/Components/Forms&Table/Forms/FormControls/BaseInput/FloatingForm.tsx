@@ -14,13 +14,13 @@ const FloatingForm = () => {
               <Row className="g-3">
                 <Col sm={12}>
                   <FormGroup floating className="mb-3">
-                    <Input type="email" placeholder={''} />
+                    <Input type="email" placeholder='' />
                     <Label check>{EmailAddress}</Label>
                   </FormGroup>
                 </Col>
                 <Col sm={12} className="mt-2">
                   <FormGroup floating>
-                    <Input type="password" placeholder={''} />
+                    <Input type="password" placeholder='' />
                     <Label check>{FloatingPasswordPlaceholder}</Label>
                   </FormGroup>
                 </Col>
