@@ -349,6 +349,26 @@ export const LabelName= "Label Name"
 export const LabelColor= "Label Color"
 export const InterviewMail= "Interview Mail"
 
+//Users
+export const Bio: string = "Bio";
+export const MyProfiles: string = "My Profile";
+export const Save: string = "Save";
+export const EditProfile: string = "Edit Profile";
+export const UpdateProfile: string = "Update Profile";
+export const Company: string = "Company";
+export const AboutMe: string = "About me";
+export const Username: string = "Username";
+export const AddProjectAndUpload: string = "Add project And Upload";
+export const Designer: string = "DESIGNER";
+export const Followers: string = "Followers";
+export const Following: string = "Following";
+export const Posts: string = "Posts";
+
+//Calendar
+export const DraggableEvents: string = "Draggable Events";
+export const RemoveAfterDrop: string = "remove after drop";
+export const CalendarFilter: string = "calendar filter";
+
 //Bookmark
 export const Business: string = "Business";
 export const Newsletter: string = "Newsletter";
@@ -365,7 +385,6 @@ export const WebUrl: string = "Web Url";
 export const Title: string = "Title";
 export const Group: string = "Group";
 export const MyBookmarks: string = "My Bookmarks";
-export const Save: string = "Save";
 export const MyBookmark: string = " My bookmark";
 export const BookmarkFilter: string = "Bookmark filter";
 export const AddBookmark: string = "Add Bookmark";
