@@ -349,6 +349,26 @@ export const LabelName= "Label Name"
 export const LabelColor= "Label Color"
 export const InterviewMail= "Interview Mail"
 
+//Users
+export const Bio: string = "Bio";
+export const MyProfiles: string = "My Profile";
+export const Save: string = "Save";
+export const EditProfile: string = "Edit Profile";
+export const UpdateProfile: string = "Update Profile";
+export const Company: string = "Company";
+export const AboutMe: string = "About me";
+export const Username: string = "Username";
+export const AddProjectAndUpload: string = "Add project And Upload";
+export const Designer: string = "DESIGNER";
+export const Followers: string = "Followers";
+export const Following: string = "Following";
+export const Posts: string = "Posts";
+
+//Calendar
+export const DraggableEvents: string = "Draggable Events";
+export const RemoveAfterDrop: string = "remove after drop";
+export const CalendarFilter: string = "calendar filter";
+
 //Social App
 export const MutualFriend: string = "Mutual Friends";
 export const ActivityFeed: string = "Activity Feed";
@@ -357,8 +377,6 @@ export const Likes: string = "Likes";
 export const View: string = "View";
 export const MyPage: string = "My Page";
 export const AddFriend: string = "Add Friend";
-export const Followers: string = "Followers";
-export const Following: string = "Following";
 export const Facebook: string = "Facebook";
 export const Dribbble: string = "Dribbble";
 export const LatestPhoto: string = "Latest Photos";
@@ -373,8 +391,8 @@ export const ViewProfile: string = "Viewed Your Profile";
 export const ELANAHeading: string = "ELANA";
 export const MoreComments: string = "More Comments";
 export const CommentsSocialPlaceholder: string = "Post Your Comments";
-export const Posts: string = "Posts";
 export const MyPortfolioTitle: string = "My Portfolio";
+
 
 
 
