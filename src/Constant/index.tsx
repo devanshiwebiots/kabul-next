@@ -349,6 +349,26 @@ export const LabelName= "Label Name"
 export const LabelColor= "Label Color"
 export const InterviewMail= "Interview Mail"
 
+//Users
+export const Bio: string = "Bio";
+export const MyProfiles: string = "My Profile";
+export const Save: string = "Save";
+export const EditProfile: string = "Edit Profile";
+export const UpdateProfile: string = "Update Profile";
+export const Company: string = "Company";
+export const AboutMe: string = "About me";
+export const Username: string = "Username";
+export const AddProjectAndUpload: string = "Add project And Upload";
+export const Designer: string = "DESIGNER";
+export const Followers: string = "Followers";
+export const Following: string = "Following";
+export const Posts: string = "Posts";
+
+//Calendar
+export const DraggableEvents: string = "Draggable Events";
+export const RemoveAfterDrop: string = "remove after drop";
+export const CalendarFilter: string = "calendar filter";
+
 //Form Validation
 export const AgreeToThePolicies: string = "I agree to the policies";
 export const ChooseFile: string = "Choose file";
@@ -365,7 +385,6 @@ export const CityFeedback: string = "Please provide a valid city.";
 export const StateFeedback: string = "Please select a valid state.";
 export const LooksGood: string = "Looks good!";
 export const MarkFirstNamePlaceholder: string = "Mark";
-export const Username: string = "Username";
 export const UsernameFeedback: string = "Please choose a unique and valid username.";
 export const Zip: string = "Zip";
 export const ZipFeedback: string = "Please provide a valid zip.";
