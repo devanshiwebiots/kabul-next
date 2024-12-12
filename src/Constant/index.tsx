@@ -336,6 +336,39 @@ export const RecentChats: string = "Recent chats";
 export const NameAndPhoneNumber = "Name and phone number";
 export const TypeMessageHere: string = "Type Message here..";
 
+//Letter-Box
+export const EmailFilter= "email filter"
+export const ComposeEmail =" Compose Email"
+export const Inbox: string = "Inbox";
+export const AddLabelHeading = "Add Label"
+export const ComposeMessage= "Compose Message"
+export const SaveAsDraft=  "Save as draft"
+export const FromHeading = "From"
+export const Send: string = "Send";
+export const LabelName= "Label Name"
+export const LabelColor= "Label Color"
+export const InterviewMail= "Interview Mail"
+
+//Users
+export const Bio: string = "Bio";
+export const MyProfiles: string = "My Profile";
+export const Save: string = "Save";
+export const EditProfile: string = "Edit Profile";
+export const UpdateProfile: string = "Update Profile";
+export const Company: string = "Company";
+export const AboutMe: string = "About me";
+export const Username: string = "Username";
+export const AddProjectAndUpload: string = "Add project And Upload";
+export const Designer: string = "DESIGNER";
+export const Followers: string = "Followers";
+export const Following: string = "Following";
+export const Posts: string = "Posts";
+
+//Calendar
+export const DraggableEvents: string = "Draggable Events";
+export const RemoveAfterDrop: string = "remove after drop";
+export const CalendarFilter: string = "calendar filter";
+
 //Checkbox & Radio
 export const InstagramAnimated: string = "Instagram";
 export const WhatIsYourFavoriteSocialMedia: string = "What is your favorite social media?";
@@ -387,6 +420,23 @@ export const ButtonCheckedSuccessRadio: string = "Checked success radio";
 export const ButtonDarkRadio: string = "Dark radio";
 export const RadioToggleButton: string = "Radio toggle buttons";
 export const RadioChecked: string = "Checked";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
