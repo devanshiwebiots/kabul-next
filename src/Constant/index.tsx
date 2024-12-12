@@ -369,24 +369,19 @@ export const DraggableEvents: string = "Draggable Events";
 export const RemoveAfterDrop: string = "remove after drop";
 export const CalendarFilter: string = "calendar filter";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Reactstrap-Basic Tables
+export const BasicTableWithBorderBottomColor: string = "Basic Table With Border Bottom Color";
+export const BreakpointSpecifics: string = "Breakpoint Specific";
+export const ResponsiveLightBackgroundTitle: string = "Responsive Tables With Light Background";
+export const SizingTable: string = "Sizing Tables";
+export const CustomColorHoverStrippedTitle: string = "Custom Table Color With Hover And Stripped";
+export const DashedBorderTitle: string = "Dashed Border";
+export const InverseTables: string = "Inverse Table";
+export const HoverableRowsWithHorizontalBorders: string = "Hoverable Rows With Horizontal Border";
+export const InverseTablWithPrimaryBackgrounds: string = "Inverse Table with Primary background";
+export const CaptionTableTitle: string = "Caption";
+export const UserList: string = "List of users";
+export const TableHeadOption: string = "Table head options";
+export const StripedRowWithInverseTables: string = "Striped Row with Inverse Table";
 
 
