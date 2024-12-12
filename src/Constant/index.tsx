@@ -336,6 +336,19 @@ export const RecentChats: string = "Recent chats";
 export const NameAndPhoneNumber = "Name and phone number";
 export const TypeMessageHere: string = "Type Message here..";
 
+//Letter-Box
+export const EmailFilter= "email filter"
+export const ComposeEmail =" Compose Email"
+export const Inbox: string = "Inbox";
+export const AddLabelHeading = "Add Label"
+export const ComposeMessage= "Compose Message"
+export const SaveAsDraft=  "Save as draft"
+export const FromHeading = "From"
+export const Send: string = "Send";
+export const LabelName= "Label Name"
+export const LabelColor= "Label Color"
+export const InterviewMail= "Interview Mail"
+
 //Bookmark
 export const Business: string = "Business";
 export const Newsletter: string = "Newsletter";
@@ -382,6 +395,8 @@ export const ContactHistory: string = "Contact History";
 export const ContactCreated: string = "Contact Created";
 export const Personal: string = "Personal";
 export const PrintViews: string = "Print preview";
+
+
 
 
 
