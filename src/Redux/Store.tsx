@@ -8,6 +8,7 @@ import FilterSlice from "./Reducer/FilterSlice";
 import FileManagerSlice from "./Reducer/FileManagerSlice";
 import AddProductSlice from "./Reducer/AddProductSlice";
 import ProjectSlice from "./Reducer/ProjectSlice";
+import LetterBoxSlice from "./Reducer/LetterBoxSlice";
 import ChatSlice from "./Reducer/ChatSlice";
 import NumberingWizardSlice from "./Reducer/FormLayout/NumberingWizardSlice";
 import StudentWizardSlice from "./Reducer/FormLayout/StudentWizardSlice";
@@ -24,6 +25,7 @@ const Store = configureStore({
     fileManager: FileManagerSlice,    
     addProduct: AddProductSlice,
     project: ProjectSlice,
+    letterBox:LetterBoxSlice,
     chat: ChatSlice,
     numberingWizard: NumberingWizardSlice,
     studentWizard: StudentWizardSlice,

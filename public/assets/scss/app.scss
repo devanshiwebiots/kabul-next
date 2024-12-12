@@ -3,7 +3,7 @@
 @import "vendors/font-awesome.scss";
 @import "vendors/flag-icon.scss";
 @import "vendors/themify/themify-icons";
-@import "vendors/icofont.scss"; 
+@import "vendors/icofont.scss";
 
 //bootstrap
 @import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,3 +23,6 @@
 //slick-slider
 @import 'slick-carousel/slick/slick.css';
 @import 'slick-carousel/slick/slick-theme.css';
+
+// photoswipe
+@import 'photoswipe/dist/photoswipe.css';
