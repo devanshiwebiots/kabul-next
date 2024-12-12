@@ -349,6 +349,26 @@ export const LabelName= "Label Name"
 export const LabelColor= "Label Color"
 export const InterviewMail= "Interview Mail"
 
+//Users
+export const Bio: string = "Bio";
+export const MyProfiles: string = "My Profile";
+export const Save: string = "Save";
+export const EditProfile: string = "Edit Profile";
+export const UpdateProfile: string = "Update Profile";
+export const Company: string = "Company";
+export const AboutMe: string = "About me";
+export const Username: string = "Username";
+export const AddProjectAndUpload: string = "Add project And Upload";
+export const Designer: string = "DESIGNER";
+export const Followers: string = "Followers";
+export const Following: string = "Following";
+export const Posts: string = "Posts";
+
+//Calendar
+export const DraggableEvents: string = "Draggable Events";
+export const RemoveAfterDrop: string = "remove after drop";
+export const CalendarFilter: string = "calendar filter";
+
 //Task
 export const TaskFilter: string = "Task filter";
 export const AddTask: string = "Add Task";
@@ -368,7 +388,6 @@ export const Notification: string = "Notification";
 export const Business: string = "Business";
 export const RemindOn: string = "Remind on";
 export const Mail: string = "Mail";
-export const Save: string = "Save";
 export const Print: string = "Print";
 export const TagColor: string = "Tag color";
 export const CreateTags: string = "Create Tag";
