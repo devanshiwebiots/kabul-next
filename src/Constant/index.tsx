@@ -414,6 +414,18 @@ export const Call: string = " Call";
 export const VerificationCodeHeading: string = "Verification code";
 export const Resend: string = "Resend";
 
+//Reactstrap Tables - Table Components
+export const UIComponentsTitle: string = "UI Components";
+export const DefaultButtonsTitle: string = "Default Buttons";
+export const AlertTitle: string = "Alerts";
+export const ProgressbarTitle: string = "Progressbar";
+export const CheckboxTitle: string = "Checkbox";
+export const RadioButtonsTitle: string = "Radio Buttons";
+export const SelectTable: string = "Select";
+export const InputsTable: string = "Input";
+export const BadgesTable: string = "Badges";
+export const TooltipTriggersTitle: string = "Tooltip Triggers";
+export const SwitchTable: string = "SWITCH";
 
 
 
