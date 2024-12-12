@@ -3,7 +3,7 @@ import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import { getValue } from "@/Redux/Reducer/FormLayout/TwoFactorSlice";
 import { FormGroup, Input, Label } from "reactstrap";
 
-export const ModalOneData = () => {
+const ModalOneData = () => {
   const { selectAuthenticatorMethodName } = useAppSelector((state) => state.twoFactor);
   const dispatch = useAppDispatch();
 
@@ -28,3 +28,5 @@ export const ModalOneData = () => {
     </div>
   );
 };
+
+export default ModalOneData;

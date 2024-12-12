@@ -2,9 +2,9 @@ import { Button, Modal, ModalBody, ModalHeader } from "reactstrap";
 import { Cancel, ModalTitle, Next } from "@/Constant";
 import ModalTwo from "./ModalTwo";
 import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
-import { ModalOneData } from "./ModalOneData";
 import { setModalOne, setModalTwo } from "@/Redux/Reducer/FormLayout/TwoFactorSlice";
 import ShowError from "@/CommonComponents/ShowError";
+import ModalOneData from "./ModalOneData";
 
 const ModalOne = () => {
   const { modalOne, selectAuthenticatorMethodName } = useAppSelector((state) => state.twoFactor);

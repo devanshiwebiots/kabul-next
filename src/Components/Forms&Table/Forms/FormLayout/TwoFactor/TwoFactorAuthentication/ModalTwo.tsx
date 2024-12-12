@@ -1,6 +1,7 @@
 import { EnterQRCode, ImagePath, ScanQRCode, Submit } from "@/Constant";
 import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import { setActive, setModalTwo } from "@/Redux/Reducer/FormLayout/TwoFactorSlice";
+import Image from "next/image";
 import { Button, Form, Input, Modal, ModalBody, ModalHeader } from "reactstrap";
 
 const ModalTwo = () => {
@@ -15,7 +16,7 @@ const ModalTwo = () => {
           <p>Scan the QR code using an authenticator app and website such as abc authenticator, OTP xyz, or pqr authenticator. You must input the six-digit code it generates below.</p>
           <div className="modal-img">
             <div className="qr-img">
-              <img src={`${ImagePath}/forms/qr-code.png`} alt="qr-code"/>
+              <Image height={100} width={100} priority src={`${ImagePath}/forms/qr-code.png`} alt="qr-code"/>
             </div>
             <div className="qr-content">
               <div className={`alert alert-light-dark light alert-dismissible fade text-dark border-left-wrapper ${ active ? "show" : "d-none"}`} role="alert">

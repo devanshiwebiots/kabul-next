@@ -14,14 +14,14 @@ const VerificationCode: React.FC = () => {
   const renderInput = (props: any) => <input {...props} />;
 
   return (
-    <Col md='6'>
+    <Col md={6}>
       <div className='card-wrapper border rounded-3 h-100'>
         <div className='authenticate'>
           <h4>{VerificationCodeHeading}</h4>
           <img className='img-fluid' src={`${ImagePath}/forms/authenticate.png`} alt='authenticate' />
           <span>{OtpCodeSent}</span>
           <span>+91********70</span>
-          <Form onSubmit={(event) => event.preventDefault()}>
+          <Form onSubmit={(e) => e.preventDefault()}>
             <Row>
               <Col>
                 <h5>{OtpCode}</h5>
@@ -30,9 +30,7 @@ const VerificationCode: React.FC = () => {
                 <OtpInput value={otp} onChange={handleChange} numInputs={6} shouldAutoFocus renderInput={renderInput} containerStyle='otp-generate' inputStyle='code-input form-control' />
               </Col>
               <Col>
-                <Button color='primary' className='w-100'>
-                  {Verify}
-                </Button>
+                <Button color='primary' className='w-100'>{Verify}</Button>
               </Col>
               <div>
                 <span>Not received your code?</span>

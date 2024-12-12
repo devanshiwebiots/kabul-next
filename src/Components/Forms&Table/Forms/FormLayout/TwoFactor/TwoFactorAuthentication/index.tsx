@@ -7,7 +7,7 @@ import { setModalOne } from "@/Redux/Reducer/FormLayout/TwoFactorSlice";
 const TwoFactorAuthentication = () => {
   const dispatch = useAppDispatch()
   return (
-    <Col sm="12">
+    <Col sm={12}>
       <Card>
         <CardBody className="authentication-body">
           <div className="authentication-wrapper">
