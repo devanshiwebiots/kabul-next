@@ -8,6 +8,7 @@ import FilterSlice from "./Reducer/FilterSlice";
 import FileManagerSlice from "./Reducer/FileManagerSlice";
 import AddProductSlice from "./Reducer/AddProductSlice";
 import ProjectSlice from "./Reducer/ProjectSlice";
+import LetterBoxSlice from "./Reducer/LetterBoxSlice";
 import ChatSlice from "./Reducer/ChatSlice";
 import TaskSlice from "./Reducer/TaskSlice";
 import ToDoSlice from "./Reducer/ToDoSlice";
@@ -23,6 +24,7 @@ const Store = configureStore({
     fileManager: FileManagerSlice,    
     addProduct: AddProductSlice,
     project: ProjectSlice,
+    letterBox:LetterBoxSlice,
     chat: ChatSlice,
     task: TaskSlice,
     todo: ToDoSlice,
