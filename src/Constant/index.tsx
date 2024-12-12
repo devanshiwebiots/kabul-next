@@ -336,6 +336,19 @@ export const RecentChats: string = "Recent chats";
 export const NameAndPhoneNumber = "Name and phone number";
 export const TypeMessageHere: string = "Type Message here..";
 
+//Letter-Box
+export const EmailFilter= "email filter"
+export const ComposeEmail =" Compose Email"
+export const Inbox: string = "Inbox";
+export const AddLabelHeading = "Add Label"
+export const ComposeMessage= "Compose Message"
+export const SaveAsDraft=  "Save as draft"
+export const FromHeading = "From"
+export const Send: string = "Send";
+export const LabelName= "Label Name"
+export const LabelColor= "Label Color"
+export const InterviewMail= "Interview Mail"
+
 //Users
 export const Bio: string = "Bio";
 export const MyProfiles: string = "My Profile";
@@ -355,6 +368,7 @@ export const Posts: string = "Posts";
 export const DraggableEvents: string = "Draggable Events";
 export const RemoveAfterDrop: string = "remove after drop";
 export const CalendarFilter: string = "calendar filter";
+
 
 
 
