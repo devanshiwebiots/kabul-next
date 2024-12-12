@@ -336,6 +336,19 @@ export const RecentChats: string = "Recent chats";
 export const NameAndPhoneNumber = "Name and phone number";
 export const TypeMessageHere: string = "Type Message here..";
 
+//Letter-Box
+export const EmailFilter= "email filter"
+export const ComposeEmail =" Compose Email"
+export const Inbox: string = "Inbox";
+export const AddLabelHeading = "Add Label"
+export const ComposeMessage= "Compose Message"
+export const SaveAsDraft=  "Save as draft"
+export const FromHeading = "From"
+export const Send: string = "Send";
+export const LabelName= "Label Name"
+export const LabelColor= "Label Color"
+export const InterviewMail= "Interview Mail"
+
 //Social App
 export const MutualFriend: string = "Mutual Friends";
 export const ActivityFeed: string = "Activity Feed";
@@ -362,3 +375,24 @@ export const MoreComments: string = "More Comments";
 export const CommentsSocialPlaceholder: string = "Post Your Comments";
 export const Posts: string = "Posts";
 export const MyPortfolioTitle: string = "My Portfolio";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
