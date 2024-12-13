@@ -14,8 +14,8 @@ const InlineRadios = () => {
           </div>
           {InlineRadioData?.map(({ id, text, disabled }, index) => (
             <div className="form-check form-check-inline" key={index}>
-              <Input className="me-2" id={id} type="radio" name="inlineRadioOptions" disabled={disabled} />
-              <Label htmlFor={id} check>
+              <Input className="me-2" id={`inlineRadio${id}`} type="radio" name="inlineRadioOptions" disabled={disabled} />
+              <Label htmlFor={`inlineRadio${id}`} check>
                 {text}
               </Label>
             </div>

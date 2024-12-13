@@ -16,8 +16,8 @@ const RadioToggleButtons = () => {
           </Label>
           {RadioToggleDataList.map(({ id, text, disabled }, index) => (
             <Fragment key={index}>
-              <Input className="btn-check radio-light-secondary" id={id} type="radio" name="options" disabled={disabled} />
-              <Label className="btn list-light-secondary" htmlFor={id} check>
+              <Input className="btn-check radio-light-secondary" id={`option${id}`} type="radio" name="options" disabled={disabled} />
+              <Label className="btn list-light-secondary" htmlFor={`option${id}`} check>
                 {text}
               </Label>
             </Fragment>

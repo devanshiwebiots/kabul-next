@@ -14,7 +14,7 @@ const BorderedCheckboxs = () => {
         {BorderCheckboxData?.map(({ color, text }, index) => (
           <div className={`form-check checkbox checkbox-${color} mb-0`} key={index}>
             <Input id={`checkbox-${color}`} type="checkbox" />
-            <Label htmlFor={`checkbox-${color}`} check>{text}</Label>
+            <Label htmlFor={`checkbox-${color}`} check>{text} - checkbox-secondary</Label>
           </div>
         ))}
       </div>

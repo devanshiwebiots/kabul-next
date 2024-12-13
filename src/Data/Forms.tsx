@@ -1,35 +1,35 @@
 export const AnimatedSocialData = [
   {
-    id: "chk-ani1",
+    id: "1",
     text: "Facebook",
   },
   {
-    id: "chk-ani2",
+    id: "2",
     text: "Whatsapp",
     defaultChecked: true,
   },
   {
-    id: "chk-ani4",
+    id: "4",
     text: "Twitter",
   },
 ];
 
 export const AnimatedPaymentData = [
   {
-    id: "edo-ani1",
+    id: "1",
     text: "MasterCard",
   },
   {
-    id: "edo-ani2",
+    id: "2",
     text: "Paypal",
     defaultChecked: true,
   },
   {
-    id: "edo-ani13",
+    id: "13",
     text: "G-pay",
   },
   {
-    id: "edo-ani6",
+    id: "6",
     text: " Bitpay",
   },
 ];
@@ -56,39 +56,39 @@ export const BasicRadioCheckboxData = [
 
 export const BasicRadioCheckboxDataList = [
   {
-    id: "inline-2",
+    id: "2",
     text: "Gallery",
     defaultChecked: true,
   },
   {
-    id: "inline-3",
+    id: "3",
     text: "Faq",
   },
   {
-    id: "inline-4",
+    id: "4",
     text: "Email",
   },
   {
-    id: "inline-5",
+    id: "5",
     text: "Icons",
   },
 ];
 
 export const BasicRadioDataList = [
   {
-    id: "radioinline2",
+    id: "2",
     text: "Tasks",
   },
   {
-    id: "radioinline3",
+    id: "3",
     text: " To-do",
   },
   {
-    id: "radioinline4",
+    id: "4",
     text: "Forms",
   },
   {
-    id: "radioinline5",
+    id: "5",
     text: "Login",
   },
 ];
@@ -96,11 +96,11 @@ export const BasicRadioDataList = [
 export const BorderCheckboxData = [
   {
     color: "secondary",
-    text: "Secondary - checkbox-secondary",
+    text: "Secondary",
   },
   {
     color: "success",
-    text: "Success - checkbox-secondary",
+    text: "Success",
   },
 ];
 
@@ -177,19 +177,19 @@ export const CustomCheckboxData = [
 
 export const BorderedRadioData = [
   {
-    id: "radio55",
+    id: "55",
     color: "success",
-    text: "Roxo Theme ",
+    text: "Roxo",
   },
   {
-    id: "radio33",
+    id: "33",
     color: "warning",
-    text: "Voxo Theme",
+    text: "Voxo",
   },
   {
-    id: "radio66",
+    id: "66",
     color: "info",
-    text: "Zeta Theme",
+    text: "Zeta",
   },
 ];
 
@@ -280,7 +280,7 @@ export const DefaultCheckBoxData = [
 
 export const DefaultCheckBoxDataList = [
   {
-    title: "Disabled Checks",
+    title: "Disabled",
     span: [
       {
         id: "flexCheckDefault1",
@@ -296,7 +296,7 @@ export const DefaultCheckBoxDataList = [
     ],
   },
   {
-    title: "Right Checks",
+    title: "Right",
     className: "form-check-reverse",
     span: [
       {
@@ -329,7 +329,7 @@ export const DefaultRadioData = [
 
 export const DefaultRadioDataList = [
   {
-    title: "Disabled Radios",
+    title: "Disabled",
     span: [
       {
         id: "flexRadioDisabled",
@@ -345,7 +345,7 @@ export const DefaultRadioDataList = [
     ],
   },
   {
-    title: "Right Radios",
+    title: "Right",
     className: "form-check-reverse",
     span: [
       {
@@ -378,7 +378,7 @@ export const DefaultSwitchData = [
 
 export const DefaultSwitchDataList = [
   {
-    title: "Disabled Switches",
+    title: "Disabled",
     span: [
       {
         id: "flexSwitchCheckDisabled",
@@ -394,7 +394,7 @@ export const DefaultSwitchDataList = [
     ],
   },
   {
-    title: "Right Switches",
+    title: "Right",
     className: "form-check-reverse",
     inputClass: "ms-2",
     span: [
@@ -414,23 +414,20 @@ export const DefaultSwitchDataList = [
 
 export const ImageWithCheckboxDataList = [
   {
-    id: "img-check-2",
     src: "2",
-    label: "Checked Image",
+    label: "Checked",
     defaultChecked: true,
     alt: "tree",
   },
   {
-    id: "img-check-3",
     src: "3",
-    label: "Disable Image",
+    label: "Disable",
     disabled: true,
     alt: "flowers",
   },
   {
-    id: "img-check-4",
     src: "4",
-    label: "Disable Checked Image",
+    label: "Disable Checked",
     alt: "rose-tea",
     disabled: true,
     defaultChecked: true,
@@ -455,21 +452,21 @@ export const ImageWithRadioDataList = [
   {
     id: "img-radio-2",
     src: "6",
-    label: "Checked Image",
+    label: "Checked",
     defaultChecked: true,
     alt: "tree",
   },
   {
     id: "img-radio-3",
     src: "7",
-    label: "Disable Image",
+    label: "Disable",
     disabled: true,
     alt: "flowers",
   },
   {
     id: "img-radio-4",
     src: "8",
-    label: "Disable Checked Image",
+    label: "Disable Checked",
     alt: "rose-tea",
     disabled: true,
     defaultChecked: true,
@@ -503,11 +500,11 @@ export const InlineInputData = [
 
 export const InlineCheckboxData = [
   {
-    id: "inlineCheckbox2",
+    id: "2",
     text: "II",
   },
   {
-    id: "inlineCheckbox3",
+    id: "3",
     text: "III (disabled)",
     disabled: true,
   },
@@ -515,11 +512,11 @@ export const InlineCheckboxData = [
 
 export const InlineRadioData = [
   {
-    id: "inlineRadio2",
+    id: "2",
     text: "2",
   },
   {
-    id: "inlineRadio3",
+    id: "3",
     text: "3 (disabled)",
     disabled: true,
   },
@@ -527,10 +524,10 @@ export const InlineRadioData = [
 
 export const InlineSwitchData = [
   {
-    id: "flexSwitchCheckDefault3",
+    id: "Default",
   },
   {
-    id: "flexSwitchCheckDisabled3",
+    id: "Disabled",
     disabled: true,
   },
 ];
@@ -551,16 +548,16 @@ export const RadioToggleData = [
 
 export const RadioToggleDataList = [
   {
-    id: "option2",
+    id: "2",
     text: "Radio",
   },
   {
-    id: "option3",
+    id: "3",
     text: "Disabled",
     disabled: true,
   },
   {
-    id: "option4",
+    id: "4",
     text: "Radio",
   },
 ];

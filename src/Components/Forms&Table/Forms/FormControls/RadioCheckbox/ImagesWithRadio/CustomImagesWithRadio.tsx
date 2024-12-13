@@ -1,3 +1,4 @@
+import RatioImage from "@/CommonComponents/RatioImage";
 import { Custom, ImagePath } from "@/Constant";
 import { Col, Input, Label } from "reactstrap";
 
@@ -9,7 +10,7 @@ const CustomImagesWithRadio = () => {
         <div className="img-checkbox">
           <Input className="main-img-cover" id="img-radio-1" type="radio" name="radio6"/>
           <Label className="mb-0" htmlFor="img-radio-1" check>
-            <img src={`${ImagePath}/switch/5.jpg`} alt="coffee-beans" />
+            <RatioImage src={`${ImagePath}/switch/5.jpg`} alt="radio image" />
           </Label>
         </div>
       </div>

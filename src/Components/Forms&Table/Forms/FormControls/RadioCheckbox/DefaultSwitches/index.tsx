@@ -15,7 +15,7 @@ const DefaultSwitches = () => {
             {DefaultSwitchDataList.map(({ title, span, className, inputClass }, index) => (
               <Col md={6} xl={4} key={index}>
                 <div className="card-wrapper border rounded-3 rtl-input checkbox-checked">
-                  <h6 className="sub-title">{title}</h6>
+                  <h6 className="sub-title">{title} Switches</h6>
                   {span.map(({ id, label, defaultChecked, disabled }, index) => (
                     <div className={`form-check form-switch ${className}`} key={index}>
                       <Input id={id} type="switch" className={inputClass} role="switch" defaultChecked={defaultChecked} disabled={disabled} />

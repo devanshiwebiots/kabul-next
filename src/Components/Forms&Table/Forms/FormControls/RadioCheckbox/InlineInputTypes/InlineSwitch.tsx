@@ -13,7 +13,7 @@ const InlineSwitch = () => {
           </div>
           {InlineSwitchData?.map(({ id, disabled }, index) => (
             <div className="form-check form-switch form-check-inline" key={index}>
-              <Input className="check-size" id={id} type="checkbox" role="switch" disabled={disabled} />
+              <Input className="check-size" id={`flexSwitchCheck${id}3`} type="checkbox" role="switch" disabled={disabled} />
             </div>
           ))}
         </div>

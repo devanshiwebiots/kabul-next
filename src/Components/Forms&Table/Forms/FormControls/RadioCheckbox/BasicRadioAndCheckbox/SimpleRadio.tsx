@@ -16,8 +16,8 @@ const SimpleRadio = () => {
           </div>
           {BasicRadioDataList?.map(({ id, text }, index) => (
             <div className="form-check form-check-inline radio radio-primary" key={index}>
-              <Input id={id} type="radio" name="radio5" defaultChecked />
-              <Label className="mb-0" htmlFor={id} check>
+              <Input id={`radioinline${id}`} type="radio" name="radio5" defaultChecked />
+              <Label className="mb-0" htmlFor={`radioinline${id}`} check>
                 {text}
               </Label>
             </div>

@@ -13,8 +13,8 @@ const BorderedRadio = () => {
         </div>
         {BorderedRadioData?.map(({ color, text, id }, index) => (
           <div className={`form-check radio radio-${color}`} key={index}>
-            <Input id={id} type="radio" name="radio1" />
-            <Label htmlFor={id} check>{text}</Label>
+            <Input id={`radio${id}`} type="radio" name="radio1" />
+            <Label htmlFor={`radio${id}`} check>{text} Theme</Label>
           </div>
         ))}
       </div>

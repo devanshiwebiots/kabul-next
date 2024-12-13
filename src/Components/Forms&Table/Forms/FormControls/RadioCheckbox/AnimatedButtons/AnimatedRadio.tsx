@@ -13,8 +13,8 @@ const AnimatedRadio = () => {
         {VisaAnimated}
         {AnimatedPaymentData.map(({ id, text, defaultChecked }, index) => (
           <Fragment key={index}>
-            <Label className="d-block" htmlFor={id} check></Label>
-            <Input className="radio_animated" id={id} type="radio" name="rdo-ani" defaultChecked={defaultChecked} />{text}</Fragment>
+            <Label className="d-block" htmlFor={`edo-ani${id}`} check></Label>
+            <Input className="radio_animated" id={`edo-ani${id}`} type="radio" name="rdo-ani" defaultChecked={defaultChecked} />{text}</Fragment>
         ))}
       </div>
     </Col>

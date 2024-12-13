@@ -14,8 +14,8 @@ const InlineCheckboxs = () => {
           </div>
           {InlineCheckboxData?.map(({ id, text, disabled }, index) => (
             <div className="form-check form-check-inline" key={index}>
-              <Input className="me-2" id={id} type="checkbox" disabled={disabled} />
-              <Label htmlFor={id} check>
+              <Input className="me-2" id={`inlineCheckbox${id}`} type="checkbox" disabled={disabled} />
+              <Label htmlFor={`inlineCheckbox${id}`} check>
                 {text}
               </Label>
             </div>

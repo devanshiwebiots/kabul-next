@@ -16,8 +16,8 @@ const SimpleCheckboxs = () => {
           </div>
           {BasicRadioCheckboxDataList?.map(({ id, text, defaultChecked }, index) => (
             <div className="form-check form-check-inline checkbox checkbox-dark mb-0" key={index}>
-              <Input id={id} type="checkbox" defaultChecked={defaultChecked} />
-              <Label htmlFor={id} check>
+              <Input id={`inline-${id}`} type="checkbox" defaultChecked={defaultChecked} />
+              <Label htmlFor={`inline-${id}`} check>
                 {text}
               </Label>
             </div>

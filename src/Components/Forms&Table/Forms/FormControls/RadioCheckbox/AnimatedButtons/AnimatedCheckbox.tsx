@@ -13,8 +13,8 @@ const AnimatedCheckbox = () => {
         {InstagramAnimated}
         {AnimatedSocialData?.map(({ id, text, defaultChecked }, index) => (
           <Fragment key={index}>
-            <Label className="d-block" htmlFor={id} check></Label>
-            <Input className="checkbox_animated" id={id} type="checkbox" defaultChecked={defaultChecked} />
+            <Label className="d-block" htmlFor={`chk-ani${id}`} check></Label>
+            <Input className="checkbox_animated" id={`chk-ani${id}`} type="checkbox" defaultChecked={defaultChecked} />
             {text}
           </Fragment>
         ))}
