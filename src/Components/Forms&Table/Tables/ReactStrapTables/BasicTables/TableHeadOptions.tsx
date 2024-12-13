@@ -1,7 +1,7 @@
 import { Card, Col, Row } from "reactstrap";
 import { TableHeadOption } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { TableHeadOptionBody, TableHeadOptionData, TableHeadOptionHead } from "@/Data/Tables";
+import { TableHeadOptionBody, TableHeadOptionData, TableHeadOptionHead } from "@/Data/Tables/ReactstrapTables";
 import CommonTable from "./Common/CommonTable";
 
 const TableHeadOptions = () => {

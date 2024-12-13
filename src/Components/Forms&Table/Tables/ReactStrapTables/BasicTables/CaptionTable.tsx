@@ -1,7 +1,7 @@
 import { Card, Col, Row } from "reactstrap";
 import { CaptionTableTitle, UserList } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { CaptionBody, CaptionData, CaptionHead } from "@/Data/Tables";
+import { CaptionBody, CaptionData, CaptionHead } from "@/Data/Tables/ReactstrapTables";
 import CommonTable from "./Common/CommonTable";
 
 const CaptionTable = () => {

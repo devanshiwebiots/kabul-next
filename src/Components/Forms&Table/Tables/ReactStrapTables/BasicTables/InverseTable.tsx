@@ -1,7 +1,7 @@
 import { Card, Col } from "reactstrap";
 import { InverseTables } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { InverseTableBody, InverseTableData, InverseTableHead } from "@/Data/Tables";
+import { InverseTableBody, InverseTableData, InverseTableHead } from "@/Data/Tables/ReactstrapTables";
 import CommonTable from "./Common/CommonTable";
 
 const InverseTable = () => {

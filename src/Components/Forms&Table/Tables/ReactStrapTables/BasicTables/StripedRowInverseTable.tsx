@@ -1,7 +1,7 @@
 import { Card, Col, Row } from "reactstrap";
 import { StripedRowWithInverseTables } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { StripedRowBody, StripedRowData, StripedRowHead } from "@/Data/Tables";
+import { StripedRowBody, StripedRowData, StripedRowHead } from "@/Data/Tables/ReactstrapTables";
 import CommonTable from "./Common/CommonTable";
 
 const StripedRowInverseTable = () => {

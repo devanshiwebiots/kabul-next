@@ -1,7 +1,7 @@
 import { Card, Col, Row } from "reactstrap";
 import { SizingTable } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { SizingTableBody, SizingTableData, SizingTableHead } from "@/Data/Tables";
+import { SizingTableBody, SizingTableData, SizingTableHead } from "@/Data/Tables/ReactstrapTables";
 import CommonTable from "./Common/CommonTable";
 
 const SizingTables = () => {

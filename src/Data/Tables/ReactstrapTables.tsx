@@ -29,7 +29,7 @@ export const BasicTableBody = [
   {
     id: 1,
     color: "secondary",
-    image:"user/1.jpg",
+    image:"1",
     firstname: "Ram Jacob",
     lastName: "Wolfe",
     userName: "RamJacob@twitter",
@@ -42,7 +42,7 @@ export const BasicTableBody = [
   {
     id: 2,
     color: "success",
-    image: "user/2.jpg",
+    image: "2",
     firstname: "John Deo",
     lastName: "Gummer",
     userName: "JohnDeo@twitter",
@@ -55,7 +55,7 @@ export const BasicTableBody = [
   {
     id: 3,
     color: "info",
-    image: "user/3.jpg",
+    image: "3",
     firstname: "Elana John",
     lastName: "Cazale",
     userName: "ElanaJohn@twitter",
@@ -68,7 +68,7 @@ export const BasicTableBody = [
   {
     id: 4,
     color: "warning",
-    image: "user/7.jpg",
+    image: "7",
     firstname: "Meryl Streep",
     lastName: "Roberts",
     userName: "MerylStreep@twitter",
@@ -81,7 +81,7 @@ export const BasicTableBody = [
   {
     id: 5,
     color: "danger",
-    image: "user/2.jpg",
+    image: "2",
     firstname: "Emma Stone",
     lastName: "Stone",
     userName: "EmmaStone@twitter",
@@ -94,7 +94,7 @@ export const BasicTableBody = [
   {
     id: 6,
     color: "light",
-    image: "user/3.jpg",
+    image: "3",
     firstname: "Eliana Jons",
     lastName: "Jons",
     userName: "ElianaJons@twitter",
@@ -788,3 +788,5 @@ export const DashedBorderHead = [
       capacity: 20
     }
   ]
+
+ 

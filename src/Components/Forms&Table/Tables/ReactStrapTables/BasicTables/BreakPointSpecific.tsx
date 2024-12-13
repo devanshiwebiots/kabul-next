@@ -1,7 +1,7 @@
 import { Card, Col, Row } from "reactstrap";
 import { BreakpointSpecifics } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { BreakPointBody, BreakPointData, BreakPointHead } from "@/Data/Tables";
+import { BreakPointBody, BreakPointData, BreakPointHead } from "@/Data/Tables/ReactstrapTables";
 import CommonTable from "./Common/CommonTable";
 
 const BreakPointSpecific = () => {

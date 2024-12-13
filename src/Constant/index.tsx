@@ -465,7 +465,10 @@ export const UserList: string = "List of users";
 export const TableHeadOption: string = "Table head options";
 export const StripedRowWithInverseTables: string = "Striped Row with Inverse Table";
 
-
+//Data Tables - Basic Init
+export const ZeroConfiguration: string = "Zero Configuration";
+export const StateSavingTitle: string = "State saving";
+export const ScrollVerticalDynamicHeightTitle: string = "Scroll - vertical, dynamic height";
 
 
 

@@ -1,7 +1,7 @@
 import { Card, Col } from "reactstrap";
 import { HoverableRowsWithHorizontalBorders } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { HoverableRowBody, HoverableRowData, HoverableRowHead } from "@/Data/Tables";
+import { HoverableRowBody, HoverableRowData, HoverableRowHead } from "@/Data/Tables/ReactstrapTables";
 import CommonTable from "./Common/CommonTable";
 
 const HoverableRows = () => {

@@ -1,7 +1,7 @@
 import { Card, Col, Row } from "reactstrap";
 import { ResponsiveLightBackgroundTitle } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { ResponsiveLightBackgroundBody, ResponsiveLightBackgroundData, ResponsiveLightBackgroundHead } from "@/Data/Tables";
+import { ResponsiveLightBackgroundBody, ResponsiveLightBackgroundData, ResponsiveLightBackgroundHead } from "@/Data/Tables/ReactstrapTables";
 import CommonTable from "./Common/CommonTable";
 
 const ResponsiveLightBackground = () => {

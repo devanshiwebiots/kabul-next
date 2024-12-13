@@ -1,7 +1,7 @@
 import { Card, Col, Row } from "reactstrap";
 import { DashedBorderTitle } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { DashedBorderData, DashedBorderHead, DashedBorderHeadBody } from "@/Data/Tables";
+import { DashedBorderData, DashedBorderHead, DashedBorderHeadBody } from "@/Data/Tables/ReactstrapTables";
 import CommonTable from "./Common/CommonTable";
 
 const DashedBorder = () => {

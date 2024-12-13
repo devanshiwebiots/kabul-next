@@ -1,7 +1,7 @@
 import { Card, Col } from "reactstrap";
 import { CustomColorHoverStrippedTitle } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { CustomColorHoverBody, CustomColorHoverData, CustomColorHoverHead } from "@/Data/Tables";
+import { CustomColorHoverBody, CustomColorHoverData, CustomColorHoverHead } from "@/Data/Tables/ReactstrapTables";
 import CommonTable from "./Common/CommonTable";
 
 const CustomColorHoverStripped = () => {
