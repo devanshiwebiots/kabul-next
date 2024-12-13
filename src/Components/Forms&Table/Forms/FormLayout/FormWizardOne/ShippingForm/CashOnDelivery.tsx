@@ -1,5 +1,6 @@
 import { CashOnDeliveryHeading, ImagePath } from "@/Constant";
 import { PaymentMethodOptionPropsType } from "@/Types/Forms";
+import Image from "next/image";
 import { Col, FormGroup, Input, Label } from "reactstrap";
 
 const CashOnDelivery :React.FC<PaymentMethodOptionPropsType> = ({paymentMethodName,getUserData,}) => {
@@ -14,7 +15,7 @@ const CashOnDelivery :React.FC<PaymentMethodOptionPropsType> = ({paymentMethodNa
           <p className="p-0">After your order is delivered, make a cash payment</p>
         </div>
         <div>
-          <img src={`${ImagePath}/forms/delivery.png`} alt="delivery"/>
+          <Image height={50} width={75} priority src={`${ImagePath}/forms/delivery.png`} alt="delivery"/>
         </div>
       </div>
     </Col>

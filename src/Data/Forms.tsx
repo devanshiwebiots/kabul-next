@@ -56,14 +56,12 @@ export const CurrentCartFooter = [
 
 export const HomeAndOfficeData = [
   {
-    value: "shipping-choose1",
     label: "Home",
     name: "Filomena Green ",
     address: "2211 Fruitville Rd, Sarasota, Florida, US 34237",
     contact: "(941) 321-5643",
   },
   {
-    value: "shipping-choose2",
     label: "Work",
     name: "Ms. Ila Runte DDS",
     address: " 1531 E 23rd St S, Independence, Mississippi, US 64055",

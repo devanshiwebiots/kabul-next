@@ -26,7 +26,7 @@ const BillingForm: React.FC<BillingFormProp> = ({ callbackActive }) => {
     <>
       <h6>{BillingInformation}</h6>
       <p className="f-light">{FillFollowingInformation}</p>
-      <Form onSubmit={(event) => event.preventDefault} className="g-3 needs-validation row" noValidate>
+      <Form onSubmit={(e) => e.preventDefault} className="g-3 needs-validation row" noValidate>
         <BillingUserDetails1 studentValidationForm={studentValidationForm} getUserData={getUserData} />
         <BillingUserDetail2 studentValidationForm={studentValidationForm} getUserData={getUserData} />
         <Col xs={12} className="text-end mt-2">

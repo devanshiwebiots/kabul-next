@@ -3,6 +3,7 @@ import { PaymentMethodOptionPropsType } from "@/Types/Forms";
 import React from "react";
 import { Col, FormGroup, Input, Label } from "reactstrap";
 import CreditCardForm from "./CreditCardForm";
+import Image from "next/image";
 
 const CreditCardOption :React.FC<PaymentMethodOptionPropsType>= ({paymentMethodName,getUserData,}) => {
   return (
@@ -17,7 +18,7 @@ const CreditCardOption :React.FC<PaymentMethodOptionPropsType>= ({paymentMethodN
             <p className="p-0">Transferring money securely through your bank account. Mastercard, Visa, Discover, and Stripe are all accepted</p>
           </div>
           <div>
-            <img src={`${ImagePath}/forms/credit-card.png`} alt="card"/>
+            <Image height={50} width={101} priority src={`${ImagePath}/forms/credit-card.png`} alt="card"/>
           </div>
         </div>
         <CreditCardForm />

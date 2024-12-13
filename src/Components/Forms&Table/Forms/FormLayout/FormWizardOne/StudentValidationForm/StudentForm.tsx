@@ -26,7 +26,9 @@ const StudentForm: React.FC<StudentFormPropsType> = ({ handleImageLabelClick, im
           <Button color='primary' className={`ms-1 ${level === 4 ? "disabled" : ""}`} onClick={() => dispatch(handleStudentNextButton())}>
             {Next}
           </Button>
-          <div className="text-center"><span className="step" /><span className="step" /><span className="step" /><span className="step" /></div>
+          <div className="text-center">
+            {Array.from({ length: 4 }, (_, i) => <span key={i} className="step" />)}
+          </div>
         </div>
       </div>
     </div>

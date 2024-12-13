@@ -1,3 +1,4 @@
+import RatioImage from "@/CommonComponents/RatioImage";
 import { CurrentCartHeading, ImagePath, Price, Product, ProductDetails } from "@/Constant";
 import { CurrentCartData, CurrentCartFooter } from "@/Data/Forms";
 import { Col, Table } from "reactstrap";
@@ -19,7 +20,7 @@ const CurrentCart = () => {
             <tbody>
               {CurrentCartData?.map((data, index) => (
                 <tr key={index}>
-                  <td><img src={`${ImagePath}/${data.imagePath}.png`} alt="product" /></td>
+                  <td><RatioImage src={`${ImagePath}/${data.imagePath}.png`} alt="product" /></td>
                   <td>
                     <div >
                       <h6>{data.productName}</h6>

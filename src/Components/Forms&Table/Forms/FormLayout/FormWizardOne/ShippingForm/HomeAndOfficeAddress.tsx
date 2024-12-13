@@ -13,8 +13,8 @@ const HomeAndOfficeAddress :React.FC<ShippingInformationCommonProps> = ({radioBo
             <div className="collect-address">
               <div className="d-flex gap-2 align-items-center">
                 <FormGroup check className="radio radio-primary">
-                  <Input id={data.value} type="radio" name="address" value={data.value} checked={address === data.value} onChange={getUserData}/>
-                  <Label className="mb-0" htmlFor={data.value} check>{data.label}</Label>
+                  <Input id={`shipping-choose${index+1}`} type="radio" name="address" value={`shipping-choose${index+1}`} checked={address === `shipping-choose${index+1}`} onChange={getUserData}/>
+                  <Label className="mb-0" htmlFor={`shipping-choose${index+1}`} check>{data.label}</Label>
                 </FormGroup>
               </div>
               <div className="card-icon">

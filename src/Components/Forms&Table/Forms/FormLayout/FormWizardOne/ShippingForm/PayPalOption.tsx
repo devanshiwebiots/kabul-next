@@ -1,5 +1,6 @@
 import { ImagePath, Paypal } from "@/Constant";
 import { PaymentMethodOptionPropsType } from "@/Types/Forms";
+import Image from "next/image";
 import { Col, FormGroup, Input, Label } from "reactstrap";
 
 const PayPalOption :React.FC<PaymentMethodOptionPropsType> = ({paymentMethodName,getUserData,}) => {
@@ -14,7 +15,7 @@ const PayPalOption :React.FC<PaymentMethodOptionPropsType> = ({paymentMethodName
           <p className="p-0">You will be taken to the paypal website to finish your transaction safely</p>
         </div>
         <div>
-          <img src={`${ImagePath}/checkout/paypal.png`} alt="paypal"/>
+          <Image height={50} width={145} priority src={`${ImagePath}/checkout/paypal.png`} alt="paypal"/>
         </div>
       </div>
     </Col>

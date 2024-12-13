@@ -17,7 +17,7 @@ const NetBankingForm = () => {
   };
 
   return (
-    <Form onSubmit={(event) => event.preventDefault()} className="g-3 mb-3 needs-validation" noValidate>
+    <Form onSubmit={(e) => e.preventDefault()} className="g-3 mb-3 needs-validation" noValidate>
       <Row>
         <Col md={12}>
           <NetBankingAccordion netBankingFormValues={netBankingFormValues} getUserData={getUserData} />
