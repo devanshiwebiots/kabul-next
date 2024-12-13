@@ -450,6 +450,62 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Form Wizard 2
+export const AccountName: string = "Account Name";
+export const Continue: string = "Continue";
+export const InqMail: string = "org@support.com";
+export const SelectTeamWith: string = "Select team size with";
+export const Projects: string = "projects";
+export const ContactDetails: string = "Contact details";
+export const GekkoCo: string = "Gekko Co";
+export const OrganizationName: string = "Organization Name";
+export const JoinOrganizationType: string = "Join organization type";
+export const OrganizationDescription: string = "Organization description";
+export const ShareYourProblemsAndAnotherIssues: string = "Share your problems and another issues";
+export const Expiration: string = "Expiration(MM/YY)";
+export const AadharPlaceholder: string = "xxxx xxxx xxxx xxxx";
+export const AgreeToTermsAndConditions: string = "Agree to terms and conditions";
+export const CardHolder: string = "Card Holder";
+export const AccountType: string = "Select the type of account";
+export const Congratulations: string = "Congratulations ";
+export const AadhaarNumber: string = "Aadhaar Number";
+export const PAN: string = "PAN";
+export const PanPlaceholder: string = "xxxxxxxxxx";
+export const ChooseBanks: string = "Choose from these popular banks";
+export const DescribeYourIssue: string = "If no, could you please describe?";
+export const ContactNumber: string = "Contact Number";
+export const EnterFirstName: string = "Enter first name";
+export const EnterLastName: string = "Enter last name";
+export const EnterNumber: string = "Enter number";
+export const KabulMail: string = "Kabul@example.com";
+
+//Two Factor
+export const EmailVerificationHeading: string = "Email verification";
+export const PleaseEnterTheCodeHere: string = "Please enter the code here";
+export const Verify: string = "Verify";
+export const TwoFactorAuthenticationHeading: string = "Two-factor authentication";
+export const FactorAuthentication: string = "2 factor authentication";
+export const ModalTitle: string = "Modal title";
+export const ScanQRCode: string = "Scan QR code";
+export const EnterQRCode: string = "Enter QR Code";
+export const OtpCodeSent: string = "We've sent a verification code to";
+export const OtpCode: string = "Your OTP Code here:";
+export const Call: string = " Call";
+export const VerificationCodeHeading: string = "Verification code";
+export const Resend: string = "Resend";
+
+//Reactstrap Tables - Table Components
+export const UIComponentsTitle: string = "UI Components";
+export const DefaultButtonsTitle: string = "Default Buttons";
+export const AlertTitle: string = "Alerts";
+export const ProgressbarTitle: string = "Progressbar";
+export const CheckboxTitle: string = "Checkbox";
+export const RadioButtonsTitle: string = "Radio Buttons";
+export const SelectTable: string = "Select";
+export const InputsTable: string = "Input";
+export const BadgesTable: string = "Badges";
+export const TooltipTriggersTitle: string = "Tooltip Triggers";
+export const SwitchTable: string = "SWITCH";
 
 
 
