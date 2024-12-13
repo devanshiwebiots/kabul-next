@@ -3,7 +3,7 @@ import { UpgradeVariationData } from "@/Data/Forms";
 import { Col, Input } from "reactstrap";
 
 const VariationCheckboxUpgrade = () => {
-const UpgradeParagraph:string = "Select the theme that best suits your requirements, and you're ready to go!";
+  const UpgradeParagraph: string = "Select the theme that best suits your requirements, and you're ready to go!";
 
   return (
     <Col xl={8} md={7}>
@@ -17,7 +17,7 @@ const UpgradeParagraph:string = "Select the theme that best suits your requireme
             <p className="text-muted mb-2">{UpgradeParagraph}</p>
           </div>
           <div className="variation-box">
-            {UpgradeVariationData?.map(({id,check,text,sales},index) => (
+            {UpgradeVariationData?.map(({ check, text, sales }, index) => (
               <div className="selection-box" key={index}>
                 <Input type="checkbox" defaultChecked={check} />
                 <div className="custom--mega-checkbox">

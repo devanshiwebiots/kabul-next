@@ -5,19 +5,19 @@ const DefaultStyleForm = () => {
   return (
     <Form className="mega-inline">
       <Row>
-        {DefaultFormData?.map(({ id, color, badgeTitle, digits, shipingText },index) => (
+        {DefaultFormData?.map(({ color, badgeTitle, digits, shippingText }, index) => (
           <Col sm={6} key={index}>
             <Card>
               <div className="d-flex p-20">
                 <FormGroup className={`radio radio-${color} m-0"`} check>
-                  <Input id={`radio${id}`} type="radio" name="radio1" value="option1" />
-                  <Label htmlFor={`radio${id}`} check>
+                  <Input id={`radio${index + 1}`} type="radio" name="radio1" value="option1" />
+                  <Label htmlFor={`radio${index + 1}`} check>
                     <span className="flex-grow-1 megaoption-space">
                       <span className="mt-0 mega-title-badge">
                         {badgeTitle}
-                        <Badge color={color} className="pull-right digits">{digits}</Badge>
+                        <Badge color={color} className="pull-right digits">{digits} INR</Badge>
                       </span>
-                      <span> {shipingText}</span>
+                      <span>Estimated {shippingText} Day Shipping ( Duties end tax may be due delivery )</span>
                     </span>
                   </Label>
                 </FormGroup>

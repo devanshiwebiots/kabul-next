@@ -127,18 +127,16 @@ export const SizingDatas = [
 
 export const DefaultFormData = [
   {
-    id: 1,
     color: "primary",
     badgeTitle: "COD",
-    digits: "50 INR",
-    shipingText: "Estimated 2 Day Shipping ( Duties end tax may be due delivery )",
+    digits: "50",
+    shippingText: "2",
   },
   {
-    id: 2,
     color: "secondary",
     badgeTitle: "Fast",
-    digits: "100 INR",
-    shipingText: "Estimated 1 Day Shipping ( Duties end tax may be due delivery )",
+    digits: "100",
+    shippingText: "1",
   },
 ];
 
@@ -160,28 +158,24 @@ export const InlineStyeData = [
 
 export const InlineStyeDataList = [
   {
-    id: 1,
     color: "warning",
     badgeTitle: "COD",
     digits: "50 INR",
     shippingText: "14-20",
   },
   {
-    id: 2,
     color: "secondary",
     badgeTitle: "Fast",
     digits: "100 INR",
     shippingText: "1",
   },
   {
-    id: 3,
     color: "secondary",
     badgeTitle: "Standard",
     digits: "80 INR",
     shippingText: "3",
   },
   {
-    id: 4,
     color: "warning",
     badgeTitle: "Local",
     digits: "Free",
@@ -358,17 +352,15 @@ export const WithoutBorderData = [
 
 export const WithoutBorderDataList = [
   {
-    id: 1,
     color: "warning",
-    badgeTitle: "$39",
+    badgeTitle: "39",
     digits: "100 MBPS",
     plansText: "Plans for 2/4/6 months are offered to new clients.",
     check: true,
   },
   {
-    id: 2,
     color: "info",
-    badgeTitle: "$50",
+    badgeTitle: "50",
     digits: "Hired",
     plansText: "Plans for 2 years projects offered to new clients.",
   },
@@ -390,12 +382,10 @@ export const SolidBorderStyleData = [
 
 export const SolidBorderStyleDataList = [
   {
-    id: 1,
     image: "img.png",
     spanText: "We provide end to end digital solutions, right from designing your website/application development: Domain, Web Hosting, Email Hosting Registration.",
   },
   {
-    id: 2,
     image: "blog.jpg",
     spanText: "When someone visits your homepage, your design should inspire them to stay. Therefore, your value proposition should be established on the homepage for visitors.",
   },
@@ -417,13 +407,11 @@ export const OfferBorderStyleData = [
 
 export const OfferBorderStyleDataList = [
   {
-    id: 1,
     color: "success",
     image: "11",
     spanText: "Fruits are an essential part of a healthy diet, and offer many health benefits. They're packed with vitamins, minerals, and fiber, which can help improve digestion.",
   },
   {
-    id: 2,
     color: "danger",
     image: "10",
     spanText: "Flowers have long been used to express feelings and sentiments, and each bloom has its own distinct significance. For instance, while daisies signify innocence and purity.",
@@ -550,28 +538,23 @@ export const VariationCheckboxData = [
 
 export const VariationCheckboxDataList = [
   {
-    id: 1,
     color: "success",
     labelText: "Reading",
   },
   {
-    id: 2,
     color: "success",
     labelText: "Watching TV",
     check: true,
   },
   {
-    id: 3,
     color: "danger",
     labelText: "Listening to music",
   },
   {
-    id: 4,
     color: "danger",
     labelText: "Playing video games",
   },
   {
-    id: 5,
     color: "success",
     labelText: "Painting/Drawing",
   },
@@ -579,26 +562,24 @@ export const VariationCheckboxDataList = [
 
 export const UpgradeVariationData = [
   {
-    id: 1,
     text: "Voxo",
     sales: "270",
   },
   {
-    id: 2,
     text: "Kabul",
     sales: "4.8K",
   },
   {
-    id: 3,
     text: "Multikart",
     sales: "2.6k",
   },
   {
-    id: 4,
     text: "Viho",
     sales: "2k",
     check: true,
   },
 ];
+
+export const clipBoardTextParagraph = "A web designer must always enhance their work since creating websites is a creative effort. Therefore, a web designer must be more imaginative to produce exceptional results. Blogs about web design assist web designers in learning about new technologies, offer lessons, news, direction for a freebie, and much more. These blogs allow web designers to stay creative and improve their abilities. Therefore, advice from web design blogs is required to improve your business.";
 
 export const notify = () => toast.success("Content Copied") 

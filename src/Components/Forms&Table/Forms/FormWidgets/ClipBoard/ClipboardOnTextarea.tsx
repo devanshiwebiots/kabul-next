@@ -3,10 +3,10 @@ import { ClipboardOnTextareas, Copy, Cut, CutCopyFromTextarea } from "@/Constant
 import { useState } from "react";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import CopyToClipboard from "react-copy-to-clipboard";
-import { notify } from "@/Data/Forms";
+import { clipBoardTextParagraph, notify } from "@/Data/Forms";
 
 const ClipboardOnTextarea = () => {
-  const clipBoardTextParagraph: string = "A web designer must always enhance their work since creating websites is a creative effort. Therefore, a web designer must be more imaginative to produce exceptional results. Blogs about web design assist web designers in learning about new technologies, offer lessons, news, direction for a freebie, and much more. These blogs allow web designers to stay creative and improve their abilities. Therefore, advice from web design blogs is required to improve your business.";
+
   const [clipBoardValues, setClipBoardValues] = useState({ value: clipBoardTextParagraph, copied: false });
   
   return (

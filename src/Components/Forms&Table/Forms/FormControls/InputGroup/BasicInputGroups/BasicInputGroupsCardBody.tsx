@@ -2,7 +2,6 @@ import { BasicInputGroupBasic, FlexNowrapCodeText, RecipientPlaceholder, ServerP
 import { CardBody, Col, Input, InputGroup, InputGroupText, Label, Row } from "reactstrap";
 
 const BasicInputGroupsCardBody = () => {
-  const WrappingParagraph: string = "Input groups wrap by default via flex-wrap: wrap in order to accommodate custom form field validation within an input group. You may disable this with ";
 
   return (
     <CardBody>
@@ -42,7 +41,7 @@ const BasicInputGroupsCardBody = () => {
         <Col xs={12}>
           <div className="card-wrapper border rounded-3 input-radius">
             <h6 className="sub-title fw-bold">{Wrapping} </h6>
-            <p className="f-m-light mb-1">{WrappingParagraph} <code>{FlexNowrapCodeText}</code>.</p>
+            <p className="f-m-light mb-1">Input groups wrap by default via flex-wrap: wrap in order to accommodate custom form field validation within an input group. You may disable this with <code>{FlexNowrapCodeText}</code>.</p>
             <InputGroup className="flex-nowrap">
               <InputGroupText id="addon-wrapping">@</InputGroupText>
               <Input type="text" placeholder={UsernamePlaceholder} />

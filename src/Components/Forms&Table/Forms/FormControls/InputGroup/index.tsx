@@ -10,8 +10,7 @@ import CheckboxesAndRadios from "./CheckboxesAndRadios";
 import Sizing from "./Sizing";
 import MultipleInputs from "./MultipleInputs";
 import BasicInputGroups from "./BasicInputGroups";
-import VariationOfAddons from "./VariationOfAddons";
- 
+import VariationOfAddons from "./VariationOfAddons"; 
 
 const InputGroupContainer = () => {
   return (
