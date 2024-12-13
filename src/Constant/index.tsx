@@ -369,6 +369,87 @@ export const DraggableEvents: string = "Draggable Events";
 export const RemoveAfterDrop: string = "remove after drop";
 export const CalendarFilter: string = "calendar filter";
 
+//Bookmark
+export const Business: string = "Business";
+export const Newsletter: string = "Newsletter";
+export const Holidays: string = "Holidays";
+export const Important: string = "Important";
+export const Notification: string = "Notification";
+export const Organization: string = "Organization";
+export const SharedWithMe: string = "Shared with me";
+export const CreatedByMe: string = "Created By Me";
+export const Favorites: string = "Favorites";
+export const EditBookmark: string = "Edit Bookmark";
+export const Collection: string = "Collection";
+export const WebUrl: string = "Web Url";
+export const Title: string = "Title";
+export const Group: string = "Group";
+export const MyBookmarks: string = "My Bookmarks";
+export const MyBookmark: string = " My bookmark";
+export const BookmarkFilter: string = "Bookmark filter";
+export const AddBookmark: string = "Add Bookmark";
+export const TagColor: string = "Tag color";
+export const CreateTag: string = "Create Tag";
+export const TagName: string = "Tag Name";
+export const NewBookmark: string = "New Bookmark";
+export const Tags: string = "Tags";
+export const Views: string = "Views";
+
+//Contacts
+export const ContactFilter: string = "contact filter";
+export const AddContacts: string = " Add Contact";
+export const Mobile: string = "Mobile";
+export const NewContacts: string = "New Contacts";
+export const Name = "Name";
+export const FollowUp: string = "Follow up";
+export const Ideas: string = "Ideas";
+export const Edit: string = "Edit";
+export const Delete: string = "Delete";
+export const General: string = "General";
+export const History: string = "History";
+export const Gender: string = "Gender";
+export const Print: string = "Print";
+export const MobileNo: string = "Mobile No";
+export const ContactHistory: string = "Contact History";
+export const ContactCreated: string = "Contact Created";
+export const Personal: string = "Personal";
+export const PrintViews: string = "Print preview";
+
+//Task
+export const TaskFilter: string = "Task filter";
+export const AddTask: string = "Add Task";
+export const NewTasks: string = "New Task";
+export const TaskTitle: string = "Task Title";
+export const SubTask: string = "Sub task";
+export const TodayTasks: string = "Today's Tasks";
+export const DelayedTasks: string = "Delayed Tasks";
+export const UpcomingTasks: string = "Upcoming Tasks";
+export const ThisWeekTask: string = "This Week Task";
+export const ThisMonthTasks: string = "This Month Task";
+export const AssignedToMe: string = "Assigned To Me";
+export const MyTasks: string = "My Tasks";
+export const RemindOn: string = "Remind on";
+export const Mail: string = "Mail";
+export const CreateTags: string = "Create Tag";
+export const Documentation: string = "Documentation";
+
+//ToDo
+export const ToDoFilter: string = "To Do filter";
+export const ToDoList: string = "To Do List";
+export const AllTask: string = "All Task";
+export const TrashBin: string = "Trash";
+export const Completed: string = "Completed";
+export const Pending: string = "Pending";
+export const InProcess: string = "In Process";
+export const ToDoPlaceholder: string = "Enter new task here. . .";
+
+//Search Result
+export const AllAbout: string = `About 6,000 results (0.60 seconds)`;
+export const SearchPixelStrap: string = `Search result for "Pixelstrap"`;
+export const MyPortfolioTitle: string = "My Portfolio";
+export const Next: string = " Next";
+export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
+
 //Checkbox & Radio
 export const InstagramAnimated: string = "Instagram";
 export const WhatIsYourFavoriteSocialMedia: string = "What is your favorite social media?";
@@ -420,25 +501,6 @@ export const ButtonCheckedSuccessRadio: string = "Checked success radio";
 export const ButtonDarkRadio: string = "Dark radio";
 export const RadioToggleButton: string = "Radio toggle buttons";
 export const RadioChecked: string = "Checked";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
