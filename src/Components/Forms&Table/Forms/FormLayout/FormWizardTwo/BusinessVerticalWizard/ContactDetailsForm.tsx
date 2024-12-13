@@ -27,7 +27,7 @@ const ContactDetailsForm: React.FC<BusinessFormCommonProps> = ({ callbackActive 
   };
 
   return (
-    <Form onSubmit={(event) => event.preventDefault()} className='g-3 needs-validation' noValidate>
+    <Form onSubmit={(e) => e.preventDefault()} className='g-3 needs-validation' noValidate>
       <Row>
         <Col xs={12}>
           <h6>{ContactDetails}</h6>

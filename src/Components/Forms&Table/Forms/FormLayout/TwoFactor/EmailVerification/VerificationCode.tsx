@@ -1,3 +1,4 @@
+import RatioImage from "@/CommonComponents/RatioImage";
 import { Call, Href, ImagePath, OtpCode, OtpCodeSent, Resend, VerificationCodeHeading, Verify } from "@/Constant";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -18,7 +19,7 @@ const VerificationCode: React.FC = () => {
       <div className='card-wrapper border rounded-3 h-100'>
         <div className='authenticate'>
           <h4>{VerificationCodeHeading}</h4>
-          <img className='img-fluid' src={`${ImagePath}/forms/authenticate.png`} alt='authenticate' />
+          <RatioImage className='img-fluid' src={`${ImagePath}/forms/authenticate.png`} alt='authenticate' />
           <span>{OtpCodeSent}</span>
           <span>+91********70</span>
           <Form onSubmit={(e) => e.preventDefault()}>

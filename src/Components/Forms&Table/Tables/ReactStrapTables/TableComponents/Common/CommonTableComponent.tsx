@@ -10,7 +10,7 @@ const CommonTableComponent: React.FC<CommonTableComponentProp> = ({ title, data,
         <div>
           <Row className="card-block">
             <Col sm={12} lg={12} xl={12}>
-              <div className="table-responsive theme-scrollbar">
+              <div className="table-responsive custom-scrollbar">
                 <Table className={tableClass} bordered>
                   <tbody>
                     {data?.map((component, index) => (

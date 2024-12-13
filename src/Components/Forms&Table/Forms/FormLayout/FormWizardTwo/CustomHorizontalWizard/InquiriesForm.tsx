@@ -27,7 +27,7 @@ const InquiriesForm: React.FC<BusinessFormCommonProps> = ({ callbackActive, diff
   };
 
   return (
-    <Form onSubmit={(event) => event.preventDefault()} className="g-3 needs-validation" noValidate>
+    <Form onSubmit={(e) => e.preventDefault()} className="g-3 needs-validation" noValidate>
       <Row>
         <InquiryDetails getUserData={getUserData} differentId={differentId} />
         <Col xs={12} className="mt-2">

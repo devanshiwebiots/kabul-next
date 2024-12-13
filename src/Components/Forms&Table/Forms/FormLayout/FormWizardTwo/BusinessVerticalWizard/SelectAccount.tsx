@@ -22,7 +22,7 @@ const SelectAccount: React.FC<BusinessFormCommonProps> = ({ callbackActive }) =>
   };
 
   return (
-    <Form className="g-3 needs-validation" noValidate onSubmit={(event) => event.preventDefault()}>
+    <Form className="g-3 needs-validation" noValidate onSubmit={(e) => e.preventDefault()}>
       <Row>
         <Col xs={12} className="mt-2">
           <h5>{AccountType}</h5>
@@ -33,7 +33,7 @@ const SelectAccount: React.FC<BusinessFormCommonProps> = ({ callbackActive }) =>
             <ul className="radio-wrapper simple-list">
               {SelectAmountData?.map((data, index) => (
                 <li key={index}>
-                  <Input id={data.title} value={data.title} checked={data.title === accountType} type="radio" name="accountType" onChange={getUserData} />
+                  <Input id={data.title} value={data.title} defaultChecked={data.title === accountType ? true : false} type="radio" name="accountType" onChange={getUserData} />
                   <Label className="mb-0" htmlFor={data.title} check>
                     <i className={`fa fa-${data.iconName}`} />
                     <span className="d-flex flex-column">

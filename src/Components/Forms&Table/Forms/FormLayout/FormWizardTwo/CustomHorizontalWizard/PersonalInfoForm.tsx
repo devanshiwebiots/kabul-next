@@ -23,7 +23,7 @@ const PersonalInfoForm :React.FC<BusinessFormCommonProps> = ({ callbackActive })
   };
   
   return (
-    <Form onSubmit={(event) => event.preventDefault()} className="needs-validation" noValidate>
+    <Form onSubmit={(e) => e.preventDefault()} className="needs-validation" noValidate>
       <Row className="g-3">
         <Col xl={4} sm={6}>
           <Label check>{FirstName}<span className="txt-danger">*</span></Label>

@@ -29,7 +29,7 @@ const ModalTwo = () => {
               </div>
             </div>
           </div>
-          <Form onSubmit={(event) => event.preventDefault()} className="needs-validation" noValidate>
+          <Form onSubmit={(e) => e.preventDefault()} className="needs-validation" noValidate>
             <Input type="text" required placeholder={EnterQRCode} />
           </Form>
           <Button color="primary">{Submit}</Button>

@@ -684,9 +684,9 @@ export const TooltipTableData = [
   {
     title: "Link",
     tableColData: (
-      <a className="btn btn-primary" href={Href}>
+      <Link className="btn btn-primary" href={Href}>
         Link
-      </a>
+      </Link>
     ),
     details: [
       {

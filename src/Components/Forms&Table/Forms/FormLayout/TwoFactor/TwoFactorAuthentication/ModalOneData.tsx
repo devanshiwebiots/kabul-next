@@ -13,7 +13,7 @@ const ModalOneData = () => {
         <ul className="radio-wrapper">
           {ModalOneDatas?.map((data, index) => (
             <li key={index}>
-              <Input onChange={(e) => dispatch(getValue(e.target.value))} id={data.title} type="radio" name="selectAuthenticatorMethodName" checked={selectAuthenticatorMethodName === data.title} value={data.title} />
+              <Input onChange={(e) => dispatch(getValue(e.target.value))} id={data.title} type="radio" name="selectAuthenticatorMethodName" defaultChecked={selectAuthenticatorMethodName === data.title ? true : false} value={data.title} />
               <Label check className="mb-0" htmlFor={data.title}>
                 <i className={`fa ${data.iconClassName}`} />
                 <span className="d-flex flex-column">

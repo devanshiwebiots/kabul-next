@@ -52,32 +52,32 @@ export const VerticalBoxData = [
 
 export const PopulerBankList = [
   {
-    imageName: "hdfc.png",
-    bankName: "ABC BANK",
+    imageName: "hdfc",
+    bankName: "ABC",
   },
   {
-    imageName: "Bank-of-Baroda.png",
-    bankName: "XYZ BANK",
+    imageName: "Bank-of-Baroda",
+    bankName: "XYZ",
   },
   {
-    imageName: "idbi.png",
-    bankName: "PQR BANK",
+    imageName: "idbi",
+    bankName: "PQR",
   },
   {
-    imageName: "rbl.png",
-    bankName: "DEF BANK",
+    imageName: "rbl",
+    bankName: "DEF",
   },
   {
-    imageName: "us-bank.png",
-    bankName: "MNO BANK",
+    imageName: "us-bank",
+    bankName: "MNO",
   },
   {
-    imageName: "axis.png",
-    bankName: "WXY BANK",
+    imageName: "axis",
+    bankName: "WXY",
   },
   {
-    imageName: "SCB.png",
-    bankName: "STD BANK",
+    imageName: "SCB",
+    bankName: "STD",
   },
 ];
 

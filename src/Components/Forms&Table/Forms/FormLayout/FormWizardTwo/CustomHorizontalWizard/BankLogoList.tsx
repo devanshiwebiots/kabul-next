@@ -1,3 +1,4 @@
+import RatioImage from "@/CommonComponents/RatioImage";
 import { ChooseBanks, ImagePath } from "@/Constant";
 import { PopulerBankList } from "@/Data/Forms";
 import { useAppSelector } from "@/Redux/Hooks";
@@ -16,10 +17,10 @@ const BankLogoList: React.FC<BankLogoListProp> = ({ getUserData }) => {
           <ul className="radio-wrapper d-flex flex-row mb-3">
             {PopulerBankList?.map((data, index) => (
               <li key={index}>
-                <Input id={data.bankName} type="radio" name="bankName" value={data.bankName} checked={bankName === data.bankName} onChange={getUserData} />
+                <Input id={data.bankName} type="radio" name="bankName" value={data.bankName} defaultChecked={bankName === data.bankName ? true : false} onChange={getUserData} />
                 <Label htmlFor={data.bankName} check>
-                  <img src={`${ImagePath}/forms/${data.imageName}`} alt={data.bankName} />
-                  <span>{data.bankName}</span>
+                  <RatioImage src={`${ImagePath}/forms/${data.imageName}.png`} alt={data.bankName} />
+                  <span>{data.bankName} BANK</span>
                 </Label>
               </li>
             ))}

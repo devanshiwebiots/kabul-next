@@ -24,7 +24,7 @@ const BusinessSettingsForm :React.FC<BusinessFormCommonProps> = ({ callbackActiv
   };
 
   return (
-    <Form onSubmit={(event) => event.preventDefault()} className="g-3 needs-validation" noValidate>
+    <Form onSubmit={(e) => e.preventDefault()} className="g-3 needs-validation" noValidate>
       <Row>
         <Col md={6}>
           <Label check>{AccountName}<span className="txt-danger">*</span></Label>

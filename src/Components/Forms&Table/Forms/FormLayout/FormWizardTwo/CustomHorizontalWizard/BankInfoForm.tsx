@@ -27,7 +27,7 @@ const BankInfoForm: React.FC<BusinessFormCommonProps> = ({ callbackActive }) => 
   };
 
   return (
-    <Form onSubmit={(event) => event.preventDefault()} className="needs-validation" noValidate>
+    <Form onSubmit={(e) => e.preventDefault()} className="needs-validation" noValidate>
       <Row className="g-3">
         <Col sm={6} className="bank-search">
           <Label check>{AadhaarNumber}<span className="txt-danger">*</span></Label>

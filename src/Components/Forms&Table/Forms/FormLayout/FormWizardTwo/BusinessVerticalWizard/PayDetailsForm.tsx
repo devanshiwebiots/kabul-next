@@ -24,7 +24,7 @@ const PayDetailsForm: React.FC<BusinessFormCommonProps> = ({ callbackActive }) =
   };
 
   return (
-    <Form onSubmit={(event) => event.preventDefault()} className="needs-validation" noValidate>
+    <Form onSubmit={(e) => e.preventDefault()} className="needs-validation" noValidate>
       <Row className="g-3">
         <Col md={6}>
           <Label check>{CardHolder}</Label>
