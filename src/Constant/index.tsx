@@ -451,6 +451,60 @@ export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
 
+//DatePicker
+export const DefaultDates: string = "Default Date";
+export const PreloadingDates: string = "Preloading Dates";
+export const DisabledDates: string = "Disabled Dates";
+export const HumanFriendly: string = "Human Friendly";
+export const DatePicker: string = "Date Picker";
+export const MinMaxValue: string = "Min-Max Value";
+export const MultiplesDatesHeading: string = "Multiples Dates";
+export const RangeDatePicker: string = "Range";
+export const DateAndTimeHeading: string = "Date and time";
+export const Month: string = "Month";
+export const Week: string = "Week";
+export const Time: string = "Time";
+export const CalendarReactstrap: string = "Reactstrap calendar";
+export const TimPickers: string = "Time picker";
+export const TimePickerHeading: string = "Time Picker";
+export const hourPicker: string = "24-hour Time Picker";
+export const TimePickerLimits: string = "Time Picker W/Limits";
+export const PreloadingTime: string = "Preloading Time";
+export const TimePickerRange: string = "TimePicker with Limited Time Range";
+export const TimePickerMinMaxRange: string = "TimePicker with Min/Max Time Range";
+export const DateWithTime: string = "Date With Time";
+export const CalendarDefault: string = "Default calendar";
+
+//Touchspin
+export const ButtonsWithPrefixAndPostfixs: string = "Buttons with prefix and postfix";
+export const PreText: string = "Pre";
+export const PostText: string = "Post";
+export const RoundedTouchspins: string = "Rounded touchspin";
+export const DefaultTouchspins: string = "Default touchspin";
+export const OutlinedTouchspins: string = "Outlined touchspin";
+export const IconsWithPrefixAndPostfixs: string = "Icons with prefix and postfix";
+
+//Switch
+export const VariationOfSwitch: string = "Variation of switches";
+export const BordersWithIcon: string = "Borders with icons";
+export const CustomSwitches: string = "Custom switch";
+export const DisabledOutlineSwitches: string = "Disabled outline switch";
+export const IconsSwitches: string = "Icons switch";
+export const SwitchSizings: string = "Switch sizing";
+export const UncheckedSwitches: string = "Unchecked switch";
+export const SwitchSizingswithIcons: string = "Switch with Icons";
+
+//Typeahead
+export const BasicTypeaheads: string = "Basic typeahead";
+export const PreFetchHeading: string = "Prefetch";
+export const BloodHoundHeading: string = "Bloodhound (Suggestion Engine)";
+export const RemotetypeAheadHeading: string = "Remote typeahead";
+export const CustomTemplate: string = "Custom templates";
+export const MultipleSectionWithHeader: string = "Multiple sections with headers";
+export const ScrollableDropDownMenu: string = "Scrollable Dropdown Menu";
+export const RTLSupport: string = "RTL Support";
+
+
 
 
 
