@@ -36,15 +36,15 @@ export const VariationSwitchData = [
 
 export const VariationSwitchDataList = [
   {
-    id: "cb3",
-    inputClass: "tgl-skewed",
+    id: "3",
+    inputClass: "skewed",
     text: "Skewed",
     offData: "OFF",
     onData: "ON"
   },
   {
-    id: "cb5",
-    inputClass: "tgl-flip",
+    id: "5",
+    inputClass: "flip",
     text: "Flip",
     offData: "Nope",
     onData: "Yeah!"
@@ -53,13 +53,11 @@ export const VariationSwitchDataList = [
 
 export const VariationSwitchList = [
   {
-    inputClass: "tgl-skewed",
     text: "Checked",
     flexClass: "icon-state",
     color: "warning",
   },
   {
-    inputClass: "tgl-flip",
     text: "Flat",
     color: "success",
   },
@@ -79,37 +77,6 @@ export const BorderIconSwitchData = [
   },
 ];
 
-export const BorderIconSwitchDataList = [
-  {
-    color: "primary",
-    text: "Bordered Primary Switch",
-  },
-  {
-    color: "secondary",
-    text: "Bordered Secondary Switch",
-  },
-  {
-    color: "success",
-    text: "Bordered Success Switch",
-  },
-  {
-    color: "danger",
-    text: "Bordered Danger Switch",
-  },
-  {
-    color: "warning",
-    text: "Bordered Warning Switch",
-  },
-  {
-    color: "info",
-    text: "Bordered Info Switch",
-  },
-  {
-    color: "dark",
-    text: "Bordered Dark Switch",
-  },
-];
-
 export const CustomSwitchData = [
   {
     text: "A switch has the markup of a custom checkbox but uses the .form-switch class to render a ",
@@ -119,22 +86,16 @@ export const CustomSwitchData = [
 
 export const CustomSwitchDataList = [
   {
-    id: 1,
     sm: "6",
-    item: ["primary", "secondary", "success", "danger", "warning", "info", "dark"],
   },
   {
-    id: 2,
     sm: "6",
     cardClass: "radius-none",
     formClass: "default-square",
-    item: ["primary", "secondary", "success", "danger", "warning", "info", "dark"],
   },
   {
-    id: 3,
     cardClass: "common-flex",
     disabled: true,
-    item: ["primary", "secondary", "success", "danger", "warning", "info", "dark"],
   },
 ];
 
@@ -167,31 +128,31 @@ export const IconSwitchData = [
 export const IconSwitchDataList = [
   {
     color: "primary",
-    text: "Primary Switch",
+    text: "Primary",
   },
   {
     color: "secondary",
-    text: "Secondary Switch",
+    text: "Secondary",
   },
   {
     color: "success",
-    text: "Success Switch",
+    text: "Success",
   },
   {
     color: "danger",
-    text: "Danger Switch",
+    text: "Danger",
   },
   {
     color: "warning",
-    text: "Warning Switch",
+    text: "Warning",
   },
   {
     color: "info",
-    text: "Info Switch",
+    text: "Info",
   },
   {
     color: "dark",
-    text: "Dark Switch",
+    text: "Dark",
   },
 ];
 
@@ -202,37 +163,6 @@ export const UncheckedSwitchData = [
   },
   {
     text: " class through created default switches. ",
-  },
-];
-
-export const UncheckedSwitchDataList = [
-  {
-    color: "primary",
-    text: "Unchecked Primary Switch",
-  },
-  {
-    color: "secondary",
-    text: "Unchecked Secondary Switch",
-  },
-  {
-    color: "success",
-    text: "Unchecked Success Switch",
-  },
-  {
-    color: "danger",
-    text: "Unchecked Danger Switch",
-  },
-  {
-    color: "warning",
-    text: "Unchecked Warning Switch",
-  },
-  {
-    color: "info",
-    text: "Unchecked Info Switch",
-  },
-  {
-    color: "dark",
-    text: "Unchecked Dark Switch",
   },
 ];
 

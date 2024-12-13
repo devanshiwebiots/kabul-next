@@ -19,7 +19,7 @@ const IconsWithPrefixAndPostfix = () => {
   return (
     <Col xl={6}>
       <Card>
-        <CommonCardHeader title={IconsWithPrefixAndPostfixs}  span={TouchSpinData} />
+        <CommonCardHeader title={IconsWithPrefixAndPostfixs} span={TouchSpinData} />
         <CardBody className="common-flex pre-post-touchspin">
           <InputGroup>
             <Button color="primary" className="decrement-touchspin btn-touchspin px-3" onClick={() => handleDecrement(0)}><i className="fa fa-minus"></i></Button>
@@ -29,8 +29,8 @@ const IconsWithPrefixAndPostfix = () => {
           </InputGroup>
           <InputGroup>
             <Button color="primary" className="decrement-touchspin btn-touchspin px-3" onClick={() => handleDecrement(1)}><i className="fa fa-minus"></i></Button>
-            <Input className="input-touchspin spin-outline-primary" type="number" value={values[1]} readOnly/>
-            <InputGroupText className="input-group-text">%</InputGroupText>
+            <Input className="input-touchspin spin-outline-primary" type="number" value={values[1]} readOnly />
+            <InputGroupText>%</InputGroupText>
             <Button color="primary" className="increment-touchspin btn-touchspin px-3" onClick={() => handleIncrement(1)}><i className="fa fa-plus"></i></Button>
           </InputGroup>
         </CardBody>

@@ -15,7 +15,7 @@ const IconsSwitch = () => {
               <div className="text-end icon-state">
                 <CommonSwitchSpan color={color} defaultChecked />
               </div>
-              <Label className="m-l-10" check>{text}</Label>
+              <Label className="m-l-10" check>{text} Switch</Label>
             </div>
           ))}
         </CardBody>

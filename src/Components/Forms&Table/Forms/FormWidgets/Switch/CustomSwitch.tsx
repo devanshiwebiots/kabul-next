@@ -1,7 +1,7 @@
 import { Card, CardBody, Col, Row } from "reactstrap";
 import { CustomSwitches } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { CustomSwitchData, CustomSwitchDataList } from "@/Data/Forms";
+import { CustomSwitchData, CustomSwitchDataList, DisableOutlineSwitchDataList } from "@/Data/Forms";
 import CommonSwitch from "./Common/CommonSwitch";
 
 const CustomSwitch = () => {
@@ -11,11 +11,11 @@ const CustomSwitch = () => {
         <CommonCardHeader title={CustomSwitches} span={CustomSwitchData} />
         <CardBody>
           <Row className="g-3">
-            {CustomSwitchDataList?.map(({ id, item, cardClass, formClass, disabled, sm }) => (
-              <Col md={4} sm={sm} key={id}>
+            {CustomSwitchDataList?.map(({ cardClass, formClass, disabled, sm }, i) => (
+              <Col md={4} sm={sm} key={i}>
                 <div className={`card-wrapper border rounded-3 ${cardClass} `}>
                   <div className={`form-check-size ${formClass}`}>
-                    {item?.map((item, index) => (
+                    {DisableOutlineSwitchDataList?.map((item, index) => (
                       <CommonSwitch color={item} defaultChecked disabled={disabled} key={index} />
                     ))}
                   </div>
