@@ -2,7 +2,7 @@ import { HomeAndOfficeData } from "@/Data/Forms";
 import { ShippingInformationCommonProps } from "@/Types/Forms";
 import { Col, Row, FormGroup, Input, Label } from "reactstrap";
 
-const HomeAndOfficeAddress :React.FC<ShippingInformationCommonProps> = ({radioBoxValues,getUserData,}) => {
+const HomeAndOfficeAddress: React.FC<ShippingInformationCommonProps> = ({ radioBoxValues, getUserData, }) => {
   const { address } = radioBoxValues;
 
   return (
@@ -13,8 +13,8 @@ const HomeAndOfficeAddress :React.FC<ShippingInformationCommonProps> = ({radioBo
             <div className="collect-address">
               <div className="d-flex gap-2 align-items-center">
                 <FormGroup check className="radio radio-primary">
-                  <Input id={`shipping-choose${index+1}`} type="radio" name="address" value={`shipping-choose${index+1}`} checked={address === `shipping-choose${index+1}`} onChange={getUserData}/>
-                  <Label className="mb-0" htmlFor={`shipping-choose${index+1}`} check>{data.label}</Label>
+                  <Input id={`shipping-choose${index + 1}`} type="radio" name="address" value={`shipping-choose${index + 1}`} defaultChecked={address === `shipping-choose${index + 1}` ? true : false} onChange={getUserData} />
+                  <Label className="mb-0" htmlFor={`shipping-choose${index + 1}`} check>{data.label}</Label>
                 </FormGroup>
               </div>
               <div className="card-icon">

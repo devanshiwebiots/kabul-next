@@ -9,7 +9,7 @@ const PayPalOption :React.FC<PaymentMethodOptionPropsType> = ({paymentMethodName
       <div className="card-wrapper border rounded-3 light-card">
         <div>
           <FormGroup check className="radio radio-primary">
-            <Input id="shipping-choose5" type="radio" name="paymentMethodName" value="Paypal" checked={paymentMethodName === "Paypal"} onChange={getUserData}/>
+            <Input id="shipping-choose5" type="radio" name="paymentMethodName" value="Paypal" defaultChecked={paymentMethodName === "Paypal" ? true :false} onChange={getUserData}/>
             <Label className="mb-0 f-w-500" htmlFor="shipping-choose5" check>{Paypal}</Label>
           </FormGroup>
           <p className="p-0">You will be taken to the paypal website to finish your transaction safely</p>

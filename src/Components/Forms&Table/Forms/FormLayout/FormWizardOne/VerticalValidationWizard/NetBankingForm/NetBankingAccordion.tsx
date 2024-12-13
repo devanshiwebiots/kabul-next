@@ -23,7 +23,7 @@ const NetBankingAccordion: React.FC<NetBankingAccordionProp> = ({ netBankingForm
               <Col sm={6} key={index}>
                 {data?.bankList?.map((bankNames, number) => (
                   <FormGroup check key={number} className="radio radio-primary p-0">
-                    <Input id={bankNames} type="radio" name="bankName" onChange={getUserData} checked={bankNames === bankName} value={bankNames} />
+                    <Input id={bankNames} type="radio" name="bankName" onChange={getUserData} defaultChecked={bankNames === bankName ? true : false} value={bankNames} />
                     <Label htmlFor={bankNames} check>{bankNames} {number}</Label>
                   </FormGroup>
                 ))}
