@@ -1,7 +1,6 @@
 import { Row } from "reactstrap";
 import PagesSort from "./Common/PagesSort";
 import { Href, ImagePath, MyPortfolioTitle, ImageAbout } from "@/Constant";
-import { description } from "@/Data/SearchResult";
 import Link from "next/link";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
