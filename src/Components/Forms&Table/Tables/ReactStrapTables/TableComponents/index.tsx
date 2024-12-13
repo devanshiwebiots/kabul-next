@@ -2,7 +2,7 @@
 import React from "react";
 import { Container, Row } from "reactstrap";
 import { AlertTitle, BadgesTable, CheckboxTitle, InputsTable, ProgressbarTitle, RadioButtonsTitle, SelectTable, SwitchTable, TooltipTriggersTitle, UIComponentsTitle } from "@/Constant";
-import { AlertTableData, BadgeTableData, CheckBoxTableData, InputTableData, ProgressTableData, RadioBoxTableData, SelectBoxTableData, SwitchTableData, TooltipTableData, UiComponentData } from "@/Data/Tables";
+import { AlertTableData, BadgeTableData, CheckBoxTableData, InputTableData, ProgressTableData, RadioBoxTableData, SelectBoxTableData, SwitchTableData, TooltipTableData, UiComponentData } from "@/Data/Tables/ReactstrapTables";
 import CommonTableComponent from "./Common/CommonTableComponent";
 
 const TableComponentsContainer = () => {
