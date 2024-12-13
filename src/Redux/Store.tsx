@@ -8,10 +8,14 @@ import FilterSlice from "./Reducer/FilterSlice";
 import FileManagerSlice from "./Reducer/FileManagerSlice";
 import AddProductSlice from "./Reducer/AddProductSlice";
 import ProjectSlice from "./Reducer/ProjectSlice";
+import BookmarkTabSlice from "./Reducer/BookmarkTabSlice";
+import ContactSlice from "./Reducer/ContactSlice";
 import LetterBoxSlice from "./Reducer/LetterBoxSlice";
 import ChatSlice from "./Reducer/ChatSlice";
 import FormWizardTwoSlice from "./Reducer/FormLayout/FormWizardTwoSlice";
 import TwoFactorSlice from "./Reducer/FormLayout/TwoFactorSlice";
+import TaskSlice from "./Reducer/TaskSlice";
+import ToDoSlice from "./Reducer/ToDoSlice";
 
 const Store = configureStore({
   reducer: {
@@ -24,10 +28,14 @@ const Store = configureStore({
     fileManager: FileManagerSlice,
     addProduct: AddProductSlice,
     project: ProjectSlice,
+    bookmarkTab: BookmarkTabSlice,
+    contact: ContactSlice,
     letterBox:LetterBoxSlice,
     chat: ChatSlice,
     formWizardTwo: FormWizardTwoSlice,
     twoFactor: TwoFactorSlice,
+    task: TaskSlice,
+    todo: ToDoSlice,
   }
 });
 
