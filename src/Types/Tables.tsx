@@ -1,10 +1,8 @@
-import { ReactNode } from "react";
-
+import { ChangeEvent, ReactNode } from "react";
 interface HeadDataProp {
   id: number;
   head: string;
 }
-
 export interface CommonTableProp {
   tableClass?: string;
   strip?: boolean;
@@ -58,4 +56,65 @@ export interface ZeroConfigurationTableColumnsType {
   startDate: string;
   salary: string;
   action: string;
+}
+export interface CustomCellInterFaceProp {
+  value: number;
+}
+export interface RowCreateCallBackData {
+  name: string;
+  email: string;
+  experience: string;
+  sex: string;
+  contactNumber: string;
+  salary: number;
+}
+export interface StockResultTableData {
+  name: string;
+  symbol: string;
+  price: string;
+  difference: JSX.Element;
+  last: JSX.Element;
+}
+export interface CustomExpandableComponentProp {
+  data: {
+    id: number;
+    name: string;
+    position: string;
+    office: string;
+    age: number;
+    startDate: string;
+    salary: string;
+    action: string;
+  };
+}
+export interface DeleteRowDataProp {
+  name: JSX.Element;
+  position: string;
+  office: string;
+  age: number;
+  startDate: string;  
+  salary: string;
+}
+export interface TableSearchBarPropsType {
+  handleMinAgeChange: (eve: ChangeEvent<HTMLInputElement>) => void;
+  handleMaxAgeChange: (eve: ChangeEvent<HTMLInputElement>) => void;
+}
+export interface DeleteRowData {
+  name: string;
+  id:number,
+  job: string;
+  companyName: string;
+  invoiceNumber: string;
+  credit: JSX.Element;
+  date: string;
+  priority: ReactNode;
+  budget: string;
+  action: JSX.Element;
+}
+export interface AddRowsTable {
+  column1: number;
+  column2: number;
+  column3: number;
+  column4: number;
+  column5: number;
 }

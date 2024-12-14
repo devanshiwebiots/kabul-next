@@ -3,7 +3,7 @@ import { Table } from "reactstrap";
 
 const CommonTable :React.FC<CommonTableProp>= ({ tableClass, strip, caption, size, hover, headClass, headRowClass, headData, children ,classname}) => {
   return (
-    <div className={`table-responsive theme-scrollbar ${tableClass ? tableClass : ""}`}>
+    <div className={`table-responsive custom-scrollbar ${tableClass ? tableClass : ""}`}>
       <Table striped={strip} hover={hover} size={size} className={classname}>
         {caption && <caption>{caption}</caption>}
         <thead className={headClass}>

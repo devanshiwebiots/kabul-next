@@ -470,22 +470,19 @@ export const ZeroConfiguration: string = "Zero Configuration";
 export const StateSavingTitle: string = "State saving";
 export const ScrollVerticalDynamicHeightTitle: string = "Scroll - vertical, dynamic height";
 
+//Data Tables-Advance Init
+export const StockResultTitle: string = `Stock Result`;
+export const RowCreateCallBackSpan: string = "Row Create Callback";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Data Tables-Api
+export const ApiFullName: string = "Full Name: ";
+export const ExtraInfo: string = "Extra info ";
+export const ApiExtraInfo: string = "'And any further details here (images etc)...'";
+export const ChildrenRowsTitle: string = "Child rows (show extra / detailed information)";
+export const CustomFilteringSearch: string = "Custom filtering - range search";
+export const MinimumAge: string = "Minimum age: ";
+export const MaximumAge: string = "Maximum age:	";
+export const DeleteSelectDataButton: string = "Delete Row";
+export const RowsSelectionAndDeletions: string = "Row Selection And Deletion (Single Row)";
+export const AddNewRowButton: string = "Add new row";
 
