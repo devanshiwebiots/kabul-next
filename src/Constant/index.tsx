@@ -450,24 +450,44 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Reactstrap-Basic Tables
+export const BasicTableWithBorderBottomColor: string = "Basic Table With Border Bottom Color";
+export const BreakpointSpecifics: string = "Breakpoint Specific";
+export const ResponsiveLightBackgroundTitle: string = "Responsive Tables With Light Background";
+export const SizingTable: string = "Sizing Tables";
+export const CustomColorHoverStrippedTitle: string = "Custom Table Color With Hover And Stripped";
+export const DashedBorderTitle: string = "Dashed Border";
+export const InverseTables: string = "Inverse Table";
+export const HoverableRowsWithHorizontalBorders: string = "Hoverable Rows With Horizontal Border";
+export const InverseTablWithPrimaryBackgrounds: string = "Inverse Table with Primary background";
+export const CaptionTableTitle: string = "Caption";
+export const UserList: string = "List of users";
+export const TableHeadOption: string = "Table head options";
+export const StripedRowWithInverseTables: string = "Striped Row with Inverse Table";
 
+//Data Tables - Basic Init
+export const ZeroConfiguration: string = "Zero Configuration";
+export const StateSavingTitle: string = "State saving";
+export const ScrollVerticalDynamicHeightTitle: string = "Scroll - vertical, dynamic height";
 
+//Data Tables-Advance Init
+export const StockResultTitle: string = `Stock Result`;
+export const RowCreateCallBackSpan: string = "Row Create Callback";
 
+//Data Tables-Api
+export const ApiFullName: string = "Full Name: ";
+export const ExtraInfo: string = "Extra info ";
+export const ApiExtraInfo: string = "'And any further details here (images etc)...'";
+export const ChildrenRowsTitle: string = "Child rows (show extra / detailed information)";
+export const CustomFilteringSearch: string = "Custom filtering - range search";
+export const MinimumAge: string = "Minimum age: ";
+export const MaximumAge: string = "Maximum age:	";
+export const DeleteSelectDataButton: string = "Delete Row";
+export const RowsSelectionAndDeletions: string = "Row Selection And Deletion (Single Row)";
+export const AddNewRowButton: string = "Add new row";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Data Tables-Data Sources
+export const HtmlTableTitle: string = "HTML (DOM) sourced data";
+export const AjaxSourcedDataHeading: string = "Ajax sourced data";
+export const JavascriptSourcedDataHeading: string = "Javascript sourced data";
+export const ServerSideProcessingHeading: string = "Server-side processing";
