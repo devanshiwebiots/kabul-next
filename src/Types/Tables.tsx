@@ -18,7 +18,7 @@ export interface CommonTableProp {
 export interface TableActionTypes {
   id: string;
 }
-export interface CustomCellInterFace {
+export interface CustomCellInterface {
   position: string;
   color: string;
 }
@@ -57,7 +57,7 @@ export interface ZeroConfigurationTableColumnsType {
   salary: string;
   action: string;
 }
-export interface CustomCellInterFaceProp {
+export interface CustomCellInterfaceProp {
   value: number;
 }
 export interface RowCreateCallBackData {

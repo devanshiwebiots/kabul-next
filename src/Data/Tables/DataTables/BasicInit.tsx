@@ -1,5 +1,5 @@
 import { Href, ImagePath } from "@/Constant";
-import { CustomCellInterFace, ScrollImageType, ScrollVerticalType, StateSavingTableDataType, TableActionTypes, ZeroConfigurationTableColumnsType } from "@/Types/Tables";
+import { CustomCellInterface, ScrollImageType, ScrollVerticalType, StateSavingTableDataType, TableActionTypes, ZeroConfigurationTableColumnsType } from "@/Types/Tables";
 import Image from "next/image";
 import Link from "next/link";
 import { Badge } from "reactstrap";
@@ -634,7 +634,7 @@ export const StateSavingDataList = [
   },
 ];
 
-const CustomBadge: React.FC<CustomCellInterFace> = ({ position, color }) => {
+const CustomBadge: React.FC<CustomCellInterface> = ({ position, color }) => {
   return <Badge pill color={`light-${color}`} className={`txt-${color}`}>{position}</Badge>;
 };
 

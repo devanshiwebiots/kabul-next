@@ -8,9 +8,9 @@ import { DeleteDataColumn, DeleteRowDataList } from "@/Data/Tables/DataTables/Ap
 
 const RowSelectionAndDeletion = () => {
   const [data, setData] = useState(DeleteRowDataList);
-  const [selectedRows, setSelectedRows] = useState<any>([]);
+  const [selectedRows, setSelectedRows] = useState<DeleteRowData[]>([]);
   const [toggleCleared, setToggleCleared] = useState(false);
-  const handleRowSelected = useCallback((state: any) => {
+  const handleRowSelected = useCallback((state: { selectedRows: DeleteRowData[] }) => {
     setSelectedRows(state.selectedRows);
   }, []);
   
@@ -18,7 +18,7 @@ const RowSelectionAndDeletion = () => {
     if (window.confirm(`Are you sure you want to delete:\r ${selectedRows.map((r: DeleteRowData) => r.name)}?`)) {
       setToggleCleared(!toggleCleared);
       setData(data.filter((item) => (selectedRows.filter((elem: DeleteRowData) => elem.id === item.id).length > 0 ? false : true)));
-      setSelectedRows("");
+      setSelectedRows([]);
     }
   };
   return (

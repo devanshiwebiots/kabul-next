@@ -1,4 +1,4 @@
-import { CustomCellInterFaceProp, RowCreateCallBackData, StockResultTableData } from "@/Types/Tables";
+import { CustomCellInterfaceProp, RowCreateCallBackData, StockResultTableData } from "@/Types/Tables";
 import { ApexOptions } from "apexcharts";
 import ReactApexChart from "react-apexcharts";
 
@@ -183,7 +183,7 @@ export const RowCreateCallList = [
     },
 ];
 
-const CustomCell: React.FC<CustomCellInterFaceProp> = ({ value }) => {
+const CustomCell: React.FC<CustomCellInterfaceProp> = ({ value }) => {
     return <span className={`${value < 40000 ? "text-danger fw-bold" : ""} ${value > 15000 ? "highlight" : ""}`}>${value}</span>;
 };
 
