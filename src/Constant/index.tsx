@@ -486,3 +486,8 @@ export const DeleteSelectDataButton: string = "Delete Row";
 export const RowsSelectionAndDeletions: string = "Row Selection And Deletion (Single Row)";
 export const AddNewRowButton: string = "Add new row";
 
+//Data Tables-Data Sources
+export const HtmlTableTitle: string = "HTML (DOM) sourced data";
+export const AjaxSourcedDataHeading: string = "Ajax sourced data";
+export const JavascriptSourcedDataHeading: string = "Javascript sourced data";
+export const ServerSideProcessingHeading: string = "Server-side processing";
