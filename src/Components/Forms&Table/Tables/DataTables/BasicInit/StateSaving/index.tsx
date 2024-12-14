@@ -1,6 +1,6 @@
 import DataTable from "react-data-table-component";
 import { Card, CardBody, Col, Input, Label } from "reactstrap";
-import { StateSavingCardHeader } from "./StateSavingCardHeader";
+import StateSavingCardHeader from "./StateSavingCardHeader";
 import { useMemo, useState } from "react";
 import { SearchTableButton } from "@/Constant";
 import { StateSavingColumns, StateSavingDataList } from "@/Data/Tables/DataTables/BasicInit";
@@ -19,15 +19,15 @@ const StateSaving = () => {
   }, [filterText]);
 
   return (
-    <Col sm="12">
+    <Col sm={12}>
       <Card className="basic-data-table">
         <StateSavingCardHeader />
         <CardBody>
           <div className="table-responsive">
-            <DataTable className="theme-scrollbar" data={filteredItems} columns={StateSavingColumns} striped pagination subHeader subHeaderComponent={subHeaderComponentMemo} />
+            <DataTable className="custom-scrollbar" data={filteredItems} columns={StateSavingColumns} striped pagination subHeader subHeaderComponent={subHeaderComponentMemo} />
           </div>
         </CardBody>
-      </Card> 
+      </Card>
     </Col>
   );
 };

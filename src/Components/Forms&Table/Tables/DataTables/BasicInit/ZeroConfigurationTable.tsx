@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import DataTable from "react-data-table-component";
 import { ZeroConfigurationColumn, ZeroConfigurationData } from "@/Data/Tables/DataTables/BasicInit";
 
-export const ZeroConfigurationTable = () => {
+const ZeroConfigurationTable = () => {
   const [filterText, setFilterText] = useState("");
 
   const filteredItems = ZeroConfigurationData.filter((item) => item.name && item.name.toLowerCase().includes(filterText.toLowerCase()));
@@ -18,19 +18,21 @@ export const ZeroConfigurationTable = () => {
   }, [filterText]);
 
   return (
-    <Col sm="12">
+    <Col sm={12}>
       <Card className="basic-data-table">
-        <CardHeader className="pb-0 card-no-border">
+        <CardHeader>
           <h4>{ZeroConfiguration}</h4>
           <span>DataTables has most features enabled by default, so all you need to do to use it with your own tables is to call the construction function:<code>$().DataTable();</code>.</span>
           <span>earching, ordering and paging goodness will be immediately added to the table, as shown in this example.</span>
         </CardHeader>
         <CardBody>
-          <div className="table-responsive">
-            <DataTable className="theme-scrollbar" columns={ZeroConfigurationColumn} data={filteredItems} pagination subHeader subHeaderComponent={subHeaderComponentMemo} highlightOnHover striped persistTableHead  />
+          <div className="table-responsive custom-scrollbar">
+            <DataTable columns={ZeroConfigurationColumn} data={filteredItems} pagination subHeader subHeaderComponent={subHeaderComponentMemo} highlightOnHover striped persistTableHead />
           </div>
         </CardBody>
       </Card>
     </Col>
   );
 };
+
+export default ZeroConfigurationTable;
