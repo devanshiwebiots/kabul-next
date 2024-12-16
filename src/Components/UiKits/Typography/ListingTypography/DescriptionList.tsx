@@ -13,7 +13,7 @@ const DescriptionList = () => {
           {DescriptionListData?.map((quote, index) => (
             <Fragment key={index}>
               <dt>{quote.text}</dt>
-              <dd className={quote.className || ""}>-{quote.author}</dd>
+              <dd className={quote.className}>-{quote.author}</dd>
             </Fragment>
           ))}
         </dl>

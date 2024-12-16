@@ -4,7 +4,7 @@ import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { ListingTypography } from "@/Constant";
 import { ListingData } from "@/Data/UiKits/Typography";
 import Orderlist from "./OrderList";
-import DescriptionList from "./OrderListSecond";
+import DescriptionList from "./DescriptionList";
 
 const ListingCard = () => {
   return (

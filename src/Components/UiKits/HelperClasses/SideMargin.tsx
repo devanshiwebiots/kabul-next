@@ -13,7 +13,7 @@ const SideMargin = () => {
             {SideMarginDetails?.map((item, index) => (
               <Col xxl={3} sm={6} key={index}>
                 <div className="border-wrapper h-100 alert-light-light dark-helper">
-                  <h5 className="f-w-600 mb-3">Margin {item.title}</h5>
+                  <h4 className="mb-3">Margin {item.title}</h4>
                   <div className="common-p-box">{item?.direction?.map((data, index) => (<span key={index}>{data}</span>))}
                   </div>
                 </div>

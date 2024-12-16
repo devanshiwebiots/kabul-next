@@ -10,7 +10,7 @@ const ColoredHeadingsCard = () => {
       <Card className="height-equal">
         <CommonCardHeader title={ColoredHeadings} span={HeadingData} tagClass="mb-0"/>
         <CardBody>
-          <div className="table-responsive theme-scrollbar">
+          <div className="table-responsive custom-scrollbar">
             <Table className="mb-0 typography-table">
               <thead>
                 <tr>
