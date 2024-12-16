@@ -1,24 +1,20 @@
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { Padding } from "@/Constant";
-import { PaddingCartData, PaddingCartDetail } from "@/Data/UiKits/HelperClasses";
-import React from "react";
+import { PaddingCartData, MarginPaddingDetails } from "@/Data/UiKits/HelperClasses";
 import { Card, CardBody, Col } from "reactstrap";
 
-const PaddingCart = () => {
+const PaddingCard = () => {
   return (
-    <Col xl="12">
+    <Col xl={12}>
       <Card>
-        <CommonCardHeader title={Padding} span={PaddingCartData} headClass="card-no-border pb-0" />
+        <CommonCardHeader title={Padding} span={PaddingCartData} />
         <CardBody>
           <div className="border-wrapper h-100 alert-light-light dark-helper">
             <h5 className="f-w-600 mb-3">{Padding}</h5>
             <div className="helper-common-box helper-p-wrapper">
-              <div className="helper-p-box p-10 bg-light border">
-                <span>.p-10</span>
-              </div>
-              {PaddingCartDetail.map((item, index) => (
+              {MarginPaddingDetails?.map((item, index) => (
                 <div className={`helper-p-box p-${item} bg-light border`} key={index}>
-                  <span>{`.p-${item}`}</span>
+                  <span>.p-{item}</span>
                 </div>
               ))}
             </div>
@@ -29,4 +25,4 @@ const PaddingCart = () => {
   );
 };
 
-export default PaddingCart;
+export default PaddingCard;

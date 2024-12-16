@@ -1,29 +1,20 @@
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { OnlyOneSidePadding, PaddingLeft } from "@/Constant";
-import { SidePaddingData, SidePaddingDetails, SidePaddings } from "@/Data/UiKits/HelperClasses";
-import React from "react";
+import { OnlyOneSidePadding } from "@/Constant";
+import { SidePaddingData, SidePaddingDetails } from "@/Data/UiKits/HelperClasses";
 import { Card, CardBody, Col, Row } from "reactstrap";
 
 const SidePadding = () => {
   return (
-    <Col xl="12">
+    <Col xl={12}>
       <Card>
-        <CommonCardHeader title={OnlyOneSidePadding} span={SidePaddingData} headClass="card-no-border pb-0" />
+        <CommonCardHeader title={OnlyOneSidePadding} span={SidePaddingData} />
         <CardBody>
           <Row className="g-3">
-            <Col xxl="3" sm="6">
-              <div className="border-wrapper h-100 alert-light-light dark-helper">
-                <h5 className="f-w-600 mb-3">{PaddingLeft}</h5>
-                <div className="common-p-box">
-                  {SidePaddings.map((value, index) => (<span key={index}>{value}</span>))}
-                </div>
-              </div>
-            </Col>
-            {SidePaddingDetails.map((item, index) => (
-              <Col xxl="3" sm="6" key={index}>
+            {SidePaddingDetails?.map((item, index) => (
+              <Col xxl={3} sm={6} key={index}>
                 <div className="border-wrapper h-100 alert-light-light dark-helper">
-                  <h5 className="f-w-600 mb-3">{item.title}</h5>
-                  <div className="common-p-box">{item.direction.map((data, index) => (<span key={index}>{data}</span>))}
+                  <h5 className="f-w-600 mb-3">Padding {item.title}</h5>
+                  <div className="common-p-box">{item?.direction?.map((data, index) => (<span key={index}>{data}</span>))}
                   </div>
                 </div>
               </Col>

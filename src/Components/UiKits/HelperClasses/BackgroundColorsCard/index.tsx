@@ -15,7 +15,7 @@ const BackgroundColorsCard = () => {
             <BackgroundColorSection title={LightBackground} classPrefix="alert-light" />
             <Col xl={4} sm={12}>
               <div className="border-wrapper h-100 border">
-                <h5 className="f-w-600 mb-3">{ExtendedBackgroundColor}</h5>
+                <h4 className="mb-3">{ExtendedBackgroundColor}</h4>
                 <div className="d-flex align-items-center mb-2 gap-2">
                   <div className="helper-box light-card"> </div>.light-card
                 </div>

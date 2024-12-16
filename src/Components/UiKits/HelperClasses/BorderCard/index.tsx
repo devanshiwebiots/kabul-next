@@ -10,9 +10,9 @@ const BorderCard = () => {
         <CommonCardHeader title={BordersAndDisplays} span={BorderData} headClass="pb-0" />
         <CardBody>
           <Row className="g-3">
-            <Col xl="4" sm="6">
+            <Col xl={4} sm={6}>
               <div className="border-wrapper h-100 border">
-                <h5 className="f-w-600 mb-3">{AdditiveBorder}</h5>
+                <h4 className="mb-3">{AdditiveBorder}</h4>
                 {AdditiveData?.map((item, index) => (
                   <div className="d-flex align-items-center mb-2 gap-2" key={index}>
                     <div className={`helper-box bg-light border${item}`}></div>.border{item}
@@ -20,9 +20,9 @@ const BorderCard = () => {
                 ))}
               </div>
             </Col>
-            <Col xl="4" sm="6">
+            <Col xl={4} sm={6}>
               <div className="border-wrapper h-100 border">
-                <h5 className="f-w-600 mb-3">{SubtractiveBorder}</h5>
+                <h4 className="mb-3">{SubtractiveBorder}</h4>
                 {Subtractivedata?.map((item, index) => (
                   <div className="d-flex align-items-center mb-2 gap-2" key={index}>
                     <div className={`helper-box bg-light border border-${item}`}> </div>.border-{item}
@@ -30,9 +30,9 @@ const BorderCard = () => {
                 ))}
               </div>
             </Col>
-            <Col xl="4" sm="12">
+            <Col xl={4} sm={12}>
               <div className="border-wrapper h-100 border">
-                <h5 className="f-w-600 mb-3">{AdditiveRadiusTitle}</h5>
+                <h4 className="mb-3">{AdditiveRadiusTitle}</h4>
                 {RadiusData?.map((item, index) => (
                   <div className="d-flex align-items-center mb-2 gap-2" key={index}>
                     <div className={`helper-radius radius-wrapper rounded${item}`}></div>.rounded{item}

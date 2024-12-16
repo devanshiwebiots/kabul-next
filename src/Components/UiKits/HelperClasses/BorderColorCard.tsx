@@ -5,17 +5,14 @@ import { Card, CardBody, Col } from "reactstrap";
 
 const BorderColorCard = () => {
   return (
-    <Col xs="12">
+    <Col xs={12}>
       <Card>
-        <CommonCardHeader title={BorderColor} span={BorderColorDetail} headClass="card-no-border pb-0" />
+        <CommonCardHeader title={BorderColor} span={BorderColorDetail} />
         <CardBody>
           <div className="gradient-border">
-            <div className="d-flex align-items-center mb-2 gap-2">
-              <div className="helper-box b-primary border fill-wrapper"> </div>.b-primary
-            </div>
-            {BorderColorDatas.map((item, index) => (
+            {BorderColorDatas?.map((item, index) => (
               <div className="d-flex align-items-center mb-2 gap-2" key={index}>
-                <div className={`helper-box ${item} border fill-wrapper`}> </div>.{item}
+                <div className={`helper-box b-${item} border fill-wrapper`}> </div>.b-{item}
               </div>
             ))}
           </div>
