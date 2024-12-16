@@ -4,7 +4,7 @@ import { CustomProgressData, CustomProgressList } from "@/Data/UiKits/Progress";
 import { Fragment } from "react";
 import { Row, Col, Card, Progress, CardBody } from "reactstrap";
 
-export const CustomProgressBarsCard = () => {
+const CustomProgressBarsCard = () => {
   return (
     <Card>
       <CommonCardHeader title={CustomProgressBars} span={CustomProgressData} />
@@ -13,11 +13,11 @@ export const CustomProgressBarsCard = () => {
           <Col>
             <h6 className="mb-2">{GettingStarted}</h6>
             <Progress color="dark" value="0" className="text-center mb-4"></Progress>
-            {CustomProgressList.map(({ color, value, title, text }, index) => (
+            {CustomProgressList?.map((item, index) => (
               <Fragment key={index}>
-                <h6 className="mb-2">{title}</h6>
-                <Progress color={color} striped animated value={value} className=" mb-4">
-                  {text}
+                <h6 className="mb-2">{item.value}% Getting Uploading...</h6>
+                <Progress color={item.color} striped animated value={item.value} className=" mb-4">
+                  {item.value}%
                 </Progress>
               </Fragment>
             ))}
@@ -27,3 +27,5 @@ export const CustomProgressBarsCard = () => {
     </Card>
   );
 };
+
+export default CustomProgressBarsCard;

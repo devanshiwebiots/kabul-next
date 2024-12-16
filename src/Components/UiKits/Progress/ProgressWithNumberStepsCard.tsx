@@ -1,19 +1,22 @@
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { ProgressWithNumberSteps } from "@/Constant";
 import { Col, Card, CardBody, Progress, Button } from "reactstrap";
-import { DynamicProgressWithNumberSteps } from "./DynamicProgressWithNumberSteps";
-import { ProgressNumberData } from "@/Data/UiKits/Progress";
+import { ProgressNumberData, ProgressNumberList } from "@/Data/UiKits/Progress";
 
 const ProgressWithNumberStepsCard = () => {
   return (
-    <Col xl="6">
+    <Col xl={6}>
       <Card className="progress-custom-card">
         <CommonCardHeader title={ProgressWithNumberSteps} span={ProgressNumberData} />
         <CardBody className="mb-1">
           <div className="position-relative m-3 progress-number">
             <Progress value="50" className="progress-wrapper" />
             <Button size="sm" color="primary" className="position-absolute top-0 start-0 p-0 translate-middle rounded-circle txt-light">1</Button>
-            <DynamicProgressWithNumberSteps />
+            {ProgressNumberList?.map(({ color, number, className }, index) => (
+              <Button size="sm" color={color} className={`position-absolute top-0 p-0 ${className} translate-middle rounded-circle`} style={{ width: "2rem", height: "2rem", }} key={index}>
+                {number}
+              </Button>
+            ))}
           </div>
         </CardBody>
       </Card>

@@ -4,11 +4,11 @@ import BasicProgressBarsCard from "./BasicProgressBarsCard";
 import ProgressBarsStripedCard from "./ProgressBarsStripedCart";
 import ProgressBarsAnimatedCard from "./ProgressBarsAnimatedCard";
 import MultipleBarsCard from "./MultipleBarsCard";
-import ProgressWithNumberStepsCard from "./ProgressWithNumberSteps";
-import { CustomProgressBarsCard } from "./CustomProgressBarsCard";
-import { SmallProgressBarsCard } from "./SmallProgressBarsCard";
-import { LargeProgressBarsCard } from "./LargeProgressBarsCard";
-import { CustomHeightProgressBarsCard } from "./CustomHeightProgressBarsCard";
+import ProgressWithNumberStepsCard from "./ProgressWithNumberStepsCard";
+import CustomProgressBarsCard from "./CustomProgressBarsCard";
+import SmallProgressBarsCard from "./SmallProgressBarsCard";
+import LargeProgressBarsCard from "./LargeProgressBarsCard";
+import CustomHeightProgressBarsCard from "./CustomHeightProgressBarsCard";
 
 const ProgressContainer = () => {
   return (

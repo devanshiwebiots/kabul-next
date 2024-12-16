@@ -11,8 +11,7 @@ const ProgressBarsStripedCard = () => {
         <CardBody className="progress-showcase">
           <Row>
             <Col>
-              <Progress color="primary" striped value="10" />
-              {ProgressStripList.map(({ color, value }, index) => (
+              {ProgressStripList?.map(({ color, value }, index) => (
                 <Progress color={color} striped value={value} key={index} />
               ))}
             </Col>

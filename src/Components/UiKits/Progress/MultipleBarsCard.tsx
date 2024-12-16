@@ -5,7 +5,7 @@ import { Row, Col, Card, Progress, CardBody } from "reactstrap";
 
 const MultipleBarsCard = () => {
   return (
-    <Col xl="6">
+    <Col xl={6}>
       <Card>
         <CommonCardHeader title={MultipleBars} span={MultipleDta} />
         <CardBody className="progress-showcase">
@@ -17,7 +17,7 @@ const MultipleBarsCard = () => {
                 <Progress color="success" bar value="15" />
               </Progress>
               <Progress multi>
-                {MultipleList.map(({ color, value }, index) => (
+                {MultipleList?.map(({ color, value }, index) => (
                   <Progress color={color} bar value={value} key={index} style={{ width: "10%" }} />
                 ))}
               </Progress>

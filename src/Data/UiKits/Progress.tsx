@@ -48,6 +48,10 @@ export const ProgressStripData = [
 
 export const ProgressStripList = [
   {
+    color: "primary",
+    value: "10",
+  },
+  {
     color: "warning",
     value: "25",
   },
@@ -72,21 +76,6 @@ export const AnimatedData = [
   },
   {
     text: " to animate the stripes right to left via CSS3 animations.",
-  },
-];
-
-export const AnimatedList = [
-  {
-    color: "warning",
-    value: "25",
-  },
-  {
-    color: "danger",
-    value: "50",
-  },
-  {
-    color: "success",
-    value: "75",
   },
 ];
 
@@ -170,28 +159,20 @@ export const CustomProgressData = [
 
 export const CustomProgressList = [
   {
-    title: "30% Getting Uploading...",
     color: "primary",
     value: "30",
-    text: "30%",
   },
   {
-    title: "60% Getting Uploading...",
     color: "secondary",
     value: "60",
-    text: "60%",
   },
   {
-    title: "70% Getting Uploading...",
     color: "success",
     value: "70",
-    text: "70%",
   },
   {
-    title: "100% Getting Uploading...",
     color: "dark",
     value: "100",
-    text: "100%",
   },
 ];
 
@@ -205,20 +186,7 @@ export const SmallProgressData = [
   },
 ];
 
-export const SmallProgressList = [
-  {
-    title: "50 MB Data",
-    value: "50",
-  },
-  {
-    title: "75 MB Data",
-    value: "75",
-  },
-  {
-    title: "90 MB Data",
-    value: "90",
-  },
-];
+export const SmallProgressList = ["30","50","75","90"];
 
 export const LargeProgressData = [
   {
@@ -232,18 +200,19 @@ export const LargeProgressData = [
 
 export const LargeProgressList = [
   {
+    color: "primary",
+    value: "25",
+  },
+  {
     color: "secondary",
-    text: "50%",
     value: "50",
   },
   {
     color: "success",
-    text: "75%",
     value: "75",
   },
   {
     color: "info",
-    text: "10%",
     value: "100",
   },
 ];
@@ -263,6 +232,11 @@ export const HeightProgressData = [
 ];
 
 export const HeightProgressList = [
+  {
+    color: "primary",
+    height: "1px",
+    value: "25",
+  },
   {
     color: "warning",
     height: "5px",
