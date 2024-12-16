@@ -450,24 +450,49 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Ui Kits-Grid
+export const Class: string = " Class";
+export const ValueOfClass: string = "Value of the class";
+export const GridForColumn: string = "Grid For Column";
+export const GridBehavior: string = "Grid behavior";
+export const HorizontalAllTimes: string = "Horizontal at all times";
+export const CollapsedBreakpoints: string = "Collapsed to start, horizontal above breakpoints";
+export const MaxContainerWidth: string = "Max container width";
+export const ClassPrefix: string = "Class prefix";
+export const GridOption: string = "Grid options";
+export const VerticalAlignment: string = "Vertical Alignment";
+export const VerticalAlignmentClass: string = ".align-items-*";
+export const VerticalAlignmentValueClass: string = " start / center / end / baseline / stretch";
+export const HorizontalAlignment: string = "Horizontal Alignment";
+export const HorizontalAlignmentValueClass: string = "start / center / end / around / between";
+export const HorizontalAlignmentClass: string = ".justify-content-*";
+export const Nesting: string = "Nesting";
+export const Orders: string = "Order";
+export const OrderClass: string = ".order-*";
+export const OrderValueClass: string = " first / 2 / 3 / 4 / 5 / last";
+export const Offset: string = "Offset";
+export const OffsetClass: string = ".offset-*";
+export const OffsetValueClass: string = " 1 / 2 / ... / 11 / 12";
 
+//Ui Kits- Tag And Pills
+export const BadgesContextualVariations: string = "Badges Contextual Variations";
+export const PillsContextualVariations: string = "Pills Contextual Variations";
+export const NumberOfBadge: string = "Number of Badge ";
+export const NumberOfPillsTags: string = "Number of Pills Tags";
+export const BadgeTagsWithIcons: string = "Badge Tags With Icons";
+export const RoundedPillsWithIcons: string = "Rounded Pills With Icons";
+export const BadgeHeadingsExample: string = "Badge Headings Example";
+export const BadgesAsPartButtons: string = "Badges As Part Buttons";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Ui Kits- Progress
+export const BasicProgressBars: string = "Basic Progress Bars";
+export const ProgressBarsStriped: string = "Progress Bars Striped";
+export const ProgressBarsAnimated: string = "Progress Bars animated";
+export const MultipleBars: string = "Multiple bars";
+export const ProgressWithNumberSteps: string = "Progress With Number Steps";
+export const CustomProgressBars: string = "Custom Progress Bars";
+export const SmallProgressBars: string = "Small Progress Bars";
+export const LargeProgressBars: string = "Large Progress Bars";
+export const GettingStarted: string = "0% Getting Started ";
+export const CustomHeightProgressBars: string = "Custom Height Progress Bars";
 
