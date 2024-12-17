@@ -450,24 +450,53 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Ui kits-Typography
+export const Blockquotes: string = "Blockquotes";
+export const Heading: string = "Heading";
+export const ColoredHeadings: string = "Colored Headings";
+export const Headings: string = "Headings";
+export const FontSize: string = "Font-Size";
+export const ListingTypography: string = "Listing Typography";
+export const UnorderList: string = "Unorder list";
+export const OrderLists: string = "Order list";
+export const DescriptionLists: string = "Description list";
+export const FontWeight: string = "Font Weight";
+export const FontWeightTitle: string = "You can set bolder font weight Heading";
+export const DisplayHeadings: string = "Display headings";
+export const Mark: string = "You can use the mark tag to";
+export const InlineTextElements: string = "Inline text elements";
+export const Highlight: string = "highlight";
+export const Del: string = "This line of text is meant to be treated as deleted text.";
+export const Stext: string = "This line of text is meant to be treated as no longer accurate.";
+export const InstText: string = "This line of text is meant to be treated as an addition to the document.";
+export const Utext: string = "This line of text will render as underlined";
+export const SmallText: string = "This line of text is meant to be treated as fine print.";
+export const StrongText: string = "This line rendered as bold text.";
+export const EmTeaxt: string = "This line rendered as italicized text.";
+export const TextColor: string = "Text Color";
 
+//Ui Kits- Avatars
+export const Sizes: string = "Sizes";
+export const StatusIndicator: string = "Status Indicator";
+export const Shapes: string = "Shapes";
+export const Ratio: string = "Ratio";
+export const Grouping: string = "Grouping";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Ui Kits- Helper Classes
+export const StylesInBorders: string = "Styles in borders";
+export const AdditiveBorder: string = "Additive Border ";
+export const SubtractiveBorder: string = "Subtractive Border";
+export const AdditiveRadiusTitle: string = "Additive Radius";
+export const StylerBorders: string = "Styles In Borders";
+export const BordersAndDisplays: string = "Borders And Displays";
+export const CustomBorderRadiusClass: string = "Custom border-radius class";
+export const BorderColor: string = "Border color";
+export const BorderWidth: string = "Border-width";
+export const TextColors: string = "Text colors";
+export const BackgroundColors: string = "Background Colors";
+export const DarkBackground: string = "Dark Background";
+export const LightBackground: string = "Light Backgrounds";
+export const ExtendedBackgroundColor: string = "Extended Background Colors";
+export const ImagesSizes: string = "Images Sizes";
+export const FontStyle: string = "Font-Style";
+export const FontSizes: string = "Font Sizes";
