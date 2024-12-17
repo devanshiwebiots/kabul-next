@@ -17,8 +17,8 @@ const MultipleBarsCard = () => {
                 <Progress color="success" bar value="15" />
               </Progress>
               <Progress multi>
-                {MultipleList?.map(({ color, value }, index) => (
-                  <Progress color={color} bar value={value} key={index} style={{ width: "10%" }} />
+                {MultipleList?.map((item, index) => (
+                  <Progress color={item} bar value="10" key={index} style={{ width: "10%" }} />
                 ))}
               </Progress>
             </Col>

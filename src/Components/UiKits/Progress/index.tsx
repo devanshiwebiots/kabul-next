@@ -1,7 +1,7 @@
 "use client";
 import { Col, Container, Row } from "reactstrap";
 import BasicProgressBarsCard from "./BasicProgressBarsCard";
-import ProgressBarsStripedCard from "./ProgressBarsStripedCart";
+import ProgressBarsStripedCard from "./ProgressBarsStripedCard";
 import ProgressBarsAnimatedCard from "./ProgressBarsAnimatedCard";
 import MultipleBarsCard from "./MultipleBarsCard";
 import ProgressWithNumberStepsCard from "./ProgressWithNumberStepsCard";

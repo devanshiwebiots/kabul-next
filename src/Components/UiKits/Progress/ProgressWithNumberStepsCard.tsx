@@ -8,12 +8,11 @@ const ProgressWithNumberStepsCard = () => {
     <Col xl={6}>
       <Card className="progress-custom-card">
         <CommonCardHeader title={ProgressWithNumberSteps} span={ProgressNumberData} />
-        <CardBody className="mb-1">
-          <div className="position-relative m-3 progress-number">
-            <Progress value="50" className="progress-wrapper" />
-            <Button size="sm" color="primary" className="position-absolute top-0 start-0 p-0 translate-middle rounded-circle txt-light">1</Button>
+        <CardBody>
+          <div className="position-relative m-4 progress-number">
+            <Progress className="progress-wrapper" color="primary" value={50} />
             {ProgressNumberList?.map(({ color, number, className }, index) => (
-              <Button size="sm" color={color} className={`position-absolute top-0 p-0 ${className} translate-middle rounded-circle`} style={{ width: "2rem", height: "2rem", }} key={index}>
+              <Button size="sm" color={color} className={`position-absolute top-0 p-0 ${className} translate-middle rounded-circle`} key={index}>
                 {number}
               </Button>
             ))}

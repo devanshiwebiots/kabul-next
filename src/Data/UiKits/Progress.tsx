@@ -85,40 +85,7 @@ export const MultipleDta = [
   },
 ];
 
-export const MultipleList = [
-  {
-    color: "primary",
-    value: "15",
-  },
-  {
-    color: "secondary",
-    value: "30",
-  },
-  {
-    color: "success",
-    value: "20",
-  },
-  {
-    color: "info",
-    value: "15",
-  },
-  {
-    color: "warning",
-    value: "15",
-  },
-  {
-    color: "danger",
-    value: "15",
-  },
-  {
-    color: "primary",
-    value: "15",
-  },
-  {
-    color: "light",
-    value: "15",
-  },
-];
+export const MultipleList = ["primary","secondary","success","info","warning","danger","primary","light"];
 
 export const ProgressNumberData = [
   {
@@ -131,6 +98,16 @@ export const ProgressNumberData = [
 ];
 
 export const ProgressNumberList = [
+  {
+    color: "primary",
+    number: "1",
+    className: "start-0 txt-light",
+  },
+  {
+    color: "transparent",
+    number: "3",
+    className: "progress-btn start-100 txt-dark",
+  },
   {
     color: "primary",
     number: "2",
