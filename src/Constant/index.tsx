@@ -481,9 +481,6 @@ export const StatusIndicator: string = "Status Indicator";
 export const Shapes: string = "Shapes";
 export const Ratio: string = "Ratio";
 export const Grouping: string = "Grouping";
-export const BadgeIndicatorTitle: string = "Badge-Indicator"
-export const AvatarInitialTitle: string = "Initial Letter Avatar"
-export const AnimatedAvatarTitle: string = "Animated Avatar";
 
 //Ui Kits- Helper Classes
 export const StylesInBorders: string = "Styles in borders";
@@ -502,8 +499,4 @@ export const LightBackground: string = "Light Backgrounds";
 export const ExtendedBackgroundColor: string = "Extended Background Colors";
 export const ImagesSizes: string = "Images Sizes";
 export const FontStyle: string = "Font-Style";
-export const Padding: string = "Padding";
-export const OnlyOneSidePadding: string = "Only one side padding";
-export const OnlyOneSideMargin: string = "Only one side margin";
-export const Margin: string = "Margin";
 export const FontSizes: string = "Font Sizes";
