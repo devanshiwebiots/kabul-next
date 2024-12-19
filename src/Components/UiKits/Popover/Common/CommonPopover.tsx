@@ -8,7 +8,7 @@ const CommonPopover:React.FC<CommonPopoverProp> = ({ item }) => {
   
   return (
     <>
-      <Button color={item.btnColor} className="example-popover" id={`${"Popover-" + item.id}`}>{item.btntext}</Button>
+      <Button color={item.btnColor} className="example-popover mb-0 me-0" id={`${"Popover-" + item.id}`}>{item.btntext}</Button>
       <Popover placement={item.placement} isOpen={popover} target={"Popover-" + item.id} toggle={toggle} trigger={item.trigger}>
         <PopoverHeader>{item.Popoverheader}</PopoverHeader>
         <PopoverBody>{item.Popoverbody}</PopoverBody>

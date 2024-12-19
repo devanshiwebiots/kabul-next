@@ -497,13 +497,6 @@ export const GettingStarted: string = "0% Getting Started ";
 export const CustomHeightProgressBars: string = "Custom Height Progress Bars";
 
 //Ui Kits- Popover
-export const HurryUps: string = "Hurry Up!";
-export const BasicPopovers: string = "Dismiss Popover";
-export const DismissPopovers: string = "Dismiss Popover";
-export const PopoverOnTop: string = " Popover on top";
+export const BasicPopovers: string = "Basic Popover";
 export const PopoverOffsets: string = "Popover Offset ";
 export const PopoverDirections: string = "Popover Direction";
-export const PopoverOffset50: string = "Popover offset 50";
-export const DisabledElementsTitle: string = "Disabled Elements";
-export const DelayPopoverTitle: string = "Delay Popover";
-export const DismissPopoverTitle: string = "Dismiss Popover";
