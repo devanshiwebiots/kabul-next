@@ -450,24 +450,19 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Ui Kits- Alert
+export const LinkColorDarkTheme: string = "Link Color In Dark Theme";
+export const LinkColorLightTheme: string = "Link Color In Light Theme";
+export const OutlineDarkLightAlerts: string = "Outline Dark And Light Alerts";
+export const AlertsWithIconsTextActions: string = "Alerts With Icons and Text Actions";
+export const DismissingDarkAlert: string = "Dismissing Dark Alerts";
+export const DismissingLightAlert: string = "Dismissing Light Alerts";
+export const LiveAlerts: string = "Live Alert";
+export const ShowLiveAlert: string = "Show live alert";
+export const LeftBorderAlerts: string = "Left Border Alert";
+export const CustomAlert: string = "Custom Alert Box";
+export const AdditionalContents: string = "Additional content";
+export const PleaseCheckYourNotifications: string = "Please! Check your notifications";
 
 
 
