@@ -450,24 +450,52 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Ui Kits-Modal
+export const KabulSignUp: string = "Kabul SIGN-UP";
+export const OpenModalForKabul: string = "Open modal for Kabul";
+export const KabulEmail: string = "Kabultheme@gmail.com";
+export const EnterYourFirstName: string = "Enter your first-name";
+export const EnterYourLastName: string = "Enter your last-name";
+export const TermsAndCondition: string = "You accept our Terms and Privacy Policy by clicking Submit below.";
+export const Simple: string = "Simple";
+export const ButtonSmall: string = "button";
+export const TooltipsAndPopovers: string = "Tooltips and popovers";
+export const PopoverModal: string = "Popover in a modal";
+export const TooltipsModal: string = "Tooltips in a modal";
+export const ScrollingContent: string = "Scrolling content";
+export const UXDesigners: string = "UX Designer ";
+export const WebDesigner: string = "Web Designer";
+export const BasicModal: string = "Basic Modal";
+export const ClickOut: string = "Click Out";
+export const KabulLogin: string = "Kabul Login";
+export const KabulCustomModal: string = "Kabul Custom Modals ";
+export const Close: string = "Close";
+export const SaveChanges: string = "Save changes";
+export const WebDesigns: string = "Web Design ";
+export const FullScreenModal: string = "Fullscreen Modal";
+export const FullscreenModal: string = "Fullscreen modal";
+export const FullScreenBelowSM: string = "Fullscreen below sm";
+export const FullScreenBelowMD: string = "Fullscreen below md";
+export const FullScreenBelowLG: string = "Fullscreen below lg";
+export const FullScreenBelowXL: string = "Fullscreen below xl";
+export const FullScreenBelowXXL: string = "Fullscreen below xxl";
+export const SizesModal: string = "Sizes Modal";
+export const ExtraLargeModals: string = "Extra large Modal";
+export const LargeModals: string = "Large Modal";
+export const SmallModals: string = "Small Modal";
+export const WebDesign: string = "Web Design";
+export const ExtraLargeModal: string = "Extra large modal";
+export const FullScreenModals: string = "Full Screen Modal";
+export const StartWithYourGoals: string = "Start with your goals";
+export const StaticBackdropModalBtn: string = "Static backdrop modal";
+export const StaticBackdropModals: string = "Static Backdrop Modal";
+export const ToggleBetweenModal: string = "Toggle Between Modals ";
+export const OpenFirstModal: string = "Open first Modal ";
+export const AlreadyLeaving: string = "Already leaving??";
+export const YesLogOut: string = "Yes, Log out";
+export const ParentToggleTitle: string = "Remove your complete account from your phone or tablet to sign out of the Gmail app.";
+export const ConnectNewAccount: string = "Connect new account";
+export const ConnectNewRegisterAccount: string = "Register";
+export const CenteredModals: string = "Centered Modal ";
+export const VerticallyCentered: string = "Vertically centered";
+export const SomethingWentWrong: string = "Ohh! Something went wrong!";
