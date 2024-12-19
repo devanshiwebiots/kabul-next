@@ -15,7 +15,7 @@ const SmallModal = () => {
       <CommonModal size="sm" isOpen={smallScreen} toggle={smallScreenToggle} sizeTitle="Small modal" modalBodyClassName="dark-modal">
         <div className="large-modal-header"><ChevronsRight /><h6 className="f-w-600">Web Design </h6></div>
         <p className="modal-padding-space mb-2">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
-        {SmallData.map(({ title, text }, index) => (
+        {SmallData?.map(({ title, text }, index) => (
           <Fragment key={index}>
             <div className="large-modal-header"><ChevronsRight /><h6 className="f-w-600">{title}</h6></div>
             <p className="modal-padding-space">{text}</p>

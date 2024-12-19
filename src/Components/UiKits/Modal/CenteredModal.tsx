@@ -7,8 +7,8 @@ import CommonModal from "./Common/CommonModal";
 import RatioImage from "@/CommonComponents/RatioImage";
 
 const CenteredModal = () => {
-  const [centred, setCentered] = useState(false);
-  const centeredToggle = () => setCentered(!centred);
+  const [centered, setCentered] = useState(false);
+  const centeredToggle = () => setCentered(!centered);
 
   return (
     <Col xl={4}>
@@ -16,7 +16,7 @@ const CenteredModal = () => {
         <CommonCardHeader title={CenteredModals} span={CenteredModalList} />
         <CardBody className="badge-spacing">
           <Button color="success" onClick={centeredToggle}>{VerticallyCentered}</Button>
-          <CommonModal centered isOpen={centred} toggle={centeredToggle}>
+          <CommonModal centered isOpen={centered} toggle={centeredToggle}>
             <div className="modal-toggle-wrapper">
               <ul className="modal-img">
                 <li className="text-center"><RatioImage src={` ${ImagePath}/gif/danger.gif`} alt="error" /></li>

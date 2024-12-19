@@ -8,7 +8,7 @@ const WebDesign = () => {
       <div className="large-modal-header"><ChevronsRight /><h5 className="f-w-600">{WebDesigns}</h5></div>
       <p className="modal-padding-space">We build specialised websites for companies, list them on digital directories, and set up a sales funnel to boost ROI.</p>
       <h6 className="f-w-600">{WebDesigner}</h6>
-      {CommonWebData.map(({ title, className ,pClassName}, index) => (
+      {CommonWebData?.map(({ title, className ,pClassName}, index) => (
         <div className={`d-flex ${className}`} key={index}>
           <div className="flex-shrink-0"><ArrowRightCircle className="svg-modal"/></div>
           <div className="flex-grow-1 ms-2"><p className={`mb-0 ${pClassName && pClassName}`}>{title}</p></div>

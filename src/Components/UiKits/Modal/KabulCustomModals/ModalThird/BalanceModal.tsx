@@ -27,7 +27,7 @@ const BalanceModal: React.FC<BalanceModalType> = ({ modalThird, modalThirdToggle
                       <div className="balance-icon-wrap"><div className="balance-icon">{icon}</div></div>
                       <div>
                         <span className="f-12 f-light">{title}</span>
-                        <h4>{text}K</h4><Badge color="" className={`rounded-pill text-${color} badge-light-${color}`}>{data}%</Badge>
+                        <h4>{text}K</h4><Badge pill color={`light-${color}`} className={`text-${color} badge-light-${color}`}>{data}%</Badge>
                       </div>
                     </div>
                   </li>
