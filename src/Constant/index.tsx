@@ -450,24 +450,15 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Bonus Ui - Scrollable
+export const CustomScrollbars: string = "Custom Scrollbar";
+export const SmallSizeScrollbars: string = "Small Size Scrollbar";
+export const SolutionBusinessTransformation: string = "Solution for Business Transformation";
+export const BadgesScrollbars: string = "Badges Scrollbar";
+export const ProfileScrollableTitle: string = "Profile Scrollable";
+export const ScrollableContents: string = "Scrollable Content";
+export const HorizontalScrollbars: string = "Horizontal Scrollbar ";
+export const BothSideVisibleScrollbars: string = "Both Side Visible Scrollbar";
 
 
 

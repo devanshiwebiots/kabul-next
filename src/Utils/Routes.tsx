@@ -113,7 +113,7 @@ export const Routes = {
   
     BonusUi: {
       Scrollable: "/bonus-ui/scrollable",
-      Tree: "/bonus-ui/tree",
+      Tree: "/bonus-ui/tree-view",
       Toasts: "/bonus-ui/toasts",
       Rating: "/bonus-ui/rating",
       Dropzone: "/bonus-ui/dropzone",
