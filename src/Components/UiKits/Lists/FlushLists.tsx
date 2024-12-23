@@ -11,7 +11,7 @@ const FlushLists = () => {
         <CardBody>
           <ListGroup flush>
             {FlushListData?.map((item, index) => (
-              <ListGroupItem key={index}><i className={`icofont icofont-arrow-right`}></i>{item}</ListGroupItem>
+              <ListGroupItem key={index}><i className="icofont icofont-arrow-right"></i>{item}</ListGroupItem>
             ))}
           </ListGroup>
         </CardBody>

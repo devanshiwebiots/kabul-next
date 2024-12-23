@@ -101,7 +101,7 @@ export const DefaultData = [
   
   export const CustomList = [
     {
-      src: "user/1.jpg",
+      src: "1.jpg",
       title: "Molly Boake",
       mail: "MollyBoake@rhyta.com",
       days: "5 days ago",
@@ -109,7 +109,7 @@ export const DefaultData = [
       smallText: "20K Followers",
     },
     {
-      src: "user/3.png",
+      src: "3.png",
       title: "Gabrielle Fahey",
       mail: "GabrielleFahey@dayrep.com",
       days: "10 days ago",
@@ -117,7 +117,7 @@ export const DefaultData = [
       smallText: "100 Followers",
     },  
     {
-      src: "user/2.jpg",
+      src: "2.jpg",
       title: "Lucinda Moseley",
       mail: "LucindaMoseley@teleworm.us",
       days: "3 days ago",
@@ -283,22 +283,22 @@ export const DefaultData = [
     {
       className: "bg-primary active",
       text: "Teresa J. Mosteller",
-      src: "user/1.jpg",
+      src: "1.jpg",
     },
     {
       className: "light-hover-primary",
       text: "Gloria D. Acheson",
-      src: "user/3.png",
+      src: "3.png",
     },
     {
       className: "disabled",
       text: "Sharon C. Obrien",
-      src: "user/2.jpg",
+      src: "2.jpg",
     },
     {
       className: "disabled",
       text: "Bryan A. Owens",
-      src: "user/5.jpg",
+      src: "5.jpg",
     },
   ];
   
@@ -314,52 +314,52 @@ export const DefaultData = [
   
   export const ScrollableDataList = [
     {
-      src: "user/9.jpg",
+      src: "9.jpg",
       title: "Molly Boake",
       mail: "MollyBoake@rhyta.com",
-      days: "5 days ago",
+      days: "5",
     },
     {
-      src: "user/10.jpg",
+      src: "10.jpg",
       title: "Gabrielle Fahey",
       mail: "GabrielleFahey@dayrep.com",
-      days: "10 days ago",
+      days: "10",
     },
     {
-      src: "user/2.jpg",
+      src: "2.jpg",
       title: "Lucinda Moseley",
       mail: "LucindaMoseley@teleworm.us",
-      days: "3 days ago",
+      days: "3",
     },
     {
-      src: "user/12.png",
+      src: "12.png",
       title: "Francis K. Henriques",
       mail: "FrancisKHenriques@teleworm.us",
-      days: "2 days ago",
+      days: "2",
     },
     {
-      src: "user/14.png",
+      src: "14.png",
       title: "Jose A. Seay",
       mail: "JoseASeay@rhyta.com",
-      days: "15 days ago",
+      days: "15",
     },
     {
-      src: "user/3.jpg",
+      src: "3.jpg",
       title: "Phil F. Cunningham",
       mail: "PhilFCunningham@dayrep.com",
-      days: "6 days ago",
+      days: "6",
     },
     {
-      src: "user/7.jpg",
+      src: "7.jpg",
       title: "Richard E. Johnson",
       mail: "RichardEJohnson@teleworm.us",
-      days: "20 days ago",
+      days: "20",
     },
     {
-      src: "user/2.png",
+      src: "2.png",
       title: "Lawrence L. Nash",
       mail: "LawrenceLNash@jourrapide.com",
-      days: "8 days ago",
+      days: "8",
     },
   ];
   

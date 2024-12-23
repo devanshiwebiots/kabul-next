@@ -12,7 +12,7 @@ const MaterialTabContent:React.FC<TabContentProp> = ({basicTab}) => {
               <h6 className="fw-bold">{header}</h6>
             </div>
             <div className="user-content">
-              <div className="table-responsive theme-scrollbar">
+              <div className="table-responsive custom-scrollbar">
                 <Table responsive className="mb-0">
                   <thead>
                     <tr>

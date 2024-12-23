@@ -6,7 +6,7 @@ import { Button, Card, CardBody, Col, Collapse } from "reactstrap";
 
 const CollapseAccordion = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const toggle = () => setIsOpen(!isOpen); 3
+  const toggle = () => setIsOpen(!isOpen); 
 
   return (
     <Col md={6} sm={12}>

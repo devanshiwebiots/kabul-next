@@ -42,7 +42,7 @@ const BorderTabContent:React.FC<TabContentProp> = ({basicTab}) => {
             </FormGroup>
             <div className="mb-0">
               <Label check htmlFor="exampleFormControlTextarea1">{ExampleTextarea}</Label>
-              <Input type="textarea" id="exampleFormControlTextarea1" rows={3} defaultValue={""} />
+              <Input type="textarea" id="exampleFormControlTextarea1" rows={3} defaultValue="" />
             </div>
           </Form>
         </CardBody>

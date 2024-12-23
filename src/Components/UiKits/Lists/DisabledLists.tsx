@@ -1,6 +1,7 @@
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { DisabledList, Href, ImagePath } from "@/Constant";
 import { DisableList, DisableListData } from "@/Data/UiKits/Lists";
+import Image from "next/image";
 import { Card, CardBody, Col, ListGroup, ListGroupItem } from "reactstrap";
 
 const DisabledLists = () => {
@@ -12,7 +13,7 @@ const DisabledLists = () => {
           <ListGroup>
             {DisableList?.map(({ text, className, src }, index) => (
               <ListGroupItem tag="a" className={`list-group-item-action ${className ? className : ""}`} key={index} href={Href}>
-                <img className="rounded-circle" src={`${ImagePath}/${src}`} alt="user" />{text}</ListGroupItem>
+                <Image height={40} width={40} priority className="rounded-circle" src={`${ImagePath}/user/${src}`} alt="user" />{text}</ListGroupItem>
             ))}
           </ListGroup>
         </CardBody>

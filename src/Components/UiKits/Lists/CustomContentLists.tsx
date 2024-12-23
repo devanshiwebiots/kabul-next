@@ -15,7 +15,7 @@ const CustomContentLists = () => {
               <ListGroupItem tag="a" href={Href} className={`list-group-item-action ${index === 0 ? "active bg-primary" : "list-hover-primary"}`} key={index}>
                 <div className="d-flex w-100 justify-content-between align-items-center">
                   <div className="list-wrapper">
-                    <RatioImage className="list-img" src={`${ImagePath}/${src}`} alt="profile" />
+                    <RatioImage className="list-img" src={`${ImagePath}/user/${src}`} alt="profile" />
                     <div className="list-content">
                       <h4 className={`${index === 0 ? "text-white" : ""}`}>{title}</h4>
                       <p>{mail}</p>
