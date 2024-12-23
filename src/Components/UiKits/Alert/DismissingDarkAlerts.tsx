@@ -1,6 +1,6 @@
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { DismissingDarkAlert } from "@/Constant";
-import { DismissingDarkData } from "@/Data/UiKits/Alert";
+import { DismissingData } from "@/Data/UiKits/Alert";
 import { useState } from "react";
 import { Heart } from "react-feather";
 import { Alert, Card, CardBody, Col } from "reactstrap";
@@ -12,7 +12,7 @@ const DismissingDarkAlerts = () => {
   return (
     <Col sm={12} xl={6}>
       <Card>
-        <CommonCardHeader title={DismissingDarkAlert} span={DismissingDarkData} />
+        <CommonCardHeader title={DismissingDarkAlert} span={DismissingData} />
         <CardBody>
           <Alert fade color="secondary" isOpen={visible} toggle={onDismiss}>
             <Heart />

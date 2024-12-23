@@ -6,23 +6,13 @@ import { Alert, Button, Card, CardBody, Col } from "reactstrap";
 
 const BorderAlertMessages = () => {
   return (
-    <Col xl='6'>
+    <Col xl={6}>
       <Card>
         <CommonCardHeader title={LeftBorderAlerts} span={BorderAlertData} />
         <CardBody className='live-dark'>
-          <Alert color='light-dark' className='alert-dismissible fade show txt-dark border-left-dark'>
+          <Alert color='light-dark' className='alert-dismissible fade show txt-dark border-left-wrapper'>
             <HelpCircle />
-            <p className='text-dark'>Dark Alert: border-left-wrapper</p>
-            <Button close aria-label='Close' />
-          </Alert>
-          <Alert color='light-secondary' className='alert-dismissible fade show txt-secondary border-left-secondary'>
-            <Octagon />
-            <p className='txt-secondary'>Secondary Alert: border-left-secondary</p>
-            <Button close aria-label='Close' />
-          </Alert>
-          <Alert color='light-success' className='alert-dismissible fade show txt-success border-left-success mb-0'>
-            <CheckSquare />
-            <p className='txt-success'>Success Alert: border-left-success</p>
+            <p className='text-dark'>You can check in on some of those fields below.</p>
             <Button close aria-label='Close' />
           </Alert>
         </CardBody>

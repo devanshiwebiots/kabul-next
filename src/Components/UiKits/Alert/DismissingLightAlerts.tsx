@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import { Alert, Button, Card, CardBody, Col } from "reactstrap";
-import { Bell } from "react-feather";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { DismissingLightAlert, Href } from "@/Constant";
-import { DismissingLightData } from "@/Data/UiKits/Alert";
-import Link from "next/link";
+import { DismissingLightAlert } from "@/Constant";
+import { DismissingData } from "@/Data/UiKits/Alert";
+import { useState } from "react";
+import { Bell } from "react-feather";
+import { Alert, Card, CardBody, Col } from "reactstrap";
 
 const DismissingLightAlerts = () => {
   const [visible, setVisible] = useState(true);
@@ -13,9 +12,9 @@ const DismissingLightAlerts = () => {
   return (
     <Col sm={12} xl={6}>
       <Card>
-        <CommonCardHeader title={DismissingLightAlert} span={DismissingLightData} />
+        <CommonCardHeader title={DismissingLightAlert} span={DismissingData} />
         <CardBody>
-          <Alert fade color="" className="alert-warning alert-dismissible" isOpen={visible} toggle={onDismiss}>
+          <Alert fade color="warning" className="alert-dismissible" isOpen={visible} toggle={onDismiss}>
             <Bell />
             <p>The alert-light-warning class can be used to create an alert like this one.</p>
           </Alert>

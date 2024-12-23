@@ -8,16 +8,16 @@ const LiveAlert = () => {
   const [data, setData] = useState<string[]>([]);
 
   const dataShown = (key: number) => {
-    setData(data.filter((item, index) => index !== key));
+    setData(data.filter((_, index) => index !== key));
   };
 
   return (
-    <Col xl="6">
-      <Card>
+    <Col xl={6}>
+      <Card className="height-equal" style={{minHeight:"153px"}}>
         <CommonCardHeader title={LiveAlerts} span={LiveAlertData} />
         <CardBody className="live-dark">
-          {data.length > 0 &&
-            data.map((item, index) => (
+          {data?.length > 0 &&
+            data?.map((_, index) => (
               <Alert fade color="light-dark" className="alert-dismissible" key={index}>
                 <p className="text-dark">Nice, you triggered this alert message!</p>
                 <Button close onClick={() => dataShown(index)}></Button>

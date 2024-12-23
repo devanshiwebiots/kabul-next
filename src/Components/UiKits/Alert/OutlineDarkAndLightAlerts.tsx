@@ -16,7 +16,7 @@ const OutlineDarkAndLightAlerts = () => {
       <Card>
         <CommonCardHeader title={OutlineDarkLightAlerts} span={OutLineLightData} />
         <CardBody>
-          <Alert color='' isOpen={visible} toggle={onDismiss} className='txt-primary border-primary'>
+          <Alert color='transparent' isOpen={visible} toggle={onDismiss} className='txt-primary border-primary'>
             <Clock />
             <p>
               One of <strong>YouTube`s</strong> most crucial ranking factors is Watch Time.

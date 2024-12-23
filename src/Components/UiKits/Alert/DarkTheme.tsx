@@ -1,6 +1,6 @@
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { Href, LinkColorDarkTheme } from "@/Constant";
-import { DarkThemeList, DarkThemeLists, LinkColorData } from "@/Data/UiKits/Alert";
+import { ThemeLists, ThemeList, LinkColorData } from "@/Data/UiKits/Alert";
 import Link from "next/link";
 import { Fragment } from "react";
 import { Alert, Card, CardBody, Col, Row } from "reactstrap";
@@ -13,23 +13,21 @@ const DarkTheme = () => {
         <CardBody>
           <Row>
             <Col xl={6}>
-              {DarkThemeList?.map(({ title, color }, index) => (
+              {ThemeList?.map((item, index) => (
                 <Fragment key={index}>
-                  <p className="mb-0 f-w-500">{title} Alert</p>
-                  <Alert color={color} className="dark">
-                    <p>This is a <Link className="alert-link text-white text-lowercase" href={Href}>{title} Alert</Link> with an example link.Check it out.</p>
+                  <p className="mb-0 f-w-500 text-capitalize">{item} Alert</p>
+                  <Alert color={item} className="dark">
+                    <p>This is a <Link className="alert-link text-white" href={Href}>{item} alert</Link> with an example link.Check it out.</p>
                   </Alert>
                 </Fragment>
               ))}
             </Col>
             <Col xl={6}>
-              {DarkThemeLists?.map(({ title, color, className }, index) => (
+              {ThemeLists?.map(({ color, className }, index) => (
                 <Fragment key={index}>
-                  <p className="mb-0 f-w-500">{title} Alert</p>
+                  <p className="mb-0 f-w-500 text-capitalize">{color} Alert</p>
                   <Alert color={color} className="dark">
-                    <p>This is a
-                      <Link className={`alert-link text-${className ? className : "light"} text-lowercase`} href={Href}>{title} Alert</Link>
-                      with an example link.Check it out.
+                    <p>This is a <Link className={`alert-link text-${className ? className : "light"} text-lowercase`} href={Href}>{color} Alert</Link> with an example link.Check it out.
                     </p>
                   </Alert>
                 </Fragment>

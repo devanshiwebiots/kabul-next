@@ -460,9 +460,17 @@ export const DismissingLightAlert: string = "Dismissing Light Alerts";
 export const LiveAlerts: string = "Live Alert";
 export const ShowLiveAlert: string = "Show live alert";
 export const LeftBorderAlerts: string = "Left Border Alert";
-export const CustomAlert: string = "Custom Alert Box";
 export const AdditionalContents: string = "Additional content";
-export const PleaseCheckYourNotifications: string = "Please! Check your notifications";
 
-
-
+//UiKits-Tooltip
+export const BasicTooltips: string = "Basic Tooltip";
+export const MagicPleaseHoverMe: string = "It's magic please hover me...";
+export const InlineTooltipContent: string = "Inline Tooltip Content";
+export const ColoredTooltips: string = "Colored Tooltip ";
+export const TooltipSmall: string = "tooltip";
+export const ButtonSmall: string = "button";
+export const HTMLElementsWithHoverEffect: string = "HTML Elements With Hover Effect";
+export const FilledTooltips: string = "Filled Tooltip";
+export const DirectionsTooltip: string = "Tooltip  Directions";
+export const ThankYouBold: string = "<b>Thank</b> <em>you</em>";
+export const ThankYouItalic: string = "<i>Thank </i> <u>you</u>";
