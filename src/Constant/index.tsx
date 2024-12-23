@@ -450,24 +450,48 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Ui Kits- Alert
+export const LinkColorDarkTheme: string = "Link Color In Dark Theme";
+export const LinkColorLightTheme: string = "Link Color In Light Theme";
+export const OutlineDarkLightAlerts: string = "Outline Dark And Light Alerts";
+export const AlertsWithIconsTextActions: string = "Alerts With Icons and Text Actions";
+export const DismissingDarkAlert: string = "Dismissing Dark Alerts";
+export const DismissingLightAlert: string = "Dismissing Light Alerts";
+export const LiveAlerts: string = "Live Alert";
+export const ShowLiveAlert: string = "Show live alert";
+export const LeftBorderAlerts: string = "Left Border Alert";
+export const AdditionalContents: string = "Additional content";
 
+//UiKits-Tooltip
+export const BasicTooltips: string = "Basic Tooltip";
+export const MagicPleaseHoverMe: string = "It's magic please hover me...";
+export const InlineTooltipContent: string = "Inline Tooltip Content";
+export const ColoredTooltips: string = "Colored Tooltip ";
+export const TooltipSmall: string = "tooltip";
+export const ButtonSmall: string = "button";
+export const HTMLElementsWithHoverEffect: string = "HTML Elements With Hover Effect";
+export const FilledTooltips: string = "Filled Tooltip";
+export const DirectionsTooltip: string = "Tooltip  Directions";
+export const ThankYouBold: string = "<b>Thank</b> <em>you</em>";
+export const ThankYouItalic: string = "<i>Thank </i> <u>you</u>";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Ui Kits - Dropdown
+export const BasicDropdowns: string = "Basic Dropdown";
+export const RoundedDropdowns: string = "Rounded Dropdown";
+export const SplitDropdowns: string = "Split Dropdown";
+export const Party: string = "Party";
+export const Inputs: string = "Inputs";
+export const HeadingDropdowns: string = "Heading Dropdown";
+export const WithInputTypes: string = "With Input Type";
+export const DarkDropdowns: string = "Dark Dropdown";
+export const DarkNight: string = "Dark Night";
+export const UniqueDropdownName: string = "Unique Dropdown";
+export const DropdownForms: string = "Dropdown form";
+export const Text: string = "Text";
+export const JustifyContent: string = "Justify Contents";
+export const Alignment: string = "Alignments";
+export const HelperCards: string = "Helper Card";
+export const DividerDropdowns: string = "Divider Dropdown";
+export const DropdownSizings: string = "Dropdown Sizing";
+export const RememberMe: string = "Remember me";
+export const Primary: string = "Primary";
