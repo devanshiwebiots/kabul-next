@@ -474,3 +474,24 @@ export const FilledTooltips: string = "Filled Tooltip";
 export const DirectionsTooltip: string = "Tooltip  Directions";
 export const ThankYouBold: string = "<b>Thank</b> <em>you</em>";
 export const ThankYouItalic: string = "<i>Thank </i> <u>you</u>";
+
+//Ui Kits - Dropdown
+export const BasicDropdowns: string = "Basic Dropdown";
+export const RoundedDropdowns: string = "Rounded Dropdown";
+export const SplitDropdowns: string = "Split Dropdown";
+export const Party: string = "Party";
+export const Inputs: string = "Inputs";
+export const HeadingDropdowns: string = "Heading Dropdown";
+export const WithInputTypes: string = "With Input Type";
+export const DarkDropdowns: string = "Dark Dropdown";
+export const DarkNight: string = "Dark Night";
+export const UniqueDropdownName: string = "Unique Dropdown";
+export const DropdownForms: string = "Dropdown form";
+export const Text: string = "Text";
+export const JustifyContent: string = "Justify Contents";
+export const Alignment: string = "Alignments";
+export const HelperCards: string = "Helper Card";
+export const DividerDropdowns: string = "Divider Dropdown";
+export const DropdownSizings: string = "Dropdown Sizing";
+export const RememberMe: string = "Remember me";
+export const Primary: string = "Primary";
