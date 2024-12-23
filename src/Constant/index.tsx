@@ -450,24 +450,62 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Ui Kits - Accordion
+export const Accordions: string = "Accordion";
+export const SimpleAccordions: string = "Simple Accordion";
+export const FlushAccordions: string = "Flush Accordion";
+export const MultipleCollapseAccordions: string = "Multiple Collapse Accordion";
+export const ToggleFirstElement: string = "Toggle first element";
+export const ToggleSecondElement: string = "Toggle second element";
+export const ToggleBothElement: string = "Toggle both elements";
+export const WithIconsAccordions: string = "With Icons Accordion";
+export const OutlineAccordions: string = "Outline Accordion ";
+export const HorizontalAccordions: string = "Horizontal Accordion";
+export const ToggleWidthCollapse: string = "Toggle width collapse";
+export const CollapseAccordions: string = "Collapse Accordion";
+export const LinkwithHref: string = "Link with href";
+export const ButtonWithDataBsTarget: string = "Button with data-bs-target";
 
+//Ui Kits- Tabs
+export const BootstrapTabs: string = "Bootstrap Tabs";
+export const Tabs: string = "Tabs";
+export const SimpleTab: string = "Simple tabs";
+export const IconsWithTab: string = "Icons With Tabs";
+export const VerticalTab: string = "Vertical Tabs";
+export const PillsTab: string = "Pills tabs";
+export const JustifyTab: string = "Justify Tabs";
+export const MaterialStyleLeftTab: string = "Material Style Left Tabs";
+export const DalbultCaslin: string = "Dalbult Caslin ";
+export const MaterialStyleTab: string = "Material Style Tabs";
+export const BorderTab: string = "Border Tabs ";
+export const Contact: string = "Contact";
+export const Components: string = "Components";
+export const PageTab: string = "Page";
+export const AboutUs: string = "About us";
+export const Blog: string = "Blog";
+export const UxDesigner: string = "UX designer";
+export const IOTDeveloper: string = "IOT developer";
+export const KabulProfilesForNewEmployees: string = "Kabul Profiles For New Employees:";
+export const User: string = "User";
+export const Review: string = "Review";
+export const ExampleTextarea: string = "Example textarea";
+export const Home: string = "Home";
+export const Profile: string = "Profile";
+export const ContactUs: string = "Contact us";
+export const Settings: string = "Settings";
+export const WebDesigner: string = "Web Designer";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Ui Kits - Lists
+export const DefaultList: string = "Default Lists ";
+export const ActiveList: string = "Active Lists ";
+export const FlushList: string = "Flush Lists";
+export const ContextualClass: string = "Contextual classes";
+export const HorizontalList: string = "Horizontal Lists";
+export const CustomContentList: string = "Custom Content Lists";
+export const ListsWithCheckboxs: string = "Lists With Checkbox";
+export const ListsWithRadio: string = "Lists With Radios";
+export const ListsWithNumber: string = "Lists With Numbers";
+export const JavaScriptBehaviors: string = "JavaScript Behavior";
+export const NumberedBadgeList: string = "Numbered & Badge Lists";
+export const DisabledList: string = "Disabled Lists ";
+export const ScrollableList: string = "Scrollable Lists ";
