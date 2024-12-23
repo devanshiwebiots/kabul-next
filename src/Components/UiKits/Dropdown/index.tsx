@@ -15,20 +15,20 @@ import WithInputType from "./WithInputType";
 
 const DropdownContainer = () => {
   return (
-    <Container fluid className="dropdown-page">
+    <Container fluid>
       <Row>
-         <BasicDropdown/>
-         <RoundedDropdown/>
-         <SplitDropdown/>
-         <HeadingDropdown/>
-         <WithInputType/>
-         <DarkDropdown/>
-         <UniqueDropdown/>
-         <JustifyContents/>
-         <Alignments/>
-         <HelperCard/>
-         <DividerDropdown/>
-         <DropdownSizing/>
+        <BasicDropdown />
+        <RoundedDropdown />
+        <SplitDropdown />
+        <HeadingDropdown />
+        <WithInputType />
+        <DarkDropdown />
+        <UniqueDropdown />
+        <JustifyContents />
+        <Alignments />
+        <HelperCard />
+        <DividerDropdown />
+        <DropdownSizing />
       </Row>
     </Container>
   );

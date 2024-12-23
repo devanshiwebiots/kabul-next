@@ -19,7 +19,7 @@ const UniqueDropdown = () => {
             <Dropdown isOpen={open} toggle={toggle}>
               <DropdownToggle caret color="dark" className="text-white">{Text}</DropdownToggle>
               <DropdownMenu className="p-4 text-muted form-wrapper">
-                <p>Some example text that&apos;s free-flowing within the dropdown menu.</p>
+                <p>Some example text that's free-flowing within the dropdown menu.</p>
                 <p className="mb-0">And this is more example text. </p>
               </DropdownMenu>
             </Dropdown>
