@@ -450,24 +450,44 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Bonus Ui - Scrollable
+export const CustomScrollbars: string = "Custom Scrollbar";
+export const SmallSizeScrollbars: string = "Small Size Scrollbar";
+export const SolutionBusinessTransformation: string = "Solution for Business Transformation";
+export const BadgesScrollbars: string = "Badges Scrollbar";
+export const ProfileScrollableTitle: string = "Profile Scrollable";
+export const ScrollableContents: string = "Scrollable Content";
+export const HorizontalScrollbars: string = "Horizontal Scrollbar ";
+export const BothSideVisibleScrollbars: string = "Both Side Visible Scrollbar";
 
+//Bonus Ui - Tree View
+export const BasicTreeTitle: string = "Basic Tree";
+export const DisabledTreeTitle: string = "Disabled Tree";
 
+//Bonus Ui - Toasts
+export const LiveToasts: string = "Live Toast";
+export const TopRightToasts: string = "Top-right toast";
+export const BottomRightToasts: string = "Bottom-right toast";
+export const TopLeftToasts: string = "Top-left toast";
+export const BottomLeftToasts: string = "Bottom-left toast";
+export const YourAccountWillBePermanentlyDeleted: string = "Your account will be permanently deleted?";
+export const ImNotSure: string = "I'm not sure";
+export const RemoveMyAccount: string = "Remove My Account";
+export const ColorsScheme: string = "Colors Schemes";
+export const StackingToast: string = "Stacking Toasts";
+export const TranslucentToast: string = "Translucent Toasts";
+export const DefaultToasts: string = "Default Toast";
+export const UniqueToasts: string = "Unique Toast";
+export const ToastPlacements: string = "Toast Placement";
+export const KabulTheme: string = "Kabul Theme";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Bonus Ui - Rating
+export const RatingBars: string = "1 to 10 Rating Bar";
+export const MovieRatingBar: string = "Movie Rating Bar";
+export const SquareRatingBar: string = "Square Rating Bar";
+export const PillRatingBar: string = "Pill Rating Bar";
+export const ReversedRatingBar: string = "Reversed Rating Bar";
+export const StarRatingBar: string = "Star Rating Bar";
+export const AnimatedRatingBar: string = "Animated Rating Bar";
+export const CurrentRatingBar: string = "Current Rating Bar";
 
