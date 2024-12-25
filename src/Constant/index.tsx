@@ -450,9 +450,21 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Bonus Ui - Dropzone
+export const DefaultFileUploads: string = "Default File Upload";
+export const PreviewImage: string = "Image Preview ";
+export const SingleFileUploads: string = "Single File Upload";
+export const MultiFileUploads: string = "Multi File Upload";
+export const DropFilesHereOrClickToUpload: string = "Drop files here or click to upload.";
 
-
-
+//Bonus Ui - Tour
+export const WilliamJennings: string = "William C. Jennings";
+export const WebDesignerTour: string = " Web Designer";
+export const FollowerTour: string = "Follower";
+export const FollowingTour: string = "Following";
+export const WonderfulTour: string = "Wonderful piece that successfully conveys the magnificence of the mountains and the natural world.";
+export const ReadMoreTour: string = "ReadMore";
+export const PainterTourTitle: string = "English Romantic painter, printer, and watercolourist ";
 
 
 

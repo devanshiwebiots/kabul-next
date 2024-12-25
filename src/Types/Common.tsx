@@ -52,3 +52,9 @@ export interface NoSsrProps {
   children: ReactNode;
  }
  
+export interface CommonFileUploadProp {
+  maxFiles?: number;
+  multiple?: boolean;
+  body?: boolean;
+  className?:string
+}
