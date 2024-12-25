@@ -2,14 +2,13 @@
 import React, { useEffect, useState } from "react";
 import { Card, CardBody, Col } from "reactstrap";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { ReverseRatingData } from "@/Data/BonusUi/Rating";
+import { data, ReverseRatingData } from "@/Data/BonusUi/Rating";
 import { ReversedRatingBar } from "@/Constant";
 import Rating from "react-rating";
 
 const ReverseRating = () => {
   const [rating, setRating] = useState(3);
   const [status, setStatus] = useState("Disagree");
-  const data = [1, 2, 3, 4, 5];
 
   useEffect(() => {
     switch (rating) {

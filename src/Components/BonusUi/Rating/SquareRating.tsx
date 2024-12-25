@@ -1,14 +1,13 @@
 //@ts-nocheck
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { SquareRatingBar } from "@/Constant";
-import { SquareRatingData } from "@/Data/BonusUi/Rating";
+import { data, SquareRatingData } from "@/Data/BonusUi/Rating";
 import React, { useState } from "react";
 import Rating from "react-rating";
 import { Card, CardBody, Col } from "reactstrap";
 
 const SquareRating = () => {
   const [rating, setRating] = useState(3);
-  const data = [1, 2, 3, 4, 5];
 
   return (
     <Col xxl={4} md={6}>

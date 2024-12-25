@@ -11,7 +11,7 @@ const BadgesScrollbar = () => {
         <CommonCardHeader title={BadgesScrollbars} span={BadgeScroll} />
         <CardBody>
           <ScrollBar className="scroll-demo" style={{ width: "100%", height: "250px" }}>
-            <ListGroup className="list-group list-group-numbered scroll-rtl">
+            <ListGroup className="list-group-numbered scroll-rtl">
               {BadgeScrollList?.map(({ title, color, text }, index) => (
                 <ListGroupItem className="d-flex align-items-start flex-wrap" key={index}>
                   <div className="ms-2 me-auto">{title}</div>

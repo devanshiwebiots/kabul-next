@@ -85,3 +85,6 @@ export const AnimatedRatingData = [
   }
 ]
 
+export const pillData = ["A", "B", "C", "D", "E"];
+
+export const data = [1, 2, 3, 4, 5];

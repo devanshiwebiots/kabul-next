@@ -1,4 +1,4 @@
-import { Button, Toast, ToastBody } from "reactstrap";
+import { Button, Toast, ToastBody, ToastHeader } from "reactstrap";
 import { Bell, Disc } from "react-feather";
 import { useState } from "react";
 import { CommonToastProp } from "@/Types/BonusUi";
@@ -8,12 +8,12 @@ const CommonToast: React.FC<CommonToastProp> = ({ item }) => {
 
   return (
     <Toast isOpen={open}>
-      <div className="toast-header">
+      <ToastHeader>
         {item.bell ? <Bell className={`toast-icons toast-${item.iconColor}`} /> : <Disc className={`toast-icons toast-${item.iconColor}`} />}
         <strong className="me-auto">{item.title}</strong>
         <small className={`${item.bell ? "" : "text-muted d-sm-block d-none"} ${item.className ? item.className : ""}`}>{item.time}</small>
         <Button close className="p-0" onClick={() => setOpen(false)}></Button>
-      </div>
+      </ToastHeader>
       <ToastBody className="toast-dark">{item.bodyText}</ToastBody>
     </Toast>
   );

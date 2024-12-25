@@ -1,14 +1,13 @@
 //@ts-nocheck
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { PillRatingBar } from "@/Constant";
-import { PillRatingData } from "@/Data/BonusUi/Rating";
+import { pillData, PillRatingData } from "@/Data/BonusUi/Rating";
 import React, { useState } from "react";
 import Rating from "react-rating";
 import { Card, CardBody, Col } from "reactstrap";
 
 const PillRating = () => {
   const [rating, setRating] = useState(1);
-  const pillData = ["A", "B", "C", "D", "E"];
 
   return (
     <Col xxl={4} md={6}>
