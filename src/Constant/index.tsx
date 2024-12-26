@@ -297,7 +297,7 @@ export const Rate: string = "Rate";
 export const Qty: string = "Qty";
 export const LineTotal: string = "Line Total";
 export const Download: string = "Download";
-export const ContactNo= "Contact No"
+export const ContactNo = "Contact No"
 export const Email: string = "Email";
 export const Website: string = "Website";
 export const Date: string = "Date";
@@ -337,17 +337,17 @@ export const NameAndPhoneNumber = "Name and phone number";
 export const TypeMessageHere: string = "Type Message here..";
 
 //Letter-Box
-export const EmailFilter= "email filter"
-export const ComposeEmail =" Compose Email"
+export const EmailFilter = "email filter"
+export const ComposeEmail = " Compose Email"
 export const Inbox: string = "Inbox";
 export const AddLabelHeading = "Add Label"
-export const ComposeMessage= "Compose Message"
-export const SaveAsDraft=  "Save as draft"
+export const ComposeMessage = "Compose Message"
+export const SaveAsDraft = "Save as draft"
 export const FromHeading = "From"
 export const Send: string = "Send";
-export const LabelName= "Label Name"
-export const LabelColor= "Label Color"
-export const InterviewMail= "Interview Mail"
+export const LabelName = "Label Name"
+export const LabelColor = "Label Color"
+export const InterviewMail = "Interview Mail"
 
 //Users
 export const Bio: string = "Bio";
@@ -450,18 +450,17 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
-
-
-
-
-
-
-
-
-
-
-
-
+//Bonus Ui - Carousel
+export const SlidesOnlyTitle: string = "Slides Only";
+export const WithControlsTitle: string = "With Controls";
+export const AutoPlay: string = "Auto Play Variant";
+export const MouseWheel: string = "Mouse Wheel Variant";
+export const WithIndicator: string = "With Indicator";
+export const WithCaption: string = "With Captions";
+export const Cross: string = "Cross-Fade";
+export const IndividualItemInterval: string = "Individual Carousel-Item Interval";
+export const DisableTouchSwiping: string = "Disable Touch Swiping";
+export const DarkVariation: string = "Dark Variant";
 
 
 
