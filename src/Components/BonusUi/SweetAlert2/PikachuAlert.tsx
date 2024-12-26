@@ -11,8 +11,8 @@ const PikachuAlert = () => {
             showDenyButton: true,
             showCancelButton: true,
             confirmButtonText: "Throw Pokeball!",
-            denyButtonText: `Defeat`,
-            cancelButtonText: `Run away!`,
+            denyButtonText: "Defeat",
+            cancelButtonText: "Run away!",
             confirmButtonColor: "var(--theme-default)",
             denyButtonColor: "var(--theme-default)"
         }).then((result) => {

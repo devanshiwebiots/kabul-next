@@ -11,7 +11,6 @@ const AJAXRequestAlert = () => {
       input: "text",
       confirmButtonText: "Search!",
       confirmButtonColor: "var(--theme-default)",
-      allowOutsideClick: true
     }).then((name) => {
       if (!name || !name.value?.trim()) {
         return;
