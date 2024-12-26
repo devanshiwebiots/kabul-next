@@ -4,11 +4,10 @@ import Link from "next/link";
 import { Col, Row } from "reactstrap";
 
 const SecondSectionAboutSection = () => {
-  const PainterTourParagraph = "you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."
-  
+
   return (
     <>
-      <p className="block-ellipsis">{PainterTourParagraph}</p>
+      <p className="block-ellipsis">you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
       <Row className="g-3 mt-4 pictures" id="aniimated-thumbnials-2">
         <Col sm={6}>
           <Link href={Href}>

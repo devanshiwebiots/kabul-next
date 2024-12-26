@@ -17,8 +17,7 @@ export const TourInfoData = [
       colClass: "mt-0 mt-sm-3",
       iconClass: "phone",
       text: "   Contact Us",
-      className: "ttl-xs-mt",
-  
+      className: "ttl-xs-mt",  
       spanText: "US 310-273-0666",
     },
     {
@@ -89,7 +88,7 @@ export const TourInfoData = [
     },
     {
       selector: ".step5",
-      content: "This is your social post image",
+      content: "This is your first Post",
     },
     {
       selector: ".step6",
@@ -106,7 +105,6 @@ export const TourInfoData = [
     {
       selector: ".step9",
       content: "This is your social details",
-    },
-    
+    }    
   ];
   
