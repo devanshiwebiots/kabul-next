@@ -450,12 +450,43 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Bonus Ui - Dropzone
+export const DefaultFileUploads: string = "Default File Upload";
+export const PreviewImage: string = "Image Preview ";
+export const SingleFileUploads: string = "Single File Upload";
+export const MultiFileUploads: string = "Multi File Upload";
+export const DropFilesHereOrClickToUpload: string = "Drop files here or click to upload.";
 
+//Bonus Ui - Tour
+export const WilliamJennings: string = "William C. Jennings";
+export const WebDesignerTour: string = " Web Designer";
+export const FollowerTour: string = "Follower";
+export const FollowingTour: string = "Following";
 
-
-
-
-
+//Bonus Ui - SweetAlert2
+export const ClickIt: string = "Click it!";
+export const BasicAlertTitle: string = "Basic Example";
+export const Surprise: string = "Surprise!";
+export const TitleWithTextTitle: string = "Title With A Text Under";
+export const InfoTitle: string = "Info Alert";
+export const Informational: string = "Informational";
+export const WarningAlertTitle: string = "Warning Alert";
+export const Warning: string = "Warning";
+export const PikachuAlertTitle: string = "Pikachu Alert";
+export const Pikachu: string = "Pikachu";
+export const QuestionAlertTitle: string = "Question Alert";
+export const Question: string = "Question state";
+export const UsernameTitle: string = "Username Alert";
+export const SuccessMessageTitle: string = "Success Message";
+export const SuccessMessage: string = "Login successfully";
+export const DangerTitle: string = "Danger Alert";
+export const Danger: string = "Danger mode";
+export const WarningModeTitle: string = "Warning Mode";
+export const AlertMode: string = "Alert mode";
+export const Timer: string = "Timer";
+export const AutoCloseTimerTitle: string = "Auto Close Timer";
+export const MovieMode: string = "Movie mode";
+export const AJAXRequestAlertTitle: string = "AJAX Request Movie";
 
 
 
