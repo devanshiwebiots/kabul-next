@@ -119,7 +119,7 @@ export const Routes = {
       Dropzone: "/bonus-ui/dropzone",
       Tour: "/bonus-ui/tour",
       SweetAlert2: "/bonus-ui/sweet-alert-2",
-      ReactstrapCarousel: "/bonus-ui/carousel",
+      Carousel: "/bonus-ui/carousel",
       Ribbons: "/bonus-ui/ribbons",
       Pagination: "/bonus-ui/pagination",
       Breadcrumb: "/bonus-ui/breadcrumb",

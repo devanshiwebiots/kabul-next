@@ -227,7 +227,7 @@ export const MenuList: MenuItem[] | undefined = [
           { title: "Dropzone", type: "link", url: Routes.BonusUi.Dropzone },
           { title: "Tour", type: "link", url: Routes.BonusUi.Tour },
           { title: "SweetAlert2", type: "link", url: Routes.BonusUi.SweetAlert2 },
-          { title: "Carousel", type: "link", url: Routes.BonusUi.ReactstrapCarousel },
+          { title: "Carousel", type: "link", url: Routes.BonusUi.Carousel },
           { title: "Ribbons", type: "link", url: Routes.BonusUi.Ribbons },
           { title: "Pagination", type: "link", url: Routes.BonusUi.Pagination },
           { title: "Breadcrumb", type: "link", url: Routes.BonusUi.Breadcrumb },
