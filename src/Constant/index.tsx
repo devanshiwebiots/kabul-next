@@ -488,3 +488,10 @@ export const DividerBreadcrumbs: string = "Divider Breadcrumb";
 export const WithIconsBreadcrumbs: string = "With Icons Breadcrumb";
 export const VariationOfBreadcrumbs: string = "Variation Of Breadcrumb";
 export const ColoredBreadcrumbs: string = "Colored Breadcrumb";
+
+//Bonus Ui - Image-Cropper
+export const ImageCropper: string = "Image Cropper";
+export const HiddenDownload: string = "Hidden download";
+export const DownloadCrop: string = "Download Crop";
+export const Scale: string = "Scale";
+export const Rotate: string = "Rotate";
