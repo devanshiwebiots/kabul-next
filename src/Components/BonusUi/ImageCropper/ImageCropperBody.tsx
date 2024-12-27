@@ -25,7 +25,7 @@ const ImageCropperBody = () => {
 
   const onSelectFile = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
-      setCrop(undefined); // Makes crop preview update between images.
+      setCrop(undefined); 
       const reader = new FileReader();
       reader.addEventListener("load", () => setImgSrc(reader.result?.toString() || ""));
       reader.readAsDataURL(e.target.files[0]);
