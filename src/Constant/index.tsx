@@ -462,11 +462,29 @@ export const IndividualItemInterval: string = "Individual Carousel-Item Interval
 export const DisableTouchSwiping: string = "Disable Touch Swiping";
 export const DarkVariation: string = "Dark Variant";
 
+//Bonus Ui - Ribbons
+export const VariationsOfLeftRibbons: string = "Variations Of Left Ribbons";
+export const VariationsOfRightRibbons: string = "Variations Of Right Ribbons";
 
+//Bonus Ui - Paginations
+export const DefaultPaginations: string = "Default Pagination";
+export const PaginationWithActiveAndDisabled: string = "Pagination With Active And Disabled";
+export const PaginationWithIcon: string = "Pagination With Icons";
+export const RoundedPaginations: string = "Rounded Pagination";
+export const PaginationAlignments: string = "Pagination Alignment";
+export const PaginationSizings: string = "Pagination Sizing";
 
-
-
-
-
-
-
+//Bonus Ui - Breadcrumb
+export const Breadcrumbs: string = "Breadcrumb";
+export const BreadcrumbHome: string = "Home";
+export const BreadcrumbUiKits: string = "Ui Kits";
+export const BreadcrumbAlert: string = "Alert";
+export const BreadcrumbProgress: string = "Progress";
+export const BreadcrumbBonusUi: string = "Bonus Ui";
+export const BreadcrumbTable: string = "Table";
+export const BreadcrumbBootstrapTable: string = "Bootstrap Tables";
+export const DefaultBreadcrumbs: string = "Default Breadcrumb";
+export const DividerBreadcrumbs: string = "Divider Breadcrumb";
+export const WithIconsBreadcrumbs: string = "With Icons Breadcrumb";
+export const VariationOfBreadcrumbs: string = "Variation Of Breadcrumb";
+export const ColoredBreadcrumbs: string = "Colored Breadcrumb";

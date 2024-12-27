@@ -19,3 +19,16 @@ export interface CommonCarouselProp {
     captionText?: string;
     captionHeader?: string;
   }
+
+  interface Span {
+    text: string;
+    spanText?: string;
+  }
+
+  export interface RibbonProp {
+    className: string;
+    ribbonClass: string;
+    title?: string;
+    span: Span[];
+    icon?: JSX.Element;
+  }

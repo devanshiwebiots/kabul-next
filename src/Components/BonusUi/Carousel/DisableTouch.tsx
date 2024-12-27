@@ -1,4 +1,5 @@
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
+import RatioImage from "@/CommonComponents/RatioImage";
 import { DisableTouchSwiping, ImagePath } from "@/Constant";
 import { DisableTouchData, DisableTouchDataList } from "@/Data/BonusUi/Carousel";
 import { Card, CardBody, Col } from "reactstrap";
@@ -21,7 +22,7 @@ const DisableTouch = () => {
                     >
                         {DisableTouchDataList?.map((item, index) => (
                             <SwiperSlide key={index}>
-                                <img className="d-block w-100" src={`${ImagePath}/slider/${item}.jpg`} alt="drawing-room" />
+                                <RatioImage className="d-block w-100" src={`${ImagePath}/slider/${item}.jpg`} alt="drawing-room" />
                             </SwiperSlide>
                         ))}
                     </Swiper>

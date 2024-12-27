@@ -6,6 +6,7 @@ import { IndividualIntervalData, IndividualIntervalDataList } from "@/Data/Bonus
 import { Card, CardBody, Col } from "reactstrap";
 import { Autoplay, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
+import RatioImage from "@/CommonComponents/RatioImage";
 
 const IndividualInterval = () => {
     const swiperRef = useRef(null);
@@ -49,7 +50,7 @@ const IndividualInterval = () => {
                         {IndividualIntervalDataList?.map((item, index) => (
                             <SwiperSlide key={index}>
                                 <div>
-                                    <img className="d-block w-100" src={`${ImagePath}/slider/${item.src}.jpg`} alt="drawing-room" />
+                                    <RatioImage className="d-block w-100" src={`${ImagePath}/slider/${item.src}.jpg`} alt="drawing-room" />
                                 </div>
                             </SwiperSlide>
                         ))}

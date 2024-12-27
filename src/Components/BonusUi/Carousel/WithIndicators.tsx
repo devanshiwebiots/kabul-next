@@ -1,4 +1,5 @@
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
+import RatioImage from "@/CommonComponents/RatioImage";
 import { ImagePath, WithIndicator } from "@/Constant";
 import { WithIndicatorsData, WithIndicatorsDataList } from "@/Data/BonusUi/Carousel";
 import { Card, CardBody, Col } from "reactstrap";
@@ -20,7 +21,7 @@ const WithIndicators = () => {
                     >
                         {WithIndicatorsDataList?.map((item, index) => (
                             <SwiperSlide key={index}>
-                                <img className="d-block w-100" src={`${ImagePath}/slider/${item}.jpg`} alt="drawing-room" />
+                                <RatioImage className="d-block w-100" src={`${ImagePath}/slider/${item}.jpg`} alt="drawing-room" />
                             </SwiperSlide>
                         ))}
                     </Swiper>

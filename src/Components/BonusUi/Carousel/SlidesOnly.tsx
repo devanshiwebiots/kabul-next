@@ -4,6 +4,7 @@ import { Card, CardBody, Col } from "reactstrap";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { ImagePath, SlidesOnlyTitle } from "@/Constant";
 import { SlidesOnlyData, SlidesOnlyDataList } from "@/Data/BonusUi/Carousel";
+import RatioImage from "@/CommonComponents/RatioImage";
 
 const SlidesOnly = () => {
     return (
@@ -20,7 +21,7 @@ const SlidesOnly = () => {
                     >
                         {SlidesOnlyDataList?.map((item, index) => (
                             <SwiperSlide key={index}>
-                                <img className="d-block w-100" src={`${ImagePath}/slider/${item}.jpg`} alt="drawing-room" />
+                                <RatioImage className="d-block w-100" src={`${ImagePath}/slider/${item}.jpg`} alt="drawing-room" />
                             </SwiperSlide>
                         ))}
                     </Swiper>

@@ -4,6 +4,7 @@ import { Card, CardBody, Col } from "reactstrap";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
 import { ImagePath, WithControlsTitle } from "@/Constant";
 import { WithControlData, WithControlDataList } from "@/Data/BonusUi/Carousel";
+import RatioImage from "@/CommonComponents/RatioImage";
 
 const WithControls = () => {
     return (
@@ -21,7 +22,7 @@ const WithControls = () => {
                     >
                         {WithControlDataList?.map((item, index) => (
                             <SwiperSlide key={index}>
-                                <img className="d-block w-100" src={`${ImagePath}/slider/${item}.jpg`} alt="drawing-room" />
+                                <RatioImage className="d-block w-100" src={`${ImagePath}/slider/${item}.jpg`} alt="drawing-room" />
                             </SwiperSlide>
                         ))}
                     </Swiper>

@@ -155,3 +155,21 @@ export const DarkVariantData = [
     text: "for darker controls, indicators, and captions."
   }
 ];
+
+export const DarkVariantDataList = [
+  {
+    src: '1',
+    title: 'We decorate our homes',
+    description: 'If you have been dreaming about bringing your living room together, our designers are here to help. Come see what we can do for your space.',
+  },
+  {
+    src: '3',
+    title: 'This couch is a great topic of conversation.',
+    description: 'A sofa is the ideal spot to enjoy a movie, nod off, and wake up.',
+  },
+  {
+    src: '6',
+    title: 'Sometimes all you really need to unwind is a comfortable couch.',
+    description: 'A house you can create with your friends is a great place.',
+  }
+];
