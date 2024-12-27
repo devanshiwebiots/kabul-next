@@ -450,24 +450,16 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Bonus Ui - Timeline
+export const Timeline: string = "Timeline";
+export const BasicTimelines: string = "Basic Timeline";
+export const HoveringTimelines: string = "Hovering Timeline";
+export const Location: string = "Location";
+export const OfwrriorCompanys: string = "Ofwrrior Company";
+export const USMeeting: string = "US Meeting";
+export const VariationTimelines: string = "Variation Timeline ";
+export const HorizontalTimelines: string = "Horizontal Timeline ";
+export const ReadMore: string = "Read more";
+export const MollyBoake: string = "Molly Boake";
 
 
