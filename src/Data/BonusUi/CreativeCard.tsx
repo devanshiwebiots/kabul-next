@@ -80,7 +80,23 @@ export const BorderSeconadaryData = [
   },
 ];
 
-export const BorderSeconadaryDataList = [
+export const BorderPrimaryStateData = [
+  {
+    name: "Teresa J. Mosteller",
+    src: "1",
+    active: true
+  },
+  {
+    name: "Gloria D. Acheson",
+    src: "3"
+  },
+  {
+    name: "Bryan A. Owens",
+    src: "5"
+  }
+]
+
+export const BorderSecondaryDataList = [
   {
     title: "Stella Nowland",
     color: "warning",

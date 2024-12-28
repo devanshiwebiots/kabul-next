@@ -7,8 +7,7 @@ import BorderBottom from "./BorderBottom";
 import BorderPrimaryState from "./BorderPrimaryState";
 import BorderWarningState from "./BorderWarningState";
 import BorderSecondaryState from "./BorderSecondaryState";
-import AbsoluteCard from "./AbsoluteCard";
- 
+import AbsoluteCard from "./AbsoluteCard"; 
 
 const CreativeCardContainer = () => {
   return (

@@ -1,7 +1,7 @@
 import { Badge, Card, CardBody, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { SecondaryBorderState } from "@/Constant";
 import CommonCreativeCardHeader from "./Common/CommonCreativeCardHeader";
-import { BorderSeconadaryData, BorderSeconadaryDataList } from "@/Data/BonusUi/CreativeCard";
+import { BorderSeconadaryData, BorderSecondaryDataList } from "@/Data/BonusUi/CreativeCard";
 
 const BorderSecondaryState = () => {
   return (
@@ -10,7 +10,7 @@ const BorderSecondaryState = () => {
         <CommonCreativeCardHeader headerClass="border-l-secondary border-3" title={SecondaryBorderState} span={BorderSeconadaryData} />
         <CardBody className="scroll-demo">
           <ListGroup numbered className="scroll-rtl">
-            {BorderSeconadaryDataList?.map(({ title, color, tag }, index) => (
+            {BorderSecondaryDataList?.map(({ title, color, tag }, index) => (
               <ListGroupItem className="d-flex align-items-start flex-wrap" key={index}>
                 <div className="ms-2 me-auto">{title}</div>
                 <Badge color={color} pill className="p-2">{tag}</Badge>

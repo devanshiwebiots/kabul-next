@@ -1,3 +1,4 @@
+import RatioImage from "@/CommonComponents/RatioImage";
 import { AbsoluteCards, ImagePath } from "@/Constant";
 import { CardAbsoluteData } from "@/Data/BonusUi/CreativeCard";
 import { Card, CardBody, CardHeader, Col } from "reactstrap";
@@ -14,7 +15,7 @@ const AbsoluteCard = () => {
             <CardBody>
               <div className="d-flex list-behavior-1 align-items-center">
                 <div className="flex-shrink-0">
-                  <img className="tab-img img-fluid" src={`${ImagePath}/blog/${src}`} alt="home" />
+                  <RatioImage className="tab-img img-fluid" src={`${ImagePath}/blog/${src}`} alt="home" />
                 </div>
                 <div className="flex-grow-1">
                   <p className="mb-xl-0 mb-sm-4">{span}</p>

@@ -4,7 +4,7 @@ import CommonCard from "./Common/CommonCard"
 const InfoColorBody = () => {
   return (
     <>
-      {InfoColorBodyData.map((item, index) => (
+      {InfoColorBodyData?.map((item, index) => (
         <CommonCard key={index} data={item} />
       ))}
     </>
