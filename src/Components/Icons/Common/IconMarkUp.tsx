@@ -33,7 +33,7 @@ const IconMarkUp: React.FC<IconMarkupType> = ({ icons, itag }) => {
                 <FormGroup>
                   <Input className="inp-val m-r-10" id="input_copy" type="text" defaultValue={itag.iTag} />
                   <CopyToClipboard text={itag.iTag}>
-                    <Button color="primary" className="notification" onClick={() => toast("Code Copied to clipboard !")}>
+                    <Button color="primary" className="notification" onClick={() => toast.success("Code Copied to clipboard !")}>
                       {CopyText}
                     </Button>
                   </CopyToClipboard>
