@@ -450,8 +450,42 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Buttons
+export const BasicButtonGroups: string = "Basic button group";
+export const Left: string = "Left";
+export const Middle: string = "Middle";
+export const Right: string = "Right";
+export const EdgesButtonGroups: string = "Edges button group";
+export const FlatButtonGroups: string = "Flat button group";
+export const LargeButtonGroups: string = "Large Button group";
+export const LargeEdgesButtonGroups: string = "Large Edges Button group";
+export const OutlineButtonGroups: string = "Outline Button group";
+export const OutlineCustomButtonGroupTitle: string = "Outline Custom button group";
+export const OutlineEdgeButton: string = "Outline Edges button";
+export const OutlineFlatButtons: string = "Outline flat button";
+export const RadioButtonGroups: string = "Radio button group";
+export const CheckboxButtonGroups: string = "Checkbox button group";
+export const NestingButton: string = "Nesting";
+export const DropdownLink: string = "Dropdown link";
+export const VerticalGroupButton: string = "Vertical";
+export const Buttons: string = "Button";
+export const DropdownTitle: string = "Dropdown";
+export const Dropdown: string = "Dropdown";
 
-
+//Charts - Apex charts
+export const BasicAreaCharts: string = "Basic Area Chart ";
+export const AreaSpalineCharts: string = "Area Spaline Chart";
+export const BarCharts: string = "Bar chart";
+export const ColumnCharts: string = "Column Chart ";
+export const BubbleCharts: string = "3d Bubble Chart";
+export const SteplineCharts: string = "Stepline Chart ";
+export const ChartColumn: string = "Column Chart";
+export const PieCharts: string = "Pie Chart ";
+export const DonutChart: string = "Donut Chart";
+export const MixedCharts: string = "Mixed Chart";
+export const CandlestickCharts: string = "Candlestick Chart ";
+export const RadarCharts: string = "Radar Chart";
+export const RadialBarCharts: string = "Radial Bar Chart";
 
 
 
