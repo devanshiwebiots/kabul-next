@@ -470,3 +470,14 @@ export const CopyText = "Copy text";
 export const Markup = "Markup";
 export const FeatherIcons: string = "Feather Icons";
 export const WeatherIconsWithAnimations = "Weather Icons With Animations";
+
+//Buttons
+export const ActiveButtonsHeading: string = "Active Buttons";
+export const DisabledButtonsHeading: string = "Disabled Buttons";
+export const OutlineButtonsHeading: string = "Outline Buttons";
+export const BoldBorderOutlineButtonsHeading: string = "Bold Border Outline Buttons";
+export const GradientButtonsHeading: string = "Gradient Buttons";;
+export const DefaultButtonsHeading: string = "Default Buttons";
+export const FlatButtonHeading: string = "Flat Buttons";
+export const EdgeButtonsHeading: string = "Raised with Edge Buttons";
+export const SizingButtonsHeading: string = "Sizing Buttons";
