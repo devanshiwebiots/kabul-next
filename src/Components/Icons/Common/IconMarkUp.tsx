@@ -3,7 +3,7 @@ import { Class, CopyText, Markup } from "@/Constant";
 import { IconMarkupType } from "@/Types/Icons";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { toast } from "react-hot-toast";
-import { Button, Container, Input, Row } from "reactstrap";
+import { Button, Container, FormGroup, Input, Row } from "reactstrap";
 
 const IconMarkUp: React.FC<IconMarkupType> = ({ icons, itag }) => {
   const featherIcons = require("feather-icons");
@@ -30,14 +30,14 @@ const IconMarkUp: React.FC<IconMarkupType> = ({ icons, itag }) => {
             <div className="icon-last icon-last">
               <label className="icon-title">{Markup}</label>
               <div className="form-inline">
-                <div className="form-group m-0">
+                <FormGroup>
                   <Input className="inp-val m-r-10" id="input_copy" type="text" defaultValue={itag.iTag} />
                   <CopyToClipboard text={itag.iTag}>
                     <Button color="primary" className="notification" onClick={() => toast("Code Copied to clipboard !")}>
                       {CopyText}
                     </Button>
                   </CopyToClipboard>
-                </div>
+                </FormGroup>
               </div>
             </div>
           </div>
