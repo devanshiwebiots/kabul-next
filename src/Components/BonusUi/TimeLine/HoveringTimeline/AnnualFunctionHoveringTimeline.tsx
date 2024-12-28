@@ -1,7 +1,7 @@
 import { Location } from "@/Constant";
 import { Label } from "reactstrap";
 
-export const AnnualFunctionHoveringTimeline = () => {
+const AnnualFunctionHoveringTimeline = () => {
   return (
     <li className="timeline-event">
       <Label className="timeline-event-icon"></Label>
@@ -14,3 +14,5 @@ export const AnnualFunctionHoveringTimeline = () => {
     </li>
   );
 };
+
+export default AnnualFunctionHoveringTimeline;

@@ -1,7 +1,8 @@
 import { Href, ImagePath, MollyBoake, OfwrriorCompanys } from "@/Constant";
+import Image from "next/image";
 import { Label, ListGroup, ListGroupItem } from "reactstrap";
 
-export const InterviewHoveringTimeline = () => {
+const InterviewHoveringTimeline = () => {
   return (
     <li className="timeline-event">
       <Label className="timeline-event-icon" />
@@ -14,7 +15,7 @@ export const InterviewHoveringTimeline = () => {
             <ListGroupItem tag="a" href={Href} className="list-group-item-action border-0 p-0 mb-4">
               <div className="d-flex w-100 justify-content-between align-items-center">
                 <div className="list-wrapper">
-                  <img className="list-img" src={`${ImagePath}/user/1.jpg`} alt="profile" />
+                  <Image height={51} width={51} className="list-img" src={`${ImagePath}/user/1.jpg`} alt="profile" />
                   <div className="list-content">
                     <h6>{MollyBoake}</h6>
                     <p>MollyBoake@rhyta.com</p>
@@ -34,3 +35,5 @@ export const InterviewHoveringTimeline = () => {
     </li>
   );
 };
+
+export default InterviewHoveringTimeline;

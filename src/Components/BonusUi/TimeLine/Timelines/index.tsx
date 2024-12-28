@@ -12,17 +12,17 @@ import ResolutionTimeline from "./ResolutionTimeline";
 
 const Timelines = () => {
   return (
-    <Col sm="12" className="box-col-12">
+    <Col sm={12} className="box-col-12">
       <Card>
         <CommonCardHeader title={TimelineTitle} span={TimeLineData} />
-        <CardBody className="rounded-timeline">
-          <VerticalTimeline animate={true}>
-            <AppIdeasTimeline/>
-            <BlogTimeline/>
-            <CarouselTimeline/>
-            <AutoTestingTimeline/>
-            <MeetUpTimeline/>
-            <ResolutionTimeline/>
+        <CardBody>
+          <VerticalTimeline animate={true} className="cd-container">
+            <AppIdeasTimeline />
+            <BlogTimeline />
+            <CarouselTimeline />
+            <AutoTestingTimeline />
+            <MeetUpTimeline />
+            <ResolutionTimeline />
           </VerticalTimeline>
         </CardBody>
       </Card>

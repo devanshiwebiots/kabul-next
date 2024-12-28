@@ -15,7 +15,7 @@ const BasicTimeline = () => {
                 <div className={`timeline-dot-${color}`}></div>
                 <div className="w-100 ms-3">
                   <p className="d-flex justify-content-between mb-2">
-                    <span className="date-content light-background">{date}</span>
+                    <span className="date-content light-background txt-dark">{date}</span>
                     <span>{time}</span>
                   </p>
                   <h6>{title}<span className="dot-notification"></span></h6>

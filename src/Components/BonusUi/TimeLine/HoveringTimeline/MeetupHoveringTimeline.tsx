@@ -1,7 +1,8 @@
 import { ImagePath, USMeeting } from "@/Constant";
 import { MeetupHoveringList } from "@/Data/BonusUi/Timeline";
+import Image from "next/image";
 
-export const MeetupHoveringTimeline = () => {
+const MeetupHoveringTimeline = () => {
   return (
     <li className="timeline-event">
       <label className="timeline-event-icon" />
@@ -11,10 +12,10 @@ export const MeetupHoveringTimeline = () => {
         <div className="text-muted">
           2209 Leverton Cove RoadSpringfield, MA 01109
           <div className="designer-details">
-            {MeetupHoveringList.map(({ image, name, number }, index) => (
+            {MeetupHoveringList?.map(({ image, name, number }, index) => (
               <div className="designer-profile" key={index}>
                 <div className="designer-wrap">
-                  <img className="designer-img" src={`${ImagePath}/${image}`} alt="profile" />
+                  <Image height={50} width={50} priority className="designer-img" src={`${ImagePath}/avtar/${image}.jpg`} alt="profile" />
                   <div className="designer-content">
                     <h6>{name}</h6>
                     <p>{number}</p>
@@ -28,3 +29,5 @@ export const MeetupHoveringTimeline = () => {
     </li>
   );
 };
+
+export default MeetupHoveringTimeline;

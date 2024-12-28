@@ -11,35 +11,35 @@ export const BasicTimeLineData = [
   export const BasicTimeLineDataList = [
     {
       color: "primary",
-      date: "2 Feb 2023",
+      date: "2 Feb 2024",
       time: "7:00 AM",
       title: "CONFERENCE WITH CLIENT",
       span: "At noon today, there will be a meeting with a UK client.",
     },
     {
       color: "secondary",
-      date: "22 March 2023",
+      date: "22 March 2024",
       time: "3:45 PM",
       title: "DISCUSSION WITH MARKETING TEAM",
       span: "discussion with the marketing staff on the success of the most recent project",
     },
     {
       color: "success",
-      date: "16 May 2023",
+      date: "16 May 2024",
       time: "1:22 AM",
       title: "INVEST IN A NEW HOSTING PLAN",
       span: "today at 2 pm AM, purchase a new hosting package as agreed upon with the management team.",
     },
     {
       color: "warning",
-      date: "23 Nov 2023",
+      date: "23 Nov 2024",
       time: "6:56 AM",
       title: "DISCUSSION WITH DESIGNER TEAM",
       span: "",
     },
     {
       color: "info",
-      date: "12 Dec 2023",
+      date: "12 Dec 2024",
       time: "12:05 AM",
       title: "DISCUSSION WITH NEW THEME LAUNCH ",
       span: "discussion with the how many themes made in our portfolio.",
@@ -75,12 +75,12 @@ export const BasicTimeLineData = [
   
   export const MeetupHoveringList = [
     {
-      image: "avtar/4.jpg",
+      image: "4",
       name: "Lillian J. Goodfellow",
       number: "239-664-7751",
     },
     {
-      image: "avtar/7.jpg",
+      image: "7",
       name: "Carolyn A. Sutton",
       number: "218-793-6609",
     },
@@ -88,18 +88,26 @@ export const BasicTimeLineData = [
   
   export const VariationTimeLineDataList = [
     {
+      color: "primary",
+      date: "8th March, 2024",
+      time: "1 day ago",
+      title: "Updated Product",
+      subTitle: "Quisque a consequat ante sit amet magna...",
+      subTitleClass: "f-light",
+    },
+    {
       color: "warning",
-      date: "5th Feb, 2023",
+      date: "5th Feb, 2024",
       time: "Today",
       title: "Added Bew Items",
       subTitle: "Quisque a consequat ante sit amet magna...",
       subTitleClass: "f-light",
-      image: ["dashboard-2/product/12.png", "dashboard-2/product/14.png", "dashboard-2/product/13.png"],
+      image: ["1", "2", "3"],
     },
     {
       className: "pb-0",
       color: "secondary",
-      date: "20th Sep, 2023",
+      date: "20th Sep, 2024",
       time: "12:00 PM",
       title: "Tello just like your product",
       subTitle: "Quisque a consequat ante sit amet magna...",
@@ -139,7 +147,7 @@ export const BasicTimeLineData = [
         {
           colClass: "horizontal-timeline",
           color: "danger",
-          date: "22 March",
+          date: "2 May",
           header: "Meeting",
           paragraph: "If several languages coalesce the grammar of the resulting simple and regular social networking platform.",
           verticalLine1: "vertical-line",
@@ -161,7 +169,7 @@ export const BasicTimeLineData = [
           colClass: "col-sm-6",
           verticalLine2: "vertical-line",
           color: "danger",
-          date: "22 March",
+          date: "2 May",
           header: "Meeting",
           paragraph: "If several languages coalesce the grammar of the resulting simple and regular social networking platform.",
         },

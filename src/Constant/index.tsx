@@ -461,5 +461,6 @@ export const VariationTimelines: string = "Variation Timeline ";
 export const HorizontalTimelines: string = "Horizontal Timeline ";
 export const ReadMore: string = "Read more";
 export const MollyBoake: string = "Molly Boake";
+export const TimelineTitle: string = "Timeline";
 
 
