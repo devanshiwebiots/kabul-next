@@ -450,24 +450,34 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Bonus Ui - Range Slider
+export const DefaultRangeSliders: string = "Default Range Slider";
+export const MinMaxValues: string = "Min Max Value";
+export const NegativeValues: string = "Negative Value";
+export const Disable: string = "Disabled";
+export const Prefixes: string = "Prefix";
+export const FormattedLabels: string = "Formated Label";
 
+//Bonus Ui - Basic Card
+export const BasicCards: string = "Basic Card";
+export const FlatCards: string = "Flat Card";
+export const WithoutShadowCards: string = "Without shadow Card";
+export const KabulTheme: string = "Kabul Theme";
+export const IconInHeadings: string = "Icon In Heading";
+export const DarkColorCards: string = "Dark Color Card";
+export const FooterCard: string = "Card Footer";
+export const SmartHeadphones: string = "Smart headphones";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Bonus Ui - Creative Card
+export const BorderLefts: string = "Border Left";
+export const BorderRights: string = "Border Right";
+export const TopBorder: string = "Border Top";
+export const BottomBorder: string = "Border Bottom";
+export const TeresaMosteller: string = "Teresa J. Mosteller";
+export const GloriaAcheson: string = "Gloria D. Acheson";
+export const BryanOwens: string = "Bryan A. Owens";
+export const PrimaryBorderState: string = "Border Primary State";
+export const WarningBorderState: string = "Border Warning State";
+export const SecondaryBorderState: string = "Border Secondary State";
+export const EmailAddressPlaceHolders: string = "youremail@gmail.com";
+export const AbsoluteCards: string = "Absolute Card";
