@@ -23,11 +23,7 @@ const CarouselTimeline = () => {
         >
           {Array.from({ length: 3 }, (_, i) => (
             <SwiperSlide key={i}>
-              <RatioImage
-                src={`${ImagePath}/banner/1.jpg`}
-                className="d-block w-100"
-                alt="office-work"
-              />
+              <RatioImage src={`${ImagePath}/banner/${i+1}.jpg`} className="d-block w-100" alt="office-work"/>
             </SwiperSlide>
           ))}
         </Swiper>
