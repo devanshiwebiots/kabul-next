@@ -463,4 +463,10 @@ export const ReadMore: string = "Read more";
 export const MollyBoake: string = "Molly Boake";
 export const TimelineTitle: string = "Timeline";
 
-
+//Icons
+export const FlagIcon: string = "Flag Icons";
+export const Class: string = " Class";
+export const CopyText = "Copy text";
+export const Markup = "Markup";
+export const FeatherIcons: string = "Feather Icons";
+export const WeatherIconsWithAnimations = "Weather Icons With Animations";
