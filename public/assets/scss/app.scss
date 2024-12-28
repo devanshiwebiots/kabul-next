@@ -4,6 +4,7 @@
 @import "vendors/flag-icon.scss";
 @import "vendors/themify/themify-icons";
 @import "vendors/icofont.scss";
+@import "vendors/whether-icon.scss";
 
 //bootstrap
 @import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,3 +27,11 @@
 
 // photoswipe
 @import 'photoswipe/dist/photoswipe.css';
+
+//timeline
+@import 'react-vertical-timeline-component/style.min.css';
+
+//swiper
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";

@@ -450,24 +450,34 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Bonus Ui - Timeline
+export const Timeline: string = "Timeline";
+export const BasicTimelines: string = "Basic Timeline";
+export const HoveringTimelines: string = "Hovering Timeline";
+export const Location: string = "Location";
+export const OfwrriorCompanys: string = "Ofwrrior Company";
+export const USMeeting: string = "US Meeting";
+export const VariationTimelines: string = "Variation Timeline ";
+export const HorizontalTimelines: string = "Horizontal Timeline ";
+export const ReadMore: string = "Read more";
+export const MollyBoake: string = "Molly Boake";
+export const TimelineTitle: string = "Timeline";
 
+//Icons
+export const FlagIcon: string = "Flag Icons";
+export const Class: string = " Class";
+export const CopyText = "Copy text";
+export const Markup = "Markup";
+export const FeatherIcons: string = "Feather Icons";
+export const WeatherIconsWithAnimations = "Weather Icons With Animations";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Buttons
+export const ActiveButtonsHeading: string = "Active Buttons";
+export const DisabledButtonsHeading: string = "Disabled Buttons";
+export const OutlineButtonsHeading: string = "Outline Buttons";
+export const BoldBorderOutlineButtonsHeading: string = "Bold Border Outline Buttons";
+export const GradientButtonsHeading: string = "Gradient Buttons";;
+export const DefaultButtonsHeading: string = "Default Buttons";
+export const FlatButtonHeading: string = "Flat Buttons";
+export const EdgeButtonsHeading: string = "Raised with Edge Buttons";
+export const SizingButtonsHeading: string = "Sizing Buttons";
