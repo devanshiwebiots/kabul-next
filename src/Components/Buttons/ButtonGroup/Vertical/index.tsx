@@ -12,7 +12,7 @@ const Vertical = () => {
         <CardBody className="btn-group-wrapper">
           <ButtonGroup vertical>
             <Button color="primary">{Buttons}</Button>
-            <Button color="secondary">{Buttons}</Button>
+            <Button>{Buttons}</Button>
            <CommonDropDown color="success" />
             <Button color="info">{Buttons}</Button>
             <Button color="warning">{Buttons}</Button>
