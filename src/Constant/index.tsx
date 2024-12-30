@@ -450,24 +450,8 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Miscellaneous - Gallery
+export const MasonryGalleryCap: string = "MASONRY GALLERY";
+export const MasonryGalleryDescriptionCap: string = "MASONRY GALLERY WITH DESCRIPTIONY";
+export const PortfolioTitle: string = "Portfolio Title";
 
