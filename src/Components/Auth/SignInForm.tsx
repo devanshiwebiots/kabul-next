@@ -49,12 +49,12 @@ const SignInForm = () => {
           <p>{EnterYourEmailAndPasswordToLogin}</p>
           <FormGroup>
             <Label className="col-form-label">{EmailAddress}</Label>
-            <Input type="email" defaultValue={email} onChange={(event) => setEmail(event.target.value)} placeholder="Test123@gmail.com" />
+            <Input type="email" defaultValue={email} onChange={(event) => setEmail(event.target.value)} placeholder="Test123@gmail.com" required/>
           </FormGroup>
           <FormGroup>
             <Label className="col-form-label">{Password}</Label>
             <div className="form-input position-relative">
-              <Input type={show ? "text" : "password"} defaultValue={password} onChange={(event) => setPassword(event.target.value)} placeholder="Test@123" />
+              <Input type={show ? "text" : "password"} defaultValue={password} onChange={(event) => setPassword(event.target.value)} placeholder="Test@123" required/>
               <div className="show-hide" onClick={() => setShow(!show)}>
                 <span className="show" />
               </div>

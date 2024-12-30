@@ -450,24 +450,24 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Charts - Google charts
+export const AreaChartOne: string = "Area Chart 1";
+export const ColumnChartOne: string = "Column Chart 1";
+export const AreaChartTwo: string = "Area Chart 2";
+export const ColumnChartTwo: string = "Column Chart 2";
+export const GanttCharts: string = "Gantt Chart";
+export const LineCharts: string = "Line Chart";
+export const ComboCharts: string = "Combo Chart";
+export const BarChartTwo: string = "Bar Chart 2";
+export const WordTreeChart: string = "word tree";
+export const PieChartOne: string = "Pie Chart 1";
+export const PieChartTwo: string = "Pie Chart 2";
+export const PieChartThree: string = "Pie Chart 3";
+export const PieChartFour: string = "Pie Chart 4";
 
+//Pages - Sample Page
+export const SampleCard: string = "Sample Card";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Pages - Others
+export const BackToHomePage: string = "BACK TO HOME PAGE";
 
