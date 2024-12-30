@@ -10,7 +10,7 @@ const RegisterBgTwoImageContainer = () => {
     <Container fluid>
       <Row>
         <Col xl={7}>
-          <RatioImage className="bg-img-cover bg-center" src={`${ImagePath}/login/1.jpg`} alt="looginpage" />
+          <RatioImage className="bg-img-cover bg-center" src={`${ImagePath}/login/1.jpg`} alt="loginpage" />
         </Col>
         <Col xl={5} className="p-0">
           <div className="login-card login-dark">
