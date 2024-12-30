@@ -6,7 +6,7 @@ import ReactApexChart from 'react-apexcharts'
 
 const MixedChart = () => {
   return (
-    <Col sm="12" xl="12" className="box-col-12">
+    <Col sm={12} xl={12} className="box-col-12">
       <Card>
         <CommonCardHeader title={MixedCharts} />
         <CardBody>

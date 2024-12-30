@@ -6,7 +6,7 @@ import ReactApexChart from 'react-apexcharts'
 
 const BubbleChart = () => {
   return (
-    <Col sm="12" xl="6" className="box-col-12">
+    <Col sm={12} xl={6} className="box-col-12">
       <Card>
         <CommonCardHeader title={BubbleCharts} />
         <CardBody>

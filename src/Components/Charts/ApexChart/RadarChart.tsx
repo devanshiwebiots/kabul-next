@@ -6,7 +6,7 @@ import ReactApexChart from 'react-apexcharts'
 
 const RadarChart = () => {
   return (
-    <Col sm="12" xl="6" className="box-col-6">
+    <Col sm={12} xl={6} className="box-col-6">
       <Card>
         <CommonCardHeader title={RadarCharts} />
         <CardBody>

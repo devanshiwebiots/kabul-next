@@ -487,7 +487,13 @@ export const CandlestickCharts: string = "Candlestick Chart ";
 export const RadarCharts: string = "Radar Chart";
 export const RadialBarCharts: string = "Radial Bar Chart";
 
-
+//Charts - ChartJS charts
+export const ChartJSBarChart: string = "Bar Chart";
+export const ChartJSLineGraph: string = "Line Graph";
+export const ChartJSRadarGraph: string = "Radar Graph";
+export const ChartJSLineChart: string = "Line Chart";
+export const ChartJSDoughnutChart: string = "Doughnut Chart";
+export const ChartJSPolarChart: string = "Polar Chart";
 
 
 
