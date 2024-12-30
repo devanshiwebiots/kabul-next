@@ -17,6 +17,53 @@ export const LinkedInIcon: string = " LinkedIn ";
 export const TwitterIcon: string = " twitter ";
 export const FacebookIcon: string = " facebook ";
 export const EnterYourEmailAndPasswordToLogin: string = "Enter your email & password to login"
+export const AgreeWithSignUp = "Agree with";
+export const PrivacyPolicy: string = "Privacy Policy";
+export const OrSignUpWith: string = "Or Sign up with";
+export const AlreadyHaveAnAccount: string = "Already have an account?";
+export const AuthSignIn: string = "Sign in";
+export const CreateYourAccount: string = "Create your account";
+export const YourNameSignUp = "Your Name";
+export const EmailAddressSignUp = "Email Address";
+export const PasswordSignUp = "Password";
+export const EnterYourPersonalDetailsToCreateAccount: string = "Enter your personal details to create account";
+export const EnterYourEmailPasswordToLoginWizard: string = "Enter your email & password to login";
+export const FirstNameWizard: string = "First Name";
+export const LastNameWizard: string = "Last Name";
+export const ContactNameWizard: string = "Contact No.";
+export const FirstNameWizardPlaceholder: string = "Johan";
+export const LastNameWizardPlaceholder: string = "Deo";
+export const ContactNameWizardPlaceholder: string = "123456789";
+export const EmailAddressWizardPlaceholder: string = "name@example.com";
+export const PasswordWizard: string = "Password";
+export const ConfirmPasswordWizard: string = "Confirm Password";
+export const ConfirmPasswordWizardPlaceholder: string = "Enter again";
+export const PasswordWizardPlaceholder: string = "Password";
+export const BirthdayWizard: string = "Birthday:";
+export const AgeWizard: string = "Age";
+export const HavePassport: string = "Have Passport";
+export const CountryWizard: string = "Country";
+export const StateWizard: string = "State";
+export const CityWizard: string = "City";
+export const NextWizardButton: string = "Next";
+export const FinishWizardButton: string = "Finish";
+export const PreviousWizardButton: string = "Previous";
+export const SignUpToAccount: string = "Sign up to account";
+export const Unlock: string = "Unlock";
+export const EnterYourPassword: string = "Enter your Password";
+export const Resend: string = "Resend";
+export const IfDontReceiveOtpString: string = "If don't receive OTP";
+export const EnterOTP: string = "Enter OTP";
+export const NewPassword: string = "New Password";
+export const RetypePassword: string = "Retype Password";
+export const DoneButton: string = "Done";
+export const CreateYourPassword: string = "Create Your Password";
+export const EnterYourMobileNumber: string = "Enter Your Mobile Number";
+export const ResetYourPassword: string = "Reset Your Password";
+export const BackToHomePage: string = "BACK TO HOME PAGE";
+export const MaintenancesTitle: string = "MAINTENANCE";
+export const MaintenancesSubContent: string = "Our Site is Currently under maintenance We will be back Shortly";
+export const ThankYouForPatience: string = "Thank You For Patience";
 
 //layout
 export const Pinned: string = "Pinned";
@@ -450,24 +497,13 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Coming soon
+export const WeAreComingSoon: string = "WE ARE COMING SOON";
+export const Days: string = "Days";
+export const Hours: string = "Hours";
+export const Minutes: string = "Minutes";
+export const Seconds: string = "Seconds";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Miscellaneous - Gallery
+export const ImageGallery: string = "IMAGE GALLERY";
+export const GalleryGridWithDescriptionCap: string = "IMAGE GALLERY WITH DESCRIPTION";
