@@ -455,3 +455,22 @@ export const MasonryGalleryCap: string = "MASONRY GALLERY";
 export const MasonryGalleryDescriptionCap: string = "MASONRY GALLERY WITH DESCRIPTIONY";
 export const PortfolioTitle: string = "Portfolio Title";
 
+//Miscellaneous - Blog
+export const TrendPosts: string = "Trending Posts";
+export const Subscribers: string = "Subscriber";
+export const CurrentPosts: string = "Recent Posts";
+export const PopularTags: string = "Popular Tags";
+export const FollowUs: string = "Follow Us";
+export const LatestNewsAndTrends: string = "Latest News and Trends";
+export const Comments: string = "Comments";
+export const LeaveYourComment: string = "Leave Your Comment";
+export const BlogPostButton: string = "Post";
+export const BlogDiscardButton: string = "Discard";
+export const PostEdit: string = "Post Edit";
+export const PostTitle: string = "Title";
+export const PostTitlePlaceholder: string = "Post Title";
+export const PostCategory: string = "Category";
+export const PostType: string = "Type";
+export const PostContent: string = "Content";
+export const PostTypePlaceholder: string = "Select Your Name....";
+export const BlogPostText: string = `Enter text in the area on the left. For more info, click the ? (help) icon in the menu.`;

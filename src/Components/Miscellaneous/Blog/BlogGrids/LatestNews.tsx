@@ -1,43 +1,45 @@
-import { newsData } from "@/Data/Miscellaneous/Blog";
-import React from "react";
+import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
+import { LatestNewsAndTrends } from "@/Constant";
+import { NewsData } from "@/Data/Miscellaneous/Blog";
+import { Routes } from "@/Utils/Routes";
+import Link from "next/link";
+import { Card, CardBody, Col, Row } from "reactstrap";
 
 const LatestNews = () => {
   return (
-    <div className='col-sm-12'>
-      <div className='card'>
-        <div className='card-header pb-0 border-0'>
-          <h4>Latest News and Trends</h4>
-        </div>
-        <div className='card-body'>
-          <div className='row gy-3'>
-            {newsData.map((news) => (
-              <div className='col-xxl-6 col-xl-12 col-md-6' key={news.id}>
+    <Col sm={12}>
+      <Card>
+        <CommonCardHeader title={LatestNewsAndTrends} />
+        <CardBody>
+          <Row className='gy-3'>
+            {NewsData?.map((news, index) => (
+              <Col xxl={6} xl={12} md={6} key={index}>
                 <div className='blog-card'>
-                  <h6>{news.title}</h6>
+                  <h4>{news.title}</h4>
                   <p>{news.description}</p>
                   <div className='post-social'>
                     <ul className='d-flex align-items-center'>
                       <li className='bg-light-primary txt-primary'>{news.date}</li>
                       <li className='bg-light-secondary txt-secondary'>
                         <i className='fa fa-user mx-1'></i>
-                        {news.author}
+                        Admin
                       </li>
-                      <li className='bg-light-info txt-info'>
+                      <li className='bg-light-success txt-success'>
                         <i className='fa fa-comments mx-1'></i>
                         {news.comments} Comments
                       </li>
                     </ul>
                   </div>
-                  <a className='btn' href='blog-details.html'>
+                  <Link className='btn' href={Routes.Blog.BlogDetails}>
                     View more<i className='fa fa-long-arrow-right'></i>
-                  </a>
+                  </Link>
                 </div>
-              </div>
+              </Col>
             ))}
-          </div>
-        </div>
-      </div>
-    </div>
+          </Row>
+        </CardBody>
+      </Card>
+    </Col>
   );
 };
 

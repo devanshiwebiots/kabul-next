@@ -1,28 +1,29 @@
-import SVG from "@/CommonComponent/SVG";
-import { ImagePath } from "@/Constant";
-import { blogGridData } from "@/Data/Miscellaneous/Blog";
+import SVG from "@/CommonComponents/SVG";
+import { Href, ImagePath } from "@/Constant";
+import { BlogGridData } from "@/Data/Miscellaneous/Blog";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Card, CardBody, CardHeader, Col, Row } from "reactstrap";
 
-export function BloggridDetail() {
-  const [liked, setLiked] = useState(blogGridData.map(() => false));
+const BlogGridDetail = () => {
+  const [liked, setLiked] = useState(BlogGridData.map(() => false));
   const toggleLike = (index: number) => {
     setLiked((prevLiked) => prevLiked.map((like, i) => (i === index ? !like : like)));
   };
 
   return (
     <Row>
-      {blogGridData.map((blog,index) => (
+      {BlogGridData?.map((blog, index) => (
         <Col xxl={4} xl={6} lg={4} sm={6} key={index}>
           <Card className='grid-cards'>
             <CardHeader className='p-0 border-0'>
-              <img className='img-fluid' src={`${ImagePath}/${blog.image}`} alt='' />
+              <img className='img-fluid' src={`${ImagePath}/blog/grid-${index+1}.jpg`} alt='' />
             </CardHeader>
             <CardBody>
               <div className='d-flex gap-2 align-items-center'>
                 <div className='flex-shrink-0'>
-                  <img className='img-fluid' src={`${ImagePath}/${blog.avatar}`} alt='avatar' />
+                  <Image height={40} width={40} priority className='img-fluid' src={`${ImagePath}/blog/about/${index+1}.png`} alt='avatar' />
                 </div>
                 <div className='flex-grow-1'>
                   <h6>{blog.author}</h6>
@@ -33,14 +34,12 @@ export function BloggridDetail() {
               <h5>{blog.title}</h5>
               <p>
                 {blog.description}
-                <Link className='font-danger mx-1' href='#javascript'>
-                  Read more...
-                </Link>
+                <Link className='font-danger mx-1' href={Href}>Read more...</Link>
               </p>
               <ul className='d-flex gap-3 justify-content-between'>
-                <li>{blog.views}</li>
+                <li>{blog.views}k views</li>
                 <li className={`${liked[index] ? "clicked-color" : ""} blog-like`} onClick={() => toggleLike(index)}>
-                  <SVG iconId={"blog-heart"} />
+                  <SVG iconId="blog-heart" />
                 </li>
               </ul>
             </CardBody>
@@ -50,3 +49,5 @@ export function BloggridDetail() {
     </Row>
   );
 }
+
+export default BlogGridDetail;
