@@ -1,8 +1,8 @@
-import { Col, Row } from "reactstrap";
 import { LatestArticles } from "@/Constant";
-import ArticleAndVideo3 from "./ArticleAndVideo3";
-import ArticleAndVideo1 from "./ArticleAndVideo1";
-import ArticleAndVideo2 from "./ArticleAndVideo2";
+import { ArticleAndVideoOne, ArticleAndVideoThird, ArticleAndVideoTwo } from "@/Data/Miscellaneous/Faq";
+import { Codepen, FileText, Youtube } from "react-feather";
+import { Col, Row } from "reactstrap";
+import CommonArticleVideo from "./Common/CommonArticleVideo";
 
 const ArticleAndVideo = () => {
   return (
@@ -11,9 +11,9 @@ const ArticleAndVideo = () => {
         <h4 className="f-w-600 mb-0">{LatestArticles}</h4>
       </div>
       <Row>
-        <ArticleAndVideo1 />
-        <ArticleAndVideo2 />
-        <ArticleAndVideo3 />
+        <CommonArticleVideo data={ArticleAndVideoOne} icon={<Codepen className="m-r-30" />} />
+        <CommonArticleVideo data={ArticleAndVideoTwo} icon={<FileText className="m-r-30" />} />
+        <CommonArticleVideo data={ArticleAndVideoThird} icon={<Youtube className="m-r-30" />} />
       </Row>
     </Col>
   );
