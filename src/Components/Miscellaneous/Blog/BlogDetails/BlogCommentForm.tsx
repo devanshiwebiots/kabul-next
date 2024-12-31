@@ -46,7 +46,7 @@ const BlogCommentForm = () => {
                   {errors.website && <span className='text-danger'>{errors.website.message}</span>}
                 </FormGroup>
               </Col>
-              <Col className='col-12'>
+              <Col xs={12}>
                 <FormGroup>
                   <Label>Comment</Label>
                   <textarea className='form-control' id='comment' placeholder='Write your comment' {...register("comment", { required: "Comment is required", minLength: { value: 10, message: "Comment must be at least 10 characters" }, maxLength: { value: 300, message: "Comment cannot exceed 300 characters" } })}></textarea>
