@@ -10,12 +10,12 @@ const FeaturesTutorial = () => {
         <h4 className="mb-0 f-w-600">{FeaturedTutorial}</h4>
       </div>
       <Row>
-        {FeaturesData?.map((item, id) => (
-          <Col xl={3} sm={6} className="xl-50 box-col-3" key={id}>
+        {FeaturesData?.map((item, index) => (
+          <Col xl={3} sm={6} className="xl-50 box-col-3" key={index}>
             <Card className="features-faq product-box">
               <div className="faq-image product-img">
                 <div className="knowledgebase-image">
-                  <img alt="feature" className="img-fluid" src={`${ImagePath}/${item.img}`} />
+                  <img alt="feature" className="img-fluid" src={`${ImagePath}/faq/${index+1}.jpg`} />
                 </div>
                 <div className="product-hover">
                   <ul>

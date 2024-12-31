@@ -1,4 +1,5 @@
 import { ArticleAndVideoThird } from "@/Data/Miscellaneous/Faq";
+import { Youtube } from "react-feather";
 import { Card, CardBody, Col, Row } from "reactstrap";
 
 const ArticleAndVideo3 = () => {
@@ -10,7 +11,7 @@ const ArticleAndVideo3 = () => {
             <Card>
               <CardBody>
                 <div className="d-flex articles-icons">
-                  {item.iconClass}
+                  <Youtube className="m-r-30" />
                   <div className="flex-grow-1">
                     <h5 className="f-w-600">{item.title}</h5>
                     <p>{item.description}</p>

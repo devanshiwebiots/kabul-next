@@ -8,7 +8,7 @@ const ArticleAndVideo = () => {
   return (
     <Col lg={12}>
       <div className="header-faq">
-        <h4 className="f-w-600 mb-0 f-w-600">{LatestArticles}</h4>
+        <h4 className="f-w-600 mb-0">{LatestArticles}</h4>
       </div>
       <Row>
         <ArticleAndVideo1 />

@@ -11,7 +11,7 @@ const AccordionCard: React.FC<AccordionCardPropsType> = ({ item }) => {
     <Card className="shadow-none">
       <CardHeader>
         <h5 className="mb-0">
-          <Button tag="a" color="transparent" className="btn-link collapsed ps-0 justify-content-between" onClick={handelChange}>
+          <Button tag="a" color="link" className="collapsed ps-0 justify-content-between" onClick={handelChange}>
             <span className="d-flex align-items-center gap-2">
               <HelpCircle />
               {item.title}

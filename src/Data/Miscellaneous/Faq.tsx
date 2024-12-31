@@ -1,4 +1,4 @@
-import { Aperture, BookOpen, Check, Codepen, DollarSign, Edit, FileText, Globe, Link, Mail, MessageCircle, RotateCcw, Youtube } from "react-feather";
+import { Aperture, BookOpen, Check, DollarSign, Edit, FileText, Globe, Link, Mail, MessageCircle, RotateCcw, Youtube } from "react-feather";
 
 export const ArticleData = [
     {
@@ -193,60 +193,37 @@ export const ArticleData = [
 
   export const FeaturesData = [
     {
-      id: 1,
-      img: "faq/1.jpg",
-      date: "15 April 2023",
-      writer: "Admin",
-      hits: "0",
-      short_description: [" Web Designing course belongs to the field of Computer Science and IT. It enables students to learn."],
-      rvalue: 4,
+      date: "15 April 2024",
+      short_description: " Web Designing course belongs to the field of Computer Science and IT. It enables students to learn.",
       title: "Web Design",
     },
     {
-      id: 2,
-      img: "faq/2.jpg",
-      date: "15 May 2023",
-      writer: "Admin",
-      hits: "0",
-      short_description: ["This course is designed to start you on a path toward future studies in web development and design."],
-      rvalue: 5,
+      date: "15 May 2024",
+      short_description: "This course is designed to start you on a path toward future studies in web development and design.",
       title: "Web Development",
     },
     {
-      id: 3,
-      img: "faq/3.jpg",
-      date: "15 June 2023",
-      writer: "Admin",
-      hits: "0",
-      short_description: ["User interface design (UI) is the design for machines and software, such as mobile devices, computers."],
-      rvalue: 4,
+      date: "15 June 2024",
+      short_description: "User interface design (UI) is the design for machines and software, such as mobile devices, computers.",
       title: "UI Design",
     },
     {
-      id: 4,
-      img: "faq/4.jpg",
-      date: "15 July 2023",
-      writer: "Admin",
-      hits: "0",
-      short_description: ["A Web Designing course belongs to the field of Computer Science and IT. It enables students to learn."],
-      rvalue: 3,
+      date: "15 July 2024",
+      short_description: "A Web Designing course belongs to the field of Computer Science and IT. It enables students to learn.",
       title: "Tailwind Design",
     },
   ];
   
   export const ArticleAndVideoOne = [
     {
-      iconClass: <Codepen className="m-r-30" />,
       title: "Article Base Video",
       description: "The web is a very big place, and if you are the typical internet base user.",
     },
     {
-      iconClass: <Codepen className="m-r-30" />,
       title: "Knows your sources",
       description: "A book giving information on many subjects or on many aspects of one subject.",
     },
     {
-      iconClass: <Codepen className="m-r-30" />,
       title: "Sources credible/reliable",
       description: "Simple demos of frequently asked questions about using the Libraries and information resources",
     },
@@ -254,17 +231,14 @@ export const ArticleData = [
   
   export const ArticleAndVideoTwo = [
     {
-      iconClass: <FileText className="m-r-30" />,
       title: "Validate website",
       description: "Website is the process of ensuring that the pages on the website conform.",
     },
     {
-      iconClass: <FileText className="m-r-30" />,
       title: "Tailwind Design",
       description: "Tailwind is so low-level, it never encourages you to design the same site twice.",
     },
     {
-      iconClass: <FileText className="m-r-30" />,
       title: "Knows your sources",
       description: "A book giving information on many subjects or on many aspects of one subject.",
     },
@@ -272,19 +246,16 @@ export const ArticleData = [
   
   export const ArticleAndVideoThird = [
     {
-      iconClass:<Youtube className="m-r-30" />,
       title: "Sources Demos",
       description: "Simple demos of frequently asked questions about using the information resources.",
       md:"6",
     },
     {
-      iconClass:<Youtube className="m-r-30" />,
       title: "Validate Html",
       description: "Website is the process of ensuring that the pages on the website conform.",
       md:"6",
     },
     {
-      iconClass: <Youtube className="m-r-30" />,
       title: "Web Design",
       description: "Web is so high-level, it never encourages you to design the same site twiceCras dapibus.",
     },
