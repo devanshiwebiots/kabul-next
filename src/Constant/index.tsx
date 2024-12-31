@@ -450,24 +450,35 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//FAQ
+export const QuickQuestions: string = "Quick Questions are answered";
+export const Navigations: string = "Navigation";
+export const AskQuestion: string = "Ask Question";
+export const FaqLatestUpdates: string = "Latest Updates";
+export const AskOurCommunity: string = "Ask our community";
+export const FaqContactUs: string = "Contact Us";
+export const SearchArticles: string = "SearchArticles";
+export const SearchArticlesPlaceholder: string = "Search..";
+export const FeaturedTutorial: string = "Featured Tutorials";
+export const LatestArticles: string = "Latest articles and videos";
 
+//Knowledgebase
+export const KnowledgebaseHelpQue: string = "How Can I help you?";
+export const KnowledgebasePlaceholder: string = "Type question here";
+export const KnowledgeArticle: string = "Browse articles by category";
+export const BrowseArticles: string = "Browse Articles";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Learnings
+export const LearningFilter: string = "Learning filter";
+export const FindCourseLearning: string = "Find Course";
+export const FilterLearning: string = "Filter";
+export const CategoriesLearning: string = "Categories";
+export const DurationLearning: string = "Duration";
+export const PriceLearning: string = "Price";
+export const StatusLearning: string = "Status";
+export const UpcomingCoursesHeading: string = "Upcoming Courses";
+export const CourseBy: string = "Course By";
+export const DesignLearning: string = "Design";
+export const DevelopmentTitle: string = "Development";
+export const CommentTitleLearning: string = "Comments";
 
