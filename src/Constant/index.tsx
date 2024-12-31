@@ -450,24 +450,29 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Job Search
+export const JobFilterData: string = "Job filter";
+export const FilterHeading: string = "Filter";
+export const FindJobs: string = "Find jobs";
+export const LocationHeading: string = "Location";
+export const AllLocations: string = "All Locations";
+export const JobHeading: string = "Job";
+export const AllJobTitle: string = "All Job Title";
+export const IndustryHeading: string = "Industry";
+export const AllIndustries: string = "All Industries";
+export const SpecificSkills: string = "Specific skills";
+export const AllSkills: string = "All Skills";
+export const SearchPlaceholder: string = "Search..";
+export const LocationPlaceholder: string = "location..";
+export const ApplyForThisJob: string = "Apply";
+export const ProductDesignerMainCard: string = "Product Designer (UI/UX Designer)";
+export const EndLessDesigner: string = "Endless - United States";
+export const SimilarJobs: string = "Similar jobs";
+export const JobDescriptionHeading: string = "Job Description";
+export const Qualifications: string = "Qualifications";
+export const AgencyExperience: string = "Agency experience";
+export const Perks: string = "Perks";
+export const Share: string = "share";
+export const SaveThisJob: string = " Save this job";
+export const StarColor: string = "#D77748";
 

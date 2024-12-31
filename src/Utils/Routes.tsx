@@ -202,10 +202,10 @@ export const Routes = {
     },
   
     JobSearch: {
-      JobCardsView: "/job-search/job-cards-view",
-      JobListView: "/job-search/job-list-view",
+      JobCardsView: "/job-search/cards-view",
+      JobListView: "/job-search/list-view",
       JobDetails: "/job-search/job-details",
-      JobApply: "/job-search/job-apply",
+      JobApply: "/job-search/apply",
     },
   
     Learning: {
