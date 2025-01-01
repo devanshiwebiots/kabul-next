@@ -450,24 +450,19 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//ThemeCustomizer
+export const QuickOption = "Quick option";
+export const LayoutTypes = "Layout Type";
+export const SidebarTypes = 'Sidebar Type';
+export const SidebarIcon = "Sidebar Icon";
+export const Stroke= "Stroke"
+export const Box = "Box"
+export const Fill= "Fill"
+export const LTRBadges= "LTR"
+export const RTLBadges = "RTL"
+export const UnlimitedColor = "Unlimited Color";
+export const LightLayout:string = "Light layout"
+export const DarkLayout:string = "Dark Layout"
+export const MixLayout = "Mix Layout";
+export const CopyText = "Copy text";
+export const PreviewCustomization = "Preview Customization";
