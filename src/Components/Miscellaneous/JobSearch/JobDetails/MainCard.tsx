@@ -4,6 +4,7 @@ import { Rating } from "react-simple-star-rating";
 import { Button, Card, CardBody, Row } from "reactstrap";
 import JobDescription from "./JobDescription";
 import SimilarJobsCards from "./SimilarJobsCards";
+import Image from "next/image";
 
 const MainCard = () => {
   return (
@@ -12,7 +13,7 @@ const MainCard = () => {
         <div className="job-search">
           <CardBody>
             <div className="d-flex">
-              <img className="img-40 b-r-0 img-fluid m-r-20" src={`${ImagePath}/job-search/1.jpg`} alt="job-search" />
+              <Image height={36} width={33} priority className="b-r-0 img-fluid m-r-20" src={`${ImagePath}/job-search/1.png`} alt="job-search" />
               <div className="flex-grow-1">
                 <h6 className="f-w-600">
                   <Link href={Href}>{ProductDesignerMainCard}</Link>

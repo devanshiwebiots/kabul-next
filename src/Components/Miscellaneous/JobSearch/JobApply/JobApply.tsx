@@ -1,4 +1,4 @@
-import { Href, ImagePath, JobCancelButton, JobPersonalDetails, JobSubmitButton, JobUIDesigner, JobUploadYourFiles, JobYourEducation, JobYourExperience, StarColorTwo } from "@/Constant";
+import { Href, ImagePath, JobCancelButton, JobEndlessTelecomTechnologies, JobPersonalDetails, JobSubmitButton, JobUIDesigner, JobUploadYourFiles, JobYourEducation, JobYourExperience, StarColor } from "@/Constant";
 import Link from "next/link";
 import { Rating } from "react-simple-star-rating";
 import { Button, Card, CardBody, CardFooter } from "reactstrap";
@@ -6,6 +6,7 @@ import PersonalDetail from "./PersonalDetail";
 import EducationClass from "./Education";
 import ExperienceClass from "./Experience";
 import UploadFileClass from "./UploadFile";
+import Image from "next/image";
 
 const JobApply = () => {
   return (
@@ -13,32 +14,30 @@ const JobApply = () => {
       <div className='job-search'>
         <CardBody className='pb-0'>
           <div className='d-flex'>
-            <img className='img-40 b-r-0 img-fluid  m-r-20' src={`${ImagePath}/job-search/1.jpg`} alt='' />
+            <Image height={36} width={33} priority className='b-r-0 img-fluid  m-r-20' src={`${ImagePath}/job-search/1.png`} alt='' />
             <div className='flex-grow-1'>
               <h6 className='f-w-600'>
                 <Link href={Href}>{JobUIDesigner}</Link>
                 <span className='pull-right'>
                   <Button color='primary'>
-                    <span>
-                      <i className='fa fa-check text-white' />
-                    </span>{" "}
+                    <span><i className='fa fa-check text-white' /></span>&nbsp;
                     Save this job
                   </Button>
                 </span>
               </h6>
               <p>
-                Save this job <Rating className='ms-1' fillColor={StarColorTwo} initialValue={Math.random() * 5} size={15} />
+                {JobEndlessTelecomTechnologies} <Rating className='ms-1' fillColor={StarColor} initialValue={Math.random() * 5} size={15} />
               </p>
             </div>
           </div>
           <div className='job-description'>
-            <h5 className='mb-0'>{JobPersonalDetails}</h5>
+            <h4 className='mb-0'>{JobPersonalDetails}</h4>
             <PersonalDetail />
-            <h5 className='mb-0'>{JobYourEducation}</h5>
+            <h4 className='mb-0'>{JobYourEducation}</h4>
             <EducationClass />
-            <h5 className='mb-0'>{JobYourExperience}</h5>
+            <h4 className='mb-0'>{JobYourExperience}</h4>
             <ExperienceClass />
-            <h5 className='mb-0'>{JobUploadYourFiles}</h5>
+            <h4 className='mb-0'>{JobUploadYourFiles}</h4>
             <UploadFileClass />
           </div>
         </CardBody>

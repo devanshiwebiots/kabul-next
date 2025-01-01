@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import Sidebar from "../Common/Sidebar";
 import MainCard from "./MainCard";

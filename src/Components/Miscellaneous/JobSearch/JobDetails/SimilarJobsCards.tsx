@@ -1,6 +1,7 @@
 import { ImagePath, StarColor } from "@/Constant";
 import { JobData } from "@/Data/Miscellaneous/JobSearch";
 import { SimilarJobsCardsType } from "@/Types/JobSearch";
+import Image from "next/image";
 import Link from "next/link";
 import { Rating } from "react-simple-star-rating";
 import { Badge, Card, CardBody, Col, Row } from "reactstrap";
@@ -16,11 +17,11 @@ const SimilarJobsCards:React.FC<SimilarJobsCardsType> = ({limit,jobClass,ribbon:
               <div className={`ribbon ribbon-bookmark ribbon-vertical-left ribbon-secondary ${!ribbon && "d-none"}`}>
                 <i className="icofont icofont-love"></i>
               </div>
-            ) : (" ")}
+            ) : " "}
             <div className="job-search">
               <CardBody>
                 <div className="d-flex">
-                  <img className="img-40 b-r-0 img-fluid m-r-20" src={`${ImagePath}/${item.logo}`} alt=""/>
+                  <Image height={33} width={33} priority className="img-40 b-r-0 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt=""/>
                   <div className="flex-grow-1">
                     <h6>
                       <Link href={`/job_search/job_detail`}>{item.job_name}</Link>
