@@ -12,7 +12,7 @@ const SupportTicketContainer = () => {
       <Row>
         <Col sm={12}>
           <Card>
-            <CommonCardHeader title={SupportTicketList} span={SupportData} headClass='card-no-border pb-0' />
+            <CommonCardHeader title={SupportTicketList} span={SupportData}  />
             <CardBody>
                 <TicketList/>
                 <TicketTable/>
