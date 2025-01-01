@@ -9,6 +9,7 @@ import { useAppDispatch, useAppSelector } from "@/Redux/Hooks";
 import Header from "@/Layout/Header";
 import Footer from "@/Layout/Footer";
 import BreadCrumbs from "@/Layout/BreadCrumbs";
+import TapTop from "@/Layout/TapTop";
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   const { layout } = useAppSelector((state) => state.themeCustomizer);
@@ -54,6 +55,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         </div>
       </div>
       <Toaster />
+      <TapTop />
     </>
   );
 };
