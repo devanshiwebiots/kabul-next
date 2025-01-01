@@ -19,7 +19,7 @@ const JobDescription = () => {
       <div className="job-description">
         <h5 className="mb-2">{AgencyExperience}</h5>
         <ul>
-          {AgencyExpData.map((data, index) => (<li key={index}>{data}</li>))}
+          {AgencyExpData?.map((data, index) => (<li key={index}>{data}</li>))}
         </ul>
       </div>
       <div className="job-description">

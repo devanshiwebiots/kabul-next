@@ -1,5 +1,6 @@
 import { Href, ImagePath, StarColor } from "@/Constant";
 import { JobData } from "@/Data/Miscellaneous/JobSearch";
+import Image from "next/image";
 import Link from "next/link";
 import { Rating } from "react-simple-star-rating";
 import { Badge, Card, CardBody } from "reactstrap";
@@ -17,7 +18,7 @@ const ListViewCard = () => {
           <div className="job-search">
             <CardBody>
               <div className="d-flex">
-                <img className="img-40 b-r-0 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt="job logo" />
+                <Image height={36} width={33} priority className="b-r-0 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt="job logo" />
                 <div className="flex-grow-1">
                   <h6 className="f-w-600">
                     <Link href={Href}>{item.job_name}</Link>

@@ -1,6 +1,7 @@
 import { ImagePath, StarColor } from "@/Constant";
 import { JobData } from "@/Data/Miscellaneous/JobSearch";
 import { SimilarJobsCardsType } from "@/Types/JobSearch";
+import { Routes } from "@/Utils/Routes";
 import Image from "next/image";
 import Link from "next/link";
 import { Rating } from "react-simple-star-rating";
@@ -21,10 +22,10 @@ const SimilarJobsCards:React.FC<SimilarJobsCardsType> = ({limit,jobClass,ribbon:
             <div className="job-search">
               <CardBody>
                 <div className="d-flex">
-                  <Image height={33} width={33} priority className="img-40 b-r-0 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt=""/>
+                  <Image height={33} width={33} priority className="b-r-0 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt=""/>
                   <div className="flex-grow-1">
                     <h6>
-                      <Link href={`/job_search/job_detail`}>{item.job_name}</Link>
+                      <Link href={Routes.JobSearch.JobDetails}>{item.job_name}</Link>
                       {item.type === "new" ? (<Badge color="primary" className="pull-right">{item.badgeValue}</Badge>) : 
                       (<span className="pull-right">{item.type}</span>)}
                     </h6>

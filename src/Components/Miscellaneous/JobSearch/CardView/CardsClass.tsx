@@ -1,5 +1,6 @@
 import { Href, ImagePath, StarColor } from "@/Constant";
 import { JobData } from "@/Data/Miscellaneous/JobSearch";
+import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";
 import { Rating } from "react-simple-star-rating";
@@ -20,7 +21,7 @@ const CardsClass = () => {
               <div className="job-search">
                 <CardBody>
                   <div className="d-flex">
-                    <img className="img-40 b-r-0 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt="job" />
+                    <Image height={36} width={33} priority className="b-r-0 img-fluid m-r-20" src={`${ImagePath}/job-search/${item.logo}`} alt="job" />
                     <div className="flex-grow-1">
                       <h6 className="f-w-600">
                         <Link href={Href}>{item.job_name}</Link>
@@ -29,7 +30,7 @@ const CardsClass = () => {
                       <p>
                         {item.job_area}, {item.job_city}
                         <span>
-                          <Rating className="ms-1" fillColor={StarColor}initialValue={Math.random() * 5} size={14} />
+                          <Rating className="ms-1" fillColor={StarColor} initialValue={Math.random() * 5} size={14} />
                         </span>
                       </p>
                     </div>
