@@ -450,24 +450,74 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Job Search
+export const JobFilterData: string = "Job filter";
+export const FilterHeading: string = "Filter";
+export const FindJobs: string = "Find jobs";
+export const LocationHeading: string = "Location";
+export const AllLocations: string = "All Locations";
+export const JobHeading: string = "Job";
+export const AllJobTitle: string = "All Job Title";
+export const IndustryHeading: string = "Industry";
+export const AllIndustries: string = "All Industries";
+export const SpecificSkills: string = "Specific skills";
+export const AllSkills: string = "All Skills";
+export const SearchPlaceholder: string = "Search..";
+export const LocationPlaceholder: string = "location..";
+export const ApplyForThisJob: string = "Apply";
+export const ProductDesignerMainCard: string = "Product Designer (UI/UX Designer)";
+export const EndLessDesigner: string = "Endless - United States";
+export const SimilarJobs: string = "Similar jobs";
+export const JobDescriptionHeading: string = "Job Description";
+export const Qualifications: string = "Qualifications";
+export const AgencyExperience: string = "Agency experience";
+export const Perks: string = "Perks";
+export const Share: string = "Share";
+export const SaveThisJob: string = " Save this job";
+export const StarColor: string = "#da9817";
+export const JobUIDesigner: string = "UI Designer";
+export const JobPersonalDetails: string = "Personal Details";
+export const JobYourEducation: string = "Your Education";
+export const JobYourExperience: string = "Your Experience";
+export const JobUploadYourFiles: string = "Upload Your Files";
+export const JobSubmitButton: string = "Submit";
+export const JobCancelButton: string = "Cancel";
+export const CollegePlaceholder: string = "Enter college name";
+export const DegreePlaceholder: string = "Degree";
+export const SpecializationPlaceholder: string = "Enter specialization";
+export const CollegeNameJob: string = "College Name";
+export const PeriodJob: string = "Period";
+export const DegreeLevelJob: string = "Degree Level";
+export const SpecializationJob: string = "Specialization";
+export const LocationJob: string = "Location";
+export const PositionJob: string = "Position";
+export const PositionJobPlaceholder: string = "Enter Position";
+export const CompanyNameJob: string = "Company Name";
+export const LocationJobPlaceholder: string = "Enter Location";
+export const CompanyJobPlaceholder: string = "Enter Company Name";
+export const FullNameJob: string = "Full name";
+export const FullNameJobPlaceholder: string = "Enter your full name";
+export const EmailJob: string = "Email";
+export const EmailJobPlaceholder: string = "Enter email";
+export const PasswordJob: string = "Password";
+export const PasswordJobPlaceholder: string = "Enter password";
+export const RepeatPasswordJob = "Repeat Password";
+export const RepeatPasswordJobPlaceholder = "Repeat password";
+export const PhoneNumberJob: string = "Phone Number";
+export const PhoneNumberJobPlaceholder: string = "Enter Phone no.";
+export const UploadCoverLetterJob: string = "Upload Cover Letter";
+export const UploadYourCvJob: string = "Upload Your CV";
+export const UploadRecommendationsJob: string = "Upload Recommendations";
+export const BirthDateJob: string = "Birth Date";
+export const JobEndlessTelecomTechnologies: string = "Endless Telecom & Technologies , NY";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Maps
+export const BasicDemoMap: string = "Basic Demo";
+export const CurrentLocation = "Current Location";
+export const MarkerMap = "Marker Map";
+export const PolygonsTitle: string = "POLYGONS";
+export const Polygons: string = "POLYGONS";
+export const LeafletWorldMap: string = "Leaflet World MAP";
+export const LeafletUSAMap: string = "Leaflet USA MAP";
+export const LeafletIndiaMap: string = "Leaflet India MAP";
+export const LeafletAustraliaMap: string = "Leaflet Australia MAP";
