@@ -450,24 +450,21 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Editors
+export const FroalaEditorExample: string = "Froala Editor";
+export const InlineEditors: string = "Inline Editor";
+export const EditorsText: string = "Your title";
+export const MdeEditorExample = "MDE Editor Example";
+export const SecondExample: string = "Second Example";
+export const Instructions: string = "Instructions";
+export const JavascriptModeTitle: string = "Javascript Mode";
+export const HTMLModeHeading: string = "HTML Mode";
+export const CSSModeHeading: string = "CSS Mode";
+export const JavaModeHeading: string = "Java Mode";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Support Ticket
+export const SupportTicketList: string = "Support Ticket List";
+export const ProfitSupportTicket: string = "Profit";
+export const LossSupportTicket: string = "Loss";
+export const DeleteSupportTicket: string = "Delete";
+export const DeleteData: string = "Delete Selected Data..!";
