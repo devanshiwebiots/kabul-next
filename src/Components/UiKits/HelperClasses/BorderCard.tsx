@@ -1,0 +1,50 @@
+import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
+import { AdditiveBorder, AdditiveRadiusTitle, BordersAndDisplays, SubtractiveBorder } from "@/Constant";
+import { AdditiveData, BorderData, RadiusData, Subtractivedata } from "@/Data/UiKits/HelperClasses";
+import { Card, CardBody, Col, Row } from "reactstrap";
+
+const BorderCard = () => {
+  return (
+    <Col xs={12}>
+      <Card>
+        <CommonCardHeader title={BordersAndDisplays} span={BorderData} headClass="pb-0" />
+        <CardBody>
+          <Row className="g-3">
+            <Col xl={4} sm={6}>
+              <div className="border-wrapper h-100 border">
+                <h4 className="mb-3">{AdditiveBorder}</h4>
+                {AdditiveData?.map((item, index) => (
+                  <div className="d-flex align-items-center mb-2 gap-2" key={index}>
+                    <div className={`helper-box bg-light border${item}`}></div>.border{item}
+                  </div>
+                ))}
+              </div>
+            </Col>
+            <Col xl={4} sm={6}>
+              <div className="border-wrapper h-100 border">
+                <h4 className="mb-3">{SubtractiveBorder}</h4>
+                {Subtractivedata?.map((item, index) => (
+                  <div className="d-flex align-items-center mb-2 gap-2" key={index}>
+                    <div className={`helper-box bg-light border border-${item}`}> </div>.border-{item}
+                  </div>
+                ))}
+              </div>
+            </Col>
+            <Col xl={4} sm={12}>
+              <div className="border-wrapper h-100 border">
+                <h4 className="mb-3">{AdditiveRadiusTitle}</h4>
+                {RadiusData?.map((item, index) => (
+                  <div className="d-flex align-items-center mb-2 gap-2" key={index}>
+                    <div className={`helper-radius radius-wrapper rounded${item}`}></div>.rounded{item}
+                  </div>
+                ))}
+              </div>
+            </Col>
+          </Row>
+        </CardBody>
+      </Card>
+    </Col>
+  );
+};
+
+export default BorderCard;
