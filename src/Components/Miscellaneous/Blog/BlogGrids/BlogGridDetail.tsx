@@ -1,3 +1,4 @@
+import RatioImage from "@/CommonComponents/RatioImage";
 import SVG from "@/CommonComponents/SVG";
 import { Href, ImagePath } from "@/Constant";
 import { BlogGridData } from "@/Data/Miscellaneous/Blog";
@@ -18,7 +19,7 @@ const BlogGridDetail = () => {
         <Col xxl={4} xl={6} lg={4} sm={6} key={index}>
           <Card className='grid-cards'>
             <CardHeader className='p-0 border-0'>
-              <img className='img-fluid' src={`${ImagePath}/blog/grid-${index+1}.jpg`} alt='' />
+              <RatioImage className='img-fluid' src={`${ImagePath}/blog/grid-${index+1}.jpg`} alt='' />
             </CardHeader>
             <CardBody>
               <div className='d-flex gap-2 align-items-center'>
