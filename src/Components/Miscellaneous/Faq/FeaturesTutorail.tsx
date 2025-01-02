@@ -2,6 +2,7 @@ import { FeaturedTutorial, ImagePath } from "@/Constant";
 import { Rating } from "react-simple-star-rating";
 import { Card, CardBody, CardFooter, Col, Row } from "reactstrap";
 import { FeaturesData } from "@/Data/Miscellaneous/Faq";
+import RatioImage from "@/CommonComponents/RatioImage";
 
 const FeaturesTutorial = () => {
   return (
@@ -15,7 +16,7 @@ const FeaturesTutorial = () => {
             <Card className="features-faq product-box">
               <div className="faq-image product-img">
                 <div className="knowledgebase-image">
-                  <img alt="feature" className="img-fluid" src={`${ImagePath}/faq/${index+1}.jpg`} />
+                  <RatioImage alt="feature" className="img-fluid" src={`${ImagePath}/faq/${index+1}.jpg`} />
                 </div>
                 <div className="product-hover">
                   <ul>

@@ -3,6 +3,7 @@ import BlogDetails from "./BlogDetails";
 import { Card, CardBody } from "reactstrap";
 import UserComment from "./UserComment";
 import { LearningCommentOne, LearningCommentTwo } from "@/Data/Miscellaneous/Learning";
+import RatioImage from "@/CommonComponents/RatioImage";
 
 const BlogSingle = () => {
   return (
@@ -10,7 +11,7 @@ const BlogSingle = () => {
       <CardBody>
         <div className='blog-single'>
           <div className='blog-box blog-details'>
-            <img className='img-fluid w-100' src={`${ImagePath}/faq/learning-1.png`} alt='blog-main' />
+            <RatioImage className='img-fluid w-100' src={`${ImagePath}/faq/learning-1.png`} alt='blog-main' />
             <BlogDetails />
           </div>
           <section className='comment-box'>

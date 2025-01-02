@@ -1,3 +1,4 @@
+import RatioImage from "@/CommonComponents/RatioImage";
 import { ImagePath } from "@/Constant";
 import { MainLearningCardData } from "@/Data/Miscellaneous/Learning";
 import { Card, Col, Row } from "reactstrap";
@@ -11,7 +12,7 @@ const MainLearningCards = () => {
           <Card>
             <Row className='blog-box blog-list '>
               <Col sm={5} className={`${index % 2 === 0 ? '' : 'order-sm-1'}`}>
-                <img className='img-fluid sm-100-w' src={`${ImagePath}/faq/${index + 1}.jpg`} alt='blog-image' />
+                <RatioImage className='img-fluid sm-100-w' src={`${ImagePath}/faq/${index + 1}.jpg`} alt='blog-image' />
               </Col>
               <Col sm={7} >
                 <div className='blog-details'>
