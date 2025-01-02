@@ -1,13 +1,12 @@
 import RatioImage from "@/CommonComponents/RatioImage";
+import SVG from "@/CommonComponents/SVG";
 import { AddToCart, AddToWishList, BuyNow, CancelledOrder, Href, ImagePath, NewOrder, ShippedOrder } from "@/Constant";
 import { OrderHistoryImageType, OrderHistoryTableColumns, ProductListTableDataColumnType, ProductListTableProduct } from "@/Types/Ecommerce";
-import Image from "next/image";
+import { Routes } from "@/Utils/Routes";
 import Link from "next/link";
 import { Clock, CreditCard, Gift, MoreVertical, Truck } from "react-feather";
-import { Badge } from "reactstrap";
 import { Rating } from "react-simple-star-rating";
-import { Routes } from "@/Utils/Routes";
-import SVG from "@/CommonComponents/SVG";
+import { Badge } from "reactstrap";
 
 export const ProductSocialLinks = [
   {
@@ -235,7 +234,7 @@ export const OrderHistoryData = [
 ];
 
 const OrderHistoryImage: React.FC<OrderHistoryImageType> = ({ name }) => {
-  return <Image height={30} width={30} priority className="img-fluid" src={`${ImagePath}/product/${name}.png`} alt="#" />;
+  return <RatioImage className="img-fluid" src={`${ImagePath}/product/${name}.png`} alt="#" />;
 };
 
 const OrderDataHistory: React.FC<OrderHistoryImageType> = ({ name, tag }) => {

@@ -7,7 +7,7 @@ const FormEditors = () => {
   return (
     <Col xs={12}>
       <div id="editor2">
-        <SimpleMdeReact id="editor_container" value={mdeEditorText} options={{ autofocus: false, spellChecker: true }}/>
+        <SimpleMdeReact id="editor_container" value={mdeEditorText} options={{ autofocus: false, spellChecker: false }}/>
       </div>
       <p className="mt-1 f-light detail-note">Improve product visibility by adding a compelling description.</p>
     </Col>

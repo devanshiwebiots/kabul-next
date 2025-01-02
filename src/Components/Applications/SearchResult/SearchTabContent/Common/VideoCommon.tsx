@@ -1,9 +1,6 @@
-import { Col } from "reactstrap";
-import { AllAbout, Href } from "@/Constant";
-import PagesSort from "../Common/PagesSort";
-import Link from "next/link";
-import { SearchTabData } from "@/Data/SearchResult";
+import { Href } from "@/Constant";
 import { InformationCommonPropsType } from "@/Types/SearchResult";
+import Link from "next/link";
 
 const VideoCommon: React.FC<InformationCommonPropsType> = ({ item }) => {
     return (

@@ -41,7 +41,7 @@ const TabTwo = () => {
                   <Col xs={12}>
                     <Label> {AdditionalDescription} </Label>
                     <div id="editor4" >
-                        <SimpleMdeReact id="editor_container" value={MdeEditorText} options={{ autofocus: false, spellChecker: true }} />
+                        <SimpleMdeReact id="editor_container" value={MdeEditorText} options={{ autofocus: false, spellChecker: false }} />
                     </div>
                     <p className="f-light">Enhance your SEO ranking with an added tag description for the product.</p>
                   </Col>
