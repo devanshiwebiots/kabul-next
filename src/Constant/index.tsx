@@ -450,24 +450,57 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Checkbox & Radio
+export const InstagramAnimated: string = "Instagram";
+export const WhatIsYourFavoriteSocialMedia: string = "What is your favorite social media?";
+export const SelectYourPaymentMethods: string = "Select your payment method";
+export const VisaAnimated: string = "Visa";
+export const AnimatedButton: string = "Animated buttons";
+export const BasicRadioAndCheckboxs: string = "Basic radio and checkbox";
+export const SimpleCheckbox: string = "Simple Checkbox";
+export const BasicRadioAndCheckboxBlog: string = "Blog";
+export const BasicRadioAndCheckboxSimpleRadios: string = "Simple Radios";
+export const BasicRadioAndCheckboxMaps: string = "Maps";
+export const BorderedCheckbox: string = "Bordered Checkbox ";
+export const PrimaryCheckboxPrimary: string = "Primary - checkbox-primary";
+export const IconCheckbox: string = "Icon Checkbox ";
+export const FilledCheckbox: string = "Filled Checkbox";
+export const WarningCheckboxSolidWarning: string = "Warning - checkbox-solid-warning ";
+export const CustomCheckboxs: string = "Custom checkbox";
+export const BorderedRadios: string = "Bordered Radio";
+export const KabulTheme: string = "Kabul Theme";
+export const IconsRadios: string = "Icons Radio";
+export const FilledRadios: string = "Filled Radio";
+export const CustomRadios: string = "Custom radio";
+export const ProductRadio: string = "Product";
+export const DefaultCheck: string = "Default Checks";
+export const Defaultcheckboxes: string = "Default checkbox";
+export const CheckedCheckbox: string = "Checked checkbox";
+export const Indeterminate: string = "Indeterminate";
+export const IndeterminateCheckbox: string = "Indeterminate checkbox";
+export const DefaultCheckboxs: string = "Default checkbox";
+export const CustomRadio: string = "Custom Radios";
+export const DefaultRadioLabel: string = "Default radio";
+export const DefaultCheckedRadio: string = "Default checked radio";
+export const DefaultRadios: string = "Default radio";
+export const DefaultSwitche: string = "Default switches";
+export const CustomSwitches: string = "Custom Switches";
+export const DefaultSwitchCheckboxInput: string = "Default switch checkbox input";
+export const CheckedSwitchCheckboxInput: string = "Checked switch checkbox input";
+export const ImagesWithCheckboxs: string = "Images with checkbox";
+export const ImagesWitRadio: string = "Images with radio";
+export const Custom: string = "Custom";
+export const InlineInputType: string = "Inline input-types";
+export const InlineCheckbox: string = "Inline Checkbox";
+export const InlineRadio: string = "Inline Radios";
+export const InlineSwitches: string = "Inline Switches";
+export const OutlinedCheckboxStyle: string = "Outlined checkbox styles";
+export const SingleToggle: string = "Single toggle";
+export const ButtonChecked: string = "Checked";
+export const ButtonCheckedSuccessRadio: string = "Checked success radio";
+export const ButtonDarkRadio: string = "Dark radio";
+export const RadioToggleButton: string = "Radio toggle buttons";
+export const RadioChecked: string = "Checked";
 
 
 
