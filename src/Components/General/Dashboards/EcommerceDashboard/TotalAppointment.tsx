@@ -23,7 +23,7 @@ const TotalAppointment = () => {
                                     <tr key={index}>
                                         <td>
                                             <div className="d-flex">
-                                                <Image className="img-fluid align-top circle" src={`${ImagePath}/dashboard-2/user/${index + 1}.png`} alt={user.name} width={42} height={42} />
+                                                <Image className="img-fluid align-top circle" src={`${ImagePath}/dashboard-2/user/${index + 1}.png`} alt={user.name} width={42} height={42} priority/>
                                                 <div className="flex-grow-1 text-truncate">
                                                     <Link href={Routes.Users.UserProfile}><span>{user.name}</span></Link>
                                                     <p className="mb-0">{user.statusTime}</p>

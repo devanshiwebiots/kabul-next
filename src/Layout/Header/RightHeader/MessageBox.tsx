@@ -19,7 +19,7 @@ const MessageBox = () => {
             <li key={index}>
               <div className="d-flex align-items-start">
                 <div className="message-img bg-light-primary">
-                <Image width={40} height={40} src={`${ImagePath}/user/${item.image}.jpg`} alt="" />
+                <Image width={40} height={40} priority src={`${ImagePath}/user/${item.image}.jpg`} alt="" />
                 </div>
                 <div className="flex-grow-1">
                   <h5 className="mb-1">

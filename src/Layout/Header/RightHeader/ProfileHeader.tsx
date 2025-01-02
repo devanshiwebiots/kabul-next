@@ -15,7 +15,7 @@ const HeaderProfile = () => {
   return (
     <li className='profile-nav onhover-dropdown p-0 m-0'>
       <div className='d-flex align-items-center profile-media'>
-        <Image className='b-r-10 img-40' width={40} height={40} src={session?.user?.image || `${ImagePath}/dashboard/profile.png`} alt='' />
+        <Image className='b-r-10 img-40' width={40} height={40} priority src={session?.user?.image || `${ImagePath}/dashboard/profile.png`} alt='' />
         <div className='flex-grow-1'>
           <span>{session?.user?.email}</span>
           <p className='mb-0'>{session?.user?.name || Admin}<i className="middle fa fa-angle-down"/></p>

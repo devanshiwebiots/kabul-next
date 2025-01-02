@@ -4,8 +4,8 @@ import Image from "next/image";
 const Invoice4RightLogo = () => {
   return (
     <td>
-      <Image height={38} width={114} className="img-fluid for-light" src={`${ImagePath}/logo/logo-1.png`} alt="logo" style={{ marginBottom: 14 }} />
-      <Image height={38} width={114} className="img-fluid for-dark" src={`${ImagePath}/logo/logo.png`} alt="logo" style={{ marginBottom: 14 }} />
+      <Image height={38} width={114} priority className="img-fluid for-light" src={`${ImagePath}/logo/logo-1.png`} alt="logo" style={{ marginBottom: 14 }} />
+      <Image height={38} width={114} priority className="img-fluid for-dark" src={`${ImagePath}/logo/logo.png`} alt="logo" style={{ marginBottom: 14 }} />
       <span style={{ display: "block", lineHeight: "1.5", fontSize: 18, fontWeight: 400, opacity: "0.8" }} >
         2118 Thornridge Cir. Syracuse, Connecticut 35624, United State
       </span>

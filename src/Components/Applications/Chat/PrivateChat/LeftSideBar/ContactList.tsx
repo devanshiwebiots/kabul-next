@@ -26,7 +26,7 @@ export const ContactList: React.FC<{ data: Contact[] }> = ({ data }) => {
               {groupedContacts[letter]?.map((contact, index) => (
                 <li className="common-space" key={`${letter}-${index}`}>
                   <div className="chat-time">
-                    {contact.image && (<Image height={33} width={33} className="img-fluid rounded-circle" src={`${ImagePath}/${contact.image}`} alt="user"/>)}
+                    {contact.image && (<Image height={33} width={33} priority className="img-fluid rounded-circle" src={`${ImagePath}/${contact.image}`} alt="user"/>)}
                     {contact.imageUser && (
                       <div className={`custom-name bg-light-${contact.color}`}>
                         <p className={`txt-${contact.color} f-w-500`}>{contact.imageUser}</p>

@@ -13,7 +13,7 @@ export const WishlistData = () => {
         <Col xl={4} md={6} key={index}>
           <div className="prooduct-details-box">
             <div className="d-flex">
-              <Image height={60} width={60} className="align-self-center img-fluid" src={`${ImagePath}/ecommerce/product-table-${item.image}.png`} alt="#" />
+              <Image height={60} width={60} priority className="align-self-center img-fluid" src={`${ImagePath}/ecommerce/product-table-${item.image}.png`} alt="#" />
               <div className="flex-grow-1 ms-3">
                 <div className="product-name">
                   <h6><Link href={Href}>{item.name}</Link></h6>

@@ -25,7 +25,7 @@ const OrdersList: React.FC<OrderListProps> = ({ title, btnColor, btnText }) => {
                         <Col xxl={4} md={6} key={index}>
                             <div className='prooduct-details-box'>
                                 <div className='d-flex'>
-                                    <Image height={60} width={60} className='align-self-center img-fluid' src={`${ImagePath}/ecommerce/product-table-${item.image}.png`} alt={item.name} />
+                                    <Image height={60} width={60} priority className='align-self-center img-fluid' src={`${ImagePath}/ecommerce/product-table-${item.image}.png`} alt={item.name} />
                                     <div className='flex-grow-1 ms-3'>
                                         <div className='product-name'>
                                             <h6>

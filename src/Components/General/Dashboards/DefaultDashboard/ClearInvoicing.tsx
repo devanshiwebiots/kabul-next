@@ -37,7 +37,7 @@ const ClearInvoicing = () => {
                                         <td>
                                             <div className="d-flex">
                                                 <div className="flex-shrink-0">
-                                                    <Image src={`${ImagePath}/dashboard-2/user/${index + 1}.png`} alt="" width={40} height={40} />
+                                                    <Image src={`${ImagePath}/dashboard-2/user/${index + 1}.png`} alt="" width={40} height={40} priority/>
                                                 </div>
                                                 <div className="flex-grow-1 ms-3">
                                                     <Link href={Routes.ECommerce.ProductList}>

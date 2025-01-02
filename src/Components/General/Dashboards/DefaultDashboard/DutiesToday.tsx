@@ -33,7 +33,7 @@ const DutiesToday = () => {
                                                         </li>
                                                     ))}
                                                 </ul>
-                                            </div>) : (<Image src={`${ImagePath}/dashboard/user/${item.image}.png`} alt="" width={40} height={40} />)}
+                                            </div>) : (<Image src={`${ImagePath}/dashboard/user/${item.image}.png`} alt="" width={40} height={40} priority/>)}
                                     </div>
                                     <div className="flex-grow-1"><p className="mb-0">Assigned to</p><Link href={Routes.ECommerce.ProductPage}><h5>{item.name}</h5></Link></div>
                                 </div>

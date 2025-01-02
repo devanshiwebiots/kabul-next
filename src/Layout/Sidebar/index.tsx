@@ -28,7 +28,7 @@ const SideBar = () => {
               <SimpleBar style={{ width: "68px", height: "350px" }}>
                 <li className="back-btn">
                   <Link href={Routes.Dashboard.DefaultDashboard}>
-                    <Image className="img-fluid" src={`${ImagePath}/logo/logo-icon.png`} width={32} height={32} alt="" />
+                    <Image className="img-fluid" src={`${ImagePath}/logo/logo-icon.png`} width={32} height={32} priority alt="" />
                   </Link>
                   <div className="mobile-back text-end ">
                     <span>{Back} </span><i className="fa fa-angle-right ps-2" />

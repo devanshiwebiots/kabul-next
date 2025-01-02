@@ -35,7 +35,7 @@ const Marketing = () => {
                                     <ul>
                                         {item?.users?.map((user, userIndex) => (
                                             <li className="d-inline-block" key={userIndex}>
-                                                <Image width={42} height={42} src={`${ImagePath}/widgets/user/${user}.png`} alt="logo" />
+                                                <Image width={42} height={42} priority src={`${ImagePath}/widgets/user/${user}.png`} alt="logo" />
                                             </li>
                                         ))}
                                     </ul>

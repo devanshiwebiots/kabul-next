@@ -17,7 +17,7 @@ const Sales = () => {
                         <CardBody className={`pb-0 total-sells${card.class}`}>
                             <div className="d-flex align-items-center gap-3">
                                 <div className="flex-shrink-0">
-                                    <Image src={`${ImagePath}/dashboard-2/icon/${card.icon}1.png`} alt={card.title} width={28} height={28} />
+                                    <Image src={`${ImagePath}/dashboard-2/icon/${card.icon}1.png`} alt={card.title} width={28} height={28} priority/>
                                 </div>
                                 <div className="flex-grow-1">
                                     <div className="d-flex align-items-center gap-2">
