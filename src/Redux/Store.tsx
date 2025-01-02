@@ -12,6 +12,9 @@ import BookmarkTabSlice from "./Reducer/BookmarkTabSlice";
 import ContactSlice from "./Reducer/ContactSlice";
 import LetterBoxSlice from "./Reducer/LetterBoxSlice";
 import ChatSlice from "./Reducer/ChatSlice";
+import NumberingWizardSlice from "./Reducer/FormLayout/NumberingWizardSlice";
+import StudentWizardSlice from "./Reducer/FormLayout/StudentWizardSlice";
+import VerticalWizardSlice from "./Reducer/FormLayout/VerticalWizardSlice";
 import TaskSlice from "./Reducer/TaskSlice";
 import ToDoSlice from "./Reducer/ToDoSlice";
 
@@ -30,6 +33,9 @@ const Store = configureStore({
     contact: ContactSlice,
     letterBox:LetterBoxSlice,
     chat: ChatSlice,
+    numberingWizard: NumberingWizardSlice,
+    studentWizard: StudentWizardSlice,
+    verticalWizard: VerticalWizardSlice,
     task: TaskSlice,
     todo: ToDoSlice,
   }
