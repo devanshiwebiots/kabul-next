@@ -450,6 +450,29 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Social App
+export const MutualFriend: string = "Mutual Friends";
+export const ActivityFeed: string = "Activity Feed";
+export const MyProfile: string = "My Profile";
+export const Likes: string = "Likes";
+export const View: string = "View";
+export const MyPage: string = "My Page";
+export const AddFriend: string = "Add Friend";
+export const Facebook: string = "Facebook";
+export const Dribbble: string = "Dribbble";
+export const LatestPhoto: string = "Latest Photos";
+export const Twitter: string = " Twitter";
+export const ProfileIntro: string = "Profile Intro";
+export const Friends: string = "Friends";
+export const PeopleKnow: string = "Pepole You May Know";
+export const EducationAndEmploymentHeading: string = "Education and Employement";
+export const HobbiesAndInterest: string = "Hobbies and Interests";
+export const ActivityLogHeading: string = "Activity Log";
+export const ViewProfile: string = "Viewed Your Profile";
+export const ELANAHeading: string = "ELANA";
+export const MoreComments: string = "More Comments";
+export const CommentsSocialPlaceholder: string = "Post Your Comments";
+
 
 
 
