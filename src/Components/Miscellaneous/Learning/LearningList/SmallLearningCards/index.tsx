@@ -2,6 +2,7 @@ import { ImagePath } from "@/Constant";
 import { ImagePaths } from "@/Data/Miscellaneous/Learning";
 import { Card, Col } from "reactstrap";
 import BlogDetails from "./BlogDetails";
+import RatioImage from "@/CommonComponents/RatioImage";
 
 const SmallLearningCards = () => {
   return (
@@ -11,7 +12,7 @@ const SmallLearningCards = () => {
           <Card>
             <div className="blog-box blog-grid text-center product-box">
               <div className="product-img">
-                <img className="img-fluid top-radius-blog" src={`${ImagePath}/faq/${data.src}.jpg`} alt="faq" />
+                <RatioImage className="img-fluid top-radius-blog" src={`${ImagePath}/faq/${data.src}.jpg`} alt="faq" />
                 <div className="product-hover">
                   <ul>
                     <li><i className="icon-link" /></li>
