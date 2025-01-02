@@ -10,7 +10,7 @@ const ProjectListCard: React.FC<CommonProjectInterface> = ({ item }) => {
         <span className="ribbon ribbon-primary ribbon-clip-right ribbon-right">{item.badge}</span>
         <h5 className="f-w-500">{item.title}</h5>
         <div className="d-flex">
-          <Image height={20} width={20} className="me-2 rounded-circle" src={`${ImagePath}/user/3.jpg`} alt="" />
+          <Image height={20} width={20} priority className="me-2 rounded-circle" src={`${ImagePath}/user/3.jpg`} alt="" />
           <div className="flex-grow-1">
             <p>{item.sites}</p>
           </div>

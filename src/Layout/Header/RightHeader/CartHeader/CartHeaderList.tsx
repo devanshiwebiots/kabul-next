@@ -45,7 +45,7 @@ const CartHeaderList = () => {
       ) : (
         <li className={`cart-empty ${cart.length === 0 ? "show" : ""}`}>
           <div className="cart-image">
-            <Image height={172} width={172} src={`${ImagePath}/other-images/order-trash.gif`} className='img-fluid mb-4 mt-4' alt='Empty Cart' />
+            <Image height={172} width={172} priority src={`${ImagePath}/other-images/order-trash.gif`} className='img-fluid mb-4 mt-4' alt='Empty Cart' />
           </div>
           <h5>{EmptyCart}</h5>
         </li>

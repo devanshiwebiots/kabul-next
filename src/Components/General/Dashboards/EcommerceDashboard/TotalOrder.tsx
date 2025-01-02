@@ -32,7 +32,7 @@ const TotalOrder = () => {
                                         <td>
                                             <div className="d-flex align-items-center gap-3">
                                                 <div className="flex-shrink-0">
-                                                    <Image src={`${ImagePath}/dashboard-2/order/${order.image}.png`} alt={order.name} width={30} height={30} />
+                                                    <Image src={`${ImagePath}/dashboard-2/order/${order.image}.png`} alt={order.name} width={30} height={30} priority/>
                                                 </div>
                                                 <div className="flex-grow-1">
                                                     <Link href={Routes.ECommerce.Product}>

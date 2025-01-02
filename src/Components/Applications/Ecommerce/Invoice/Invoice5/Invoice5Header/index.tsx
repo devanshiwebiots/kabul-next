@@ -11,8 +11,8 @@ const Invoice5Header = () => {
       <tbody>
         <tr style={{ padding: "28px 0 5px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <td>
-            <Image height={38} width={114} className="img-fluid for-light" src={`${ImagePath}/logo/logo-1.png`} alt="logo" />
-            <Image height={38} width={114} className="img-fluid for-dark" src={`${ImagePath}/logo/logo.png`} alt="logo" />
+            <Image height={38} width={114} priority className="img-fluid for-light" src={`${ImagePath}/logo/logo-1.png`} alt="logo" />
+            <Image height={38} width={114} priority className="img-fluid for-dark" src={`${ImagePath}/logo/logo.png`} alt="logo" />
           </td>
           <td><Invoice5RightSide /></td>
         </tr>
