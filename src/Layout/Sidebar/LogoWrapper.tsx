@@ -14,7 +14,7 @@ const LogoWrapper = () => {
     <>
       <div className="logo-wrapper">
         <Link href={Routes.Dashboard.DefaultDashboard}>
-          <Image className="img-fluid" src={`${ImagePath}/logo/logo.png`} width={114} height={38} alt="" />
+          <Image className="img-fluid" src={`${ImagePath}/logo/logo.png`} width={114} height={38} priority alt="" />
         </Link>
         <div className="toggle-sidebar" onClick={() => dispatch(setToggleSidebar(!toggleSidebar))}>
           <SVG className='sidebar-toggle' iconId='toggle-icon' />

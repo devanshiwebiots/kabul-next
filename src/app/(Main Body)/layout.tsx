@@ -10,6 +10,7 @@ import Header from "@/Layout/Header";
 import Footer from "@/Layout/Footer";
 import BreadCrumbs from "@/Layout/BreadCrumbs";
 import TapTop from "@/Layout/TapTop";
+import Loading from "../loading";
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   const { layout } = useAppSelector((state) => state.themeCustomizer);
@@ -43,6 +44,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
 
   return (
     <>
+      <Loading />
       <div className={`page-wrapper ${layout}`} id='pageWrapper'>
         <Header />
         <div className='page-body-wrapper'>
