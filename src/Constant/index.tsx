@@ -451,7 +451,7 @@ export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
 //Editors
-export const CKEditorExample: string = "CK Editor";
+export const FroalaEditorExample: string = "Froala Editor";
 export const InlineEditors: string = "Inline Editor";
 export const EditorsText: string = "Your title";
 export const MdeEditorExample = "MDE Editor Example";

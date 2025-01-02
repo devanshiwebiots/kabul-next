@@ -219,7 +219,7 @@ export const Routes = {
     },
   
     Editors: {
-      CkEditor: "/editor/ck-editor",
+      FroalaEditor: "/editor/froala-editor",
       MdeEditor: "/editor/mde-editor",
       ACECodeEditor: "/editor/ace-code-editor",
     },

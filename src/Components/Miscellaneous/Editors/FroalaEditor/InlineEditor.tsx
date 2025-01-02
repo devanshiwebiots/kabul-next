@@ -1,15 +1,19 @@
 import { Button, Card, CardBody, Col } from "reactstrap";
 import { EditorsText, InlineEditors } from "@/Constant";
 import CommonCardHeader from "@/CommonComponents/CommonCardHeader";
-import { CKEditor } from "@ckeditor/ckeditor5-react";
-import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 import { useState } from "react";
 import { LoremText } from "@/Data/Miscellaneous/Editors";
+import ReactFroalaEditor from "react-froala-wysiwyg";
 
 const InlineEditor = () => {
-  
+
   const [editing, setEditing] = useState(false);
+  const [editorContent, setEditorContent] = useState(LoremText);
   const showEditor = () => setEditing(!editing);
+
+  const handleModelChange = (newContent: string) => {
+    setEditorContent(newContent);
+  };
 
   return (
     <Col sm={12}>
@@ -18,8 +22,8 @@ const InlineEditor = () => {
         <CardBody>
           {editing ? (
             <>
-              <CKEditor editor={ClassicEditor} data={LoremText} />
-              <Button color="light" className="mt-2" onClick={() => setEditing(false)}>{`Hide`}</Button>
+              <ReactFroalaEditor model={editorContent} onModelChange={handleModelChange} />
+              <Button color="light" className="mt-2" onClick={() => setEditing(false)}>Hide</Button>
             </>
           ) : (
             <div onClick={showEditor}>

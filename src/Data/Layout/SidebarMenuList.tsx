@@ -405,7 +405,7 @@ export const MenuList: MenuItem[] | undefined = [
         type: "sub",
         active: false,
         menu: [
-          { title: "Ck Editor", type: "link", url: Routes.Editors.CkEditor },
+          { title: "Froala Editor", type: "link", url: Routes.Editors.FroalaEditor },
           { title: "MDE Editor", type: "link", url: Routes.Editors.MdeEditor },
           { title: "ACE Code Editor", type: "link", url: Routes.Editors.ACECodeEditor },
         ],

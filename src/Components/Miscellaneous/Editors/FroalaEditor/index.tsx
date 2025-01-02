@@ -3,7 +3,7 @@ import { Container, Row } from "reactstrap";
 import Editor from "./Editor";
 import InlineEditor from "./InlineEditor"; 
 
-const CkEditorContainer = () => {
+const FroalaEditorContainer = () => {
   return (
     <Container fluid>
       <Row>
@@ -14,4 +14,4 @@ const CkEditorContainer = () => {
   );
 };
 
-export default CkEditorContainer;
+export default FroalaEditorContainer;
