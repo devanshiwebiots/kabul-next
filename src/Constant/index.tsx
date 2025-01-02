@@ -450,23 +450,151 @@ export const MyPortfolioTitle: string = "My Portfolio";
 export const Next: string = " Next";
 export const ImageAbout: string = "About 12,120 results (0.50 seconds)";
 
+//Form Validation
+export const AgreeToThePolicies: string = "I agree to the policies";
+export const ChooseFile: string = "Choose file";
+export const EmailPlaceholder: string = "pesamof475@saeoil.com";
+export const FirstNamePlaceholder: string = "First name";
+export const PasswordBrowserDefault: string = "Password";
+export const SelectYourPaymentMethod: string = "Select your payment method";
+export const StateChoose: string = "Choose...";
+export const SubmitButton: string = "Submit form";
+export const SureInformation: string = "Are you sure above information are true";
+export const BrowserDefault: string = "Browser defaults";
+export const FormValidationTooltip: string = "Tooltip form validation";
+export const CityFeedback: string = "Please provide a valid city.";
+export const StateFeedback: string = "Please select a valid state.";
+export const LooksGood: string = "Looks good!";
+export const MarkFirstNamePlaceholder: string = "Mark";
+export const UsernameFeedback: string = "Please choose a unique and valid username.";
+export const Zip: string = "Zip";
+export const ZipFeedback: string = "Please provide a valid zip.";
+export const OttoLastNamePlaceholder: string = "Otto";
+export const AgreeCondition: string = "Agree to terms and conditions";
+export const ChooseFiles: string = "Choose File";
+export const PasswordValidation: string = "Password";
+export const PayMethodTitle: string = "Select your payment method";
+export const SelectThemeTitle: string = "Select Your Favorite Pixelstrap theme";
+export const TextAreaPlaceHolder: string = "Enter your comment";
+export const ValidationsForms: string = "Validation form";
 
+//Base Input
+export const FloatingInputGroup: string = "Input group";
+export const FloatingInputGroupFeed: string = "Please choose a username.";
+export const FloatingComments: string = "Comments";
+export const FloatingEmail: string = "Email";
+export const FloatingPassword: string = "Password";
+export const FloatingComment: string = "Comments";
+export const FloatingCommentLabel: string = "Comments";
+export const InputWithValuePlaceholder: string = "name@example.com";
+export const InvalidInputPlaceholder: string = "name@example.com";
+export const LayOutPlaceholder: string = "name@example.com";
+export const LayOutDefaultValue: string = "mdo@example.com";
+export const CommentsPlaceholder: string = "Comments";
+export const FloatingEmailLabel: string = "Email address";
+export const FloatingOpenLabel: string = "Open this select menu";
+export const FloatOpenFloatingLabel: string = "Works with selects";
+export const FloatingInputGroupLabel: string = "Username";
+export const FloatingLayout: string = "Layout";
+export const FloatingValidInput: string = "Valid input ";
+export const InputWithValue: string = "Input with value";
+export const InputWithValuePlaceholderValue: string = "test@example.com";
+export const InvalidInput: string = "Invalid input";
+export const InvalidInputPlaceholderValue: string = "test@example.com";
+export const FloatingCancelButton: string = "Cancel";
+export const FloatingSubmitButton: string = "Submit";
+export const FormBasic: string = "Basic form";
+export const BasicHtmlInputControls: string = "Basic HTML input control";
+export const BasicPlaceholder: string = "Placeholder";
+export const BasicPlaceholderPlace: string = "Type your title in Placeholder";
+export const BasicPassword: string = "Password";
+export const PasswordInputPlaceholder: string = "Password input";
+export const BasicNumber: string = "Number";
+export const NumberPlaceholder: string = "Number";
+export const BasicTelephone: string = "Telephone";
+export const BasicTelephonePlaceholder: string = "91-(999)-999-999";
+export const URLs: string = "URL";
+export const URLsValue: string = "https://getbootstrap.com";
+export const BasicDateAndTime: string = "Date and time";
+export const FullDateAndTime: string = "2018-01-19T18:45:00";
+export const BasicDate: string = "Date";
+export const FullDate: string = "2018-01-01";
+export const BasicMonth: string = "Month";
+export const FullMonth: string = "2018-01";
+export const BasicWeek: string = "Week";
+export const FullWeek: string = "BasicWeek";
+export const BasicDatalistExample: string = "Datalist example";
+export const ListPlaceholder: string = "Look up your nation...";
+export const BasicTime: string = "Time";
+export const BasicColorPicker: string = "Color picker";
+export const BasicMaximumLength: string = "Maximum Length";
+export const MaximumLengthPlaceholder: string = "Content must be in 6 characters";
+export const BasicStaticText: string = "Static Text";
+export const StaticTextData: string = "Hello !... This is my magical text";
+export const BasicSubmitButton: string = "Submit";
+export const BasicCancelButton: string = "Cancel";
+export const BasicFloatingInputControls: string = "Basic floating input control";
+export const DefaultFileInputExamples: string = "Default file input example";
+export const EdgeDefaultInput: string = "Default Input";
+export const EdgeDefaultInputPlaceholder: string = "Default Input";
+export const EdgeMale: string = "Male";
+export const EdgeFemale: string = "Female";
+export const EdgeComments: string = "Comments";
+export const EdgeSubmit: string = "Submit";
+export const EdgeCancel: string = "Cancel";
+export const EdgeEmailAddress: string = "Email address";
+export const EdgeEmailAddressPlaceholder: string = "name@example.com";
+export const EdgePassword: string = "Password";
+export const EdgePasswordPlaceholder: string = "Password";
+export const SelectYourFavoritePixelstrapTheme: string = "Select your favorite pixelstrap theme";
+export const EdgesInputStyles: string = "Edges input style";
+export const FileInputs: string = "File input";
+export const SmallFileInputExample: string = "Small file input example";
+export const LargeFileInputExample: string = "Large file input example";
+export const RaiseInputStyles: string = "Raise input style";
+export const RaisedEmailAddress: string = "Email address";
+export const RaisedEmailAddressPlaceholder: string = "name@example.com";
+export const RaisedPassword: string = "Password";
+export const RaisedPasswordPlaceholder: string = "Password";
+export const RaisedSubmit: string = "Submit";
+export const RaisedCancel: string = "Cancel";
+export const RaisedSelectYourFavoritePixelstrapTheme: string = "Select your favorite pixelstrap theme";
+export const SelectTheColorYouLikeBelow: string = "Select the color you like below";
+export const RaisedComments: string = "Comments";
+export const EmailLabel: string = "Email";
+export const EmailPlaceHolder: string = "Enter Your Email";
+export const PasswordLabel: string = "Password";
+export const PasswordPlaceholder: string = "Enter Your Password";
+export const SignInButton: string = "Sign in";
+export const FlatInputStyles: string = "Flat input style";
+export const SelectYourFavoriteRomanNumber: string = "Select your favorite roman number";
+export const SelectYourMultiplePaintings: string = "Select your multiple paintings";
+export const PleaseDoComments: string = "Please do comments";
+export const FloatingPasswordPlaceholder: string = "Password";
+export const FormFloating: string = "Floating form";
+export const FormControlSizings: string = "Form control sizing";
+export const FormControlSizingsPlaceholder: string = ".form-control-sm";
+export const SelectSizings: string = "Select sizing";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Input Mask
+export const InputMasks: string = `Input masks`;
+export const DefaultInputMask: string = "Default Input Mask";
+export const DateFormatHeading: string = "Date Format";
+export const DateFormatType: string = "Date format type";
+export const CurrencyPlaceholder: string = "Enter number";
+export const Prefix: string = "Prefix";
+export const PrefixPlaceholder: string = "Prefix-xxxx-xxxx-xxxx";
+export const Delimiter: string = "Delimiter";
+export const DelimiterPlaceholder: string = "xxx·xxx·xxx";
+export const PhoneNumber: string = "Phone Number";
+export const PhoneNumberPlaceholder: string = "(xxx)xxx-xxxx";
+export const CardNumberPlaceholder: string = "xxxx xxxx xxxx xxxx";
+export const Tailprefix: string = "Tail prefix";
+export const TailprefixPlaceholder: string = "0000.00€";
+export const Currency: string = "Currency";
+export const TimeFormatHeading: string = "Time Format";
+export const TimeFormatType: string = "Time format type";
+export const HourMonthType: string = "Hour/month type";
 
 
 
